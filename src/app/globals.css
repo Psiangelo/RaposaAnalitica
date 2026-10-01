@@ -1076,22 +1076,39 @@ main:focus {
 .blog-content h4[id] { scroll-margin-top: 6.5rem; }
 
 /* ====================== VERBETE DENTRO DO ENSAIO ======================
-   O termo ganha sublinhado pontilhado e um ? vermelho sobrescrito (no toque
-   não existe hover: o ? é o que avisa que dá para abrir). */
+   O termo com verbete tem cor própria, o anil (o «ai» da paleta), que não se
+   confunde com o vermelho dos links comuns: texto anil e semibold, uma
+   faixa clara de anil atrás e o ? sobrescrito (no toque não existe hover:
+   o ? é o que avisa que dá para abrir). No escuro, o anil vira azul-lua. */
+.blog-content {
+  --verbete: var(--ai);
+  --verbete-rgb: var(--ai-rgb);
+}
+.noite .blog-content,
+[data-theme="dark"] .blog-content {
+  --verbete: var(--azul-lua);
+  --verbete-rgb: 157 185 196;
+}
 .blog-content .term-link {
-  color: inherit;
+  color: var(--verbete);
+  font-weight: 600;
+  background: rgb(var(--verbete-rgb) / 0.09);
+  border-radius: 4px;
+  padding: 0 0.16em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
-  text-decoration-color: rgb(var(--acento-rgb) / 0.55);
-  transition: color 0.2s, text-decoration-color 0.2s;
+  text-decoration-color: rgb(var(--verbete-rgb) / 0.6);
+  transition: background-color 0.2s, text-decoration-color 0.2s;
   cursor: help;
 }
 .blog-content .term-link:hover,
 .blog-content .term-link:focus-visible {
-  color: var(--acento);
-  text-decoration-color: var(--acento);
+  background: rgb(var(--verbete-rgb) / 0.18);
+  text-decoration-color: var(--verbete);
 }
 .blog-content .term-link::after {
   content: '?';
@@ -1102,7 +1119,7 @@ main:focus {
   font-weight: 800;
   line-height: 1;
   margin-left: 0.14em;
-  color: var(--torii);
+  color: var(--verbete);
 }
 @supports (content: 'a' / 'b') {
   .blog-content .term-link::after { content: '?' / ''; }

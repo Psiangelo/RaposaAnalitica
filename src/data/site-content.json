@@ -1,6 +1,6 @@
 {
-  "version": 1790896828135,
-  "published_at": "2026-10-01T23:20:28.135Z",
+  "version": 1790898337917,
+  "published_at": "2026-10-01T23:45:37.917Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -264,565 +264,2477 @@
     "raposa_admin_home_sections_layout": 1,
     "raposa_admin_glossario": [
       {
-        "full": "O Self é, para Jung, o arquétipo da totalidade: centro e circunferência da psique ao mesmo tempo. Diferente do Ego — que é apenas o centro da consciência — o Self compreende tudo: pensamentos reconhecidos, afetos recalcados, tendências coletivas.\n\nFenomenologicamente, o Self aparece em sonhos e experiências numinosas como mandalas, figuras divinas ou símbolos de união de opostos. Não é algo a ser \"conquistado\", mas reconhecido — o processo de individuação é exatamente o diálogo progressivo entre Ego e Self.\n\nPara a clínica: o sintoma muitas vezes é o Self \"puxando\" a consciência em direção a uma completude que o Ego resiste em aceitar.",
-        "slug": "self",
-        "term": "Self",
-        "links": [],
-        "ordem": 0,
-        "short": "Centro regulador da psique — totalidade que engloba consciente e inconsciente.",
-        "hidden": false,
+        "slug": "psique",
+        "term": "Psique",
         "aliases": [
-          "si-mesmo",
-          "si mesmo"
+          "Seele"
         ],
+        "category": "psique",
+        "mascara": "",
+        "short": "O todo da vida psíquica, consciente e inconsciente. Para Jung, muito maior do que a consciência.",
+        "full": "Psique é o nome que Jung dá ao conjunto de tudo o que acontece em nós: o que sabemos e o que não sabemos. Ela inclui a consciência, mas não se resume a ela. Jung chama de presunção do intelecto a ideia de que psique e consciência são a mesma coisa: a consciência nasce de uma psique inconsciente mais antiga, que continua funcionando junto com ela, ou apesar dela.\n\nPara Jung, a psique é um sistema que se regula sozinho, como o corpo vivo, e em boa parte é autônoma: age sem pedir licença ao eu. Daí a ideia de realidade psíquica. O que atua sobre nós é real, mesmo quando é “só” psíquico.\n\nEla também não é só empurrada pelo passado. Jung a vê orientada para um fim, carregando como possibilidade aquilo que ainda vai se desenvolver. É por isso que, na psicologia analítica, não se pergunta só “de onde vem isto?”, mas também “para onde isto aponta?”.",
         "related": {
           "terms": [
-            "ego",
-            "individuacao",
-            "mandala"
+            "consciencia",
+            "inconsciente",
+            "si-mesmo",
+            "energia-psiquica"
           ],
           "materials": []
         },
-        "category": "estrutura",
-        "mascara": "kin"
+        "links": [],
+        "hidden": false,
+        "ordem": 0
       },
       {
-        "full": "O Ego, para Jung, é o complexo central da consciência: o \"eu\" que vivencia, escolhe, lembra. Mas não é toda a psique — é apenas o campo iluminado por ela.\n\nUm dos erros mais comuns (inclusive em clínica) é confundir Ego com Self. O Ego é serviçal, relativo; o Self é totalidade. Quando o Ego se infla e se toma pelo Self, temos o que Jung chamou de \"inflação psíquica\" — e tipicamente, um colapso subsequente.",
-        "slug": "ego",
-        "term": "Ego",
-        "links": [],
-        "ordem": 1,
-        "short": "Sujeito da consciência — centro do campo consciente, não da psique toda.",
-        "hidden": false,
-        "aliases": [
-          "eu"
-        ],
+        "slug": "personalidade",
+        "term": "Personalidade",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "A pessoa inteira, consciente e inconsciente, e também a obra de uma vida: tornar-se quem se é.",
+        "full": "Jung usa personalidade em dois sentidos. No primeiro, ela é a pessoa inteira: a consciência e tudo o que ela abrange, mais a parte inconsciente, de amplidão indeterminada. Nesse sentido, a personalidade é sempre maior do que aquilo que o eu sabe de si.\n\nNo segundo sentido, a personalidade é uma conquista. No ensaio sobre o desenvolvimento da personalidade (OC 17), Jung a define como a realização máxima da índole própria de cada ser, alcançada com coragem de viver, afirmação do que se é, adaptação ao que é universal e liberdade de decisão. Ela existe em germe na criança, mas só se desenvolve aos poucos, ao longo da vida, e não é privilégio dos gênios.\n\nDesse segundo sentido sai a ideia de tornar-se personalidade: seguir a lei de vida que é própria de cada um. Jung liga esse movimento à totalidade e, por isso, à individuação.",
         "related": {
           "terms": [
-            "self",
-            "persona",
-            "complexo"
+            "psique",
+            "individuacao",
+            "totalidade"
           ],
-          "materials": [
-            "consciencia-complexo-ego"
-          ]
+          "materials": []
         },
-        "category": "estrutura"
+        "links": [],
+        "hidden": false,
+        "ordem": 1,
+        "autolink": false
       },
       {
-        "full": "Persona é a interface entre o Ego e o coletivo. Todo mundo tem uma — e precisa ter: é o que nos permite atuar como \"profissional\", \"filho\", \"terapeuta\", sem despejar toda a nossa intimidade a cada contato.\n\nO problema surge quando o Ego se identifica com a Persona — quando não há mais distinção entre \"quem eu sou\" e \"o papel que desempenho\". O terapeuta que só se experimenta como terapeuta, o pai que só se experimenta como pai: ali a Persona devorou o Ego.",
-        "slug": "persona",
-        "term": "Persona",
-        "links": [],
-        "ordem": 2,
-        "short": "Máscara social — o rosto que o Ego apresenta ao mundo.",
-        "hidden": false,
-        "aliases": [
-          "máscara"
-        ],
+        "slug": "consciencia",
+        "term": "Consciência",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "A relação dos conteúdos psíquicos com o eu: aquilo de que sabemos, sempre estreito e seletivo.",
+        "full": "Em Tipos psicológicos (1921), Jung define consciência como a relação dos conteúdos psíquicos com o eu: só é consciente o que está ligado ao eu. Fora dessa relação o conteúdo continua existindo, mas inconsciente. Por isso consciência e eu se definem um pelo outro, e Jung admite essa circularidade.\n\nA marca da consciência é escolher. Para ter clareza e direção, ela precisa excluir o que parece irrelevante; é estreita por natureza, não por defeito. Daí a sua unilateralidade, que é o preço da clareza. O problema começa quando a consciência esquece que é só uma parte da psique.\n\nPara Jung, não há consciência sem diferenciação: tornar-se consciente é separar e distinguir os opostos. Ele também admite que a natureza da consciência é um enigma que não sabe resolver. Ela tem graus, às vezes surge de repente, como um raio, e emerge de um fundo inconsciente muito mais antigo do que ela.",
         "related": {
           "terms": [
             "ego",
+            "inconsciente",
+            "psique",
+            "diferenciacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 2
+      },
+      {
+        "slug": "ego",
+        "term": "Eu (ego)",
+        "aliases": [
+          "ego",
+          "eu",
+          "complexo do eu"
+        ],
+        "category": "psique",
+        "mascara": "",
+        "short": "O centro do campo da consciência: um complexo entre outros, com a sensação de continuidade e de identidade consigo mesmo.",
+        "full": "Jung chama de eu, ou ego, o centro da consciência. Em Tipos psicológicos (1921), ele o descreve como um complexo de representações que parece ter grande continuidade e identidade consigo mesmo. Em Aion (1951), o eu é o fator ao qual todos os conteúdos conscientes se referem. Ele se forma a partir da percepção do próprio corpo e dos registros da memória.\n\nO ponto decisivo é que o eu é um complexo entre outros. Jung chegou a ele pela teoria dos complexos, no começo do século XX: os outros complexos são como vassalos que nem sempre obedecem. O eu é o centro da consciência, mas não da psique inteira; esse papel Jung reserva ao si-mesmo.\n\nPor isso a unidade do eu não é um dado garantido. Há na psique outros centros, com algo parecido com uma vontade própria, e para Jung isso é normal. A tarefa não é eliminar esses outros centros, mas o eu aprender a se relacionar com eles.",
+        "related": {
+          "terms": [
+            "consciencia",
+            "complexo",
+            "si-mesmo",
+            "persona"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 3
+      },
+      {
+        "slug": "inconsciente",
+        "term": "Inconsciente",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "ai",
+        "short": "Tudo o que é psíquico mas não está ligado ao eu. Um conceito-limite: só o conhecemos pelos seus efeitos.",
+        "full": "Para Jung, inconsciente é tudo o que é psíquico e não está relacionado com o eu de modo perceptível. Em Tipos psicológicos (1921), ele o chama de conceito-limite: não sabemos o que ele é em si, só conhecemos os seus efeitos, nos sonhos, nos sintomas, nas fantasias e nos atos falhos. Especular sobre o inconsciente em si, diz ele, é inútil.\n\nJung divide o inconsciente em duas camadas. O inconsciente pessoal reúne o que foi vivido e esquecido, reprimido ou percebido sem atenção. O inconsciente coletivo é mais fundo e comum a todos, feito de predisposições herdadas, os arquétipos. E o inconsciente não fica só abaixo da consciência, mas também acima dela; por isso Jung recusa o nome “subconsciente”.\n\nO inconsciente é mais antigo do que a consciência e não é um depósito passivo. Jung o vê como compensatório: ele equilibra a unilateralidade da consciência, como se buscasse um equilíbrio perdido. Ele fala dessa atividade sempre com um “como se”, sem transformar o inconsciente numa pessoa.",
+        "related": {
+          "terms": [
+            "inconsciente-pessoal",
+            "inconsciente-coletivo",
+            "compensacao",
+            "consciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 4
+      },
+      {
+        "slug": "inconsciencia",
+        "term": "Inconsciência",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "O estado de não saber de si: a condição de origem da psique, da qual a consciência se separa aos poucos.",
+        "full": "Inconsciência não é o mesmo que o inconsciente. A palavra nomeia um estado: o de não estar ciente de algo. Jung insiste que esse estado é relativo. Quando estou inconsciente de alguma coisa, em algum aspecto eu sei o que se passa.\n\nEle aponta duas razões para um conteúdo ficar fora da consciência. Uma é a inconsciência geral, de que todos participam, porque a consciência ainda não chegou até ali. A outra é secundária: vem da repressão de conteúdos incompatíveis com a atitude consciente.\n\nNo primeiro sentido, a inconsciência é o estado de origem. A criança pequena começa nela, e Jung descreve o desenvolvimento humano como uma luta para sair do seio da inconsciência primitiva. Por isso, para ele, toda ampliação da consciência é uma conquista, e nunca está completa.",
+        "related": {
+          "terms": [
+            "inconsciente",
+            "consciencia",
+            "repressao",
+            "diferenciacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 5
+      },
+      {
+        "slug": "inconsciente-pessoal",
+        "term": "Inconsciente pessoal",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "A camada mais superficial do inconsciente: o que foi vivido e esquecido, reprimido ou percebido sem atenção.",
+        "full": "O inconsciente pessoal é a camada do inconsciente feita de material da própria vida. Jung lhe deu esse nome em 1916, quando passou a distinguir uma segunda camada, a coletiva. Antes disso, o inconsciente de que ele falava, como o de Freud, já era pessoal sem precisar do adjetivo.\n\nOs seus conteúdos são pessoais porque vêm da biografia: o que foi consciente e se perdeu, por esquecimento ou repressão, o que foi percebido sem atenção e também o que ainda não amadureceu para a consciência. São sentidos como parte da própria alma, ao contrário dos conteúdos coletivos, que parecem estranhos, como se viessem de fora.\n\nJung o descreve como uma camada relativamente superficial, logo abaixo do limiar da consciência, e diz que, em princípio, nada nela precisaria ficar inconsciente. É nesse terreno que vivem os complexos pessoais e boa parte da sombra.",
+        "related": {
+          "terms": [
+            "inconsciente",
+            "inconsciente-coletivo",
+            "complexo",
             "sombra"
           ],
           "materials": []
         },
-        "category": "estrutura",
-        "mascara": "shiro"
-      },
-      {
-        "full": "A Sombra é tudo o que o Ego considera incompatível consigo: impulsos, traços, desejos que foram recalcados no processo de formação da Persona. Não é necessariamente \"mal\" — é rejeitado.\n\nUm analista agressivo, que se vê como gentil, projeta agressividade nos pacientes \"difíceis\". Um religioso devoto, que se vê como puro, enxerga tentação em toda mulher. A Sombra volta como projeção — e é clinicamente reconhecida quando o paciente (ou o próprio terapeuta) reage desproporcionalmente a um traço em alguém.\n\nIntegrar a Sombra não é \"agir a partir dela\", mas reconhecer que ela é sua, relativizando o que antes era visto como puramente externo.",
-        "slug": "sombra",
-        "term": "Sombra",
         "links": [],
-        "ordem": 3,
-        "short": "Aquilo que o Ego rejeita em si — o \"lado escuro\" da personalidade.",
         "hidden": false,
-        "aliases": [
-          "shadow"
-        ],
-        "related": {
-          "terms": [
-            "persona",
-            "projecao",
-            "individuacao"
-          ],
-          "materials": [
-            "projecao"
-          ]
-        },
-        "category": "arquetipos",
-        "mascara": "kuro"
+        "ordem": 6
       },
       {
-        "full": "Anima é, para Jung, a figuração arquetípica do feminino na psique masculina — aparece em sonhos, fantasias e projeções amorosas. Não é \"a mulher real\", mas uma imagem moldada por séculos de experiência coletiva e pela história pessoal com figuras femininas (primeiramente a mãe).\n\nNa clínica, o terapeuta junguiano atento à Anima pergunta: quem é a mulher dos sonhos desse paciente? Como ele se relaciona com o feminino nele? Qual é o tom emocional que vem junto?\n\nO desenvolvimento da Anima — de Eva (instinto) a Helena (romance), Maria (devoção) e Sofia (sabedoria) — é um mapa clássico do processo de diferenciação.",
-        "slug": "anima",
-        "term": "Anima",
-        "links": [],
-        "ordem": 4,
-        "short": "Imagem do feminino no inconsciente do homem — função de ligação com o inconsciente.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "animus",
-            "projecao",
-            "sizigia"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "fuji"
-      },
-      {
-        "full": "Assim como Anima é a figura feminina no homem, Animus é a figuração do masculino na mulher. Jung descreveu-o frequentemente como \"a voz\" — a voz interna que julga, categoriza, opina.\n\nQuando não integrado, aparece como convicção rígida (\"todo mundo sabe que...\"), discurso apropriado de figuras de autoridade, ou relações amorosas onde a mulher busca um \"salvador-pensador\". Integrado, é discernimento, palavra precisa, corte criativo.",
-        "slug": "animus",
-        "term": "Animus",
-        "links": [],
-        "ordem": 5,
-        "short": "Imagem do masculino no inconsciente da mulher — frequentemente figurada como \"a voz\".",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "anima",
-            "sizigia"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "fuji"
-      },
-      {
-        "full": "A grande descoberta de Jung, e o que o separou radicalmente de Freud. Enquanto o inconsciente pessoal contém material recalcado da biografia individual, o inconsciente coletivo contém padrões estruturantes compartilhados — os arquétipos.\n\nA evidência empírica que Jung apresentou: motivos idênticos aparecendo em sonhos de pessoas sem contato com as mitologias que os contêm; paralelos entre delírios psicóticos e mitos antigos; imagens recorrentes na arte, na religião, nos contos de fada.\n\nNão é um \"banco de memórias herdadas\" — é uma estrutura psíquica compartilhada, como o fato de todos nascermos com a mesma anatomia cerebral.",
         "slug": "inconsciente-coletivo",
         "term": "Inconsciente coletivo",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "ai",
+        "short": "A camada mais profunda da psique, comum a todos: não vem da experiência pessoal, mas de predisposições herdadas.",
+        "full": "O inconsciente coletivo é a parte da psique que não deve a sua existência à experiência pessoal. Jung o chama de coletivo porque os seus conteúdos não são individuais, mas universais e iguais onde quer que apareçam. Ele é formado pelos instintos e pelos arquétipos.\n\nJung observou o fenômeno por volta de 1906, quando a fantasia de um paciente repetiu imagens de um texto antigo que o paciente não conhecia. O nome veio em 1916. A ideia ajudava a explicar por que motivos míticos aparecem nos sonhos de pessoas que nunca os estudaram.\n\nO que se herda, insiste Jung, não são ideias prontas, mas possibilidades: caminhos virtuais, disposições para reagir e imaginar de certos modos. Por isso ele chega a dizer que o inconsciente coletivo, a rigor, é uma possibilidade, que só se torna visível quando se realiza em imagens, como as dos sonhos, dos mitos e das religiões.",
+        "related": {
+          "terms": [
+            "inconsciente",
+            "arquetipo",
+            "instinto",
+            "inconsciente-pessoal"
+          ],
+          "materials": []
+        },
         "links": [],
-        "ordem": 6,
-        "short": "Substrato psíquico comum à humanidade — onde os arquétipos residem.",
         "hidden": false,
+        "ordem": 7
+      },
+      {
+        "slug": "alma",
+        "term": "Alma",
         "aliases": [
-          "psique objetiva"
+          "imagem da alma"
         ],
+        "category": "psique",
+        "mascara": "",
+        "short": "Em Jung, a palavra tem mais de um sentido: a psique inteira, a atitude voltada para dentro ou a figura da anima.",
+        "full": "Jung usa alma em mais de um sentido, e vale separá-los. No sentido amplo, alma é a psique inteira, o mundo interior, com o seu lado diurno, consciente, e o seu lado noturno, inconsciente. É nesse sentido que ele escreve que a alma é um mundo no qual o eu está contido.\n\nNo sentido técnico de Tipos psicológicos (1921), alma é a atitude interna: o rosto que o eu volta para o inconsciente, assim como a persona é o rosto voltado para o mundo. É um complexo parcialmente autônomo, que reúne as qualidades que faltam à atitude consciente. Quando ganha figura nos sonhos e nas fantasias, vira a imagem da alma.\n\nNum terceiro sentido, alma é sinônimo de anima, no homem, e de animus, na mulher. Jung propôs a palavra anima justamente porque alma era geral e vaga demais para nomear essa figura específica.",
+        "related": {
+          "terms": [
+            "psique",
+            "anima",
+            "persona",
+            "animus"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 8,
+        "autolink": false
+      },
+      {
+        "slug": "espirito",
+        "term": "Espírito",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "Não é o intelecto: é uma força viva e autônoma, que Jung descreve como consciência intensa unida à emoção.",
+        "full": "Jung recusa reduzir o espírito ao intelecto. O espírito, diz ele, nunca foi uma atividade ou uma função humana; está mais perto do que os antigos chamavam de pneuma, uma existência espiritual viva. Num seminário, ele o descreve como consciência intensa combinada com emoção.\n\nA palavra tem uma história que Jung gosta de lembrar. Spiritus e pneuma querem dizer ar, vento, sopro. Na Antiguidade o espírito era pensado como matéria sutil, e só depois da Idade Média o Ocidente passou a usar a palavra como nome de uma função psíquica.\n\nHá ainda os espíritos, no plural, que Jung lê psicologicamente: complexos inconscientes autônomos que aparecem projetados, porque não têm ligação direta com o eu. A crença nos espíritos, espalhada por todos os povos, é para ele uma expressão da estrutura do inconsciente.",
+        "related": {
+          "terms": [
+            "alma",
+            "psique",
+            "complexo",
+            "projecao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 9,
+        "autolink": false
+      },
+      {
+        "slug": "corpo",
+        "term": "Corpo",
+        "aliases": [],
+        "category": "psique",
+        "mascara": "",
+        "short": "A outra face da psique: para Jung, corpo e alma dependem um do outro, numa unidade que ninguém sabe explicar.",
+        "full": "Jung parte de uma antinomia: a psique depende do corpo, e o corpo depende da psique. Há provas para os dois lados, e ele se recusa a escolher um. O corpo nada significa sem a psique, e a psique nada significa sem o corpo; em algum lugar existe uma unidade dos dois que ainda não se sabe explicar.\n\nO corpo, para ele, não é matéria inerte, mas um sistema pronto para a vida, que precisa da psique para viver de fato, assim como a psique precisa do corpo para que as suas imagens ganhem realidade. Há também um paralelo evolutivo: o corpo carrega vestígios de estágios mais antigos da vida animal, e a psique, do mesmo modo, conserva traços arcaicos.\n\nÉ por isso que o instinto ocupa um lugar de fronteira na psicologia de Jung, em parte psíquico e em parte fisiológico, e que os afetos sempre vêm acompanhados de mudanças no corpo.",
+        "related": {
+          "terms": [
+            "psique",
+            "instinto",
+            "afeto",
+            "materia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 10,
+        "autolink": false
+      },
+      {
+        "slug": "instinto",
+        "term": "Instinto",
+        "aliases": [
+          "pulsão"
+        ],
+        "category": "psique",
+        "mascara": "koke",
+        "short": "Um padrão herdado de comportamento, comum a todos, com um lado dinâmico (o impulso) e um lado formal (o arquétipo).",
+        "full": "Jung define instinto como um processo inconsciente e herdado, que se repete de modo uniforme e regular em toda parte, com a marca da necessidade compulsiva. Os instintos são formas típicas de comportamento. O conceito ganha esse formato em 1919, no mesmo texto em que aparece a palavra arquétipo: instintos e arquétipos, juntos, formam o inconsciente coletivo.\n\nPara Jung, o instinto não é cego. Ele tem um aspecto dinâmico, o impulso, e um aspecto formal, o sentido, a imagem da situação a que responde. Esse lado formal é o arquétipo: a imagem primordial é o autorretrato do instinto.\n\nQuantos instintos existem, Jung nunca decidiu. Em 1936 ele fala de cinco grupos (a fome, a sexualidade, a atividade, a reflexão e a criatividade) e duvida do último. E nenhum tem primazia, o que o separa de Freud, que punha a sexualidade no centro.",
         "related": {
           "terms": [
             "arquetipo",
-            "self",
-            "mito-pessoal"
-          ],
-          "materials": [
-            "hermeneutica-psicologia"
-          ]
-        },
-        "category": "estrutura",
-        "mascara": "ai"
-      },
-      {
-        "full": "Arquétipos são *formas* — não conteúdos. Como o leito de um rio: o rio (o conteúdo) pode variar, mas há uma direção, um padrão escavado pela repetição.\n\nA Mãe, o Herói, a Sombra, o Velho Sábio, o Trapaceiro — esses não são \"personagens\" fixos, mas potenciais psíquicos que se manifestam em imagens culturalmente específicas. Cada cultura preenche o arquétipo da Mãe à sua maneira (Maria, Démeter, Iemanjá), mas o padrão está ali.\n\nA confusão comum é tratar arquétipos como receitas ou etiquetas. Eles são, acima de tudo, *energia* — carga afetiva que pode capturar a consciência.",
-        "slug": "arquetipo",
-        "term": "Arquétipo",
-        "links": [],
-        "ordem": 7,
-        "short": "Forma a priori — padrão estruturante no inconsciente coletivo.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
             "inconsciente-coletivo",
-            "mito-pessoal"
-          ],
-          "materials": [
-            "hermeneutica-psicologia"
-          ]
-        },
-        "category": "arquetipos"
-      },
-      {
-        "full": "Um complexo é uma constelação de imagens, memórias, afetos em torno de um núcleo arquetípico. É autônomo: pode ser ativado sem convite, tomar a consciência, falar pela boca do Ego.\n\n\"Todo mundo tem complexos\" — e deve ter. O complexo materno, o complexo de inferioridade, o complexo paterno. Não são patologia em si: são estrutura. Patológica é a *identificação* com o complexo, a incapacidade de se distinguir dele.\n\nJung descobriu os complexos via experimento de associação de palavras: perturbações na resposta (pausa, tropeço, esquecimento) indicavam a constelação de um complexo.",
-        "slug": "complexo",
-        "term": "Complexo",
-        "links": [],
-        "ordem": 8,
-        "short": "Núcleo afetivo autônomo — um \"pedaço\" da psique com vida própria.",
-        "hidden": false,
-        "aliases": [
-          "complexo afetivo"
-        ],
-        "related": {
-          "terms": [
-            "ego",
-            "sombra"
-          ],
-          "materials": [
-            "consciencia-complexo-ego"
-          ]
-        },
-        "category": "dinamica",
-        "mascara": "aka"
-      },
-      {
-        "full": "Individuação não é \"individualismo\". É o processo pelo qual uma pessoa se torna um indivíduo psicológico: ou seja, um ser indivisível, uma unidade irrevogável, um \"todo\" — Jung.\n\nÉ um processo de diferenciação do coletivo inconsciente: do que se herdou da família, da cultura, dos papéis sociais — sem abandonar tudo isso, mas reconhecendo-o *como outro*. Ter relação consigo em vez de *ser* o que foi recebido.\n\nNão termina. Há marcos, passagens — a saída da infância psicológica, a integração da Sombra, o encontro com Anima/Animus, o reconhecimento do Self. Mas o processo é a vida inteira.",
-        "slug": "individuacao",
-        "term": "Individuação",
-        "links": [],
-        "ordem": 9,
-        "short": "Tornar-se quem se é — processo de diferenciação do indivíduo face ao coletivo.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "self",
-            "sombra",
-            "funcao-transcendente"
+            "energia-psiquica",
+            "corpo"
           ],
           "materials": []
         },
-        "category": "processo",
-        "mascara": "kin"
+        "links": [],
+        "hidden": false,
+        "ordem": 11
       },
       {
-        "full": "Sincronicidade é o conceito que Jung propôs para eventos que se correspondem *por significado*, não por causa. Um paciente fala de um escaravelho; bate um besouro na janela. Duas pessoas sonham o mesmo símbolo na mesma noite, de cidades diferentes.\n\nNão é mágica, nem causalidade oculta. É uma categoria de ordenamento diferente — complementar à causalidade, não concorrente. Jung só publicou o conceito tardiamente (em colaboração com Wolfgang Pauli, físico quântico) porque reconhecia quão facilmente vira pseudociência.\n\nClinicamente, o que importa é: quando o paciente traz uma sincronicidade, algo está sendo constelado. Vale perguntar: o que está querendo dizer isso?",
-        "slug": "sincronicidade",
-        "term": "Sincronicidade",
-        "links": [],
-        "ordem": 10,
-        "short": "Coincidência significativa — sentido sem causa.",
-        "hidden": false,
+        "slug": "persona",
+        "term": "Persona",
         "aliases": [],
-        "related": {
-          "terms": [
-            "inconsciente-coletivo",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Projeção é o mecanismo pelo qual algo que está *em mim* — uma característica, um afeto, um conteúdo arquetípico — é vivenciado como estando *no outro*.\n\nProjeta-se a Sombra nos inimigos, a Anima na amada, o Self no mestre espiritual. Em todos os casos, o conteúdo tem *base real* no outro (por isso projeção não é alucinação), mas a intensidade do afeto vem de dentro.\n\nO trabalho analítico é, em grande parte, o trabalho de *retirar as projeções*: reconhecer que o ódio exagerado tem minha Sombra, que o amor absoluto carrega minha Anima. Não é minimizar o outro — é dar pra cada um o que é seu.",
-        "slug": "projecao",
-        "term": "Projeção",
-        "links": [],
-        "ordem": 11,
-        "short": "Conteúdo psíquico interno vivido como se fosse externo.",
-        "hidden": false,
-        "aliases": [],
+        "category": "figuras",
+        "mascara": "shiro",
+        "short": "A máscara social: um compromisso entre o indivíduo e a sociedade sobre aquilo que alguém parece ser.",
+        "full": "Persona era o nome da máscara que os atores usavam no teatro antigo. Jung toma a palavra para nomear o rosto que mostramos ao mundo: nome, título, profissão, o papel que ocupamos. Ele a define como um compromisso entre o indivíduo e a sociedade acerca daquilo que alguém parece ser, e como um recorte da psique coletiva que parece individual, mas não é.\n\nA persona não é um defeito. Ninguém vive em sociedade sem ela, e Jung diz que só nega a sua necessidade quem desconhece a natureza dos seus semelhantes. O problema é identificar-se com ela: tomar o papel pelo que se é, como quem nunca consegue tirar os sapatos profissionais.\n\nA persona tem um par interno. Assim como há uma atitude voltada para fora, há uma atitude voltada para o inconsciente, a alma ou anima, que tende a compensar o que a persona exagera. Distinguir-se da persona é um passo da individuação.",
         "related": {
           "terms": [
             "sombra",
             "anima",
-            "animus"
-          ],
-          "materials": [
-            "projecao"
-          ]
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Sizígia é, na linguagem junguiana, o par arquetípico de opostos que tendem a aparecer juntos: Anima-Animus, sol-lua, rei-rainha, Yang-Yin.\n\nClinicamente, a sizígia aparece em sonhos como casais míticos, ou em relações amorosas onde o par se encaixa \"cabeça-ombro\" psicologicamente — cada um carregando a contraparte que o outro rejeita em si.",
-        "slug": "sizigia",
-        "term": "Sizígia",
-        "links": [],
-        "ordem": 12,
-        "short": "Par Anima-Animus ou qualquer emparelhamento arquetípico de opostos.",
-        "hidden": false,
-        "aliases": [
-          "par divino",
-          "par conjunto"
-        ],
-        "related": {
-          "terms": [
-            "anima",
-            "animus"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos"
-      },
-      {
-        "full": "A função transcendente é uma das grandes invenções conceituais de Jung. Quando há um conflito real — não decidível pela vontade do Ego — algo na psique, se sustentado o tempo suficiente, produz uma terceira coisa: um símbolo, uma imagem, uma síntese imprevisível.\n\nEsse \"terceiro\" não é compromisso nem meio-termo: é uma configuração nova, frequentemente surpreendente, que torna obsoleta a polarização anterior.\n\nA prática da imaginação ativa é um dos modos de convocar essa função.",
-        "slug": "funcao-transcendente",
-        "term": "Função transcendente",
-        "links": [],
-        "ordem": 13,
-        "short": "Capacidade psíquica de gerar um terceiro a partir de dois opostos em tensão.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "individuacao",
-            "imaginacao-ativa"
-          ],
-          "materials": []
-        },
-        "category": "processo"
-      },
-      {
-        "full": "Imaginação ativa é uma técnica desenvolvida por Jung: entrar deliberadamente em diálogo com uma imagem do inconsciente (um personagem de um sonho, uma fantasia recorrente, uma voz interna) e *deixá-la responder*.\n\nNão é fantasia passiva (\"deixar a mente vagar\") nem sugestão guiada (\"imagine uma praia\"): é uma prática séria, que requer Ego firme e capacidade de discernir imaginação de projeção.\n\nÉ um dos modos privilegiados de ativar a função transcendente. Mal conduzida, pode desestabilizar pacientes com Ego frágil — daí o cuidado clínico.",
-        "slug": "imaginacao-ativa",
-        "term": "Imaginação ativa",
-        "links": [],
-        "ordem": 14,
-        "short": "Método de diálogo consciente com conteúdos do inconsciente.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "funcao-transcendente",
-            "self"
-          ],
-          "materials": []
-        },
-        "category": "clinica"
-      },
-      {
-        "full": "Para Jung, cada vida individual é, no fundo, a concretização de um mito. Não \"inventado\" — *encarnado*. A tarefa de individuação inclui reconhecer qual mito se está vivendo, sem confusão nem idealização.\n\nJung descreveu o seu próprio em *Memórias, Sonhos, Reflexões*: a pergunta \"qual é o meu mito?\" o acompanhou a vida toda.",
-        "slug": "mito-pessoal",
-        "term": "Mito pessoal",
-        "links": [],
-        "ordem": 15,
-        "short": "Narrativa arquetípica que organiza a biografia de uma pessoa.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "individuacao",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "processo"
-      },
-      {
-        "full": "A tipologia junguiana descreve como a consciência se orienta no mundo. São duas atitudes — Introversão (energia para dentro) e Extroversão (para fora) — e quatro funções — Pensamento, Sentimento, Sensação, Intuição.\n\nCada pessoa tem uma função dominante (mais desenvolvida), auxiliares, e uma inferior (o \"tendão de Aquiles\" psíquico, habitat da Sombra). Não é \"personalidade estática\": é um mapa de onde a consciência brilha e onde tropeça.\n\nA tipologia popular (MBTI etc.) é simplificação grosseira do que Jung propôs.",
-        "slug": "tipologia",
-        "term": "Tipologia",
-        "links": [],
-        "ordem": 16,
-        "short": "Teoria das funções da consciência (pensamento, sentimento, sensação, intuição) e das atitudes (introversão/extroversão).",
-        "hidden": false,
-        "aliases": [
-          "tipos psicológicos",
-          "funções da consciência"
-        ],
-        "related": {
-          "terms": [
-            "ego"
-          ],
-          "materials": [
-            "atitude-tipologia-diagnostico",
-            "extroversao-introversao"
-          ]
-        },
-        "category": "estrutura"
-      },
-      {
-        "full": "A ruptura com Freud passou, entre outras coisas, pelo conceito de libido. Para Jung, libido é *energia psíquica*: neutra, móvel, que pode se investir em qualquer conteúdo — sexual, espiritual, criativo, destrutivo.\n\nO que importa clinicamente é *onde* a libido está investida num dado momento, e para *onde* ela pode se deslocar. Um sintoma é libido represada num lugar inadequado; a cura passa pela liberação do fluxo.",
-        "slug": "libido",
-        "term": "Libido",
-        "links": [],
-        "ordem": 17,
-        "short": "Energia psíquica em sentido amplo — não apenas sexual.",
-        "hidden": false,
-        "aliases": [
-          "energia psíquica"
-        ],
-        "related": {
-          "terms": [
-            "complexo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Termo herdado de Rudolf Otto (*O Sagrado*, 1917). Experiências numinosas são marcadas por dois polos: *mysterium tremendum* (tremor, pavor) e *fascinans* (atração irresistível).\n\nJung considerava que toda verdadeira cura psicoterapêutica envolve, em algum momento, uma experiência numinosa — um encontro com algo que transcende o Ego e o força a se reorganizar.",
-        "slug": "numinoso",
-        "term": "Numinoso",
-        "links": [],
-        "ordem": 18,
-        "short": "Qualidade de experiências que arrebatam a consciência — sagrado, terrível, fascinante.",
-        "hidden": false,
-        "aliases": [
-          "numinosidade",
-          "numinosum"
-        ],
-        "related": {
-          "terms": [
-            "self",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica",
-        "mascara": "kin"
-      },
-      {
-        "full": "Mandala (do sânscrito \"círculo\") é o símbolo arquetípico da totalidade. Aparece em culturas de todos os continentes, em épocas totalmente desconectadas.\n\nClinicamente, mandalas espontâneas em sonhos ou desenhos de pacientes frequentemente indicam um momento de reorganização psíquica — o Self se apresentando.",
-        "slug": "mandala",
-        "term": "Mandala",
-        "links": [],
-        "ordem": 19,
-        "short": "Símbolo circular de totalidade — manifestação visual do Self.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "self",
-            "quaternidade"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "kin"
-      },
-      {
-        "full": "Enquanto o três é dinâmico (tese-antítese-síntese), o quatro é estático — completo. Jung via na quaternidade um símbolo recorrente de totalidade psíquica: quatro funções da consciência, quatro cantos da cruz, quatro estágios alquímicos.\n\nA Santíssima Trindade, dizia ele, é incompleta justamente porque exclui um quarto termo (a matéria, o feminino, o mal) — e a neurose coletiva ocidental tem relação com essa exclusão.",
-        "slug": "quaternidade",
-        "term": "Quaternidade",
-        "links": [],
-        "ordem": 20,
-        "short": "Estrutura arquetípica de quatro — símbolo de completude psíquica.",
-        "hidden": false,
-        "aliases": [
-          "quaternio"
-        ],
-        "related": {
-          "terms": [
-            "mandala",
-            "tipologia"
-          ],
-          "materials": []
-        },
-        "category": "alquimia"
-      },
-      {
-        "full": "Nos últimos 30 anos de vida, Jung se dedicou intensamente ao estudo da alquimia. Não como proto-química, mas como psicologia projetada: os alquimistas, ao \"trabalhar a matéria\", projetavam nela conteúdos psíquicos de transformação.\n\nO *opus alquimicum* — com suas etapas de nigredo (enegrecimento), albedo (branqueamento), citrinitas (amarelecimento) e rubedo (avermelhamento) — oferece a Jung um vocabulário simbólico para descrever o processo de individuação.",
-        "slug": "alquimia-psicologica",
-        "term": "Alquimia psicológica",
-        "links": [],
-        "ordem": 21,
-        "short": "Uso das imagens alquímicas como mapa simbólico do processo de individuação.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "nigredo",
-            "albedo",
-            "rubedo",
+            "alma",
             "individuacao"
           ],
           "materials": []
         },
-        "category": "alquimia"
+        "links": [],
+        "hidden": false,
+        "ordem": 12
       },
       {
-        "full": "Nigredo é o \"enegrecimento\": a dissolução da matéria-prima, a morte do velho estado. Psicologicamente, corresponde ao confronto com a Sombra, à depressão criativa, ao momento em que as velhas identificações ruem e ainda não há forma nova.\n\nÉ doloroso, necessário, e frequentemente o paciente quer \"passar logo disso\". A tentativa prematura de sair produz inflação ou recaída.",
-        "slug": "nigredo",
-        "term": "Nigredo",
-        "links": [],
-        "ordem": 22,
-        "short": "Primeira etapa alquímica — dissolução, confronto com a Sombra.",
-        "hidden": false,
-        "aliases": [
-          "obra em negro"
-        ],
+        "slug": "sombra",
+        "term": "Sombra",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "kuro",
+        "short": "A parte da personalidade que não queremos ver em nós: o inferior, o recusado, que costumamos enxergar nos outros.",
+        "full": "A sombra é a parte inferior e oculta da personalidade: as qualidades que a consciência julga não possuir, mas possui, e que por isso costuma ver nos outros. Jung a descreve como a soma das propriedades ocultas e desfavoráveis, das funções pouco desenvolvidas e dos conteúdos do inconsciente pessoal. Ele escolheu a palavra de propósito, porque um termo técnico prenderia demais o seu conteúdo.\n\nReconhecer a sombra é um problema moral, não intelectual, e encontra resistência obstinada. Nos sonhos, ela costuma aparecer como uma figura do mesmo sexo do sonhador. Um sinal de que se tocou nela é a explosão de emoção diante de um defeito alheio.\n\nJung distingue duas escalas. A sombra pessoal pode ser percebida com alguma autocrítica: é o relativamente mau em nós. Como arquétipo, ela confronta com o absolutamente mau, uma experiência rara e perturbadora. E a sombra também tem valor: ninguém é inteiro sem as suas qualidades negativas.",
         "related": {
           "terms": [
-            "alquimia-psicologica",
-            "sombra"
-          ],
-          "materials": []
-        },
-        "category": "alquimia",
-        "mascara": "kuro"
-      },
-      {
-        "full": "Depois do nigredo, vem o albedo: o branqueamento. É a etapa da reflexão clara, da distinção, do surgimento de uma nova atitude. Psicologicamente corresponde ao aparecimento de Anima/Animus purificados — o encontro com a contraparte.",
-        "slug": "albedo",
-        "term": "Albedo",
-        "links": [],
-        "ordem": 23,
-        "short": "Etapa alquímica do branqueamento — purificação, aparição da Anima.",
-        "hidden": false,
-        "aliases": [
-          "obra em branco"
-        ],
-        "related": {
-          "terms": [
-            "alquimia-psicologica",
+            "persona",
+            "inconsciente-pessoal",
+            "projecao",
             "anima"
           ],
           "materials": []
         },
-        "category": "alquimia",
-        "mascara": "shiro"
+        "links": [],
+        "hidden": false,
+        "ordem": 13
       },
       {
-        "full": "Rubedo é o avermelhamento — a etapa final do opus. Sangue, vida, encarnação. Psicologicamente, corresponde à conjunção dos opostos no Self, à totalidade realizada — não como estado permanente, mas como momento paradigmático.",
-        "slug": "rubedo",
-        "term": "Rubedo",
-        "links": [],
-        "ordem": 24,
-        "short": "Etapa alquímica final — união dos opostos, aparecimento do Self.",
-        "hidden": false,
-        "aliases": [
-          "obra em vermelho"
-        ],
+        "slug": "anima",
+        "term": "Anima",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "fuji",
+        "short": "A figura feminina do inconsciente do homem: uma ponte entre a consciência e o inconsciente.",
+        "full": "Anima é o nome que Jung dá ao lado feminino do homem, a figura pela qual o inconsciente se apresenta a ele. Ele a define como uma personificação do inconsciente e, ao mesmo tempo, como uma ponte que leva até ele: uma função de relação. Em Tipos psicológicos (1921), a anima é a atitude interna, o par da persona, que é a atitude voltada para fora.\n\nA anima tem duas camadas. Uma é pessoal: uma atitude e um complexo que reúnem o que o homem não sabe lidar, os humores, os afetos, a função menos desenvolvida, e que podem ser integrados. A outra é coletiva, uma imagem herdada da mulher, que não se integra. Enquanto é inconsciente, a anima é projetada, sobretudo nas mulheres reais; para Jung, essa projeção é o modo normal de o homem chegar a conhecê-la, e também a fonte da paixão e da ilusão.\n\nNos sonhos de um homem, a mulher desconhecida costuma ser essa figura. Confrontada e diferenciada, ela deixa de ser uma personagem autônoma e passa a funcionar como a relação entre a consciência e o inconsciente. A divisão entre o feminino no homem e o masculino na mulher é a forma de 1921; o que Jung manteve como essencial foi a ideia de uma atitude interna que compensa a externa.",
         "related": {
           "terms": [
-            "alquimia-psicologica",
-            "self"
+            "animus",
+            "sizigia",
+            "persona",
+            "eros"
           ],
           "materials": []
         },
+        "links": [],
+        "hidden": false,
+        "ordem": 14
+      },
+      {
+        "slug": "animus",
+        "term": "Animus",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "fuji",
+        "short": "A figura masculina do inconsciente da mulher; Jung a liga sobretudo às opiniões que pensam pela pessoa.",
+        "full": "Animus é, para Jung, o correlato na mulher do que a anima é no homem: o aspecto masculino do inconsciente feminino. A palavra significa razão ou espírito. Em Aion (1951), ele resume a simetria: assim como a anima corresponde ao Eros materno, o animus corresponde ao Logos paterno.\n\nA marca mais estável do animus, nos textos de Jung, é a opinião pronta. Ele o descreve como uma suposição inconsciente, um julgamento não pensado, e diz que, assim como a anima produz humores, o animus produz opiniões. O animus não é o pensamento da mulher: é um pensar que a pensa, e a saída que Jung aponta é um pensamento melhor, próprio.\n\nO animus costuma aparecer não como uma pessoa, mas como uma pluralidade de figuras, como uma assembleia de vozes que julgam. Também tem um lado positivo: quando a mulher se diferencia dele, o animus pode dar reflexão e acesso ao sentido das imagens do inconsciente. Jung chegou ao animus primeiro pela lógica do par e só depois pela clínica, e admite que ele é mais difícil de captar do que a anima.",
+        "related": {
+          "terms": [
+            "anima",
+            "logos",
+            "sizigia",
+            "projecao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 15
+      },
+      {
+        "slug": "sizigia",
+        "term": "Sizígia",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O par, a união de masculino e feminino: em Jung, o casal anima e animus e o modelo de todo par de opostos.",
+        "full": "Sizígia vem do grego syzygos, que quer dizer acasalado, unido. Jung usa a palavra a partir de 1936 para os pares divinos masculino e feminino das mitologias, e em Aion (1951) ela dá nome ao capítulo sobre a anima e o animus.\n\nO conteúdo da sizígia é uma relação, não uma figura: onde há um masculino há também o feminino correspondente. Por isso Jung a vê como o modelo psíquico de todos os pares de deuses, e como um dos pares de opostos mais importantes da vida psíquica, embora não o único.\n\nA sizígia junta quatro conceitos em dois princípios. O que é consciente num sexo é inferior no outro, e o inferior é justamente o que liga ao inconsciente: a anima corresponde ao Eros, o animus ao Logos. Na relação entre duas pessoas, Jung desenha um quadro de quatro termos, os dois parceiros e as duas figuras inconscientes, com relações que se cruzam.",
+        "related": {
+          "terms": [
+            "anima",
+            "animus",
+            "opostos",
+            "coniunctio"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 16
+      },
+      {
+        "slug": "eros",
+        "term": "Eros",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O princípio da relação: o que junta, liga e aproxima. Não é sexo nem sentimento.",
+        "full": "Jung usa Eros em duas escalas. Na primeira, mais antiga, Eros é um nome antigo da energia psíquica inteira, o princípio cosmogônico dos gregos. Na segunda, a partir de 1917, Eros é um de dois princípios: primeiro contra o poder e, desde 1927, ao lado do Logos.\n\nNesse segundo sentido, a definição estável é o colocar em relação. Eros é relação psíquica, entrelaçamento, o que junta as coisas e estabelece laços entre elas. Pode atrair ou repelir: Jung chega a dizer que o princípio de Eros não é necessariamente amor, pode ser ódio também. O Logos, ao contrário, distingue e separa.\n\nJung insiste no que Eros não é. Não é sexualidade (ele chama de erro imperdoável confundir as duas coisas), não é a função sentimento e não é sinônimo de vida. Eros é afinidade. Ele o atribuía sobretudo à consciência feminina, mas também lembra que, onde falta o amor, entra o poder.",
+        "related": {
+          "terms": [
+            "logos",
+            "anima",
+            "amor",
+            "libido"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 17
+      },
+      {
+        "slug": "logos",
+        "term": "Logos",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O princípio do distinguir: discriminar, julgar, reconhecer. A clareza da consciência, não o simples raciocínio.",
+        "full": "Logos é, em Jung, o princípio da discriminação: distinguir, julgar, reconhecer. Em 1927 ele o define como interesse objetivo, e em 1929 como o conhecimento diferenciador, a clara luz, por oposição ao Eros, que é relacionamento. Ele atribuía o Logos sobretudo à consciência masculina.\n\nO Logos não é a função pensamento. Jung diz que ele tem relação tanto com o sentimento quanto com o pensamento: é um princípio que está acima das funções e que permite separar, tirar algo do bloco indiferenciado. Ao escolher a palavra, ele junta de propósito o sentido grego de razão universal e o sentido psicológico de clareza da consciência.\n\nEsse ganho tem um preço. O caminho até o Logos, diz Jung, é uma grande conquista, paga com a perda dos instintos e da realidade, e pode cair numa tirania da palavra. O Logos sem Eros vira racionalismo árido, assim como o Eros sem Logos vira relação cega.",
+        "related": {
+          "terms": [
+            "eros",
+            "animus",
+            "consciencia",
+            "diferenciacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 18
+      },
+      {
+        "slug": "si-mesmo",
+        "term": "Si-mesmo",
+        "aliases": [
+          "self",
+          "Selbst",
+          "si mesmo"
+        ],
+        "category": "figuras",
+        "mascara": "kin",
+        "short": "A totalidade da psique, consciente e inconsciente, e o seu centro. É a meta da individuação.",
+        "full": "Si-mesmo (Selbst, em alemão, ou Self) é o nome que Jung dá à psique inteira, consciente e inconsciente. Em Tipos psicológicos (1921), a diferença já está dita: o eu é o sujeito só da consciência, o si-mesmo é o sujeito do todo, inclusive da parte inconsciente. Jung tirou a palavra da filosofia oriental, dos Upanishads.\n\nO si-mesmo é ao mesmo tempo centro e circunferência: o ponto central da psique e a totalidade que abrange consciência e inconsciente. Por isso não se deixa definir com precisão; é um conceito-limite, que Jung descreve por antinomias. Na experiência, ele não é sentido como sujeito, mas como algo que vem ao encontro do eu, muitas vezes com uma força que parece maior do que a pessoa.\n\nNos sonhos e nas imagens, o si-mesmo aparece em símbolos de totalidade, como a mandala, a pedra, a criança divina e as figuras de Deus. A relação do eu com ele é o eixo da individuação: o eu não se dissolve nem se submete, mas passa a se orientar por um centro maior do que ele.",
+        "related": {
+          "terms": [
+            "ego",
+            "individuacao",
+            "totalidade",
+            "mandala"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 19
+      },
+      {
+        "slug": "grande-mae",
+        "term": "Grande Mãe",
+        "aliases": [
+          "arquétipo materno"
+        ],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O arquétipo materno: a mãe que nutre e a que devora, duas faces de uma mesma figura.",
+        "full": "Grande Mãe é a figura do arquétipo materno: a imagem coletiva da mãe que está por trás de toda mãe pessoal. Jung a descreve como origem, natureza, matéria, o ventre e as funções vegetativas e, por isso, também o inconsciente, o instinto e o natural. Ela aparece em muitas formas: a terra, a caverna, a fonte, o jardim, o mar, a Igreja, a deusa.\n\nA sua marca é a ambivalência. A mãe que nutre e a mãe que devora não são duas figuras, mas os dois lados do mesmo arquétipo: a terra que gera é a mesma que retoma. A face terrível não precisa ser crueldade; basta a retenção, o calor que impede de partir.\n\nPara Jung, separar-se da mãe funda a consciência. Mas separar-se da pessoa não basta: a separação só se completa quando inclui o arquétipo. E o anseio de voltar à mãe também tem sentido de renascimento: o desejo de entrar na mãe para nascer de novo.",
+        "related": {
+          "terms": [
+            "complexo-materno",
+            "arquetipo",
+            "heroi",
+            "feminino"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 20
+      },
+      {
+        "slug": "complexo-materno",
+        "term": "Complexo materno",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O complexo que se forma em torno da mãe: a experiência pessoal carregada pela força do arquétipo materno.",
+        "full": "O complexo materno é o complexo que se organiza em torno da figura da mãe. Ele junta duas coisas: a mãe real, com tudo o que ela foi para a criança, e o arquétipo materno, a imagem coletiva e herdada da mãe. É essa mistura que dá ao complexo a sua força.\n\nJung insiste em separar as duas camadas. A mãe pessoal carrega uma numinosidade que não é dela: ela é a portadora do arquétipo, a mãe “eterna”, e por isso a criança a vive como uma potência maior do que uma pessoa. Muito do que se atribui à mãe real vem, na verdade, da imagem arquetípica projetada sobre ela.\n\nNa clínica, ler a figura materna de um sonho começa por essa distinção, entre o que é a mãe e o que é o arquétipo. No ensaio sobre o arquétipo materno (OC 9/1), Jung descreve como o complexo marca de modo diferente o filho e a filha, e lembra que ele tem também um lado positivo, ligado ao cuidado, à fertilidade e ao enraizamento.",
+        "related": {
+          "terms": [
+            "grande-mae",
+            "complexo",
+            "arquetipo",
+            "projecao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 21
+      },
+      {
+        "slug": "puer-aeternus",
+        "term": "Puer aeternus",
+        "aliases": [
+          "puer",
+          "eterno adolescente"
+        ],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O eterno menino: o lado infantil da personalidade e um jeito de não pousar na vida.",
+        "full": "Puer aeternus, em latim, quer dizer o eterno menino. Jung não deu uma definição única da figura; usou o termo em registros diferentes. No mais simples, o puer é a personificação do lado infantil do nosso caráter, reprimido justamente por ser infantil.\n\nNo registro de conduta, o puer é um modo de se safar da vida: o jeito de quem não pousa, adia o compromisso e vive da promessa do que ainda vai ser. Jung o liga também à mãe: a figura juvenil e suave pode ser um parasita da mãe, que só vive enquanto tem raízes no corpo materno. O correspondente feminino, que ele mencionou já tarde, é a puella aeterna, a eterna menina.\n\nO puer tem também um lado positivo, mítico. O menino divino dos mitos representa o renascimento e a restauração do que estava perdido: a figura da novidade e do futuro. É por isso que ela é ambígua, ao mesmo tempo promessa de renovação e recusa de crescer.",
+        "related": {
+          "terms": [
+            "grande-mae",
+            "complexo-materno",
+            "renascimento",
+            "heroi"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 22
+      },
+      {
+        "slug": "heroi",
+        "term": "Herói",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "A figura mítica que enfrenta o monstro e renasce: a imagem da consciência que luta para se libertar do inconsciente.",
+        "full": "Jung se aproxima do herói pelo mito. O esqueleto é o mito solar: todo dia um herói nasce do mar, sobe no carro do Sol, é devorado à noite por uma Grande Mãe, atravessa o fundo do mar no ventre de um dragão e, depois de um combate terrível, renasce na manhã seguinte. As vidas dos heróis, em todas as culturas, repetem os mesmos motivos: origem improvável, nascimento ameaçado, salvação, combate, morte e renascimento.\n\nO motivo do herói vem sempre junto com o do dragão: os dois fazem parte do mesmo mito. E o herói é herói justamente porque não é devorado; vence o monstro, e não uma vez só. Psicologicamente, o dragão é a força regressiva do inconsciente, a mãe que retém, e o herói é o impulso de se libertar dela para conquistar consciência.\n\nJung também lê o herói como figura de algo maior dentro da pessoa. Em certos textos, o herói é o próprio si-mesmo, cujo nascimento é ameaçado por forças coletivas; em outros, é a parte da libido que busca renovação. A jornada do herói é, assim, uma imagem do processo de transformação.",
+        "related": {
+          "terms": [
+            "grande-mae",
+            "renascimento",
+            "si-mesmo",
+            "sacrificio"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 23
+      },
+      {
+        "slug": "feminino",
+        "term": "O feminino",
+        "aliases": [],
+        "category": "figuras",
+        "mascara": "",
+        "short": "Em Jung, mais do que a mulher: uma qualidade do inconsciente, da relação, da matéria e de muitos símbolos.",
+        "full": "Jung não dá uma definição única de o feminino; usa a palavra em vários planos. O mais claro é o feminino como qualidade do inconsciente do homem: no homem, diz ele, o inconsciente tem um sinal feminino, e é por isso que a alma, a anima, aparece como mulher. Daí o par que ele usa com frequência, consciência de natureza masculina e inconsciente de natureza feminina.\n\nO feminino aparece também como princípio: o Eros, a relação, o que liga, por oposição ao Logos, que distingue. E aparece nos símbolos: a lua, a terra, a matéria, o número quatro, a mãe e as deusas. Na alquimia, o feminino é um dos polos da união dos opostos.\n\nVale ler essas fórmulas com a data que elas têm. A associação entre o feminino e a mulher concreta é a parte mais marcada pela época de Jung. O que ele manteve como estrutura é a ideia de que a consciência é compensada pelo seu oposto, e que esse oposto tende a aparecer com a figura do outro sexo.",
+        "related": {
+          "terms": [
+            "anima",
+            "eros",
+            "grande-mae",
+            "sizigia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 24
+      },
+      {
+        "slug": "anthropos",
+        "term": "Anthropos",
+        "aliases": [
+          "homem primordial"
+        ],
+        "category": "figuras",
+        "mascara": "",
+        "short": "O homem primordial dos mitos, de dimensão cósmica: para Jung, uma imagem do si-mesmo.",
+        "full": "Anthropos, em grego, quer dizer ser humano. Jung usa a palavra para a antiga doutrina do homem primordial: a ideia de que o criador do mundo se manifestou na forma de um primeiro homem, luminoso e quase sempre de tamanho cósmico. A figura aparece no gnosticismo, na alquimia, na Índia (o Purusha) e por trás de títulos de Cristo como Filho do homem.\n\nO passo decisivo de Jung é ler o Anthropos psicologicamente. A totalidade objetiva da psique, que ele chama de si-mesmo, corresponde, diz ele, perfeitamente à ideia do Anthropos. O homem primordial representa a totalidade original e redonda que caiu na prisão das potências deste mundo, e que pede para ser reunida.\n\nPor isso, nos textos de Jung, o Anthropos é um arquétipo coletivo, e não uma pessoa histórica. É a imagem de que, dentro de cada indivíduo, há uma totalidade maior do que o eu, e que essa totalidade tem dignidade e poder de ordenar o caos psíquico.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "cristo",
+            "totalidade",
+            "gnose"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 25
+      },
+      {
+        "slug": "tipologia",
+        "term": "Tipologia",
+        "aliases": [
+          "tipos psicológicos"
+        ],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A teoria dos tipos psicológicos: as pessoas se orientam de modos típicos, combinando uma atitude e uma função.",
+        "full": "A tipologia é a teoria de Jung sobre os modos típicos de as pessoas se orientarem no mundo, exposta em Tipos psicológicos (1921). Ela nasce de uma pergunta prática: por que pessoas diante do mesmo fato o vivem de modos opostos? E também de outra, teórica: por que Freud e Adler, olhando os mesmos pacientes, chegavam a teorias tão diferentes?\n\nA resposta combina dois eixos. O primeiro é a atitude, a direção do interesse: para fora, a extroversão, ou para dentro, a introversão. O segundo é a função dominante, entre as quatro: pensamento, sentimento, sensação e intuição. Duas atitudes vezes quatro funções dão os oito tipos.\n\nPara Jung, a tipologia é um instrumento de orientação, não uma gaveta onde se guarda a pessoa. Os tipos puros não existem; são abstrações. A teoria serve para entender a unilateralidade de cada um, a função menos desenvolvida e o modo como o inconsciente compensa a atitude consciente.",
+        "related": {
+          "terms": [
+            "tipo-psicologico",
+            "atitude",
+            "quatro-funcoes",
+            "introversao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 26
+      },
+      {
+        "slug": "tipo-psicologico",
+        "term": "Tipo psicológico",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "Um padrão abstrato que reúne o que muitas pessoas têm em comum: uma atitude combinada com uma função dominante.",
+        "full": "Um tipo psicológico, para Jung, é uma tipificação: uma abstração que reúne as qualidades comuns de muitos indivíduos num denominador característico. O tipo é o padrão; a pessoa concreta é sempre uma variação única dele.\n\nUm tipo concreto é a combinação de uma atitude (introvertida ou extrovertida) com uma função dominante (pensamento, sentimento, sensação ou intuição). Jung diz que não existem simplesmente introvertidos e extrovertidos: o tipo só ganha forma quando se sabe por que função a pessoa se orienta.\n\nO tipo determina de antemão o modo habitual de reagir e também o modo como o inconsciente vai compensar a consciência. Por isso conhecer o próprio tipo não serve para se rotular, mas para perceber o que fica de fora: a função menos desenvolvida, onde moram as maiores dificuldades e também as maiores possibilidades.",
+        "related": {
+          "terms": [
+            "tipologia",
+            "atitude",
+            "funcao-superior",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 27
+      },
+      {
+        "slug": "atitude",
+        "term": "Atitude",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A disposição habitual da psique para reagir numa certa direção: para o objeto ou para o sujeito.",
+        "full": "Em Jung, atitude é prontidão, não ato. É uma disposição habitual que predispõe a reagir numa direção definida, e por ser de fundo ela orienta toda a vida psíquica da pessoa. É o que faz duas pessoas, diante do mesmo fato, vivê-lo de modos opostos.\n\nNa tipologia, as atitudes gerais são duas, e se distinguem pela direção do interesse, pelo movimento da libido: a extroversão, voltada para o objeto, e a introversão, voltada para o sujeito. Jung diz que a atitude funciona como um preconceito que condiciona todo o processo psíquico: estabelece o modo habitual de reagir e até o modo como o inconsciente vai compensar a consciência.\n\nEm sentido mais largo, Jung também fala da atitude consciente como a orientação geral da consciência num momento da vida. Ela é sempre, no mínimo, uma espécie de visão de mundo, e quase sempre unilateral, o que a põe diante de uma resposta do inconsciente.",
+        "related": {
+          "terms": [
+            "introversao",
+            "extroversao",
+            "tipologia",
+            "compensacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 28,
+        "autolink": false
+      },
+      {
+        "slug": "introversao",
+        "term": "Introversão",
+        "aliases": [
+          "introvertido"
+        ],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A atitude em que o interesse se volta para o sujeito: o que decide é a resposta interior, não o objeto.",
+        "full": "Introversão é a atitude em que a energia psíquica se volta para dentro, para o sujeito. Jung a define, junto com a extroversão, como uma das duas direções opostas da libido. Para o introvertido, o fator determinante não é o objeto, mas a resposta subjetiva a ele: a impressão, a ideia, o valor interior.\n\nNão se trata de timidez. Jung descreve o introvertido como quem diante de uma situação primeiro se retrai, como se dissesse “não” em voz baixa, e reflete antes de agir. A atitude é temperamental, até constitucional, e não se escolhe; por isso, diz ele, ninguém é introvertido só num aspecto da vida.\n\nTodo mundo tem as duas atitudes, mas só uma se desenvolve como forma de adaptação. A outra cochila no fundo, como uma larva, e tende a aparecer de modo menos adaptado e mais arcaico. Na saúde, introversão e extroversão se alternariam como um ritmo, a diástole e a sístole da vida.",
+        "related": {
+          "terms": [
+            "extroversao",
+            "atitude",
+            "tipologia",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 29
+      },
+      {
+        "slug": "extroversao",
+        "term": "Extroversão",
+        "aliases": [
+          "extrovertido",
+          "extraversão"
+        ],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A atitude em que o interesse se volta para o objeto: o mundo de fora é o que orienta e decide.",
+        "full": "Extroversão é a atitude em que a energia psíquica se volta para fora, para o objeto. Para o extrovertido, diz Jung, o objeto é de saída interessante e atraente: ele pensa, sente e age em relação ao que está fora, e o seu valor principal está na relação com o mundo.\n\nJung descreve o extrovertido como quem reage de imediato a uma situação e age primeiro, para depois refletir. Assim como a introversão, a extroversão não é uma escolha nem uma simples sociabilidade: é a predominância habitual de uma direção do interesse, que marca toda a psicologia da pessoa.\n\nO risco da extroversão é perder-se no objeto: ser tragado pelas exigências de fora e esquecer as próprias necessidades. Nesse caso o lado introvertido, que ficou sem desenvolvimento, volta pelo inconsciente, de modo infantil ou egoísta, para compensar a unilateralidade.",
+        "related": {
+          "terms": [
+            "introversao",
+            "atitude",
+            "tipologia",
+            "compensacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 30
+      },
+      {
+        "slug": "quatro-funcoes",
+        "term": "As quatro funções",
+        "aliases": [
+          "funções psicológicas"
+        ],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "Pensamento, sentimento, sensação e intuição: os quatro modos pelos quais a consciência se orienta.",
+        "full": "Jung chama de funções psicológicas os modos básicos de a consciência se orientar no mundo. São quatro, e cada uma responde a uma pergunta. A sensação constata que algo existe; o pensamento diz o que é; o sentimento diz quanto vale; a intuição aponta de onde vem e para onde vai, as suas possibilidades. Como os pontos cardeais, diz Jung, são uma convenção, mas indispensável: juntas dão a orientação completa.\n\nAs funções formam dois pares de opostos. Pensamento e sentimento são racionais: julgam, um pela lógica, o outro pelo valor. Sensação e intuição são irracionais: não julgam, percebem, uma pelos sentidos, a outra pelo inconsciente. Irracional, aqui, quer dizer fora da razão, não contra ela.\n\nNinguém desenvolve as quatro por igual. Uma se torna dominante, outra a acompanha como auxiliar, e a oposta à dominante fica inferior, menos consciente e mais primitiva. Diferenciar essa função esquecida é uma das tarefas da segunda metade da vida.",
+        "related": {
+          "terms": [
+            "pensamento",
+            "sentimento",
+            "sensacao",
+            "intuicao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 31
+      },
+      {
+        "slug": "funcao-superior",
+        "term": "Função superior",
+        "aliases": [
+          "função principal",
+          "função diferenciada"
+        ],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função mais desenvolvida e confiável de uma pessoa, a que ela usa para enfrentar o mundo e que define o seu tipo.",
+        "full": "Função superior, ou dominante, é a função psicológica mais desenvolvida numa pessoa: a mais consciente, a mais confiável, a que ela usa com intenção para se adaptar ao mundo. É ela que, combinada com a atitude, define o tipo psicológico.\n\nPara Jung, a hegemonia cabe a uma só função. As exigências da vida e da sociedade levam cada um a diferenciar mais esta ou aquela, e o eu acaba se identificando com ela. Ao lado da dominante trabalha uma função auxiliar, que não é a sua oposta e a ajuda.\n\nO preço da função superior é a inferior. Quanto mais uma função se especializa, mais a sua oposta fica para trás. Por isso a força da função dominante é também a medida da unilateralidade da consciência, e é a partir dela que se entende o que o inconsciente vai trazer para compensar.",
+        "related": {
+          "terms": [
+            "funcao-inferior",
+            "quatro-funcoes",
+            "tipo-psicologico",
+            "diferenciacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 32
+      },
+      {
+        "slug": "funcao-inferior",
+        "term": "Função inferior",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função menos desenvolvida, oposta à dominante: escapa ao controle da vontade e é a porta de entrada do inconsciente.",
+        "full": "A função inferior é a função psicológica que a consciência menos exercita: a oposta à dominante. Por não ter passado pela diferenciação, ela não está à disposição da vontade. Jung diz que ela nos acomete e fascina a ponto de deixarmos de ser donos de nós mesmos, e que coincide com o lado obscuro da personalidade.\n\nInferior, aqui, é um termo psicológico, não patológico. A função apenas ficou para trás em relação à principal; é o preço estrutural de toda especialização. A sua energia abandonada passa para o inconsciente e o vivifica, e daí nascem fantasias e humores que correspondem a essa função tornada arcaica.\n\nPor isso a função inferior é ao mesmo tempo fonte de sofrimento e de renovação. Ela guarda frescor e vitalidade justamente por ser pouco usada. Num seminário, Jung diz que é sempre ela que fecha o ciclo e traz a completude, e que, enquanto não se conhece a função inferior de alguém, não se conhece nada sobre essa pessoa.",
+        "related": {
+          "terms": [
+            "funcao-superior",
+            "quatro-funcoes",
+            "sombra",
+            "anima"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 33
+      },
+      {
+        "slug": "pensamento",
+        "term": "Pensamento",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função racional que diz o que uma coisa é, ligando os dados por meio de conceitos.",
+        "full": "Pensamento é a função psicológica que diz o que uma coisa é. Na fórmula de Jung, a sensação constata que algo existe e o pensamento permite saber o que esse algo significa, ligando os dados uns aos outros por meio de conceitos.\n\nÉ uma função racional: julga, conformando o que percebe a um critério lógico, verdadeiro ou falso. O seu oposto é o sentimento, que também julga, mas pelo valor. Por isso, quanto mais o pensamento domina, mais o sentimento tende a ficar primitivo e pouco diferenciado.\n\nO pensamento muda de cara conforme a atitude. No extrovertido, ele segue os fatos e as ideias que vêm de fora; no introvertido, segue a ideia interior, buscando o aprofundamento. Jung toma Darwin como exemplo do primeiro e Kant do segundo.",
+        "related": {
+          "terms": [
+            "quatro-funcoes",
+            "sentimento",
+            "pensamento-introvertido",
+            "pensamento-extrovertido"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 34,
+        "autolink": false
+      },
+      {
+        "slug": "sentimento",
+        "term": "Sentimento",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função racional que avalia: diz quanto uma coisa vale. Não é emoção nem sentimentalismo.",
+        "full": "Para Jung, sentimento é a função que avalia o valor das coisas: agradável ou desagradável, importante ou indiferente, aceito ou recusado. A pergunta do sentimento não é “o que é isto?”, que é a do pensamento, mas “quanto isto vale?”.\n\nO ponto que desfaz o mal-entendido é este: sentimento não é emoção. A emoção, ou afeto, irrompe com o corpo e é involuntária; o sentimento diferenciado é uma função disponível, que julga, e por isso Jung a conta entre as racionais, ao lado do pensamento. Ele também separa sentimento de amor: o amor é relação, e pode-se sentir o valor de algo sem ter relação com ele.\n\nO sentimento é o oposto do pensamento. Quem tem o pensamento como função dominante tende a ter o sentimento como função inferior, pouco desenvolvido e arcaico. E a consciência do próprio valor muitas vezes se forma no encontro: é diante do outro que se descobre o que uma coisa representa para nós.",
+        "related": {
+          "terms": [
+            "quatro-funcoes",
+            "pensamento",
+            "afeto",
+            "eros"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 35,
+        "autolink": false
+      },
+      {
+        "slug": "sensacao",
+        "term": "Sensação",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função irracional que percebe o que está presente: a percepção da realidade como ela é.",
+        "full": "Sensação é a função psicológica que constata o que realmente está presente: ela diz que alguma coisa existe. Jung a chama de função do real e a descreve como a percepção que passa pelos sentidos, ou, mais largamente, como a consciência das coisas tais como são.\n\nÉ uma função irracional, no sentido técnico: não julga nem interpreta, apenas percebe o que acontece. O seu oposto é a intuição, que também percebe, mas por vias inconscientes e voltada para as possibilidades, e não para os fatos. Jung diz que a sensação é tão oposta à intuição quanto o pensamento ao sentimento.\n\nQuando a sensação domina, os outros modos ficam em segundo plano diante da realidade dos fatos. No tipo extrovertido, isso dá o maior realismo, voltado para o gozo concreto; no introvertido, a percepção se colore pela impressão subjetiva que o objeto desperta.",
+        "related": {
+          "terms": [
+            "quatro-funcoes",
+            "intuicao",
+            "sensacao-introvertida",
+            "sensacao-extrovertida"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 36,
+        "autolink": false
+      },
+      {
+        "slug": "intuicao",
+        "term": "Intuição",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "A função irracional que percebe por vias inconscientes: capta as possibilidades de uma situação, de onde vem e para onde vai.",
+        "full": "Intuição, para Jung, é a percepção por vias inconscientes, ou a percepção de conteúdos inconscientes. Ela não passa pelos sentidos de modo consciente, como a sensação: chega à consciência como um dado pronto, sem que se saiba de onde veio. Tudo pode ser objeto dela, coisas de dentro ou de fora, e as suas relações.\n\nO que a intuição percebe são possibilidades. Jung diz que se reconhece o espírito intuitivo por não observar os fatos, mas as possibilidades: a intuição diz o que algo poderá se tornar, o seu de onde e o seu para onde. Como a sensação, é uma função irracional, que percebe e não julga, e as duas são opostas.\n\nO intuitivo tem faro para o que está nascendo e promete futuro, mas tende a abandonar uma situação assim que ela deixa de oferecer possibilidades novas. Quando a intuição domina, a sensação fica inferior, e a realidade concreta, o corpo e os detalhes viram o seu ponto fraco.",
+        "related": {
+          "terms": [
+            "quatro-funcoes",
+            "sensacao",
+            "intuicao-introvertida",
+            "intuicao-extrovertida"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 37,
+        "autolink": false
+      },
+      {
+        "slug": "pensamento-introvertido",
+        "term": "Pensamento introvertido",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo que pensa a partir da ideia interior: busca o aprofundamento, não a ampliação. O exemplo de Jung é Kant.",
+        "full": "No tipo pensamento introvertido, o pensamento se orienta sobretudo pelo fator subjetivo. Ele segue ideias, mas para dentro: procura o aprofundamento, não a ampliação de horizontes. Os fatos interessam como prova de uma ideia, nunca por si mesmos. Jung dá Kant como exemplo, por oposição a Darwin, o pensamento extrovertido.\n\nA função inferior desse tipo é o sentimento, e com ela a relação com os objetos e as pessoas. Por baixo da independência intelectual, ele pode ser sugestionável e deixar-se explorar no plano afetivo. A crítica o fere fundo, e a reação pode ser amarga.\n\nO risco do tipo é a ideia que se fecha em si mesma, perdendo o contato com a realidade e ganhando um tom quase mitológico. A sua força é a capacidade de ir ao fundo de uma questão e formular o que ainda não tinha forma.",
+        "related": {
+          "terms": [
+            "pensamento",
+            "introversao",
+            "pensamento-extrovertido",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 38
+      },
+      {
+        "slug": "pensamento-extrovertido",
+        "term": "Pensamento extrovertido",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo que pensa a partir dos fatos e de uma fórmula objetiva, que vira a medida do certo e do errado. O exemplo de Jung é Darwin.",
+        "full": "No tipo pensamento extrovertido, o pensamento se orienta pelos dados objetivos: fatos, ideias aceitas, regras de fora. Ele tende a viver segundo uma fórmula intelectual objetiva, que serve de medida para o bem e o mal, para si e para os outros. Jung dá Darwin como exemplo.\n\nA função inferior desse tipo é o sentimento. Reprimido para que a fórmula reine, ele volta pelo inconsciente como suscetibilidade e ressentimento, justamente onde o tipo se acha mais objetivo.\n\nO risco é o dogmatismo. Quando a fórmula é ameaçada, a defesa vira fanatismo, e Jung lembra que fanatismo nada mais é do que supercompensação da dúvida. A força do tipo é a capacidade de organizar o mundo, pôr ordem nos fatos e agir com coerência.",
+        "related": {
+          "terms": [
+            "pensamento",
+            "extroversao",
+            "pensamento-introvertido",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 39
+      },
+      {
+        "slug": "sentimento-introvertido",
+        "term": "Sentimento introvertido",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo de sentimento intenso e pouco visível: “as águas mansas são as mais profundas”.",
+        "full": "No tipo sentimento introvertido, o sentimento se orienta pelo fator subjetivo. Jung aplica a ele o ditado “as águas mansas são as mais profundas”. Os seus sentimentos não são extensivos, mas intensivos: não se mostram, e por isso, vistos de fora, parecem frios, embora sejam profundos.\n\nPessoas desse tipo costumam ser quietas, discretas e difíceis de decifrar, porque os seus motivos verdadeiros ficam encobertos. Os valores que guiam a sua vida são interiores e podem ter um caráter quase universal, de convicção silenciosa.\n\nA função inferior é o pensamento, que tende a ser projetado: o tipo fica preocupado com o que os outros pensam dele. O risco é que a força interior vire um poder secreto sobre os outros. Jung fazia, em 1921, uma associação entre esse tipo e as mulheres, que é marca da época e não da estrutura.",
+        "related": {
+          "terms": [
+            "sentimento",
+            "introversao",
+            "sentimento-extrovertido",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 40
+      },
+      {
+        "slug": "sentimento-extrovertido",
+        "term": "Sentimento extrovertido",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo que sente de acordo com os valores aceitos à sua volta: o sentir adequado à situação.",
+        "full": "No tipo sentimento extrovertido, o sentimento se orienta pelos valores objetivos, aqueles que são reconhecidos à sua volta. Essas pessoas sentem o que a situação pede, e o fazem de modo genuíno: não é falsidade, é sintonia com os valores comuns. Isso as torna bem adaptadas e calorosas no convívio.\n\nA função inferior desse tipo é o pensamento, reprimido ao máximo. Jung resume a atitude numa frase: não consigo pensar o que não sinto. O pensamento que fica de fora volta pelo inconsciente de forma primitiva e negativa, muitas vezes desvalorizando justamente o que a pessoa mais preza.\n\nO risco é a personalidade ser tragada pelo objeto e pelas expectativas dos outros, até perder o contato com os próprios sentimentos. Em 1921, Jung via esse tipo com mais frequência nas mulheres, uma associação que é da época, não da estrutura.",
+        "related": {
+          "terms": [
+            "sentimento",
+            "extroversao",
+            "sentimento-introvertido",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 41
+      },
+      {
+        "slug": "sensacao-introvertida",
+        "term": "Sensação introvertida",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo que percebe pela impressão subjetiva que as coisas deixam: vê o mundo como se fosse por olhos muito antigos.",
+        "full": "No tipo sensação introvertida, a percepção se orienta sobretudo pela parte subjetiva da sensação. Essa pessoa percebe as mesmas coisas que todo mundo, mas não se demora no objeto: o que conta é a impressão que o estímulo desperta nela. Jung dá o exemplo de vários pintores diante da mesma paisagem, cada um produzindo um quadro diferente.\n\nA imagem que esse tipo forma do mundo não reproduz tanto o objeto quanto o cobre com uma camada de experiência subjetiva, antiga e futura. Jung diz que ele vê as coisas como as veria uma consciência de um milhão de anos, e que vive num mundo de certo modo mitológico. Por fora, costuma parecer calmo e pouco expressivo.\n\nA função inferior é a intuição, que trabalha no inconsciente e fareja o sombrio e o ameaçador por trás da realidade. Quando a tensão cresce, essa intuição inferior pode trazer temores e pensamentos obsessivos.",
+        "related": {
+          "terms": [
+            "sensacao",
+            "introversao",
+            "sensacao-extrovertida",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 42
+      },
+      {
+        "slug": "sensacao-extrovertida",
+        "term": "Sensação extrovertida",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo mais realista de todos: vive dos fatos concretos e do prazer do momento.",
+        "full": "Para Jung, não há tipo humano que se iguale em realismo ao tipo sensação extrovertida. O seu senso dos fatos objetivos é extraordinariamente desenvolvido: ele vive o que está presente, com intensidade, e a sua intenção se volta para o gozo concreto da vida, o que dá ao tipo uma presença calorosa e prática.\n\nPara essa pessoa, nada existe além do concreto. O que não pode ser visto, tocado ou vivido agora tem pouco peso, e as ideias e as possibilidades parecem abstratas demais.\n\nA função inferior é a intuição. Reprimida, ela volta pelo inconsciente em forma de suposições aventureiras, projeções e pressentimentos sombrios sobre os outros. Nos casos extremos, Jung descreve fobias e escrúpulos de tom moral ou religioso, a intuição esquecida cobrando o seu lugar.",
+        "related": {
+          "terms": [
+            "sensacao",
+            "extroversao",
+            "sensacao-introvertida",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 43
+      },
+      {
+        "slug": "intuicao-introvertida",
+        "term": "Intuição introvertida",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo visionário, voltado para as imagens interiores: Jung diz que sem ele Israel não teria tido os seus profetas.",
+        "full": "No tipo intuição introvertida, a intuição se volta para os objetos interiores, as imagens que vêm do inconsciente. Elas se comportam para ele como se fossem coisas de fora, só que com realidade psíquica. Esse tipo vai de imagem em imagem, perseguindo as possibilidades que brotam do inconsciente, e capta as imagens dos arquétipos.\n\nÉ o tipo do visionário, do profeta e de certos artistas. Jung escreve que Israel não teria tido os seus profetas se não tivesse existido esse tipo. A sua força é perceber o que está se formando antes de todo mundo; o seu risco é falar como a voz que clama no deserto, sem conseguir pôr o que vê em contato com a vida prática.\n\nA função inferior é a sensação, de modo primitivo. Ela pesa sobre a atitude rarefeita do intuitivo e pode voltar como sensações compulsivas e dependência das impressões do corpo, além de uma dificuldade real com as coisas concretas.",
+        "related": {
+          "terms": [
+            "intuicao",
+            "introversao",
+            "intuicao-extrovertida",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 44
+      },
+      {
+        "slug": "intuicao-extrovertida",
+        "term": "Intuição extrovertida",
+        "aliases": [],
+        "category": "tipologia",
+        "mascara": "",
+        "short": "O tipo com faro para o que está nascendo e promete futuro, que abandona a situação quando ela deixa de ter possibilidades.",
+        "full": "No tipo intuição extrovertida, a intuição se volta para as possibilidades do mundo de fora. Jung lhe atribui um faro aguçado para o embrionário e para o que promete futuro: pessoas, negócios, ideias, movimentos que ainda vão acontecer. É o tipo do empreendedor, do descobridor e do agitador de novidades.\n\nO problema é que essa pessoa abandona o que acabou de fixar assim que deixa de enxergar ali uma possibilidade nova. Ela semeia muito e colhe pouco: pode fragmentar a própria vida e, no fim, ficar de mãos vazias.\n\nA função inferior é a sensação, a relação com o concreto e com o corpo. Reprimida, ela se vinga em ligações compulsivas com pessoas ou coisas inconvenientes, e às vezes em preocupações exageradas com o corpo.",
+        "related": {
+          "terms": [
+            "intuicao",
+            "extroversao",
+            "intuicao-introvertida",
+            "funcao-inferior"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 45
+      },
+      {
+        "slug": "energia-psiquica",
+        "term": "Energia psíquica",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "A intensidade dos processos psíquicos: o que dá valor a um conteúdo. Jung também a chama de libido.",
+        "full": "Jung propõe olhar a psique pelo ponto de vista da energia. Energia psíquica, que ele também chama de libido, é a intensidade de um processo psíquico, o seu valor psicológico. Quanto mais energia um conteúdo tem, mais ele pesa na vida da pessoa. Ela aparece nos instintos, nos desejos, na vontade, nos afetos e na atenção.\n\nEsse ponto de vista segue algumas regras. Pela equivalência, a energia que some de um lugar reaparece em outro, e não se perde. E ela nasce da tensão entre opostos: sem diferença de potencial, não há energia nem vida.\n\nA energia psíquica também ajuda a ler o movimento da vida. Na progressão, ela corre para a adaptação ao mundo de fora; na regressão, volta para dentro e reativa o inconsciente. Jung insiste em olhar não só para a causa, de onde a energia vem, mas também para a finalidade, para onde ela tende.",
+        "related": {
+          "terms": [
+            "libido",
+            "regressao",
+            "opostos",
+            "compensacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 46
+      },
+      {
+        "slug": "libido",
+        "term": "Libido",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "Para Jung, a energia psíquica em geral, sentida como desejo e anseio, e não só a energia sexual.",
+        "full": "Libido é o nome que Jung dá à energia psíquica: a energia que se manifesta no processo vital e que sentimos como desejo e anseio. Em Tipos psicológicos (1921), ele resume: por libido entendo a energia psíquica, a intensidade do processo psíquico, o seu valor.\n\nA palavra vinha de Freud, para quem a libido era sobretudo energia sexual. Jung a ampliou, e essa foi uma das razões da ruptura entre os dois. Ele lembra que, em latim, libido quer dizer avidez, desejo, impulso, e que numa teoria geral da psique não dá para explicar tudo por um único impulso. A sexualidade continua sendo uma das formas da energia, mas não a única.\n\nPara Jung, a libido não se deixa apreender em si: só aparece numa forma determinada, nas imagens da fantasia, nos símbolos, nos interesses de uma pessoa. Por isso acompanhar para onde vai a libido é uma maneira de entender o que está vivo, e o que está bloqueado, numa vida.",
+        "related": {
+          "terms": [
+            "energia-psiquica",
+            "eros",
+            "regressao",
+            "simbolo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 47
+      },
+      {
+        "slug": "afeto",
+        "term": "Afeto",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "aka",
+        "short": "Um estado de sentimento intenso, acompanhado de alterações no corpo, que perturba o curso das ideias. Jung o usa como sinônimo de emoção.",
+        "full": "Em Tipos psicológicos (1921), Jung define afeto como um estado de sentimento marcado, de um lado, por alterações perceptíveis no corpo e, de outro, por uma perturbação no curso das ideias. Na mesma passagem diz que usa afeto como sinônimo de emoção.\n\nO critério que separa o afeto do sentimento é o corpo. O sentimento, como função, é um julgamento de valor sem grandes reações físicas; quando ganha força suficiente, mobiliza o corpo e vira afeto. A passagem de um para o outro é gradual, mas a diferença importa: o sentimento é uma função que se usa, o afeto é algo que acontece com a gente.\n\nO afeto tem um papel central na teoria de Jung. Os complexos são carregados de afeto, e é pela reação afetiva que eles se denunciam. Num afeto forte, o eu é empurrado para fora de si e outra coisa toma o seu lugar, o que faz do afeto a porta mais comum por onde o inconsciente invade a consciência.",
+        "related": {
+          "terms": [
+            "emocao",
+            "complexo",
+            "sentimento",
+            "corpo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 48
+      },
+      {
+        "slug": "emocao",
+        "term": "Emoção",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "aka",
+        "short": "Um acontecimento que nos toma: um afeto forte que altera o corpo e tira o eu do controle.",
+        "full": "Jung usa emoção e afeto como sinônimos: os dois nomeiam a mesma coisa que nos afeta e interfere em nós. Ele a distingue do sentimento pelo corpo. O sentimento pode não ter manifestação física; a emoção sempre vem acompanhada de uma condição fisiológica alterada.\n\nO traço que Jung mais sublinha é a passividade. A emoção não é uma atividade, mas um evento que sucede ao indivíduo. Nela, diz ele, somos empurrados, atirados para fora de nós mesmos: o eu decente se anula e é substituído por outra coisa. A pessoa vira mais objeto do que sujeito da emoção.\n\nAo mesmo tempo, a emoção tem valor. Jung vê nela uma das fontes da tomada de consciência: é a tensão emocional que muitas vezes faz algo novo surgir. O que importa é o eu não se perder nela, mas conseguir olhar para o que ela traz.",
+        "related": {
+          "terms": [
+            "afeto",
+            "complexo",
+            "consciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 49,
+        "autolink": false
+      },
+      {
+        "slug": "vontade",
+        "term": "Vontade",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "A parte da energia psíquica que está à disposição da consciência, pouca mas preciosa.",
+        "full": "Jung define a vontade em termos de energia: é a soma de energia à disposição da consciência. A volição é um processo energético liberado por uma motivação consciente. No esquema das funções, o eu está no centro, dotado de certa quantidade de energia, que é a força da vontade.\n\nEssa energia livre é pouca. Jung diz que o homem moderno conquistou mais vontade do que o primitivo, mas talvez não muita. Grande parte da energia psíquica continua presa aos instintos e aos complexos, e não obedece ao eu.\n\nA vontade depende da reflexão e da qualidade da consciência. Ela permite dirigir a atenção, escolher, amar no sentido ativo, distinto de estar apaixonado. Mas Jung também desconfia dela: a vontade não cria por si o seu conteúdo, que vem de processos anteriores, e não consegue dominar o inconsciente pela força.",
+        "related": {
+          "terms": [
+            "energia-psiquica",
+            "ego",
+            "consciencia",
+            "instinto"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 50,
+        "autolink": false
+      },
+      {
+        "slug": "conflito",
+        "term": "Conflito",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "A tensão entre duas tendências opostas da psique; quando uma tenta suprimir a outra, abre-se o caminho da neurose.",
+        "full": "Para Jung, o conflito é um dos poucos fenômenos encontrados em todas as neuroses. Ele descreve uma escada: a tensão leva ao conflito; o conflito leva à tentativa de um lado reprimir o outro; quando se consegue suprimir o lado oposto, instala-se a dissociação, a cisão da personalidade, e aí nasce a possibilidade da neurose.\n\nO conflito que adoece tem raiz na oposição entre consciência e inconsciente. Essa oposição é normal e não vira conflito enquanto a atitude consciente não é unilateral demais. Os complexos sempre contêm algo como um conflito, ou dão origem a ele, ou vêm dele.\n\nMas o conflito também é o motor da transformação. Jung insiste que ele não se resolve suprimindo um dos lados, e sim sustentando a tensão até que surja algo novo, um terceiro que una os opostos: é o trabalho da função transcendente e do símbolo.",
+        "related": {
+          "terms": [
+            "opostos",
+            "dissociacao",
+            "neurose",
+            "funcao-transcendente"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 51,
+        "autolink": false
+      },
+      {
+        "slug": "opostos",
+        "term": "Os opostos",
+        "aliases": [
+          "pares de opostos"
+        ],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "Os pares de contrários que estruturam a psique: sem a tensão entre eles não há energia nem vida.",
+        "full": "Os opostos estão no centro da psicologia de Jung. Ele diz que vê em tudo o jogo dos opostos e que daí tira a sua ideia de energia psíquica: a energia nasce da tensão entre polos, como a diferença de potencial na física. A vida é um equilíbrio contínuo entre contrários, e abolir os opostos seria o mesmo que a morte.\n\nJung fala de opostos em vários planos: consciência e inconsciente, introversão e extroversão, pensamento e sentimento, masculino e feminino, espírito e matéria, bem e mal. Ele separa os opostos naturais, como claro e escuro ou quente e frio, dos opostos morais, que pesam mais nas suas reflexões sobre religião.\n\nA unilateralidade da consciência, que escolhe um lado, desperta o lado oposto no inconsciente. Por isso o caminho que Jung propõe não é vencer um polo, mas sustentar a tensão entre os dois até que surja um símbolo capaz de uni-los, a coniunctio dos alquimistas.",
+        "related": {
+          "terms": [
+            "energia-psiquica",
+            "compensacao",
+            "funcao-transcendente",
+            "coniunctio"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 52
+      },
+      {
+        "slug": "compensacao",
+        "term": "Compensação",
+        "aliases": [
+          "compensatório",
+          "autorregulação"
+        ],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "A autorregulação da psique: o inconsciente equilibra a unilateralidade da consciência, trazendo o que ficou de fora.",
+        "full": "Compensação é o princípio que faz da psique um sistema que se regula sozinho, como o corpo. A consciência é forçosamente seletiva e unilateral; o que ela deixa de fora não some, mas vira um contrapeso no inconsciente. Jung escreve que a função compensatória é a função natural e sempre disponível do inconsciente: o que falta de um lado cria um excesso do outro.\n\nA ideia veio de Adler, que via na neurose uma inferioridade compensada por fantasias de superioridade. Jung tira o mecanismo da patologia e o transforma numa lei geral da vida psíquica. A compensação não é hostil: é uma tentativa de restabelecer o equilíbrio.\n\nA força da compensação é proporcional à unilateralidade. Quanto mais rígida a atitude consciente, mais forte a resposta do inconsciente. Por isso, ao ler um sonho, Jung pergunta que atitude consciente ele está compensando: o sonho mostra o outro lado da situação.",
+        "related": {
+          "terms": [
+            "inconsciente",
+            "sonho",
+            "opostos",
+            "consciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 53
+      },
+      {
+        "slug": "regressao",
+        "term": "Regressão",
+        "aliases": [
+          "progressão"
+        ],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "O recuo da energia psíquica para estágios anteriores diante de um obstáculo; pode ser fuga, mas também o caminho da renovação.",
+        "full": "Regressão é o movimento para trás da energia psíquica. Jung a descreve assim: diante de um obstáculo aparentemente intransponível, a pessoa recua ao tempo em que viveu uma situação parecida e tenta empregar de novo os meios que serviram outrora. A libido se retrai diante do problema, volta-se para dentro e reativa no inconsciente um equivalente mais primitivo da situação.\n\nO par é a progressão: o fluxo da energia para a adaptação ao mundo de fora. Quando a adaptação falha, a energia represada regride. Jung reconhece que o conceito vem de Freud e o considera uma das grandes descobertas da psicanálise, mas discorda do mecanismo: a regressão não é necessariamente sexual, e sim a volta para o infantil para fugir das obrigações reais.\n\nA regressão não é só negativa. Ao descer ao inconsciente, a energia reativa conteúdos que trazem o germe de uma vida nova e de uma adaptação à vida interior. Por isso, em Jung, ela pode ser o primeiro passo de uma renovação, a descida que precede o renascimento.",
+        "related": {
+          "terms": [
+            "energia-psiquica",
+            "libido",
+            "renascimento",
+            "neurose"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 54
+      },
+      {
+        "slug": "repressao",
+        "term": "Repressão",
+        "aliases": [
+          "recalque"
+        ],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "O mecanismo que tira da consciência um conteúdo incompatível com ela, produzindo esquecimento.",
+        "full": "Jung define repressão como o mecanismo que desloca um conteúdo para fora do campo da consciência. É uma espécie de perda de memória que a pessoa sugere a si mesma, e se distingue da supressão justamente por isso: suprimir um conteúdo não faz esquecer, reprimir faz.\n\nO conceito vem de Freud, para quem a repressão é o centro da teoria: o inconsciente seria antes de tudo o reprimido. Jung aceita o mecanismo, mas discorda dessa extensão. Para ele, o inconsciente não se resume ao que foi reprimido: além disso, existe um vasto patrimônio que nunca foi consciente, o inconsciente coletivo.\n\nJung também discute se a repressão é voluntária. Em certas passagens diz que o termo, a rigor, só valeria quando houvesse um ato voluntário; em outras admite que ela acontece de modo mais ou menos involuntário. De todo modo, o reprimido não desaparece: continua agindo do inconsciente, nos sintomas e nos sonhos.",
+        "related": {
+          "terms": [
+            "inconsciente-pessoal",
+            "sombra",
+            "complexo",
+            "inconsciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 55
+      },
+      {
+        "slug": "dissociacao",
+        "term": "Dissociação",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "A cisão da psique em partes que funcionam separadas. É uma tendência natural da psique e, no extremo, a base da neurose.",
+        "full": "Dissociação é a cisão da personalidade: partes da psique passam a funcionar separadas, às vezes em desacordo com o eu. Jung a conta entre os poucos pontos de vista gerais que sobram de toda teoria da neurose, ao lado do conflito, do complexo e da regressão.\n\nPara Jung, a dissociação é antes de tudo uma propriedade da psique. A psique não é uma estrutura homogênea, mas uma pluralidade de complexos frouxamente ligados, com tendência a se desagregar. Essa tendência tem um lado produtivo: é ela que permite que partes da psique ganhem figura, como os espíritos e os deuses, e que se possa dialogar com a anima.\n\nNo sentido clínico, a dissociação é a raiz da neurose. Quando a atitude consciente e a tendência inconsciente se distanciam demais, a consciência vai para um lado e o inconsciente para o outro. O caminho de volta não é eliminar uma das partes, mas reuni-las numa síntese que inclua as duas.",
+        "related": {
+          "terms": [
+            "neurose",
+            "conflito",
+            "complexo",
+            "autonomia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 56
+      },
+      {
+        "slug": "neurose",
+        "term": "Neurose",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "Uma desunião consigo mesmo: a personalidade se cinde porque a atitude consciente se afastou demais do inconsciente.",
+        "full": "Jung define a neurose como uma dissociação da personalidade, causada pela existência de complexos incompatíveis com a atitude consciente. Ter complexos é normal; o problema começa quando a parte contrária se separa da consciência e passa a agir por conta própria. A neurose é, nas palavras dele, a desunião consigo mesmo.\n\nJung também a lê em termos de adaptação: a neurose é um processo de adaptação prejudicado, seja ao mundo de fora, seja às necessidades interiores da própria pessoa. Por isso, diz ele, a causa verdadeira está menos na história da infância do que na atitude atual do paciente, no modo como ele assimilou e usou o que viveu.\n\nO sintoma, nesse quadro, não é só um defeito. Jung vê na neurose uma tentativa, ainda que frustrada, de resolver um problema que é da própria vida. Por isso pergunta não apenas pela causa da neurose, mas também pelo que ela está pedindo que a pessoa encare.",
+        "related": {
+          "terms": [
+            "dissociacao",
+            "conflito",
+            "complexo",
+            "adaptacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 57
+      },
+      {
+        "slug": "adaptacao",
+        "term": "Adaptação",
+        "aliases": [],
+        "category": "dinamica",
+        "mascara": "",
+        "short": "O ajuste mútuo entre a pessoa e o que a cerca, voltado para o mundo de fora e também para as exigências interiores.",
+        "full": "Para Jung, toda atividade vital é adaptação. A relação entre sujeito e objeto é sempre de influência mútua, e essas modificações são a adaptação. A consciência é o órgão dessa função: um aparelho de orientação e de adaptação ao momento.\n\nO ponto decisivo é que a adaptação tem dois lados. Há a adaptação às condições externas, o trabalho, a sociedade, as relações, que tem na persona o seu instrumento. E há a adaptação às condições internas, às necessidades da própria natureza, que passa pela relação com o inconsciente e pela anima.\n\nUma vida bem adaptada só por fora pode estar mal adaptada por dentro, e vice-versa. Jung define a neurose justamente como uma adaptação prejudicada, de um lado ou do outro. Na segunda metade da vida, a tarefa costuma se deslocar da adaptação externa para a interna.",
+        "related": {
+          "terms": [
+            "persona",
+            "neurose",
+            "regressao",
+            "consciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 58,
+        "autolink": false
+      },
+      {
+        "slug": "complexo",
+        "term": "Complexo",
+        "aliases": [
+          "complexo autônomo"
+        ],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "Um conjunto de ideias e imagens unido por uma forte carga emocional, que ganha autonomia diante do eu. Não só temos complexos: eles nos têm.",
+        "full": "O complexo é o conceito de origem da psicologia de Jung. Ele o descobriu no começo do século XX, nos experimentos de associação de palavras: as hesitações e falhas nas respostas, que antes eram tratadas como erro, revelavam grupos de ideias carregados de emoção. Jung e Riklin deram a isso o nome de complexo de tonalidade afetiva.\n\nUm complexo é a imagem de uma situação psíquica com forte carga emocional e incompatível com a atitude habitual da consciência. Ele tem um núcleo e muitas associações em volta, mantidas juntas pela emoção comum. O traço decisivo é a autonomia: o complexo não obedece ao eu, aparece e some por conta própria e se manifesta em atos falhos, esquecimentos, reações exageradas e sonhos. Jung o chama de uma pequena psique secundária.\n\nTer complexos é normal; o próprio eu é um complexo. O que Jung sublinha é que, além de termos complexos, os complexos podem nos ter. O grau de autonomia faz a diferença entre o normal e a doença: na neurose ela é relativa, e na psicose pode se tornar absoluta.",
+        "related": {
+          "terms": [
+            "constelacao",
+            "afeto",
+            "ego",
+            "autonomia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 59
+      },
+      {
+        "slug": "constelacao",
+        "term": "Constelação",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "O momento em que uma situação de fora ativa um complexo: os conteúdos se juntam e a pessoa passa a reagir de um modo já definido.",
+        "full": "Jung usa a palavra constelação para o processo pelo qual uma situação exterior desencadeia uma reação psíquica, juntando e ativando certos conteúdos. Quando se diz que um complexo está constelado, quer dizer que a pessoa entrou numa atitude de expectativa e vai reagir de modo inteiramente definido.\n\nA constelação é automática: ninguém a detém pela vontade, porque os conteúdos ativados têm energia própria. Toda constelação de complexos perturba a consciência, rompe a sua unidade e atrapalha as intenções do eu. O núcleo de um complexo tem uma força consteladora proporcional ao seu valor emocional.\n\nA palavra vem dos experimentos de associação: o complexo constelava as respostas, desviando-as. Jung depois a generalizou, dizendo que a vida psíquica corre sob a influência constante de inúmeras constelações, na maioria inconscientes. Na análise, a própria relação com o terapeuta constela complexos dos dois lados.",
+        "related": {
+          "terms": [
+            "complexo",
+            "afeto",
+            "transferencia",
+            "energia-psiquica"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 60
+      },
+      {
+        "slug": "projecao",
+        "term": "Projeção",
+        "aliases": [
+          "projetar"
+        ],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "O deslocamento involuntário de um conteúdo inconsciente para fora: passamos a vê-lo num objeto ou numa pessoa.",
+        "full": "Projeção é o mecanismo pelo qual um conteúdo psíquico passa a ser encontrado num objeto, como se pertencesse a ele. Jung insiste que ninguém projeta de propósito: a projeção acontece, simplesmente está aí. Por isso ele diz que não é o sujeito que projeta, mas o inconsciente. O que é nosso aparece fora, numa pessoa, num grupo, num deus, na matéria.\n\nPara que haja projeção, o objeto precisa oferecer algum gancho, alguma semelhança que acolha o conteúdo. A consequência é uma percepção encoberta: vemos o real modificado e nos isolamos do mundo como ele é. A sombra é projetada no inimigo, a anima na mulher amada, a imagem do pai no chefe ou no Estado.\n\nA projeção não é só um erro. Enquanto o conteúdo é inconsciente, ela é a única forma de chegar até ele: é uma conscientização indireta. O trabalho é reconhecer o que é nosso e retirar a projeção, mas Jung admite que, enquanto vivemos, nunca retiramos todas.",
+        "related": {
+          "terms": [
+            "sombra",
+            "transferencia",
+            "anima",
+            "identidade"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 61
+      },
+      {
+        "slug": "identificacao",
+        "term": "Identificação",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "O estado em que a pessoa se confunde com algo que não é ela, um papel, outra pessoa, um arquétipo, sem perceber.",
+        "full": "Jung define identificação como um alheamento do sujeito de si mesmo em favor de um objeto que ele, por assim dizer, assume. Ela só acontece com base numa semelhança inconsciente, não percebida, e tem força justamente por ser inconsciente.\n\nA pessoa pode se identificar com os pais, com a persona, o seu papel social, ou com um complexo; na Idade Média, lembra Jung, a identificação com um complexo se chamava possessão. O caso mais grave é a identificação com um arquétipo ou com o si-mesmo. Aí não somos nós que nos identificamos: somos tomados por ele, e isso produz inflação.\n\nPara Jung, o grande risco da individuação está justamente aí, na identificação do eu com o si-mesmo. Ele lê a tragédia de Nietzsche como a de alguém que, em vez de se confrontar com Zaratustra, se identificou com ele. O caminho é sempre o oposto: distinguir-se daquilo com que se estava confundido.",
+        "related": {
+          "terms": [
+            "identidade",
+            "inflacao",
+            "persona",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 62
+      },
+      {
+        "slug": "identidade",
+        "term": "Identidade",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "Uma igualdade inconsciente entre sujeito e objeto: o estado em que a pessoa ainda não se distingue do outro.",
+        "full": "Em Tipos psicológicos (1921), Jung fala de identidade no caso de uma igualdade psicológica que é sempre inconsciente. Se fosse consciente, pressuporia a separação entre sujeito e objeto, e a identidade deixaria de existir. É um estado, não um juízo: a ausência de distinção entre uma pessoa e outra, ou entre a pessoa e um conteúdo psíquico.\n\nJung aproxima esse conceito da participation mystique descrita pelo etnólogo Lévy-Bruhl, uma identidade arcaica entre o sujeito e as coisas, presente na mentalidade primitiva e na criança pequena. Sobre essa identidade de base se apoiam a identificação com os pais e também a possibilidade da projeção.\n\nA consciência nasce quando a identidade se dissolve. Enquanto a pessoa é idêntica ao objeto, não há indivíduo psicológico, apenas psicologia coletiva. Por isso Jung diz que a identidade não permite a consciência, e que tornar-se consciente é sempre diferenciar-se.",
+        "related": {
+          "terms": [
+            "identificacao",
+            "projecao",
+            "diferenciacao",
+            "inconsciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 63,
+        "autolink": false
+      },
+      {
+        "slug": "inflacao",
+        "term": "Inflação",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "A expansão da personalidade além dos próprios limites, quando o eu se identifica com um conteúdo maior do que ele.",
+        "full": "Jung fala de inflação psíquica para descrever uma expansão da personalidade além dos limites individuais, ou seja, uma presunção. A palavra é literal: a pessoa se enche de ar, de espírito, fica leve demais, sobe demais e, depois, precisa de uma descida.\n\nO mecanismo é a identificação do eu com um conteúdo do inconsciente coletivo, sobretudo com um arquétipo. Como o arquétipo tem uma força numinosa, quem se identifica com ele se sente maior do que é. Jung distingue dois sentidos. A inflação positiva se parece com a megalomania; a negativa leva ao esmagamento do eu, à sensação de não ser nada.\n\nA inflação é um dos riscos centrais do trabalho com o inconsciente. Quem descobre conteúdos coletivos pode tomá-los como seus, achar-se um profeta ou um eleito. A saída é a diferenciação: o eu reconhecer o conteúdo, sem se confundir com ele.",
+        "related": {
+          "terms": [
+            "identificacao",
+            "arquetipo",
+            "si-mesmo",
+            "ego"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 64
+      },
+      {
+        "slug": "assimilacao",
+        "term": "Assimilação",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "A incorporação de um conteúdo por outro; em Jung, sobretudo a interpenetração entre conteúdos conscientes e inconscientes.",
+        "full": "Jung usa assimilação em mais de um sentido. No mais antigo, vindo dos experimentos de associação, ela nomeia a distorção que um complexo produz na percepção: quanto mais forte o complexo, mais a palavra estímulo é entendida num sentido especial, adaptado a ele. É a assimilação que deforma.\n\nNo sentido mais importante para a obra madura, assimilação é a interpenetração recíproca de conteúdos conscientes e inconscientes. Jung insiste que não se trata de uma avaliação unilateral, nem de uma reinterpretação dos conteúdos inconscientes pela consciência. Os dois lados se transformam no encontro.\n\nO perigo é o contrário disso: o eu ser assimilado pelo inconsciente, em vez de assimilá-lo. Quando um conteúdo forte invade a consciência sem ser elaborado, a pessoa é tomada por ele. Por isso a assimilação do inconsciente é uma tarefa delicada, que exige um eu firme o bastante para receber sem se dissolver.",
+        "related": {
+          "terms": [
+            "integracao",
+            "complexo",
+            "inconsciente",
+            "inflacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 65,
+        "autolink": false
+      },
+      {
+        "slug": "autonomia",
+        "term": "Autonomia",
+        "aliases": [
+          "automatismo"
+        ],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "A capacidade de um conteúdo psíquico de agir por conta própria, sem obedecer ao eu.",
+        "full": "Jung usa autonomia, primeiro, para descrever o complexo. Um complexo não se submete à vontade: vem e vai segundo as suas próprias leis e pode agir contra as intenções conscientes, impondo-se com força tirânica. Ele defende a palavra dizendo que não saberia descrever de outro modo o comportamento dos conteúdos ativos do inconsciente.\n\nA partir do complexo, a ideia se estende a quase tudo o que escapa ao eu: o inconsciente como um todo, os arquétipos, a anima e o animus, a função inferior. Jung chega a formular uma regra: toda parte relativamente independente da psique tende a se personificar, a ganhar rosto e voz, assim que tem ocasião de se expressar com autonomia.\n\nÉ por isso que a psicologia de Jung fala de figuras e personagens interiores, e não só de mecanismos. O grau de autonomia também separa o normal da doença: todos têm conteúdos autônomos, mas, quanto mais eles se descolam do eu, mais a personalidade se divide.",
+        "related": {
+          "terms": [
+            "complexo",
+            "dissociacao",
+            "inconsciente",
+            "anima"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 66,
+        "autolink": false
+      },
+      {
+        "slug": "transferencia",
+        "term": "Transferência",
+        "aliases": [],
+        "category": "mecanismos",
+        "mascara": "",
+        "short": "A projeção de conteúdos inconscientes sobre o analista: um caso especial de projeção, que é também o campo do tratamento.",
+        "full": "O termo vem de Freud: na análise, o paciente transfere para o analista as fantasias e os afetos antes ligados às figuras dos pais. Jung define a transferência, em sentido preciso, como uma projeção de conteúdos inconscientes sobre a pessoa que está analisando o inconsciente, e a considera um caso especial do processo mais geral da projeção.\n\nJung discorda de reduzir a transferência a fantasias eróticas infantis. O que se projeta no analista pode ser também conteúdo coletivo, arquetípico: a imagem do salvador, do mago, do sábio. E a relação não é de mão única: o analista também é afetado, e a análise é um encontro em que os dois se transformam.\n\nJung dedicou um livro ao tema, A psicologia da transferência (1946), em que lê a relação entre analista e paciente com as imagens alquímicas da união dos opostos. Para ele, a transferência não é um obstáculo a remover, mas o lugar onde o trabalho acontece.",
+        "related": {
+          "terms": [
+            "projecao",
+            "coniunctio",
+            "metodo-dialetico",
+            "constelacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 67
+      },
+      {
+        "slug": "individuacao",
+        "term": "Individuação",
+        "aliases": [
+          "processo de individuação"
+        ],
+        "category": "processo",
+        "mascara": "",
+        "short": "O processo de tornar-se quem se é: um indivíduo inteiro, distinto do coletivo, em relação com o si-mesmo.",
+        "full": "Individuação é o nome que Jung dá ao processo de desenvolvimento psicológico que torna alguém um indivíduo: um ser único e, ao mesmo tempo, inteiro. Ele a traduz como tornar-se si-mesmo. A definição tem duas camadas. Uma é a diferenciação, distinguir-se da psicologia coletiva e das identificações; a outra é a totalidade, integrar o que estava cindido.\n\nO processo costuma começar pela tomada de consciência da sombra e passa pela distinção em relação à persona e pelo confronto com a anima ou o animus. Não segue um roteiro fixo: anda em espiral, com mortes e renascimentos da atitude consciente. Jung recusa vê-la como técnica terapêutica ou como aperfeiçoamento moral.\n\nPara Jung, a individuação é um processo natural, pelo qual todo ser vivo se torna o que está destinado a ser, mas na psique ela só se realiza plenamente quando é acompanhada pela consciência. E não é individualismo: ela leva a uma relação mais intensa e mais ampla com os outros, não ao isolamento.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "sombra",
+            "totalidade",
+            "integracao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 68
+      },
+      {
+        "slug": "integracao",
+        "term": "Integração",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "O trabalho de trazer para a consciência conteúdos que estavam no inconsciente, reconhecendo-os e assumindo-os.",
+        "full": "Integração, em Jung, é a incorporação de conteúdos inconscientes à consciência. Ele a chama de operação principal da sua psicologia e diz que a psicoterapia consiste, sobretudo, nisso. Em outro lugar resume: a integração equivale à conscientização.\n\nIntegrar não é só entender. Jung a descreve como um ato individual de realização, compreensão e valoração moral, uma tarefa difícil, que exige responsabilidade ética. Reconhecer a própria sombra, por exemplo, é admitir que algo que se via nos outros também está em nós.\n\nNem todo conteúdo se integra do mesmo modo. Os conteúdos pessoais podem ser integrados sem prejuízo para o eu; os conteúdos coletivos, os arquétipos, não se deixam absorver por inteiro, e tentar integrá-los pode inflar o eu. Quando conteúdos inconscientes irrompem com violência e o eu não consegue assimilá-los, Jung fala de uma integração patológica.",
+        "related": {
+          "terms": [
+            "individuacao",
+            "assimilacao",
+            "sombra",
+            "consciencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 69,
+        "autolink": false
+      },
+      {
+        "slug": "diferenciacao",
+        "term": "Diferenciação",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "O ato de distinguir, separar o que estava misturado. Para Jung, é a essência da consciência.",
+        "full": "Diferenciação, para Jung, é o ato pelo qual algo sai do estado indistinto e passa a poder ser percebido e dirigido. Ele diz que a diferenciação é a essência, a condição sem a qual não há consciência: tudo o que é inconsciente é indiferenciado. Ampliar a consciência é separar os opostos uns dos outros, e isso vai contra a natureza, que tende a manter tudo misturado.\n\nA palavra tem um sentido histórico. A consciência da humanidade se destacou lentamente de um estado primitivo de indiferenciação, ao longo de milênios. O mesmo acontece em cada pessoa, que precisa se diferenciar dos pais e do grupo para existir como indivíduo.\n\nNa tipologia, diferenciação é o desenvolvimento de uma função psicológica: a mais diferenciada se torna dominante, disponível e dirigível; as outras ficam para trás, misturadas e arcaicas. Na individuação, o movimento continua, mas pede também o caminho de volta: depois de separar, reunir o que foi separado.",
+        "related": {
+          "terms": [
+            "consciencia",
+            "identidade",
+            "funcao-superior",
+            "individuacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 70,
+        "autolink": false
+      },
+      {
+        "slug": "totalidade",
+        "term": "Totalidade",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "A pessoa inteira, consciente e inconsciente. Em Jung, é sobretudo o nome do si-mesmo e a meta da individuação.",
+        "full": "Totalidade é uma das palavras centrais de Jung. No sentido técnico, ela define o si-mesmo: a totalidade da psique consciente e inconsciente. Ele escolheu o nome si-mesmo justamente por ser determinado o bastante para dar uma ideia da totalidade humana, e indeterminado o bastante para respeitar o que nela é indescritível.\n\nEm sentido mais largo, totalidade é a pessoa inteira, o homo totus que a análise procura. Jung fala também de uma tendência do inconsciente para a totalidade, uma aspiração que aparece espontaneamente nos sonhos, em imagens de círculos, quadrados, mandalas e figuras de quatro partes.\n\nA totalidade não é perfeição. Ser inteiro inclui o lado escuro, a sombra e a função inferior. Por isso Jung opõe a totalidade ao ideal de perfeição: quem quer ser perfeito exclui o que não combina com o ideal; quem busca a totalidade aceita incluir o que preferiria não ver.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "individuacao",
+            "mandala",
+            "quaternidade"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 71
+      },
+      {
+        "slug": "unidade",
+        "term": "Unidade",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "A coesão da personalidade, nunca garantida: a psique é múltipla, e a unidade é uma conquista que o si-mesmo expressa.",
+        "full": "Jung usa unidade em vários sentidos. No psicológico, ele duvida da unidade da consciência: a existência dos complexos mostra que a psique está longe de ser uma unidade, e se parece mais com uma mistura de impulsos e afetos contraditórios. A unidade e a continuidade da consciência são aquisições recentes, que ainda podem se perder.\n\nAo mesmo tempo, o inconsciente tende a produzir unidade. A individuação é descrita como o tornar-se um consigo mesmo, e o si-mesmo é o que expressa a unidade da personalidade como um todo. Jung o chama de complexio oppositorum: uma unidade que contém os opostos, e não que os elimina.\n\nEssa unidade nunca está pronta. Ela se reorganiza, muitas vezes de forma conflituosa, e a vida sempre traz elementos novos a integrar. Jung também fala de unidade em sentido alquímico e religioso, como no unus mundus, a ideia de um mundo único por trás da divisão entre psique e matéria.",
+        "related": {
+          "terms": [
+            "totalidade",
+            "si-mesmo",
+            "dissociacao",
+            "opostos"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 72,
+        "autolink": false
+      },
+      {
+        "slug": "funcao-transcendente",
+        "term": "Função transcendente",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "A função que faz a travessia de uma atitude para outra, unindo consciência e inconsciente num terceiro elemento, o símbolo.",
+        "full": "Função transcendente não tem nada de sobrenatural. Jung avisa que o nome não indica uma qualidade metafísica, mas o fato de que essa função cria a passagem de uma atitude para outra. Ela atravessa a oposição entre consciência e inconsciente, e ele a compara a uma função matemática de números reais e imaginários.\n\nO mecanismo é este: quando dois opostos se enfrentam e a tensão é sustentada, sem que um lado vença o outro, surge um terceiro elemento, que não é nenhum dos dois e une os dois. Esse terceiro é o símbolo. Ele não se fabrica pela vontade nem pela razão: nasce da fantasia trabalhada, e cresce na medida do conflito.\n\nPor isso a função transcendente é ao mesmo tempo um processo e um método. Na análise, ela é a cooperação entre a consciência e os dados do inconsciente, por exemplo pela imaginação ativa, e está na base de todo simbolismo de renascimento.",
+        "related": {
+          "terms": [
+            "simbolo",
+            "opostos",
+            "imaginacao-ativa",
+            "conflito"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 73
+      },
+      {
+        "slug": "transformacao",
+        "term": "Transformação",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "A mudança profunda da personalidade, meta da análise; e também a transformação da energia psíquica de uma forma em outra.",
+        "full": "Jung diz que a psique é dotada de uma extraordinária capacidade de transformação, e faz dela a meta da análise do inconsciente: se não há transformação, a influência do inconsciente continua a mesma. Ele descreve o tratamento em quatro etapas, confissão, esclarecimento, educação e transformação, e só a última muda a pessoa por dentro.\n\nNo plano da energia, transformação é a passagem da energia psíquica de uma forma para outra. O símbolo é um transformador de energia: converte a força instintiva em formas novas, culturais e espirituais. Jung diz que as religiões elevaram esse processo à categoria de sistema.\n\nNa transformação da personalidade, tornar consciente não é só somar conteúdos: o encontro muda os dois lados, a consciência e o inconsciente. As imagens da transformação, da morte e do renascimento, da alquimia, do sacrifício, aparecem nos sonhos justamente quando uma mudança desse tipo está acontecendo.",
+        "related": {
+          "terms": [
+            "renascimento",
+            "simbolo",
+            "individuacao",
+            "alquimia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 74,
+        "autolink": false
+      },
+      {
+        "slug": "renascimento",
+        "term": "Renascimento",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "Um dos motivos mais antigos da humanidade: morrer para uma forma de vida e nascer para outra. Na psique, é o símbolo da mudança de atitude.",
+        "full": "O renascimento é, para Jung, um motivo arquetípico que aparece em muitas formas: o deus que morre e renasce (Osíris, Átis, Cristo, Mitra, a Fênix), os ritos de iniciação, o batismo, as imagens alquímicas. Em todas elas, alguém morre para um estado e nasce para outro.\n\nNo plano psicológico, Jung observa que toda mudança essencial de atitude vem quase sempre acompanhada de símbolos de renascimento nos sonhos e fantasias. Pacientes sonham com banhos, travessias, mortes e nascimentos justamente quando algo novo está se formando neles.\n\nJung lê o mecanismo assim: o símbolo do novo nascimento descreve a união dos contrários, consciente e inconsciente, e tem por base a função transcendente. O renascimento não é uma melhora gradual, mas uma reorganização: a atitude antiga precisa submergir para que outra surja.",
+        "related": {
+          "terms": [
+            "transformacao",
+            "morte",
+            "funcao-transcendente",
+            "heroi"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 75,
+        "autolink": false
+      },
+      {
+        "slug": "sacrificio",
+        "term": "Sacrifício",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "Tornar sagrado: renunciar a algo que se sente como próprio. Para Jung, todo sacrifício é, em algum grau, sacrifício de si mesmo.",
+        "full": "Sacrifício vem de sacrificium, tornar sagrado. Jung distingue o simples dar do sacrificar: dar algo esperando algo em troca ainda não é sacrifício. Ele só acontece quando se renuncia à troca e o que se dá é sentido como perda, para que não sobre a pretensão egoísta.\n\nComo o que se dá traz a marca do que é meu, todo sacrifício acaba sendo, em maior ou menor grau, um sacrifício de si mesmo: o eu renuncia a uma parte de si. Jung estuda o tema nos ritos antigos, no sacrifício do touro de Mitra, e sobretudo na missa, em que Cristo é ao mesmo tempo quem sacrifica e quem é sacrificado.\n\nNo sentido psicológico, o sacrifício é a renúncia interior que a transformação exige. Para que algo novo surja, é preciso abrir mão de uma atitude, de um apego ou de uma imagem de si. Jung lê assim certos símbolos dos sonhos: o que se sacrifica é o que precisava ser deixado para trás.",
+        "related": {
+          "terms": [
+            "transformacao",
+            "renascimento",
+            "cristo",
+            "ego"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 76,
+        "autolink": false
+      },
+      {
+        "slug": "encarnacao",
+        "term": "Encarnação",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "Deus que se torna humano; em linguagem psicológica, um conteúdo inconsciente que entra na consciência e se realiza numa vida.",
+        "full": "Jung usa encarnação em vários registros e marca a passagem de um para outro. Em termos mitológicos, diz ele, há uma encarnação; em termos psicológicos, o surgimento de um processo inconsciente no campo da consciência. É essa tradução que guia a sua leitura.\n\nNo cristianismo, encarnação é o mistério de Deus que se torna homem em Cristo. Jung lê esse dogma como a expressão religiosa do que a psicologia chama de individuação: a autorrealização, em linguagem metafísica e religiosa, é a encarnação divina. Os atributos de Cristo, diz ele, o mostram como uma encarnação do si-mesmo.\n\nNa alquimia, encarnação é a fixação do espírito na matéria: algo espiritual ganha corpo. Em todos os sentidos, a ideia é a de algo maior que se torna concreto, limitado e real, e que, ao fazer isso, se transforma.",
+        "related": {
+          "terms": [
+            "cristo",
+            "si-mesmo",
+            "individuacao",
+            "materia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 77
+      },
+      {
+        "slug": "destino",
+        "term": "Destino",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "O que nos acontece como se viesse de uma vontade maior do que a do eu; para Jung, também é a expressão de nós mesmos.",
+        "full": "Jung não dá uma definição única de destino. A mais direta o descreve como uma vontade que determina a vida e não coincide com a vontade do eu. Essa força pode ser vivida como vontade de Deus, por quem a aceita, ou como diabo, por quem luta contra ela. Destino, assim, é menos um fato do que a relação do eu com um poder que o ultrapassa.\n\nJung recolhe também o sentido antigo: a heimarmene dos estoicos, o jugo dos astros a que sucumbe quem é dominado pelos afetos e pelos instintos. Nesse sentido, o destino é o oposto da liberdade, e a libertação dele é um tema da alquimia e da religião.\n\nMas ele também traz o destino para dentro. É a mim mesmo, diz Jung, que o meu destino expressa em primeiro lugar. Na individuação, o que não é tornado consciente acontece de fora, como destino; quem não acompanha o processo é arrastado por ele.",
+        "related": {
+          "terms": [
+            "individuacao",
+            "si-mesmo",
+            "vontade",
+            "deus"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 78,
+        "autolink": false
+      },
+      {
+        "slug": "morte",
+        "term": "Morte",
+        "aliases": [],
+        "category": "processo",
+        "mascara": "",
+        "short": "O fim da vida e também a meta para a qual ela tende; no plano simbólico, a passagem necessária para toda transformação.",
+        "full": "Jung insiste num ponto que costuma chocar: a morte não é só o fim de um processo, mas a meta para a qual a vida inteira tende. Se a vida é orientada para um fim, a sua conclusão lógica é a morte, e a ascensão e o auge são etapas a caminho dela. Por isso, na segunda metade da vida, a tarefa psicológica é também preparar-se para morrer.\n\nEle notava, com espanto, o pouco caso que o inconsciente faz da morte. O inconsciente parece se interessar menos pelo fato de morrer do que pelo modo de morrer, se a atitude consciente está ou não em acordo com esse processo. E não conhece a destruição total: conhece a mudança.\n\nNo plano simbólico, a morte é o primeiro tempo da transformação. O motivo da morte e do renascimento atravessa os mitos e os sonhos: para que uma atitude nova nasça, a antiga precisa morrer. Por isso sonhar com a morte, para Jung, raramente fala da morte física.",
+        "related": {
+          "terms": [
+            "renascimento",
+            "transformacao",
+            "sacrificio",
+            "destino"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 79,
+        "autolink": false
+      },
+      {
+        "slug": "arquetipo",
+        "term": "Arquétipo",
+        "aliases": [
+          "imagem primordial",
+          "psicoide"
+        ],
+        "category": "imagem",
+        "mascara": "",
+        "short": "Uma forma herdada e vazia da psique, que organiza imagens e comportamentos típicos; só a conhecemos pelas imagens que ela produz.",
+        "full": "Arquétipo é o nome que Jung dá às formas típicas e herdadas da vida psíquica. A ideia vem antes do nome: em 1912 ele já falava de imagens primordiais que reaparecem em culturas e épocas diferentes; em 1919 adota a palavra arquétipo, que a partir de 1928 substitui imagem primordial. Os arquétipos e os instintos, juntos, formam o inconsciente coletivo.\n\nO ponto decisivo é a diferença entre o arquétipo em si e a imagem arquetípica. O arquétipo em si é uma forma vazia, uma possibilidade de representação, que não se vê. O que aparece nos sonhos, nos mitos e nas religiões são as imagens arquetípicas, preenchidas pela experiência e pela cultura de cada um. Jung insiste que não se herdam ideias, mas a disposição para formá-las.\n\nO arquétipo é forma e energia ao mesmo tempo, imagem e emoção. Por isso o seu encontro tem um caráter numinoso, fascina e assusta. É o lado formal do instinto: o arquétipo está para a psique como o padrão de comportamento está para a biologia. Anima, sombra, si-mesmo, a Grande Mãe e o herói são figuras arquetípicas.",
+        "related": {
+          "terms": [
+            "inconsciente-coletivo",
+            "instinto",
+            "imagem",
+            "simbolo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 80
+      },
+      {
+        "slug": "imagem",
+        "term": "Imagem",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A forma em que a psique se apresenta à consciência. Para Jung, vivemos diretamente num mundo de imagens.",
+        "full": "Em Tipos psicológicos (1921), Jung define imagem não como o retrato de um objeto exterior, mas como uma representação imediata, de origem poética: a imagem da fantasia, que é uma expressão concentrada da situação psíquica inteira, consciente e inconsciente.\n\nEm sentido mais largo, imagem é tudo o que é conteúdo da consciência. Jung chama de imagens a todos os conteúdos conscientes e daí tira uma tese forte: não temos relação direta com as coisas, só com as imagens que formamos delas. Vivemos imediatamente num mundo de imagens, e é pela imagem que nos adaptamos à realidade.\n\nHá ainda a imagem ligada ao instinto. Todo instinto realiza uma imagem da situação a que responde: não há instinto sem forma. Essa imagem herdada é o arquétipo. Por isso, em Jung, levar a sério a imagem, nos sonhos e nas fantasias, é levar a sério a própria psique.",
+        "related": {
+          "terms": [
+            "arquetipo",
+            "fantasia",
+            "simbolo",
+            "psique"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 81,
+        "autolink": false
+      },
+      {
+        "slug": "simbolo",
+        "term": "Símbolo",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A melhor expressão possível de algo ainda desconhecido. Não é um sinal de algo que já se sabe.",
+        "full": "Jung define o símbolo pela diferença com o sinal. O sinal aponta para algo conhecido: uma placa, uma sigla, uma alegoria. O símbolo é a melhor formulação possível de algo relativamente desconhecido, que ainda não foi apreendido pela consciência. Por isso, quando Freud chama de símbolos as imagens que remetem a processos instintivos já conhecidos, Jung diz que se trata de sinais, não de símbolos.\n\nO símbolo une naturezas diferentes: o racional e o irracional, o consciente e o inconsciente. Ele nasce de uma tensão entre opostos suficientemente grande e é o fruto da função transcendente. Por isso não se cria artificialmente, nem pela vontade, nem pela técnica.\n\nJung distingue o símbolo vivo do morto. Um símbolo está vivo enquanto exprime algo que a consciência ainda não compreendeu; morre quando se encontra uma expressão melhor e ele vira mero sinal. É também um transformador de energia: dá à força instintiva uma forma nova.",
+        "related": {
+          "terms": [
+            "funcao-transcendente",
+            "arquetipo",
+            "imagem",
+            "libido"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 82
+      },
+      {
+        "slug": "fantasia",
+        "term": "Fantasia",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A atividade imaginativa da psique, onde consciente e inconsciente, sentimento e pensamento se encontram numa imagem viva.",
+        "full": "Em Tipos psicológicos (1921), Jung diz que a única expressão que encontra para certa atividade da alma é fantasia: ela é tanto sentimento quanto pensamento, tanto intuição quanto sensação. É a mãe de todas as possibilidades, onde o mundo interior e o exterior formam uma unidade viva.\n\nPara Jung, a fantasia é a linguagem própria da psique. A energia psíquica não chega à consciência como conceito, mas como imagem. Por isso a fantasia não é irrealidade a descartar: é o fato psíquico primário, e a fantasia criadora é a função que une os opostos.\n\nEle distingue dois modos. A fantasia passiva irrompe pronta, como o sonho, e pede crítica, porque expressa só o ponto de vista do inconsciente. A fantasia ativa nasce quando a consciência acolhe os indícios do inconsciente e trabalha com eles: aí os dois lados se encontram num produto comum. É dessa fantasia ativa que sai a imaginação ativa, e também a criação artística e religiosa.",
+        "related": {
+          "terms": [
+            "imaginacao-ativa",
+            "imagem",
+            "simbolo",
+            "funcao-transcendente"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 83
+      },
+      {
+        "slug": "imaginacao-ativa",
+        "term": "Imaginação ativa",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "O método de Jung para dar forma às imagens do inconsciente acordado: deixar que elas vivam e se relacionar com elas.",
+        "full": "Imaginação ativa é o método que Jung desenvolveu a partir do próprio confronto com o inconsciente, depois da ruptura com Freud. Ele a descreve como uma sequência de fantasias produzida pela concentração intencional, e como uma espécie de treino para desligar a consciência por um tempo, de modo que as imagens do inconsciente possam aparecer.\n\nA diferença em relação à fantasia comum é que, na imaginação ativa, as imagens têm vida própria: os acontecimentos simbólicos se desenvolvem segundo uma lógica que lhes é peculiar, e não segundo o desejo de quem imagina. A pessoa observa, dá forma pelo desenho, pela escrita ou pela pintura, e participa da cena. Seguidores como Barbara Hannah e Marie-Louise von Franz enfatizaram o diálogo e a negociação com as figuras.\n\nPara Jung, a imaginação ativa ajuda o inconsciente a chegar à consciência e é um dos caminhos da função transcendente. Ela exige um eu firme e raízes no mundo exterior: não é um passatempo, e quem a pratica precisa conseguir voltar e se posicionar diante do que vê.",
+        "related": {
+          "terms": [
+            "fantasia",
+            "funcao-transcendente",
+            "inconsciente",
+            "mandala"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 84
+      },
+      {
+        "slug": "sonho",
+        "term": "Sonho",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "fuji",
+        "short": "Um produto natural do inconsciente, que mostra a situação psíquica como ela é; quase sempre compensa a atitude consciente.",
+        "full": "Para Jung, o sonho é um produto natural e espontâneo do inconsciente, tão independente da vontade quanto a digestão. Ele não disfarça nem engana: é um autorretrato do processo psíquico em curso, e diz exatamente o que significa, só que numa linguagem de imagens. Aqui Jung se afasta de Freud, para quem o sonho escondia um desejo atrás de um conteúdo disfarçado.\n\nA função principal do sonho é compensatória: quase todo sonho completa ou corrige a situação consciente, mostrando o lado que ficou de fora. Por isso, para interpretar, é preciso conhecer o sonhador e o momento da sua vida. Não existe dicionário de sonhos.\n\nJung recomenda ler o sonho como um drama, com cenário, exposição, desenvolvimento e desfecho, e ampliar as suas imagens pelo contexto pessoal e, quando preciso, pelos mitos. A interpretação é sempre uma hipótese, que se confirma pela reação do sonhador e pelos sonhos seguintes. A unidade de leitura não é um sonho isolado, mas a série.",
+        "related": {
+          "terms": [
+            "compensacao",
+            "inconsciente",
+            "simbolo",
+            "metodo-comparativo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 85
+      },
+      {
+        "slug": "mandala",
+        "term": "Mandala",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "kin",
+        "short": "O círculo mágico: uma imagem de ordem em torno de um centro, que Jung entende como símbolo do si-mesmo.",
+        "full": "Mandala, em sânscrito, quer dizer círculo, e em particular círculo mágico. Jung usa a palavra para todas as figuras dispostas em torno de um centro, redondas ou quadradas, com divisões em quatro ou múltiplos de quatro. Elas aparecem nas religiões do Oriente, nas rosáceas cristãs, nas pinturas de areia dos navajos e em desenhos de crianças e de pacientes que nunca viram uma mandala.\n\nPara Jung, a mandala é um esquema de ordem. Ela costuma surgir espontaneamente em momentos de desorientação e confusão psíquica, como uma tentativa do inconsciente de compensar o caos com uma imagem de centro e de totalidade. Ele observou isso em si mesmo e em muitos pacientes.\n\nPor isso a mandala é, na psicologia de Jung, o símbolo do si-mesmo e uma imagem de Deus. Ela desloca o centro da personalidade do eu para um centro maior. Jung dizia que se pode desenhar uma mandala, construí-la ou dançá-la, e que a própria vida, vivida em torno desse centro, também é uma mandala.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "quaternidade",
+            "totalidade",
+            "imaginacao-ativa"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 86
+      },
+      {
+        "slug": "quaternidade",
+        "term": "Quaternidade",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A estrutura de quatro partes que exprime a totalidade: quatro funções, quatro elementos, quatro direções.",
+        "full": "Jung usa quaternidade para as figuras de quatro partes que aparecem espontaneamente nos sonhos e nas visões, ou que as culturas inventaram para exprimir uma totalidade: os quatro ventos, as quatro estações, os quatro evangelistas, os quatro elementos. O argumento é numérico: o círculo é o ideal da perfeição, e a sua divisão natural mínima é em quatro. O quatro, diz ele, é o mínimo para um juízo de totalidade.\n\nNa psicologia, a quaternidade aparece nas quatro funções da consciência. Três delas podem estar ao alcance da consciência, e a quarta, a inferior, fica no inconsciente. Por isso Jung dá importância ao esquema três mais um: uma tríade que só se completa quando o quarto elemento, problemático e rejeitado, é incluído.\n\nNa alquimia, a quaternidade aparece no axioma de Maria Profetisa: o um se torna dois, o dois se torna três, e do três vem o um que é o quarto. Para Jung, a quaternidade é um símbolo clássico do si-mesmo: uma unidade que inclui as diferenças.",
+        "related": {
+          "terms": [
+            "mandala",
+            "totalidade",
+            "trindade",
+            "quatro-funcoes"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 87
+      },
+      {
+        "slug": "trindade",
+        "term": "Trindade",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "Pai, Filho e Espírito Santo: para Jung, a forma cristã de um arquétipo da tríade, que simboliza um processo de amadurecimento.",
+        "full": "Jung estuda a Trindade como dogma cristão e, ao mesmo tempo, como caso particular de um arquétipo mais amplo, a tríade. Tríades divinas aparecem em muitas religiões, e Jung diz que a organização em três é um arquétipo que provavelmente inspirou a ideia cristã. A história do dogma seria a manifestação gradual desse arquétipo.\n\nPsicologicamente, a Trindade simboliza um processo em três etapas, como fases de um amadurecimento inconsciente dentro do indivíduo. Um esquema ternário, diz Jung, favorece a emancipação da consciência em relação à pura natureza, e por isso a Trindade está ligada ao desenvolvimento espiritual.\n\nJung nota também o que falta à Trindade: ela é inteiramente masculina e deixa de fora a matéria, o feminino e o mal. Daí o seu interesse pelo quarto elemento, por exemplo na proclamação do dogma da Assunção de Maria em 1950, que ele leu como um movimento da imagem de Deus em direção à quaternidade, à totalidade.",
+        "related": {
+          "terms": [
+            "quaternidade",
+            "deus",
+            "cristo",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 88
+      },
+      {
+        "slug": "paradoxo",
+        "term": "Paradoxo",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "Uma verdade que só se diz com duas afirmações contrárias. Para Jung, é a linguagem própria do si-mesmo e dos arquétipos.",
+        "full": "Jung usa paradoxo para aquilo que só pode ser descrito com duas afirmações que se excluem logicamente, mas que são necessárias juntas. Um exemplo é a relatividade da consciência: os conteúdos psíquicos são ao mesmo tempo conscientes e inconscientes, conscientes sob um aspecto, inconscientes sob outro.\n\nO lugar por excelência do paradoxo é o si-mesmo. Jung o descreve como masculino e feminino, velho e criança, poderoso e indefeso, grande e pequeno: uma verdadeira união dos opostos. O mesmo vale para os arquétipos em geral, que são, por princípio, paradoxais.\n\nPara Jung, o paradoxo não é um defeito do pensamento, mas a forma mais fiel de falar de realidades que ultrapassam a consciência. Por isso ele valoriza a linguagem paradoxal das religiões e da alquimia, que preserva a riqueza do que não cabe numa fórmula única, e desconfia das explicações que resolvem a contradição cedo demais.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "opostos",
+            "arquetipo",
+            "simbolo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 89,
+        "autolink": false
+      },
+      {
+        "slug": "caos",
+        "term": "Caos",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A matéria informe do começo, de que tudo nasce: na alquimia, a prima materia; na psique, o estado de desordem que antecede uma nova ordem.",
+        "full": "Jung encontra o caos sobretudo na alquimia, que o herdou da filosofia antiga: um amontoado confuso de matéria crua e desorganizada, onde os elementos ainda não se separaram. Na alquimia, o caos é sinônimo da prima materia, a massa confusa de onde, pelo trabalho, sairá a pedra filosofal. É informe, mas está prenhe de sementes de vida.\n\nNos mitos, o caos aparece personificado: o mar primordial, o dragão Tiamat que Marduk vence para criar o mundo. Em todas as versões, é o estado anterior à ordem, que a criação separa e organiza.\n\nPsicologicamente, Jung usa o caos para estados de desordem interior, quando a orientação consciente se desfaz. Ele observa que é justamente nesses momentos que surgem as imagens de ordem, como as mandalas e os símbolos de quatro partes. O caos, assim, não é só ameaça: é a matéria-prima de uma nova organização.",
+        "related": {
+          "terms": [
+            "prima-materia",
+            "mandala",
+            "alquimia",
+            "nigredo"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 90,
+        "autolink": false
+      },
+      {
+        "slug": "sincronicidade",
+        "term": "Sincronicidade",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "A coincidência significativa entre um estado interior e um acontecimento exterior, sem relação de causa e efeito.",
+        "full": "Sincronicidade é o nome que Jung deu à coincidência no tempo de dois ou mais eventos sem relação causal, mas com o mesmo sentido. Ele a apresenta como um princípio de explicação equivalente à causalidade, para fatos que a causalidade não explica. E a distingue de sincronismo, que é só a ocorrência simultânea de dois fenômenos.\n\nO fenômeno tem dois lados: uma imagem inconsciente chega à consciência, num sonho, numa intuição ou num pressentimento, e uma situação objetiva coincide com ela. O exemplo mais conhecido de Jung é o do escaravelho que bateu na janela enquanto uma paciente contava um sonho com um escaravelho dourado.\n\nJung desenvolveu a ideia aos poucos, a partir do fim dos anos 1920, e a expôs num ensaio de 1952, em diálogo com o físico Wolfgang Pauli. Ele a tratou como hipótese, ligada à natureza psicoide do arquétipo, que ultrapassa a fronteira entre psique e matéria. Também a usou para pensar o I Ching e outras práticas divinatórias.",
+        "related": {
+          "terms": [
+            "arquetipo",
+            "tempo",
+            "natureza"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 91
+      },
+      {
+        "slug": "tempo",
+        "term": "Tempo",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "Para Jung, o inconsciente é atemporal; o tempo que importa na psique é o qualitativo, o momento certo, o kairós.",
+        "full": "Jung não fez do tempo um conceito próprio, mas falou dele sobretudo pelo avesso. Para ele, o inconsciente não conhece o tempo: no inconsciente não existe tempo, ele é eterno, e coisas separadas por longos intervalos aparecem juntas. Os arquétipos também têm essa qualidade de eternidade, que é outra palavra para atemporalidade.\n\nO tempo é o que faz de um acontecimento história: a sucessão, o aqui e agora em que o indivíduo vive e em que as coisas se tornam reais. Jung também usava a palavra grega kairós para o momento significativo, o tempo qualitativo em que algo está maduro para acontecer.\n\nQuem desenvolveu o tema na escola junguiana foi Marie-Louise von Franz. Ela distingue o tempo do relógio, chronos, do tempo vivido, kairós, e lê a repetição na clínica perguntando se ela gira em falso ou se sobe em espiral, que seria a forma temporal da individuação.",
+        "related": {
+          "terms": [
+            "sincronicidade",
+            "inconsciente",
+            "arquetipo",
+            "individuacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 92,
+        "autolink": false
+      },
+      {
+        "slug": "natureza",
+        "term": "Natureza",
+        "aliases": [],
+        "category": "imagem",
+        "mascara": "",
+        "short": "O que é espontâneo e não inventado pela consciência: para Jung, a psique, o sonho e o arquétipo são natureza.",
+        "full": "Natureza é uma palavra que Jung usa para dizer que algo não é invenção nem artifício da consciência, mas produção espontânea, com leis próprias. A psique humana, diz ele, é um fenômeno natural, com raízes nos instintos, como a dos animais. O sonho é natureza: não engana, não mente, não disfarça. E o arquétipo é natureza pura, que faz o ser humano dizer e fazer coisas cujo sentido ele não conhece.\n\nNesse sentido, o inconsciente não é um monstro nem um juiz moral: é uma entidade da natureza, indiferente do ponto de vista moral e intelectual, que responde às necessidades do equilíbrio psíquico. Jung o descreve como neutro, natureza ao mesmo tempo espiritual e terrena.\n\nJung também usa natureza em par com cultura. Temos as duas necessidades e não podemos abrir mão de nenhuma. A consciência, ao se diferenciar, se afasta da natureza, e parte do trabalho psicológico é reencontrar esse chão sem perder o que a cultura conquistou.",
+        "related": {
+          "terms": [
+            "instinto",
+            "sonho",
+            "arquetipo",
+            "inconsciente"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 93,
+        "autolink": false
+      },
+      {
+        "slug": "deus",
+        "term": "Imagem de Deus",
+        "aliases": [],
+        "category": "religiao",
+        "mascara": "",
+        "short": "Para a psicologia de Jung, a imagem de Deus: o valor psíquico supremo, o que tem o poder mais forte sobre a vida de alguém.",
+        "full": "Jung insiste que fala como psicólogo, não como teólogo: ele não afirma nem nega a existência de Deus, mas estuda a imagem de Deus na psique. Nesse sentido, Deus é o valor psicológico supremo, o que tem maior importância na determinação dos pensamentos e das ações. É sempre ao valor psíquico avassalador que se dá o nome de Deus; quando ele deixa de ser avassalador, vira um simples nome.\n\nJung também chama de Deus aquilo que atravessa de forma violenta o caminho que traçamos, subverte os nossos planos e interfere no curso da vida, para o bem e para o mal. E usa a palavra para os efeitos numinosos de fatos psíquicos cuja causa não conhecemos.\n\nOs deuses, no plural, são para ele personificações de conteúdos inconscientes. Na psique, a imagem de Deus se confunde com a do si-mesmo: não se sabe, diz Jung, se Deus e o inconsciente são duas grandezas diferentes. Em Resposta a Jó (1952), ele lê a própria imagem bíblica de Deus como algo que se transforma ao longo da história.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "cristo",
+            "mal"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 94
+      },
+      {
+        "slug": "cristo",
+        "term": "Cristo",
+        "aliases": [],
+        "category": "religiao",
+        "mascara": "",
+        "short": "Para Jung, Cristo é, psicologicamente, um símbolo do si-mesmo: a imagem cristã da totalidade.",
+        "full": "Jung afirma que Cristo, como ideia, é um símbolo do si-mesmo. Como herói e homem-deus, ele representa a projeção do arquétipo mais importante e central da psique, a totalidade. Os atributos que a tradição dá a Cristo correspondem, diz ele, de modo incomum à fenomenologia do si-mesmo, embora não incluam todos os seus aspectos.\n\nJung separa três sentidos possíveis da palavra: Cristo como realidade histórica e metafísica, como imagem arquetípica no inconsciente coletivo e como ideia que aponta para um fundo desconhecido. Como psicólogo, ele trabalha com o segundo e o terceiro, sem negar o primeiro. Cristo seria o preenchimento ocidental de um arquétipo que, no Oriente, aparece como Purusha, Atman ou Buda.\n\nJung também nota o limite da imagem. Cristo é inteiramente bom e luminoso, e por isso deixa de fora a sombra, que a tradição projetou no Anticristo e no diabo. Em Aion (1951), ele estuda essa divisão ao longo da era cristã. E avisa que, quanto mais se crê que Cristo é o si-mesmo, mais fácil é perder a própria relação com ele.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "anthropos",
+            "deus",
+            "trindade"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 95
+      },
+      {
+        "slug": "demonio",
+        "term": "Demônio",
+        "aliases": [
+          "diabo"
+        ],
+        "category": "religiao",
+        "mascara": "",
+        "short": "Um fator autônomo que perturba o eu: o que antes se chamava demônio, Jung chama hoje de complexo.",
+        "full": "Jung lê os demônios psicologicamente. O homem primitivo não psicologizava os complexos que o perturbavam: tomava-os por entidades próprias, isto é, por demônios. O mundo moderno se livrou dos demônios, mas não dos conteúdos autônomos e das suas exigências. Eles apenas mudaram de fisionomia e se tornaram potências psíquicas inconscientes.\n\nPor isso Jung compara os complexos a demônios que perturbam caprichosamente o pensar e o agir. Na Idade Média, as graves perturbações neuróticas eram vistas como possessão: a diferença, diz ele, é só de nome; antes se chamava diabo, hoje se chama neurose. E acrescenta uma regra: se você declara inexistente um valor psíquico, um demônio aparece no lugar dele.\n\nA palavra grega daimon, lembra Jung, também nomeava um poder que vem ao encontro do homem, como a Providência ou o destino, e podia ser bom ou mau. O demônio, nesse sentido, é tudo o que é mais forte que o eu e o arrasta.",
+        "related": {
+          "terms": [
+            "complexo",
+            "mal",
+            "autonomia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 96
+      },
+      {
+        "slug": "mal",
+        "term": "O mal",
+        "aliases": [
+          "privatio boni"
+        ],
+        "category": "religiao",
+        "mascara": "",
+        "short": "Para Jung, uma realidade, e não só a ausência do bem; bem e mal são opostos que se condicionam.",
+        "full": "A doutrina cristã clássica define o mal como privatio boni, a privação do bem: o mal não teria existência própria, seria só a sombra da luz. Jung tem dificuldade em aceitar essa fórmula. Para ele, o mal é uma realidade terrível, e já não se trata de volatilizá-lo como mera privação, mas de reconhecer a sua existência real.\n\nEle vê bem e mal como opostos que se condicionam: não existe bem sem mal, nem mal sem bem. No melhor está o germe do mal, e nada é tão mau que não possa produzir um bem. Por isso desconfia de quem se identifica só com o lado bom: o lado mau não desaparece, vai para a sombra e é projetado nos outros.\n\nJung distingue o mal relativo, que cada um pode reconhecer na própria sombra, do mal absoluto, que é uma experiência rara e perturbadora. As suas reflexões sobre o mal o levaram a discutir a imagem de Deus, em Aion e em Resposta a Jó, e a pensar o mal coletivo do século XX.",
+        "related": {
+          "terms": [
+            "sombra",
+            "deus",
+            "demonio",
+            "opostos"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 97
+      },
+      {
+        "slug": "gnose",
+        "term": "Gnose",
+        "aliases": [
+          "gnosticismo"
+        ],
+        "category": "religiao",
+        "mascara": "",
+        "short": "O conhecimento de Deus por experiência direta; para Jung, os gnósticos antigos foram precursores da psicologia do inconsciente.",
+        "full": "Gnose quer dizer conhecimento, e no sentido religioso, conhecimento de Deus por experiência direta, não por fé ou por doutrina. Jung chama de gnose o que recebeu o evangelista João: o conhecimento de Deus que lhe mostrou, como a Jó, o lado temível de Javé.\n\nHistoricamente, gnose nomeia os movimentos religiosos dos primeiros séculos da era cristã, os gnósticos, com os seus sistemas cheios de figuras como Sophia, Barbelo e o demiurgo. A Igreja os combateu como os seus piores inimigos. Jung os estudou com atenção, porque via neles uma tentativa de integrar conteúdos arquetípicos, inclusive o lado escuro de Deus, que o dogma deixou de fora.\n\nPara Jung, a gnose sobreviveu de forma disfarçada na alquimia medieval, e a psicologia do inconsciente retoma, por outros meios, o seu interesse pela experiência interior. Ele também falava de um movimento gnóstico moderno: a busca de muita gente de hoje pela psique como lugar da experiência religiosa.",
+        "related": {
+          "terms": [
+            "alquimia",
+            "deus",
+            "anthropos",
+            "mal"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 98
+      },
+      {
+        "slug": "amor",
+        "term": "Amor",
+        "aliases": [],
+        "category": "religiao",
+        "mascara": "",
+        "short": "Uma das grandes forças da psique: função de relação e, ao mesmo tempo, um estado de emoção que se parece com a imagem de Deus.",
+        "full": "Jung não dá uma definição única de amor. Em Símbolos da transformação, ele o descreve de um lado como uma função de relacionamento e, de outro, como um estado psíquico carregado de emoção que coincide, por assim dizer, com a imagem de Deus. Ao lado da fome, é a força motriz clássica do ser humano, e se revela, diz ele, como a força do destino por excelência.\n\nJung toma amor no sentido amplo, que não se reduz à sexualidade: vai do desejo e da volúpia à afeição espiritual, e chega ao amor de Deus dos místicos. Ele distingue também amar, um sentimento ativo e dirigido, quase um ato de vontade, de estar apaixonado, um estado passivo que acontece com a gente.\n\nO amor está ligado ao Eros, o princípio da relação, mas não se confunde com a função sentimento: um tipo pensamento também pode amar. E tem o seu oposto no poder. Onde falta o amor, diz Jung, entra o poder, e quem usa o amor como meio de posse o transforma em poder disfarçado.",
+        "related": {
+          "terms": [
+            "eros",
+            "libido",
+            "deus",
+            "sentimento"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 99,
+        "autolink": false
+      },
+      {
+        "slug": "alquimia",
+        "term": "Alquimia",
+        "aliases": [],
         "category": "alquimia",
-        "mascara": "aka"
+        "mascara": "",
+        "short": "Para Jung, mais do que uma química primitiva: uma prática de transformação interior que projetava na matéria os processos do inconsciente.",
+        "full": "Jung não vê a alquimia só como a precursora da química. Para ele, era também, e talvez sobretudo, um processo de transformação filosófica, uma espécie de ioga ocidental. Os alquimistas, trabalhando com metais e substâncias no escuro da matéria, projetavam nela conteúdos do próprio inconsciente, e por isso os seus textos falam, sem saber, da psique.\n\nJung descobriu que as imagens dos alquimistas, como a união do rei e da rainha, a morte e a putrefação, a pedra filosofal, apareciam também nos sonhos dos seus pacientes. Isso o levou a estudar a alquimia por décadas, em obras como Psicologia e alquimia (1944) e Mysterium Coniunctionis. Ele a chama de precursora vacilante da psicologia moderna, cujo segredo era a transformação da personalidade pela fusão de elementos nobres e vulgares.\n\nA obra alquímica, com as suas etapas de escurecimento, branqueamento e avermelhamento, serviu a Jung como um mapa simbólico do processo de individuação. A alquimia também lhe mostrou uma tradição que, ao lado do cristianismo, tentava incluir a matéria, o feminino e o lado escuro.",
+        "related": {
+          "terms": [
+            "prima-materia",
+            "coniunctio",
+            "lapis",
+            "individuacao"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 100
+      },
+      {
+        "slug": "prima-materia",
+        "term": "Prima materia",
+        "aliases": [],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "A matéria-prima da obra alquímica, de mil nomes e sem valor aparente; psicologicamente, a situação psíquica de onde a transformação parte.",
+        "full": "Prima materia é a matéria-prima de que a alquimia parte. Ela tem mil nomes: água, nuvem, sombra, mar, mãe, lua, dragão, caos, massa confusa. Jung diz que esses nomes não indicam uma substância determinada, mas a intuição de uma situação psíquica inicial.\n\nOs alquimistas a descrevem de modo paradoxal: é de pouco valor e está em toda parte, mas ninguém a conhece. É esquiva e vaga, e sem ela a obra nem começa. Ela é também o caos, a matéria informe e confusa que contém em germe todas as coisas.\n\nPsicologicamente, a prima materia é aquilo de que a pessoa precisa partir, e que costuma ser o que ela mais despreza em si: o material escuro, confuso e rejeitado, a sombra, o sintoma. Jung observa que a pedra filosofal é dita estar no começo e no fim: o que se buscava já estava na matéria desprezada do início.",
+        "related": {
+          "terms": [
+            "caos",
+            "nigredo",
+            "lapis",
+            "alquimia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 101
+      },
+      {
+        "slug": "nigredo",
+        "term": "Nigredo",
+        "aliases": [],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "O negrume: a primeira etapa da obra alquímica, de dissolução e melancolia, que Jung liga ao encontro com a sombra.",
+        "full": "Nigredo, o negrume, é na alquimia o estado escuro da matéria, a primeira etapa da obra. Jung a descreve como melancolia e diz que, psicologicamente, ela corresponde ao encontro com a sombra. É um estado de inconsciência e de confusão, associado ao caos, à massa confusa, ao chumbo e a Saturno.\n\nOs textos alquímicos ligam a nigredo a uma família de operações: mortificação, putrefação, dissolução, separação. É o momento em que algo precisa morrer e se decompor para que outra coisa possa surgir. Jung nota que, em certos textos, a nigredo não é o começo absoluto, mas o resultado de uma primeira união, como um escurecimento que vem depois de um encontro.\n\nNa vida psíquica, a nigredo é a fase de escuridão que acompanha as transformações profundas: a desorientação, a depressão, a sensação de que tudo se desfez. Para Jung, ela não é um erro do processo, mas uma parte necessária dele, que precede a albedo, o branqueamento.",
+        "related": {
+          "terms": [
+            "prima-materia",
+            "sombra",
+            "alquimia",
+            "caos"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 102
+      },
+      {
+        "slug": "mercurius",
+        "term": "Mercurius",
+        "aliases": [
+          "Mercúrio"
+        ],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "O espírito transformador da alquimia, duplo e capaz de tudo; para Jung, uma imagem do próprio inconsciente.",
+        "full": "Nos textos alquímicos, Mercurius é muitas coisas ao mesmo tempo: o metal mercúrio, o deus Hermes, o planeta e, sobretudo, a substância secreta que transforma, o espírito presente em todas as criaturas. Jung dedicou a ele um estudo próprio, O espírito Mercurius, e o descreve como deus, gênio, pessoa e coisa, aquilo que se oculta no mais íntimo do ser humano.\n\nMercurius é duplo, capaz dos dois lados: é a fonte de todos os opostos. É ao mesmo tempo veneno e remédio, matéria e espírito, masculino e feminino, enganador e revelador. Os alquimistas distinguiam o mercúrio comum do mercúrio filosófico, que era o verdadeiro agente da obra.\n\nPara Jung, a imagem que os textos fazem de Mercurius concorda no essencial com as propriedades do inconsciente: escorregadio, ambíguo, transformador. Ele aparece também como o trickster, o malandro divino, e como guia de almas. Trabalhar com Mercurius é trabalhar com uma força que tanto pode curar quanto destruir.",
+        "related": {
+          "terms": [
+            "alquimia",
+            "opostos",
+            "inconsciente",
+            "lapis"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 103
+      },
+      {
+        "slug": "lapis",
+        "term": "Lapis",
+        "aliases": [
+          "pedra filosofal"
+        ],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "A pedra filosofal, meta da obra alquímica; para Jung, um símbolo do si-mesmo.",
+        "full": "O lapis philosophorum, a pedra dos filósofos, é o símbolo central da alquimia: a meta da obra, gerada pela união dos opostos. Os alquimistas lhe atribuíam duração eterna e eficácia inesgotável, e a descreviam como algo vivo, às vezes como um homenzinho ou uma criança divina.\n\nJung lê a pedra psicologicamente: ela corresponde à ideia do si-mesmo, produto da consciência e do inconsciente. Não é um eu humano, diz ele, mas um ser coletivo. Na série histórica dos símbolos do si-mesmo, a pedra aparece ao lado de Cristo, do Graal e da cruz.\n\nUm traço curioso é que a pedra está no começo e no fim. Os textos dizem que a pedra é sempre a pedra: ela é a matéria desprezada do início e o produto final da obra. Jung toma isso como imagem da individuação: o si-mesmo já existe de modo inconsciente desde o começo, e o processo é o de torná-lo consciente.",
+        "related": {
+          "terms": [
+            "si-mesmo",
+            "coniunctio",
+            "prima-materia",
+            "alquimia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 104
+      },
+      {
+        "slug": "coniunctio",
+        "term": "Coniunctio",
+        "aliases": [
+          "conjunção"
+        ],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "A união dos opostos na alquimia, simbolizada pelo casamento do rei e da rainha; para Jung, a meta e o mistério da transformação.",
+        "full": "Coniunctio quer dizer conjunção, união. Na alquimia, é a operação central da obra: a união de substâncias opostas, figurada como o casamento do sol e da lua, do rei e da rainha, do homem vermelho e da mulher branca, da qual nasce a pedra filosofal. Jung lembra que a palavra designava também o que hoje chamamos de ligação química e de afinidade.\n\nMas a coniunctio é também, para ele, uma imagem a priori: o arquétipo da união dos opostos, que aparece nos mitos, na mística (a unio mystica) e na liturgia. Muitas vezes os textos a descrevem como um incesto entre irmão e irmã, ou mãe e filho, o que Jung lê simbolicamente como a união de coisas que pertencem à mesma família interior.\n\nPsicologicamente, a coniunctio é a união da consciência com o inconsciente, do masculino com o feminino dentro da pessoa. Jung a estudou em A psicologia da transferência e em Mysterium Coniunctionis, a sua última grande obra, e a viu também em ação na relação entre analista e paciente.",
+        "related": {
+          "terms": [
+            "opostos",
+            "sizigia",
+            "lapis",
+            "transferencia"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 105
+      },
+      {
+        "slug": "materia",
+        "term": "Matéria",
+        "aliases": [],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "O outro lado da psique: para Jung, matéria e psique talvez sejam dois aspectos de uma mesma realidade.",
+        "full": "Para Jung, a matéria não é só objeto da física. É também uma categoria psíquica, como mostram a história das religiões e a filosofia: os seres humanos sempre projetaram nela sentidos, deuses e mistérios. A alquimia é o grande exemplo disso, com os alquimistas projetando o inconsciente na escuridão da matéria.\n\nA tese mais ousada de Jung é que matéria e psique podem ser dois aspectos diferentes de uma só e mesma coisa. Ele imagina uma psique que toca a matéria em algum ponto e uma matéria que tem uma psique latente. A realidade psíquica, a única que experimentamos diretamente, estaria entre as essências desconhecidas do espírito e da matéria.\n\nJung lembra ainda que matéria e mãe vêm da mesma raiz latina, mater: a matéria tem um lado materno, de origem e de recipiente. E nota que a consciência oscila entre espiritualizar a matéria e materializar o espírito, enquanto o inconsciente tende a ver os dois como equivalentes.",
+        "related": {
+          "terms": [
+            "espirito",
+            "corpo",
+            "alquimia",
+            "sincronicidade"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 106,
+        "autolink": false
+      },
+      {
+        "slug": "incesto",
+        "term": "Incesto",
+        "aliases": [],
+        "category": "alquimia",
+        "mascara": "",
+        "short": "Para Jung, o tema do incesto é antes um símbolo de regressão e de renascimento do que um desejo literal.",
+        "full": "Jung parte do sentido técnico: o incesto, a rigor, só se aplica ao adulto que não consegue relacionar a sua sexualidade com o objeto adequado. Ele reconhece em Freud o mérito de ter nomeado o complexo de incesto pelo mito de Édipo e aceita que fantasias incestuosas fazem parte da psique infantil normal.\n\nA divergência está no sentido. Para Jung, o complexo de incesto é mais uma formação regressiva da fantasia do que uma realidade: os desejos incestuosos são, em geral, fantasias de regressão disfarçadas. Ele toma o incesto em primeiro lugar como símbolo, um meio de expressão da volta da libido para a mãe.\n\nEssa volta tem um sentido prospectivo: voltar à mãe para nascer de novo. Por isso o incesto aparece tanto nos mitos de renascimento quanto na alquimia, onde a união de irmão e irmã ou de mãe e filho simboliza a coniunctio, a união de opostos que pertencem à mesma família interior.",
+        "related": {
+          "terms": [
+            "regressao",
+            "grande-mae",
+            "renascimento",
+            "coniunctio"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 107
+      },
+      {
+        "slug": "metodo-comparativo",
+        "term": "Método comparativo",
+        "aliases": [],
+        "category": "metodo",
+        "mascara": "",
+        "short": "A amplificação: ampliar uma imagem com paralelos de mitos, religiões e culturas para entender o que ela diz.",
+        "full": "O método comparativo de Jung é a amplificação. Ele a define como o método do filólogo, que, diante de uma palavra rara num texto, procura passagens paralelas para entender o seu sentido. Aplicada aos sonhos e às fantasias, a amplificação consiste em estabelecer paralelos: reunir versões análogas de uma imagem, nos mitos, nas religiões, nos contos e na alquimia.\n\nJung a opõe à livre associação de Freud. A livre associação vai em ziguezague, se afasta da imagem e acaba sempre num complexo. A amplificação é concêntrica: fica na imagem e a cerca de todos os lados até que ela se torne visível. O objetivo não é descobrir o complexo, mas ouvir o que o sonho diz.\n\nOs paralelos não servem para encontrar o que é igual, mas para ver, por contraste, a inflexão particular daquela imagem naquela pessoa. E a imagem continua sendo a autoridade: substituir a imagem por uma etiqueta teórica, como dizer só que aquilo é a sua anima, era o erro que Jung mais combatia.",
+        "related": {
+          "terms": [
+            "sonho",
+            "simbolo",
+            "arquetipo",
+            "metodo-dialetico"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 108
+      },
+      {
+        "slug": "metodo-dialetico",
+        "term": "Método dialético",
+        "aliases": [],
+        "category": "metodo",
+        "mascara": "",
+        "short": "A psicoterapia como diálogo entre duas pessoas inteiras, em que o terapeuta também é afetado e não se esconde atrás da autoridade.",
+        "full": "Jung chama a sua psicoterapia de método dialético: um diálogo ou discussão entre duas pessoas. Na origem, lembra ele, a dialética era a arte da conversa entre os filósofos antigos, e depois passou a significar um método para produzir sínteses novas. Na terapia, é o encontro do qual surge algo que nenhum dos dois tinha antes.\n\nO ponto decisivo é a reciprocidade. O tratamento é um processo do qual o médico participa tanto quanto o paciente: os dois exercem e sofrem influências. Por isso o terapeuta não pode se esconder atrás da autoridade ou de uma técnica; precisa responder com a própria personalidade.\n\nJung também usa a palavra para o confronto entre a consciência e o inconsciente dentro da mesma pessoa. E resumia a sua posição numa frase: em psicoterapia não há regras, e nem mesmo isso é uma regra. Cada caso pede um caminho próprio, porque o que se busca é a individualidade do paciente.",
+        "related": {
+          "terms": [
+            "transferencia",
+            "metodo-comparativo",
+            "individuacao",
+            "neurose"
+          ],
+          "materials": []
+        },
+        "links": [],
+        "hidden": false,
+        "ordem": 109
       }
     ],
     "raposa_admin_glossario_categories": [
       {
-        "slug": "estrutura",
-        "label": "Estrutura da psique",
+        "slug": "psique",
+        "label": "Psique e topologia",
         "tone": "accent",
         "mascara": "ai",
         "ordem": 0
       },
       {
-        "slug": "arquetipos",
-        "label": "Arquétipos",
+        "slug": "figuras",
+        "label": "Figuras e constelações",
         "tone": "citrinit",
         "mascara": "fuji",
         "ordem": 1
       },
       {
-        "slug": "dinamica",
-        "label": "Dinâmica psíquica",
+        "slug": "tipologia",
+        "label": "Tipologia",
         "tone": "bright",
-        "mascara": "aka",
+        "mascara": "shiro",
         "ordem": 2
       },
       {
-        "slug": "processo",
-        "label": "Processo de individuação",
-        "tone": "accent",
-        "mascara": "kin",
+        "slug": "dinamica",
+        "label": "Dinâmica psíquica",
+        "tone": "rubedo",
+        "mascara": "aka",
         "ordem": 3
       },
       {
-        "slug": "alquimia",
-        "label": "Alquimia psicológica",
-        "tone": "citrinit",
+        "slug": "mecanismos",
+        "label": "Mecanismos do complexo",
+        "tone": "accent",
         "mascara": "kuro",
         "ordem": 4
       },
       {
-        "slug": "clinica",
-        "label": "Clínica",
-        "tone": "rubedo",
-        "mascara": "shiro",
+        "slug": "processo",
+        "label": "Processo e transformação",
+        "tone": "citrinit",
+        "mascara": "kin",
         "ordem": 5
+      },
+      {
+        "slug": "imagem",
+        "label": "Imagem, símbolo e tempo",
+        "tone": "bright",
+        "mascara": "sakura",
+        "ordem": 6
+      },
+      {
+        "slug": "religiao",
+        "label": "Religião",
+        "tone": "rubedo",
+        "mascara": "koke",
+        "ordem": 7
+      },
+      {
+        "slug": "alquimia",
+        "label": "Alquimia",
+        "tone": "accent",
+        "mascara": "kuro",
+        "ordem": 8
+      },
+      {
+        "slug": "metodo",
+        "label": "Método",
+        "tone": "citrinit",
+        "mascara": "shiro",
+        "ordem": 9
       }
     ],
     "raposa_admin_glossario_page": {
@@ -830,8 +2742,8 @@
         "eyebrow": "Verbetes · psicologia analítica",
         "title": "As máscaras",
         "emphasis": "da floresta",
-        "kicker": "Os conceitos de Jung, curtos e ligados entre si",
-        "lead": "Cada verbete diz o essencial de um conceito e aponta para onde ele se liga. Dentro dos ensaios, o termo com um ? abre o verbete sem você sair da leitura."
+        "kicker": "Os conceitos de Jung, explicados e ligados entre si",
+        "lead": "Cada verbete explica um conceito do jeito mais simples que ele permite e aponta para onde ele se liga. Dentro dos ensaios, o termo em anil, com um ?, abre o verbete sem você sair da leitura."
       },
       "empty": {
         "sectionLabel": "Categorias",
@@ -5240,5 +7152,5 @@
       }
     }
   },
-  "data_hash": "cd2ba8fe87bb729571e23b744b09e2eef45c6540"
+  "data_hash": "01149e09df68a23ecc653fd31386b2f01f8d7d0e"
 }
