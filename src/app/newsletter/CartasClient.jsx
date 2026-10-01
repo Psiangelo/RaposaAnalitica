@@ -84,7 +84,7 @@ export default function CartasClient() {
                   E o achado da vez: no mesmo parágrafo em que Jung chama a floresta de metáfora do inconsciente (OC 13 §241), a nota 5 descreve uma gravura em que uma raposa some num buraco da montanha. O “animal prestativo”, diz ele, indica o caminho que leva ao templo.
                 </p>
                 <p className="mt-3">Até a próxima trilha,</p>
-                <p className="font-serif italic text-[1.2rem] text-[var(--urushi)]" style={FRAUNCES}>a raposa</p>
+                <p className="font-serif italic text-[1.2rem] text-[var(--urushi)]" style={FRAUNCES}>Raposa Analítica</p>
               </div>
             </div>
           </div>

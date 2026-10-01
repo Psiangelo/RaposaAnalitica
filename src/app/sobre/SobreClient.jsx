@@ -41,8 +41,8 @@ export default function SobreClient() {
       <main id="conteudo">
         <PageHero
           eyebrow={a.title || 'Quem sou eu'}
-          title="Sou uma raposa"
-          emphasis="estudante de psicologia"
+          title="Leio Jung"
+          emphasis="com a fonte do lado"
           lead={a.paragraph1}
           figura="fig/raposa-anotando"
           figuraAlt={autor.photo?.alt || 'A raposa de óculos anotando no caderninho'}
@@ -80,7 +80,7 @@ export default function SobreClient() {
             <aside className="relative overflow-hidden rounded-[28px] bg-[var(--mata)] text-[var(--lua)] p-7 sm:p-9">
               <div aria-hidden className="ceu-estrelado absolute inset-0" />
               <div className="relative">
-                <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.16em] text-[var(--kitsunebi)]">Por que uma raposa</p>
+                <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.16em] text-[var(--kitsunebi)]">De onde vem o nome</p>
                 <p className="mt-3 font-serif text-[1.8rem] font-bold leading-tight text-[var(--lua)]" style={FRAUNCES}>
                   O animal que <em className="text-[var(--ginkgo)]">indica o caminho</em>
                 </p>

@@ -303,7 +303,7 @@ export default function BioManager({ addToast, addLogEntry }) {
             onChange={(e) => update('bio', e.target.value)}
             className={TEXTAREA}
             rows={3}
-            placeholder="Sou uma raposa estudante de psicologia. Leio a obra de Jung..."
+            placeholder="Estudo psicologia e leio a obra de Jung..."
           />
         </div>
         <div className="mt-4">

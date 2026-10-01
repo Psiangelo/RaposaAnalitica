@@ -29,7 +29,7 @@ export default function AuthorBand({ id = 'quem-escreve', eyebrow = 'Quem sou eu
           <div>
             <Rotulo className="mb-3">{eyebrow}</Rotulo>
             <p className="font-serif text-[2rem] font-bold leading-tight text-text-bright" style={FRAUNCES}>
-              {a.name} <span className="italic font-semibold text-accent-bright">· a raposa</span>
+              {a.name}
             </p>
             {a.credential && <p className="font-sans text-[14px] text-text-dim mt-1">{a.credential}</p>}
             <p className="mt-4 font-body text-[1.05rem] leading-relaxed text-text max-w-[60ch]">{body || a.bio}</p>

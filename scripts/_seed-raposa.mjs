@@ -44,7 +44,7 @@ const IG = 'https://www.instagram.com/raposaanalitica/';
 d.raposa_admin_bio = {
   name: 'Raposa Analítica',
   tagline: 'Psicologia analítica · Jung',
-  bio: 'Sou uma raposa estudante de psicologia. Leio a obra de Jung e conto aqui o que vou achando pelo caminho.',
+  bio: 'Estudo psicologia e leio a obra de Jung de ponta a ponta. Aqui eu conto o que vou achando pelo caminho.',
   avatar: '/raposa/fig/perfil-raposa-oculos.webp',
   images: [],
   author: {
@@ -67,7 +67,7 @@ d.raposa_admin_bio = {
 // 6. configurações
 d.raposa_admin_settings = {
   siteTitle: 'Raposa Analítica',
-  siteDescription: 'Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa. Sou uma raposa e guio você pela floresta da psicologia analítica.',
+  siteDescription: 'Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa.',
   whatsappNumber: WA,
   whatsappMessage: 'Oi! Vim pelo site da Raposa Analítica.',
   instagramLink: IG,

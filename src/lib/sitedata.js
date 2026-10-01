@@ -182,7 +182,7 @@ const DEFAULT_AUTHOR = {
 export const DEFAULT_BIO = {
   name: 'Raposa Analítica',
   tagline: 'Psicologia analítica · Jung',
-  bio: 'Sou uma raposa estudante de psicologia. Leio a obra de Jung e conto aqui o que vou achando pelo caminho.',
+  bio: 'Estudo psicologia e leio a obra de Jung de ponta a ponta. Aqui eu conto o que vou achando pelo caminho.',
   avatar: '/raposa/fig/perfil-raposa-oculos.webp',
   author: DEFAULT_AUTHOR,
   images: [],
