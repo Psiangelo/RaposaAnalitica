@@ -124,7 +124,7 @@ function ReadingProgressBar({ targetRef }) {
   }, [targetRef]);
 
   return (
-    <div className="fixed top-[var(--nav-h)] left-0 right-0 h-[3px] z-[400] pointer-events-none" data-reading-progress="true">
+    <div className="fixed top-[var(--nav-h)] left-0 right-0 h-[3px] z-[400] pointer-events-none [overflow-x:clip]" data-reading-progress="true">
       <div className="relative h-full bg-[var(--torii)] origin-left rounded-r-full" style={{ width: `${progress * 100}%`, transition: 'width 80ms linear' }}>
         {progress > 0.01 && (
           <span aria-hidden className="absolute -right-[5px] -top-[4px] w-[11px] h-[11px] rounded-full bg-[var(--ginkgo)] shadow-[0_0_10px_rgb(233_200_94/0.8)]" />
@@ -460,7 +460,7 @@ export default function BlogPostView({ post, allPosts, seriesList, visibility })
               </div>
             )}
             <h1
-              className="font-serif text-[clamp(2.3rem,5.6vw,4.4rem)] leading-[1.02] font-extrabold tracking-[-0.02em] text-text-bright"
+              className="font-serif text-[clamp(2.3rem,5.6vw,4.4rem)] leading-[1.02] font-extrabold tracking-[-0.02em] text-text-bright [overflow-wrap:anywhere]"
               style={{ fontVariationSettings: '"SOFT" 100, "WONK" 1' }}
             >
               {renderHighlightedTitle(post.title)}

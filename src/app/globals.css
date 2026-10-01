@@ -571,7 +571,13 @@ body.reading-mode .whatsapp-button {
   font-family: var(--f-prosa);
   font-size: 1.125rem;
   line-height: 1.78;
+  /* palavra longa («compensação/complementariedade») quebra em vez de alargar a página no celular */
+  overflow-wrap: break-word;
 }
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4 { overflow-wrap: anywhere; }
 @media (min-width: 768px) {
   .blog-content { font-size: 1.1875rem; }
 }
