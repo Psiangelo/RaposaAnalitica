@@ -70,7 +70,7 @@ export default function TrilhaHero({ trilha, area, pct, nextStage, onReset, acce
               <Icone nome="torii" size={18} /> {cta}
               {nextStage && pct > 0 && pct < 100 && <span className="font-serif italic font-normal opacity-80">· {nextStage.title}</span>}
             </Link>
-            {pct === 100 && <span className="font-sans text-[15px] font-semibold text-accent">Trilha concluída. A raposa está orgulhosa.</span>}
+            {pct === 100 && <span className="font-sans text-[15px] font-semibold text-accent">Trilha concluída. Que orgulho de você.</span>}
           </div>
         </motion.div>
 

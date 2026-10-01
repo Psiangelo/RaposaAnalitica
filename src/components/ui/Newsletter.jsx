@@ -93,7 +93,7 @@ export function FormularioCartas({ source = 'site', tom = 'claro', compacto = fa
     return (
       <div className={`rounded-2xl p-5 sm:p-6 ${escuro ? 'bg-bg-card' : 'bg-bg-card border border-linha'}`}>
         <p className="font-serif text-[1.25rem] font-semibold text-text-bright">As cartas começam em breve.</p>
-        <p className="mt-1.5 font-body text-[0.98rem] text-text">A raposa ainda está arrumando a escrivaninha. Quer o aviso da primeira?</p>
+        <p className="mt-1.5 font-body text-[0.98rem] text-text">Ainda estou arrumando a escrivaninha. Quer o aviso da primeira?</p>
         <div className="btn-row mt-4">
           {whats && (
             <a href={`https://wa.me/${whats}?text=${msg}`} target="_blank" rel="noopener noreferrer" className={`btn ${escuro ? 'btn--ouro' : 'btn--solid'}`}>

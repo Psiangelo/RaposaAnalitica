@@ -117,7 +117,7 @@ export const DEFAULT_HOMEPAGE = {
     eyebrow: 'Psicologia analítica · a obra de Jung',
     titlePrefix: 'A floresta é o',
     titleEmphasis: 'inconsciente',
-    tagline: 'e a raposa conhece as trilhas.',
+    tagline: 'e eu conheço as trilhas.',
     lead: 'Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.',
     quote: 'A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério. É uma metáfora apropriada para o inconsciente.',
     quoteSource: 'OC 13 §241',
@@ -128,7 +128,7 @@ export const DEFAULT_HOMEPAGE = {
     ...(SEED.raposa_admin_homepage?.hero || {}),
   },
   about: {
-    title: 'Quem escreve',
+    title: 'Quem sou eu',
     paragraph1: '',
     paragraph2: '',
     paragraph3: '',
@@ -142,8 +142,8 @@ export const DEFAULT_HOMEPAGE = {
   },
   newsletter: {
     eyebrow: 'Cartas da Raposa',
-    title: 'Uma carta quando a raposa',
-    emphasis: 'acha alguma coisa.',
+    title: 'Uma carta quando eu',
+    emphasis: 'acho alguma coisa.',
     lead: 'Ensaio novo, verbete novo, trilha nova, e de vez em quando um achado das notas de rodapé de Jung.',
     buttonLabel: 'Quero receber',
     buttonLoadingLabel: 'Enviando…',
@@ -182,7 +182,7 @@ const DEFAULT_AUTHOR = {
 export const DEFAULT_BIO = {
   name: 'Raposa Analítica',
   tagline: 'Psicologia analítica · Jung',
-  bio: 'Uma raposa estudante de psicologia lendo a obra de Jung e contando o que acha pelo caminho.',
+  bio: 'Sou uma raposa estudante de psicologia. Leio a obra de Jung e conto aqui o que vou achando pelo caminho.',
   avatar: '/raposa/fig/perfil-raposa-oculos.webp',
   author: DEFAULT_AUTHOR,
   images: [],
@@ -492,7 +492,7 @@ export const HOME_SECTION_META = [
   { id: 'servicos',      label: 'Pesquisa sob encomenda',            visKey: 'servicosHome' },
   { id: 'newsletter',    label: 'Cartas da Raposa (inscrição)',      visKey: 'newsletter' },
   { id: 'loja',          label: 'Loja (vitrine)',                    visKey: 'lojaHome' },
-  { id: 'about',         label: 'Quem escreve',                      visKey: 'about' },
+  { id: 'about',         label: 'Quem sou eu',                      visKey: 'about' },
   { id: 'contato',       label: 'Converse comigo',                   visKey: 'contato' },
   { id: 'cartografia',   label: 'Cartografia de conceitos',          visKey: 'cartografia' },
 ];
@@ -993,11 +993,11 @@ export const setLabels = (v) => writeJson(SITEDATA_KEYS.labels, v);
 =================================================================== */
 
 export const DEFAULT_SERVICOS = {
-  hero: { eyebrow: 'Pesquisa sob encomenda', title: 'A raposa vai', emphasis: 'pescar na obra', lead: '', primaryLabel: 'Pedir um orçamento' },
+  hero: { eyebrow: 'Pesquisa sob encomenda', title: 'Vou pescar', emphasis: 'na obra por você', lead: '', primaryLabel: 'Pedir um orçamento' },
   pecas: [],
   passos: [],
   limites: [],
-  cta: { titulo: 'Tem uma pergunta para a raposa?', texto: '', whatsappMensagem: 'Oi! Queria um orçamento de pesquisa. Tema: ', email: '' },
+  cta: { titulo: 'Tem uma pergunta? Me conta.', texto: '', whatsappMensagem: 'Oi! Queria um orçamento de pesquisa. Tema: ', email: '' },
   ...(SEED.raposa_admin_servicos || {}),
 };
 

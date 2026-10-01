@@ -22,7 +22,7 @@ export default function NotFound() {
               Essa trilha <em className="italic text-accent-bright">sumiu na mata</em>.
             </h1>
             <p className="mt-6 font-body text-[1.12rem] leading-relaxed text-text max-w-[46ch]">
-              A raposa entrou na toca e levou a página junto. Pode ser que ela tenha mudado de lugar, ou que nunca tenha existido. Daqui dá para voltar ao caminho.
+              Entrei na toca e levei a página junto. Pode ser que ela tenha mudado de lugar, ou que nunca tenha existido. Daqui dá para voltar ao caminho.
             </p>
             <div className="btn-row mt-8">
               <Link href="/blog/" className="btn btn--solid">

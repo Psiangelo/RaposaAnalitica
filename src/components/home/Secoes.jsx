@@ -248,7 +248,7 @@ export function QuemEscreve({ compacto = false }) {
   const bio = useSitedata(getBio, DEFAULT_BIO, SITEDATA_KEYS.bio);
   const a = { ...DEFAULT_HOMEPAGE.about, ...(home?.about || {}) };
   const autor = bio?.author || DEFAULT_BIO.author;
-  const titulo = useSectionLabel('about', 'Uma raposa *estudante* de psicologia');
+  const titulo = useSectionLabel('about', 'Sou uma raposa *estudante* de psicologia');
   return (
     <section id="quem-escreve" className="relative overflow-hidden py-16 sm:py-24 bg-[var(--fundo-2)]">
       <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.06} tam={52} />
@@ -259,7 +259,7 @@ export function QuemEscreve({ compacto = false }) {
           <Figura nome="fig/raposa-anotando" alt={autor.photo?.alt || 'A raposa de óculos anotando no caderninho'} className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[74%]" />
         </div>
         <div>
-          <Rotulo className="mb-4">{a.title || 'Quem escreve'}</Rotulo>
+          <Rotulo className="mb-4">{a.title || 'Quem sou eu'}</Rotulo>
           <TituloSecao texto={titulo} />
           {a.paragraph1 && <p className="mt-5 font-body text-[1.08rem] leading-relaxed text-text max-w-[58ch]">{a.paragraph1}</p>}
           {!compacto && a.paragraph2 && <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[58ch]">{a.paragraph2}</p>}
@@ -273,7 +273,7 @@ export function QuemEscreve({ compacto = false }) {
             </ul>
           )}
           {autor.disclaimer && <p className="mt-5 font-sans text-[14px] text-text-dim">{autor.disclaimer}</p>}
-          <Link href="/sobre" className="link-arrow mt-7">Mais sobre a raposa <Icone nome="seta" size={16} /></Link>
+          <Link href="/sobre" className="link-arrow mt-7">Mais sobre mim <Icone nome="seta" size={16} /></Link>
         </div>
       </div>
     </section>

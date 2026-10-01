@@ -40,7 +40,7 @@ const barlowCond = Barlow_Semi_Condensed({
 });
 
 const DESCRICAO =
-  'Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa. Uma raposa guiando pela floresta da psicologia analítica.';
+  'Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa. Sou uma raposa e guio você pela floresta da psicologia analítica.';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

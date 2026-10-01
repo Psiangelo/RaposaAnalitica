@@ -24,7 +24,7 @@ export default function AuthorBox() {
         <Figura nome="fig/perfil-raposa-oculos" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[88%]" />
       </div>
       <div>
-        <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.12em] text-text-dim">Quem escreve</p>
+        <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.12em] text-text-dim">Quem sou eu</p>
         <p className="font-serif text-[1.45rem] font-bold text-text-bright leading-tight" style={FRAUNCES}>{a.name}</p>
         {a.credential && <p className="font-sans text-[13.5px] text-text-dim">{a.credential}</p>}
         <p className="mt-2.5 font-body text-[1rem] leading-relaxed text-text">{a.bio}</p>

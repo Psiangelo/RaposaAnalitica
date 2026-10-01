@@ -153,7 +153,7 @@ export default function BlogPage({ initialPosts = [], initialSeriesList = [] }) 
             ) : publicados.length === 0 ? (
               <div className="flex flex-col items-center text-center py-16">
                 <Figura nome="fig/raposa-dormindo-lua" alt="" className="w-[220px] mb-5" />
-                <p className="font-serif text-[1.5rem] text-text-bright">A raposa está escrevendo o primeiro.</p>
+                <p className="font-serif text-[1.5rem] text-text-bright">Estou escrevendo o primeiro.</p>
               </div>
             ) : null}
 

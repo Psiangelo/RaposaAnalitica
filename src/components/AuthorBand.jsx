@@ -13,7 +13,7 @@ import { FRAUNCES } from '@/components/raposa/Cabecalho';
  * «Quem escreve»: fecha a lista de ensaios e a das trilhas. A raposa de
  * óculos no disco, o nome, duas linhas e os caminhos (sobre, Instagram).
  */
-export default function AuthorBand({ id = 'quem-escreve', eyebrow = 'Quem escreve', body, secondary }) {
+export default function AuthorBand({ id = 'quem-escreve', eyebrow = 'Quem sou eu', body, secondary }) {
   const bio = useSitedata(getBio, DEFAULT_BIO, SITEDATA_KEYS.bio);
   const settings = useSitedata(getSettings, DEFAULT_SETTINGS, SITEDATA_KEYS.settings);
   const { visibility: v } = useVisibility();
@@ -35,7 +35,7 @@ export default function AuthorBand({ id = 'quem-escreve', eyebrow = 'Quem escrev
             <p className="mt-4 font-body text-[1.05rem] leading-relaxed text-text max-w-[60ch]">{body || a.bio}</p>
             <div className="btn-row mt-6">
               <Link href="/sobre" className="btn btn--solid btn--sm">
-                Sobre a raposa <Icone nome="seta" size={16} />
+                Mais sobre mim <Icone nome="seta" size={16} />
               </Link>
               {secondary && (
                 <Link href={secondary.href} className="btn btn--ghost btn--sm">{secondary.label}</Link>

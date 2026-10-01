@@ -61,10 +61,10 @@ export default function ServicosClient() {
         {/* as peças */}
         <section className="py-16 sm:py-20">
           <div className={W}>
-            <Rotulo className="mb-4">O que a raposa entrega</Rotulo>
+            <Rotulo className="mb-4">O que eu entrego</Rotulo>
             <TituloSecao antes="Quatro peças," pivo="escopo fechado" />
             <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[60ch]">
-              Não se vende hora: cada peça tem escopo, formato e prazo combinados antes de começar. Você sabe o que vai receber.
+              Não vendo hora: cada peça tem escopo, formato e prazo combinados antes de começar. Você sabe o que vai receber.
             </p>
             <div className="mt-10 grid gap-5 md:grid-cols-2">
               {pecas.map((p) => {
@@ -160,7 +160,7 @@ export default function ServicosClient() {
           <section className="py-16 sm:py-20 bg-[var(--fundo-2)]">
             <div className={W}>
               <Rotulo className="mb-4">Combinado é combinado</Rotulo>
-              <TituloSecao antes="O que a raposa" pivo="não faz" />
+              <TituloSecao antes="O que eu" pivo="não faço" />
               <ul className="mt-8 grid gap-4 md:grid-cols-2">
                 {s.limites.map((l, i) => (
                   <li key={i} className="flex gap-4 items-start rounded-[22px] bg-bg-card border border-linha p-5">
@@ -180,7 +180,7 @@ export default function ServicosClient() {
           <div aria-hidden className="ceu-estrelado absolute inset-0" />
           <div className={`relative ${W} grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center`}>
             <div>
-              <TituloSecao antes={s.cta?.titulo || 'Tem uma pergunta para a raposa?'} />
+              <TituloSecao antes={s.cta?.titulo || 'Tem uma pergunta? Me conta.'} />
               {s.cta?.texto && <p className="mt-4 font-body text-[1.1rem] leading-relaxed text-text max-w-[50ch]">{s.cta.texto}</p>}
               <div className="btn-row mt-7">
                 {whatsGeral && (

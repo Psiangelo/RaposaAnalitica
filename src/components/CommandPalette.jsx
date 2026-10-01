@@ -27,9 +27,9 @@ const PAGINAS = [
   { title: 'Pesquisa sob encomenda', href: '/servicos', hint: 'Para TCC, dissertação e tese', vis: 'servicos' },
   { title: 'Loja', href: '/loja', hint: 'Guias e materiais', vis: 'loja' },
   { title: 'Cartas da Raposa', href: '/newsletter', hint: 'Newsletter', vis: 'newsletter' },
-  { title: 'Sobre', href: '/sobre', hint: 'Quem escreve', vis: null },
+  { title: 'Sobre', href: '/sobre', hint: 'Quem sou eu', vis: null },
   { title: 'Converse comigo', href: '/sobre#converse', hint: 'WhatsApp, Instagram, e-mail', vis: null },
-  { title: 'Bio', href: '/bio', hint: 'Os links da raposa', vis: 'bio' },
+  { title: 'Bio', href: '/bio', hint: 'Meus links', vis: 'bio' },
 ];
 
 const TIPO = {
@@ -186,7 +186,7 @@ export default function CommandPalette() {
             <div ref={listRef} className="max-h-[56vh] overflow-y-auto">
               {results.length === 0 ? (
                 <div className="px-5 py-10 text-center text-text-dim font-serif italic">
-                  A raposa procurou e não achou nada com esse nome.
+                  Procurei e não achei nada com esse nome.
                 </div>
               ) : (
                 <ul>

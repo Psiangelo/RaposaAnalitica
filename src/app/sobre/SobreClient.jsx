@@ -40,8 +40,8 @@ export default function SobreClient() {
       <Navbar />
       <main id="conteudo">
         <PageHero
-          eyebrow={a.title || 'Quem escreve'}
-          title="Uma raposa"
+          eyebrow={a.title || 'Quem sou eu'}
+          title="Sou uma raposa"
           emphasis="estudante de psicologia"
           lead={a.paragraph1}
           figura="fig/raposa-anotando"
@@ -101,7 +101,7 @@ export default function SobreClient() {
             <Padronagem nome="ichimatsu" cor="#2E5240" opacidade={0.04} tam={44} />
             <div className={`relative ${W}`}>
               <Rotulo className="mb-4">Fora dos livros</Rotulo>
-              <TituloSecao antes="Do que essa raposa" pivo="gosta" />
+              <TituloSecao antes="Do que eu" pivo="gosto" />
               <ul className="mt-10 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 {a.gostos.map((g) => {
                   const fig = FIGURA_DO_GOSTO[(g.titulo || '').toLowerCase()];
@@ -126,7 +126,7 @@ export default function SobreClient() {
           <section className="pb-16">
             <div className={`${W} flex justify-center`}>
               <a href={settings.instagramLink} target="_blank" rel="noopener noreferrer" className="btn btn--ghost">
-                <Icone nome="instagram" size={18} /> A raposa no Instagram
+                <Icone nome="instagram" size={18} /> Me acompanhe no Instagram
               </a>
             </div>
           </section>
