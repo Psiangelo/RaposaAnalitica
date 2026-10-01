@@ -1,8 +1,149 @@
 {
-  "version": 1790892369810,
-  "publishedAt": "2026-07-31T15:31:37.233+00:00",
-  "note": "Primeiro conteúdo da Raposa Analítica (a partir do Psiangelo)",
+  "version": 1790892979163,
+  "published_at": "2026-10-01T22:16:19.163Z",
+  "note": "teste do botão Publicar",
   "data": {
+    "raposa_admin_trilhas": [
+      {
+        "id": "trilha-mpbryeoh",
+        "area": "psicologia-junguiana",
+        "icon": "compass",
+        "name": "Jung: Por onde eu começo?",
+        "slug": "introducaojung",
+        "extra": false,
+        "level": "Introdutório",
+        "hidden": false,
+        "stages": [
+          {
+            "id": "stage-iuzg4",
+            "icon": "scroll",
+            "kind": "leitura",
+            "slug": "etapa",
+            "extra": false,
+            "intro": "",
+            "title": "História",
+            "blocks": [
+              {
+                "link": {
+                  "kind": "blog",
+                  "label": "",
+                  "value": "como-jung-se-relaciona-com-a-sua-psicologia"
+                },
+                "type": "link"
+              }
+            ],
+            "hidden": false,
+            "summary": "Premissas que irão auxiliar a nortear a leitura e o estudo da psicologia Junguiana.",
+            "thumbMode": "icon",
+            "comingSoon": false,
+            "coverImage": ""
+          }
+        ],
+        "duration": "",
+        "subtitle": "",
+        "archetype": "",
+        "thumbMode": "icon",
+        "comingSoon": false,
+        "coverImage": "",
+        "description": "Aqui você vai entender por onde começar quando não sabe absolutamente nada sobre psicologia complexa. "
+      }
+    ],
+    "raposa_admin_homepage": {
+      "hero": {
+        "eyebrow": "Psicologia analítica · a obra de Jung",
+        "titlePrefix": "A floresta é o",
+        "titleEmphasis": "inconsciente",
+        "tagline": "e a raposa conhece as trilhas.",
+        "lead": "Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.",
+        "quote": "A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério. É uma metáfora apropriada para o inconsciente.",
+        "quoteSource": "OC 13 §241",
+        "primaryLabel": "Ler os ensaios",
+        "primaryHref": "/blog",
+        "secondaryLabel": "Começar uma trilha",
+        "secondaryHref": "/trilhas"
+      },
+      "about": {
+        "title": "Quem escreve",
+        "paragraph1": "Toda vez que alguém me compara com um bicho, escolhe a raposa. Então a raposa ficou. Sou estudante de psicologia e leio a obra de Jung de ponta a ponta, com um acervo de notas que cruza os volumes, as datas e os parágrafos.",
+        "paragraph2": "Aqui eu conto o que vou achando: o que Jung disse mesmo, onde ele mudou de ideia, o que está escondido nas notas de rodapé e nas cartas. Tudo com a fonte, para você conferir.",
+        "paragraph3": "No Livro Vermelho, Jung diz ao seu mestre interior, Filêmon, que no mínimo ele é uma raposa esperta, de quem dá para aprender alguma coisa. Por aqui, a raposa ainda é aluna.",
+        "quoteText": "O animal prestativo indica o caminho que leva ao templo.",
+        "quoteAuthor": "Jung, OC 13 §241, nota 5 (paráfrase)",
+        "credentials": [
+          {
+            "mark": "◆",
+            "label": "Leitura",
+            "detail": "Leitura sistemática da Obra Completa, em curso"
+          },
+          {
+            "mark": "◇",
+            "label": "Escrita",
+            "detail": "Ensaios, verbetes e trilhas públicos"
+          },
+          {
+            "mark": "◆",
+            "label": "Estudo",
+            "detail": "Condução de grupo de estudos"
+          },
+          {
+            "mark": "◇",
+            "label": "Liga",
+            "detail": "Presidência · Psicologia Analítica · UNICAP"
+          }
+        ],
+        "gostos": [
+          {
+            "titulo": "Mitologia",
+            "detalhe": "e conto de fada, que o Jung levava a sério"
+          },
+          {
+            "titulo": "Xadrez",
+            "detalhe": "a coruja sempre ganha"
+          },
+          {
+            "titulo": "Anime",
+            "detalhe": "um episódio vira três"
+          },
+          {
+            "titulo": "Escrever",
+            "detalhe": "caderninho sempre por perto"
+          },
+          {
+            "titulo": "Doce",
+            "detalhe": "a kitsune da lenda gosta de tofu frito; eu prefiro doce"
+          }
+        ],
+        "milestones": [],
+        "images": []
+      },
+      "contact": {
+        "sectionLabel": "Converse comigo",
+        "title": "Bata no shoji",
+        "lead": "Dúvida sobre um ensaio, pedido de pesquisa, ideia de parceria ou só vontade de conversar sobre Jung. A raposa responde.",
+        "primaryLabel": "Canal principal",
+        "primaryHeadingPrefix": "Pelo",
+        "primaryHeadingEmphasis": "WhatsApp",
+        "primaryText": "Me conta em poucas linhas o que você quer. Costumo responder no mesmo dia.",
+        "primaryButton": "Abrir conversa",
+        "whatsappNumber": "5581987349114",
+        "instagramLabel": "Instagram",
+        "instagramValue": "@raposaanalitica",
+        "instagramUrl": "https://www.instagram.com/raposaanalitica/",
+        "emailLabel": "E-mail",
+        "emailValue": ""
+      },
+      "newsletter": {
+        "eyebrow": "Cartas da Raposa",
+        "title": "Uma carta quando a raposa",
+        "emphasis": "acha alguma coisa.",
+        "lead": "Ensaio novo, verbete novo, trilha nova, e de vez em quando um achado das notas de rodapé de Jung. Sem frequência fixa e sem enrolação.",
+        "buttonLabel": "Quero receber",
+        "buttonLoadingLabel": "Enviando…",
+        "successMessage": "Pronto. A próxima carta chega no seu e-mail.",
+        "alreadySubscribedMessage": "Você já está na lista. Obrigado.",
+        "errorMessage": "Não deu para confirmar agora. Tenta de novo em instantes."
+      }
+    },
     "raposa_admin_bio": {
       "name": "Raposa Analítica",
       "tagline": "Psicologia analítica · Jung",
@@ -75,6 +216,933 @@
           "hidden": false
         }
       ]
+    },
+    "raposa_admin_visibility": {
+      "home": true,
+      "blog": true,
+      "bio": true,
+      "estudos": true,
+      "glossario": true,
+      "servicos": true,
+      "loja": true,
+      "newsletter": true,
+      "ensaioDestaque": true,
+      "autor": true,
+      "about": true,
+      "contato": true,
+      "verbetesHome": true,
+      "servicosHome": true,
+      "lojaHome": true,
+      "blogAuthorBox": true,
+      "autorInstagram": true,
+      "whatsappFlutuante": true,
+      "cartografia": false,
+      "materiais": false
+    },
+    "raposa_admin_settings": {
+      "siteTitle": "Raposa Analítica",
+      "siteDescription": "Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa. Uma raposa guiando pela floresta da psicologia analítica.",
+      "whatsappNumber": "5581987349114",
+      "whatsappMessage": "Oi! Vim pelo site da Raposa Analítica.",
+      "instagramLink": "https://www.instagram.com/raposaanalitica/",
+      "youtubeLink": "",
+      "emailAddress": "",
+      "accentColor": "#2E5240"
+    },
+    "raposa_admin_home_sections": [
+      "hero",
+      "featuredEssay",
+      "blog",
+      "verbetes",
+      "estudos",
+      "servicos",
+      "newsletter",
+      "loja",
+      "about",
+      "contato"
+    ],
+    "raposa_admin_home_sections_layout": 1,
+    "raposa_admin_glossario": [
+      {
+        "full": "O Self é, para Jung, o arquétipo da totalidade: centro e circunferência da psique ao mesmo tempo. Diferente do Ego — que é apenas o centro da consciência — o Self compreende tudo: pensamentos reconhecidos, afetos recalcados, tendências coletivas.\n\nFenomenologicamente, o Self aparece em sonhos e experiências numinosas como mandalas, figuras divinas ou símbolos de união de opostos. Não é algo a ser \"conquistado\", mas reconhecido — o processo de individuação é exatamente o diálogo progressivo entre Ego e Self.\n\nPara a clínica: o sintoma muitas vezes é o Self \"puxando\" a consciência em direção a uma completude que o Ego resiste em aceitar.",
+        "slug": "self",
+        "term": "Self",
+        "links": [],
+        "ordem": 0,
+        "short": "Centro regulador da psique — totalidade que engloba consciente e inconsciente.",
+        "hidden": false,
+        "aliases": [
+          "si-mesmo",
+          "si mesmo"
+        ],
+        "related": {
+          "terms": [
+            "ego",
+            "individuacao",
+            "mandala"
+          ],
+          "materials": []
+        },
+        "category": "estrutura",
+        "mascara": "kin"
+      },
+      {
+        "full": "O Ego, para Jung, é o complexo central da consciência: o \"eu\" que vivencia, escolhe, lembra. Mas não é toda a psique — é apenas o campo iluminado por ela.\n\nUm dos erros mais comuns (inclusive em clínica) é confundir Ego com Self. O Ego é serviçal, relativo; o Self é totalidade. Quando o Ego se infla e se toma pelo Self, temos o que Jung chamou de \"inflação psíquica\" — e tipicamente, um colapso subsequente.",
+        "slug": "ego",
+        "term": "Ego",
+        "links": [],
+        "ordem": 1,
+        "short": "Sujeito da consciência — centro do campo consciente, não da psique toda.",
+        "hidden": false,
+        "aliases": [
+          "eu"
+        ],
+        "related": {
+          "terms": [
+            "self",
+            "persona",
+            "complexo"
+          ],
+          "materials": [
+            "consciencia-complexo-ego"
+          ]
+        },
+        "category": "estrutura"
+      },
+      {
+        "full": "Persona é a interface entre o Ego e o coletivo. Todo mundo tem uma — e precisa ter: é o que nos permite atuar como \"profissional\", \"filho\", \"terapeuta\", sem despejar toda a nossa intimidade a cada contato.\n\nO problema surge quando o Ego se identifica com a Persona — quando não há mais distinção entre \"quem eu sou\" e \"o papel que desempenho\". O terapeuta que só se experimenta como terapeuta, o pai que só se experimenta como pai: ali a Persona devorou o Ego.",
+        "slug": "persona",
+        "term": "Persona",
+        "links": [],
+        "ordem": 2,
+        "short": "Máscara social — o rosto que o Ego apresenta ao mundo.",
+        "hidden": false,
+        "aliases": [
+          "máscara"
+        ],
+        "related": {
+          "terms": [
+            "ego",
+            "sombra"
+          ],
+          "materials": []
+        },
+        "category": "estrutura",
+        "mascara": "shiro"
+      },
+      {
+        "full": "A Sombra é tudo o que o Ego considera incompatível consigo: impulsos, traços, desejos que foram recalcados no processo de formação da Persona. Não é necessariamente \"mal\" — é rejeitado.\n\nUm analista agressivo, que se vê como gentil, projeta agressividade nos pacientes \"difíceis\". Um religioso devoto, que se vê como puro, enxerga tentação em toda mulher. A Sombra volta como projeção — e é clinicamente reconhecida quando o paciente (ou o próprio terapeuta) reage desproporcionalmente a um traço em alguém.\n\nIntegrar a Sombra não é \"agir a partir dela\", mas reconhecer que ela é sua, relativizando o que antes era visto como puramente externo.",
+        "slug": "sombra",
+        "term": "Sombra",
+        "links": [],
+        "ordem": 3,
+        "short": "Aquilo que o Ego rejeita em si — o \"lado escuro\" da personalidade.",
+        "hidden": false,
+        "aliases": [
+          "shadow"
+        ],
+        "related": {
+          "terms": [
+            "persona",
+            "projecao",
+            "individuacao"
+          ],
+          "materials": [
+            "projecao"
+          ]
+        },
+        "category": "arquetipos",
+        "mascara": "kuro"
+      },
+      {
+        "full": "Anima é, para Jung, a figuração arquetípica do feminino na psique masculina — aparece em sonhos, fantasias e projeções amorosas. Não é \"a mulher real\", mas uma imagem moldada por séculos de experiência coletiva e pela história pessoal com figuras femininas (primeiramente a mãe).\n\nNa clínica, o terapeuta junguiano atento à Anima pergunta: quem é a mulher dos sonhos desse paciente? Como ele se relaciona com o feminino nele? Qual é o tom emocional que vem junto?\n\nO desenvolvimento da Anima — de Eva (instinto) a Helena (romance), Maria (devoção) e Sofia (sabedoria) — é um mapa clássico do processo de diferenciação.",
+        "slug": "anima",
+        "term": "Anima",
+        "links": [],
+        "ordem": 4,
+        "short": "Imagem do feminino no inconsciente do homem — função de ligação com o inconsciente.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "animus",
+            "projecao",
+            "sizigia"
+          ],
+          "materials": []
+        },
+        "category": "arquetipos",
+        "mascara": "fuji"
+      },
+      {
+        "full": "Assim como Anima é a figura feminina no homem, Animus é a figuração do masculino na mulher. Jung descreveu-o frequentemente como \"a voz\" — a voz interna que julga, categoriza, opina.\n\nQuando não integrado, aparece como convicção rígida (\"todo mundo sabe que...\"), discurso apropriado de figuras de autoridade, ou relações amorosas onde a mulher busca um \"salvador-pensador\". Integrado, é discernimento, palavra precisa, corte criativo.",
+        "slug": "animus",
+        "term": "Animus",
+        "links": [],
+        "ordem": 5,
+        "short": "Imagem do masculino no inconsciente da mulher — frequentemente figurada como \"a voz\".",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "anima",
+            "sizigia"
+          ],
+          "materials": []
+        },
+        "category": "arquetipos",
+        "mascara": "fuji"
+      },
+      {
+        "full": "A grande descoberta de Jung, e o que o separou radicalmente de Freud. Enquanto o inconsciente pessoal contém material recalcado da biografia individual, o inconsciente coletivo contém padrões estruturantes compartilhados — os arquétipos.\n\nA evidência empírica que Jung apresentou: motivos idênticos aparecendo em sonhos de pessoas sem contato com as mitologias que os contêm; paralelos entre delírios psicóticos e mitos antigos; imagens recorrentes na arte, na religião, nos contos de fada.\n\nNão é um \"banco de memórias herdadas\" — é uma estrutura psíquica compartilhada, como o fato de todos nascermos com a mesma anatomia cerebral.",
+        "slug": "inconsciente-coletivo",
+        "term": "Inconsciente coletivo",
+        "links": [],
+        "ordem": 6,
+        "short": "Substrato psíquico comum à humanidade — onde os arquétipos residem.",
+        "hidden": false,
+        "aliases": [
+          "psique objetiva"
+        ],
+        "related": {
+          "terms": [
+            "arquetipo",
+            "self",
+            "mito-pessoal"
+          ],
+          "materials": [
+            "hermeneutica-psicologia"
+          ]
+        },
+        "category": "estrutura",
+        "mascara": "ai"
+      },
+      {
+        "full": "Arquétipos são *formas* — não conteúdos. Como o leito de um rio: o rio (o conteúdo) pode variar, mas há uma direção, um padrão escavado pela repetição.\n\nA Mãe, o Herói, a Sombra, o Velho Sábio, o Trapaceiro — esses não são \"personagens\" fixos, mas potenciais psíquicos que se manifestam em imagens culturalmente específicas. Cada cultura preenche o arquétipo da Mãe à sua maneira (Maria, Démeter, Iemanjá), mas o padrão está ali.\n\nA confusão comum é tratar arquétipos como receitas ou etiquetas. Eles são, acima de tudo, *energia* — carga afetiva que pode capturar a consciência.",
+        "slug": "arquetipo",
+        "term": "Arquétipo",
+        "links": [],
+        "ordem": 7,
+        "short": "Forma a priori — padrão estruturante no inconsciente coletivo.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "inconsciente-coletivo",
+            "mito-pessoal"
+          ],
+          "materials": [
+            "hermeneutica-psicologia"
+          ]
+        },
+        "category": "arquetipos"
+      },
+      {
+        "full": "Um complexo é uma constelação de imagens, memórias, afetos em torno de um núcleo arquetípico. É autônomo: pode ser ativado sem convite, tomar a consciência, falar pela boca do Ego.\n\n\"Todo mundo tem complexos\" — e deve ter. O complexo materno, o complexo de inferioridade, o complexo paterno. Não são patologia em si: são estrutura. Patológica é a *identificação* com o complexo, a incapacidade de se distinguir dele.\n\nJung descobriu os complexos via experimento de associação de palavras: perturbações na resposta (pausa, tropeço, esquecimento) indicavam a constelação de um complexo.",
+        "slug": "complexo",
+        "term": "Complexo",
+        "links": [],
+        "ordem": 8,
+        "short": "Núcleo afetivo autônomo — um \"pedaço\" da psique com vida própria.",
+        "hidden": false,
+        "aliases": [
+          "complexo afetivo"
+        ],
+        "related": {
+          "terms": [
+            "ego",
+            "sombra"
+          ],
+          "materials": [
+            "consciencia-complexo-ego"
+          ]
+        },
+        "category": "dinamica",
+        "mascara": "aka"
+      },
+      {
+        "full": "Individuação não é \"individualismo\". É o processo pelo qual uma pessoa se torna um indivíduo psicológico: ou seja, um ser indivisível, uma unidade irrevogável, um \"todo\" — Jung.\n\nÉ um processo de diferenciação do coletivo inconsciente: do que se herdou da família, da cultura, dos papéis sociais — sem abandonar tudo isso, mas reconhecendo-o *como outro*. Ter relação consigo em vez de *ser* o que foi recebido.\n\nNão termina. Há marcos, passagens — a saída da infância psicológica, a integração da Sombra, o encontro com Anima/Animus, o reconhecimento do Self. Mas o processo é a vida inteira.",
+        "slug": "individuacao",
+        "term": "Individuação",
+        "links": [],
+        "ordem": 9,
+        "short": "Tornar-se quem se é — processo de diferenciação do indivíduo face ao coletivo.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "self",
+            "sombra",
+            "funcao-transcendente"
+          ],
+          "materials": []
+        },
+        "category": "processo",
+        "mascara": "kin"
+      },
+      {
+        "full": "Sincronicidade é o conceito que Jung propôs para eventos que se correspondem *por significado*, não por causa. Um paciente fala de um escaravelho; bate um besouro na janela. Duas pessoas sonham o mesmo símbolo na mesma noite, de cidades diferentes.\n\nNão é mágica, nem causalidade oculta. É uma categoria de ordenamento diferente — complementar à causalidade, não concorrente. Jung só publicou o conceito tardiamente (em colaboração com Wolfgang Pauli, físico quântico) porque reconhecia quão facilmente vira pseudociência.\n\nClinicamente, o que importa é: quando o paciente traz uma sincronicidade, algo está sendo constelado. Vale perguntar: o que está querendo dizer isso?",
+        "slug": "sincronicidade",
+        "term": "Sincronicidade",
+        "links": [],
+        "ordem": 10,
+        "short": "Coincidência significativa — sentido sem causa.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "inconsciente-coletivo",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "category": "dinamica"
+      },
+      {
+        "full": "Projeção é o mecanismo pelo qual algo que está *em mim* — uma característica, um afeto, um conteúdo arquetípico — é vivenciado como estando *no outro*.\n\nProjeta-se a Sombra nos inimigos, a Anima na amada, o Self no mestre espiritual. Em todos os casos, o conteúdo tem *base real* no outro (por isso projeção não é alucinação), mas a intensidade do afeto vem de dentro.\n\nO trabalho analítico é, em grande parte, o trabalho de *retirar as projeções*: reconhecer que o ódio exagerado tem minha Sombra, que o amor absoluto carrega minha Anima. Não é minimizar o outro — é dar pra cada um o que é seu.",
+        "slug": "projecao",
+        "term": "Projeção",
+        "links": [],
+        "ordem": 11,
+        "short": "Conteúdo psíquico interno vivido como se fosse externo.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "sombra",
+            "anima",
+            "animus"
+          ],
+          "materials": [
+            "projecao"
+          ]
+        },
+        "category": "dinamica"
+      },
+      {
+        "full": "Sizígia é, na linguagem junguiana, o par arquetípico de opostos que tendem a aparecer juntos: Anima-Animus, sol-lua, rei-rainha, Yang-Yin.\n\nClinicamente, a sizígia aparece em sonhos como casais míticos, ou em relações amorosas onde o par se encaixa \"cabeça-ombro\" psicologicamente — cada um carregando a contraparte que o outro rejeita em si.",
+        "slug": "sizigia",
+        "term": "Sizígia",
+        "links": [],
+        "ordem": 12,
+        "short": "Par Anima-Animus ou qualquer emparelhamento arquetípico de opostos.",
+        "hidden": false,
+        "aliases": [
+          "par divino",
+          "par conjunto"
+        ],
+        "related": {
+          "terms": [
+            "anima",
+            "animus"
+          ],
+          "materials": []
+        },
+        "category": "arquetipos"
+      },
+      {
+        "full": "A função transcendente é uma das grandes invenções conceituais de Jung. Quando há um conflito real — não decidível pela vontade do Ego — algo na psique, se sustentado o tempo suficiente, produz uma terceira coisa: um símbolo, uma imagem, uma síntese imprevisível.\n\nEsse \"terceiro\" não é compromisso nem meio-termo: é uma configuração nova, frequentemente surpreendente, que torna obsoleta a polarização anterior.\n\nA prática da imaginação ativa é um dos modos de convocar essa função.",
+        "slug": "funcao-transcendente",
+        "term": "Função transcendente",
+        "links": [],
+        "ordem": 13,
+        "short": "Capacidade psíquica de gerar um terceiro a partir de dois opostos em tensão.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "individuacao",
+            "imaginacao-ativa"
+          ],
+          "materials": []
+        },
+        "category": "processo"
+      },
+      {
+        "full": "Imaginação ativa é uma técnica desenvolvida por Jung: entrar deliberadamente em diálogo com uma imagem do inconsciente (um personagem de um sonho, uma fantasia recorrente, uma voz interna) e *deixá-la responder*.\n\nNão é fantasia passiva (\"deixar a mente vagar\") nem sugestão guiada (\"imagine uma praia\"): é uma prática séria, que requer Ego firme e capacidade de discernir imaginação de projeção.\n\nÉ um dos modos privilegiados de ativar a função transcendente. Mal conduzida, pode desestabilizar pacientes com Ego frágil — daí o cuidado clínico.",
+        "slug": "imaginacao-ativa",
+        "term": "Imaginação ativa",
+        "links": [],
+        "ordem": 14,
+        "short": "Método de diálogo consciente com conteúdos do inconsciente.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "funcao-transcendente",
+            "self"
+          ],
+          "materials": []
+        },
+        "category": "clinica"
+      },
+      {
+        "full": "Para Jung, cada vida individual é, no fundo, a concretização de um mito. Não \"inventado\" — *encarnado*. A tarefa de individuação inclui reconhecer qual mito se está vivendo, sem confusão nem idealização.\n\nJung descreveu o seu próprio em *Memórias, Sonhos, Reflexões*: a pergunta \"qual é o meu mito?\" o acompanhou a vida toda.",
+        "slug": "mito-pessoal",
+        "term": "Mito pessoal",
+        "links": [],
+        "ordem": 15,
+        "short": "Narrativa arquetípica que organiza a biografia de uma pessoa.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "individuacao",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "category": "processo"
+      },
+      {
+        "full": "A tipologia junguiana descreve como a consciência se orienta no mundo. São duas atitudes — Introversão (energia para dentro) e Extroversão (para fora) — e quatro funções — Pensamento, Sentimento, Sensação, Intuição.\n\nCada pessoa tem uma função dominante (mais desenvolvida), auxiliares, e uma inferior (o \"tendão de Aquiles\" psíquico, habitat da Sombra). Não é \"personalidade estática\": é um mapa de onde a consciência brilha e onde tropeça.\n\nA tipologia popular (MBTI etc.) é simplificação grosseira do que Jung propôs.",
+        "slug": "tipologia",
+        "term": "Tipologia",
+        "links": [],
+        "ordem": 16,
+        "short": "Teoria das funções da consciência (pensamento, sentimento, sensação, intuição) e das atitudes (introversão/extroversão).",
+        "hidden": false,
+        "aliases": [
+          "tipos psicológicos",
+          "funções da consciência"
+        ],
+        "related": {
+          "terms": [
+            "ego"
+          ],
+          "materials": [
+            "atitude-tipologia-diagnostico",
+            "extroversao-introversao"
+          ]
+        },
+        "category": "estrutura"
+      },
+      {
+        "full": "A ruptura com Freud passou, entre outras coisas, pelo conceito de libido. Para Jung, libido é *energia psíquica*: neutra, móvel, que pode se investir em qualquer conteúdo — sexual, espiritual, criativo, destrutivo.\n\nO que importa clinicamente é *onde* a libido está investida num dado momento, e para *onde* ela pode se deslocar. Um sintoma é libido represada num lugar inadequado; a cura passa pela liberação do fluxo.",
+        "slug": "libido",
+        "term": "Libido",
+        "links": [],
+        "ordem": 17,
+        "short": "Energia psíquica em sentido amplo — não apenas sexual.",
+        "hidden": false,
+        "aliases": [
+          "energia psíquica"
+        ],
+        "related": {
+          "terms": [
+            "complexo"
+          ],
+          "materials": []
+        },
+        "category": "dinamica"
+      },
+      {
+        "full": "Termo herdado de Rudolf Otto (*O Sagrado*, 1917). Experiências numinosas são marcadas por dois polos: *mysterium tremendum* (tremor, pavor) e *fascinans* (atração irresistível).\n\nJung considerava que toda verdadeira cura psicoterapêutica envolve, em algum momento, uma experiência numinosa — um encontro com algo que transcende o Ego e o força a se reorganizar.",
+        "slug": "numinoso",
+        "term": "Numinoso",
+        "links": [],
+        "ordem": 18,
+        "short": "Qualidade de experiências que arrebatam a consciência — sagrado, terrível, fascinante.",
+        "hidden": false,
+        "aliases": [
+          "numinosidade",
+          "numinosum"
+        ],
+        "related": {
+          "terms": [
+            "self",
+            "arquetipo"
+          ],
+          "materials": []
+        },
+        "category": "dinamica",
+        "mascara": "kin"
+      },
+      {
+        "full": "Mandala (do sânscrito \"círculo\") é o símbolo arquetípico da totalidade. Aparece em culturas de todos os continentes, em épocas totalmente desconectadas.\n\nClinicamente, mandalas espontâneas em sonhos ou desenhos de pacientes frequentemente indicam um momento de reorganização psíquica — o Self se apresentando.",
+        "slug": "mandala",
+        "term": "Mandala",
+        "links": [],
+        "ordem": 19,
+        "short": "Símbolo circular de totalidade — manifestação visual do Self.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "self",
+            "quaternidade"
+          ],
+          "materials": []
+        },
+        "category": "arquetipos",
+        "mascara": "kin"
+      },
+      {
+        "full": "Enquanto o três é dinâmico (tese-antítese-síntese), o quatro é estático — completo. Jung via na quaternidade um símbolo recorrente de totalidade psíquica: quatro funções da consciência, quatro cantos da cruz, quatro estágios alquímicos.\n\nA Santíssima Trindade, dizia ele, é incompleta justamente porque exclui um quarto termo (a matéria, o feminino, o mal) — e a neurose coletiva ocidental tem relação com essa exclusão.",
+        "slug": "quaternidade",
+        "term": "Quaternidade",
+        "links": [],
+        "ordem": 20,
+        "short": "Estrutura arquetípica de quatro — símbolo de completude psíquica.",
+        "hidden": false,
+        "aliases": [
+          "quaternio"
+        ],
+        "related": {
+          "terms": [
+            "mandala",
+            "tipologia"
+          ],
+          "materials": []
+        },
+        "category": "alquimia"
+      },
+      {
+        "full": "Nos últimos 30 anos de vida, Jung se dedicou intensamente ao estudo da alquimia. Não como proto-química, mas como psicologia projetada: os alquimistas, ao \"trabalhar a matéria\", projetavam nela conteúdos psíquicos de transformação.\n\nO *opus alquimicum* — com suas etapas de nigredo (enegrecimento), albedo (branqueamento), citrinitas (amarelecimento) e rubedo (avermelhamento) — oferece a Jung um vocabulário simbólico para descrever o processo de individuação.",
+        "slug": "alquimia-psicologica",
+        "term": "Alquimia psicológica",
+        "links": [],
+        "ordem": 21,
+        "short": "Uso das imagens alquímicas como mapa simbólico do processo de individuação.",
+        "hidden": false,
+        "aliases": [],
+        "related": {
+          "terms": [
+            "nigredo",
+            "albedo",
+            "rubedo",
+            "individuacao"
+          ],
+          "materials": []
+        },
+        "category": "alquimia"
+      },
+      {
+        "full": "Nigredo é o \"enegrecimento\": a dissolução da matéria-prima, a morte do velho estado. Psicologicamente, corresponde ao confronto com a Sombra, à depressão criativa, ao momento em que as velhas identificações ruem e ainda não há forma nova.\n\nÉ doloroso, necessário, e frequentemente o paciente quer \"passar logo disso\". A tentativa prematura de sair produz inflação ou recaída.",
+        "slug": "nigredo",
+        "term": "Nigredo",
+        "links": [],
+        "ordem": 22,
+        "short": "Primeira etapa alquímica — dissolução, confronto com a Sombra.",
+        "hidden": false,
+        "aliases": [
+          "obra em negro"
+        ],
+        "related": {
+          "terms": [
+            "alquimia-psicologica",
+            "sombra"
+          ],
+          "materials": []
+        },
+        "category": "alquimia",
+        "mascara": "kuro"
+      },
+      {
+        "full": "Depois do nigredo, vem o albedo: o branqueamento. É a etapa da reflexão clara, da distinção, do surgimento de uma nova atitude. Psicologicamente corresponde ao aparecimento de Anima/Animus purificados — o encontro com a contraparte.",
+        "slug": "albedo",
+        "term": "Albedo",
+        "links": [],
+        "ordem": 23,
+        "short": "Etapa alquímica do branqueamento — purificação, aparição da Anima.",
+        "hidden": false,
+        "aliases": [
+          "obra em branco"
+        ],
+        "related": {
+          "terms": [
+            "alquimia-psicologica",
+            "anima"
+          ],
+          "materials": []
+        },
+        "category": "alquimia",
+        "mascara": "shiro"
+      },
+      {
+        "full": "Rubedo é o avermelhamento — a etapa final do opus. Sangue, vida, encarnação. Psicologicamente, corresponde à conjunção dos opostos no Self, à totalidade realizada — não como estado permanente, mas como momento paradigmático.",
+        "slug": "rubedo",
+        "term": "Rubedo",
+        "links": [],
+        "ordem": 24,
+        "short": "Etapa alquímica final — união dos opostos, aparecimento do Self.",
+        "hidden": false,
+        "aliases": [
+          "obra em vermelho"
+        ],
+        "related": {
+          "terms": [
+            "alquimia-psicologica",
+            "self"
+          ],
+          "materials": []
+        },
+        "category": "alquimia",
+        "mascara": "aka"
+      }
+    ],
+    "raposa_admin_glossario_categories": [
+      {
+        "slug": "estrutura",
+        "label": "Estrutura da psique",
+        "tone": "accent",
+        "mascara": "ai",
+        "ordem": 0
+      },
+      {
+        "slug": "arquetipos",
+        "label": "Arquétipos",
+        "tone": "citrinit",
+        "mascara": "fuji",
+        "ordem": 1
+      },
+      {
+        "slug": "dinamica",
+        "label": "Dinâmica psíquica",
+        "tone": "bright",
+        "mascara": "aka",
+        "ordem": 2
+      },
+      {
+        "slug": "processo",
+        "label": "Processo de individuação",
+        "tone": "accent",
+        "mascara": "kin",
+        "ordem": 3
+      },
+      {
+        "slug": "alquimia",
+        "label": "Alquimia psicológica",
+        "tone": "citrinit",
+        "mascara": "kuro",
+        "ordem": 4
+      },
+      {
+        "slug": "clinica",
+        "label": "Clínica",
+        "tone": "rubedo",
+        "mascara": "shiro",
+        "ordem": 5
+      }
+    ],
+    "raposa_admin_glossario_page": {
+      "hero": {
+        "eyebrow": "Verbetes · psicologia analítica",
+        "title": "As máscaras",
+        "emphasis": "da floresta",
+        "kicker": "Os conceitos de Jung, curtos e ligados entre si",
+        "lead": "Cada verbete diz o essencial de um conceito e aponta para onde ele se liga. Dentro dos ensaios, o termo com um ? abre o verbete sem você sair da leitura."
+      },
+      "empty": {
+        "sectionLabel": "Categorias",
+        "emptyMessage": "Nenhum verbete ainda."
+      }
+    },
+    "raposa_admin_estudos_page": {
+      "hero": {
+        "eyebrow": "Trilhas de leitura",
+        "title": "O caminho dos",
+        "emphasis": "mil torii",
+        "kicker": "Por onde começar, o que ler, em que ordem",
+        "lead": "Cada trilha é um caminho com etapas: o que ler, o que observar e o que vem depois. Você marca o que já fez e a raposa guarda onde você parou.",
+        "primaryCtaLabel": "Começar uma trilha",
+        "primaryCtaHref": "#trilhas",
+        "secondaryCtaLabel": "Ver os verbetes",
+        "secondaryCtaHref": "/verbetes"
+      },
+      "blocks": [
+        {
+          "id": "hero",
+          "config": {},
+          "visible": true
+        },
+        {
+          "id": "manifesto",
+          "config": {
+            "body": "",
+            "title": "Como estudar Jung"
+          },
+          "visible": false
+        },
+        {
+          "id": "trilhas",
+          "config": {
+            "title": "Trilhas",
+            "selected": [],
+            "subtitle": "Sequências curadas — por onde começar."
+          },
+          "visible": true
+        },
+        {
+          "id": "glossario",
+          "config": {
+            "limit": 8,
+            "title": "Glossário em foco",
+            "selected": [],
+            "subtitle": "Verbetes-chave para começar."
+          },
+          "visible": true
+        },
+        {
+          "id": "materiais",
+          "config": {
+            "limit": 6,
+            "title": "Materiais",
+            "selected": [],
+            "subtitle": "Resumos, mapas e ensaios."
+          },
+          "visible": false
+        },
+        {
+          "id": "cursos",
+          "config": {
+            "title": "Cursos",
+            "selected": [],
+            "subtitle": "Formação aprofundada."
+          },
+          "visible": false
+        },
+        {
+          "id": "blog",
+          "config": {
+            "limit": 4,
+            "title": "Ensaios",
+            "selected": [],
+            "subtitle": "Textos sobre clínica e símbolos."
+          },
+          "visible": false
+        }
+      ]
+    },
+    "raposa_admin_cartographies": [
+      {
+        "id": "home",
+        "name": "Cartografia (home)",
+        "slug": "home",
+        "edges": [
+          [
+            "self",
+            "ego"
+          ],
+          [
+            "self",
+            "individ"
+          ],
+          [
+            "self",
+            "incol"
+          ],
+          [
+            "ego",
+            "persona"
+          ],
+          [
+            "ego",
+            "sombra"
+          ],
+          [
+            "ego",
+            "complexo"
+          ],
+          [
+            "sombra",
+            "individ"
+          ],
+          [
+            "anima",
+            "self"
+          ],
+          [
+            "animus",
+            "self"
+          ],
+          [
+            "anima",
+            "arc"
+          ],
+          [
+            "animus",
+            "arc"
+          ],
+          [
+            "arc",
+            "incol"
+          ],
+          [
+            "complexo",
+            "sombra"
+          ],
+          [
+            "complexo",
+            "sincron"
+          ],
+          [
+            "individ",
+            "mito"
+          ],
+          [
+            "mito",
+            "incol"
+          ],
+          [
+            "sincron",
+            "incol"
+          ]
+        ],
+        "nodes": [
+          {
+            "x": 420.7958679199219,
+            "y": 289.5520782470703,
+            "id": "self",
+            "href": "/trilhas",
+            "size": 28,
+            "tone": "accent",
+            "axiom": "centro arquetípico",
+            "label": "Self"
+          },
+          {
+            "x": 290,
+            "y": 200,
+            "id": "ego",
+            "href": "",
+            "size": 18,
+            "tone": "bright",
+            "axiom": "sujeito da consciência",
+            "label": "Ego"
+          },
+          {
+            "x": 200,
+            "y": 130,
+            "id": "persona",
+            "href": "",
+            "size": 16,
+            "tone": "bright",
+            "axiom": "máscara social",
+            "label": "Persona"
+          },
+          {
+            "x": 250,
+            "y": 360,
+            "id": "sombra",
+            "href": "/materiais#projecao",
+            "size": 22,
+            "tone": "rubedo",
+            "axiom": "o que não se quis ser",
+            "label": "Sombra"
+          },
+          {
+            "x": 540,
+            "y": 170,
+            "id": "anima",
+            "href": "",
+            "size": 20,
+            "tone": "citrinit",
+            "axiom": "feminino interior",
+            "label": "Anima"
+          },
+          {
+            "x": 600,
+            "y": 330,
+            "id": "animus",
+            "href": "",
+            "size": 20,
+            "tone": "citrinit",
+            "axiom": "masculino interior",
+            "label": "Animus"
+          },
+          {
+            "x": 700,
+            "y": 200,
+            "id": "incol",
+            "href": "",
+            "size": 18,
+            "tone": "accent",
+            "axiom": "substrato comum",
+            "label": "Inconsciente Coletivo"
+          },
+          {
+            "x": 660,
+            "y": 100,
+            "id": "arc",
+            "href": "/materiais#hermeneutica-psicologia",
+            "size": 16,
+            "tone": "bright",
+            "axiom": "forma a priori",
+            "label": "Arquétipo"
+          },
+          {
+            "x": 130,
+            "y": 280,
+            "id": "complexo",
+            "href": "/materiais#consciencia-complexo-ego",
+            "size": 18,
+            "tone": "bright",
+            "axiom": "núcleo afetivo autônomo",
+            "label": "Complexo"
+          },
+          {
+            "x": 130,
+            "y": 440,
+            "id": "sincron",
+            "href": "",
+            "size": 16,
+            "tone": "rubedo",
+            "axiom": "sentido sem causa",
+            "label": "Sincronicidade"
+          },
+          {
+            "x": 460,
+            "y": 460,
+            "id": "individ",
+            "href": "/trilhas/aprofundando-na-clinica",
+            "size": 24,
+            "tone": "accent",
+            "axiom": "tornar-se quem se é",
+            "label": "Individuação"
+          },
+          {
+            "x": 690,
+            "y": 450,
+            "id": "mito",
+            "href": "/blog",
+            "size": 16,
+            "tone": "citrinit",
+            "axiom": "narrativa da alma",
+            "label": "Mito Pessoal"
+          }
+        ],
+        "title": "Conceitos",
+        "layout": "manual",
+        "source": "manual",
+        "viewBox": {
+          "h": 520,
+          "w": 800
+        },
+        "description": "Um mapa vivo dos conceitos junguianos. Passe o mouse sobre cada nó para ler o axioma, e veja como as ideias se conectam.",
+        "titleEmphasis": "junguianos"
+      }
+    ],
+    "raposa_admin_areas": [
+      {
+        "id": "psicologia-junguiana",
+        "slug": "psicologia-junguiana",
+        "label": "Psicologia Analítica",
+        "color": "#2E5240",
+        "icon": "torii"
+      }
+    ],
+    "raposa_admin_labels": {
+      "nav": {
+        "home": "Início",
+        "blog": "Ensaios",
+        "glossario": "Verbetes",
+        "estudos": "Trilhas",
+        "servicos": "Pesquisa",
+        "loja": "Loja",
+        "about": "Sobre",
+        "newsletter": "Cartas"
+      },
+      "sections": {}
     },
     "raposa_admin_blog": [
       {
@@ -3746,1075 +4814,7 @@
         "featured_image_alt": ""
       }
     ],
-    "raposa_admin_areas": [
-      {
-        "id": "psicologia-junguiana",
-        "slug": "psicologia-junguiana",
-        "label": "Psicologia Analítica",
-        "color": "#2E5240",
-        "icon": "torii"
-      }
-    ],
-    "raposa_admin_trilhas": [
-      {
-        "id": "trilha-mpbryeoh",
-        "area": "psicologia-junguiana",
-        "icon": "compass",
-        "name": "Jung: Por onde eu começo?",
-        "slug": "introducaojung",
-        "extra": false,
-        "level": "Introdutório",
-        "hidden": false,
-        "stages": [
-          {
-            "id": "stage-iuzg4",
-            "icon": "scroll",
-            "kind": "leitura",
-            "slug": "etapa",
-            "extra": false,
-            "intro": "",
-            "title": "História",
-            "blocks": [
-              {
-                "link": {
-                  "kind": "blog",
-                  "label": "",
-                  "value": "como-jung-se-relaciona-com-a-sua-psicologia"
-                },
-                "type": "link"
-              }
-            ],
-            "hidden": false,
-            "summary": "Premissas que irão auxiliar a nortear a leitura e o estudo da psicologia Junguiana.",
-            "thumbMode": "icon",
-            "comingSoon": false,
-            "coverImage": ""
-          }
-        ],
-        "duration": "",
-        "subtitle": "",
-        "archetype": "",
-        "thumbMode": "icon",
-        "comingSoon": false,
-        "coverImage": "",
-        "description": "Aqui você vai entender por onde começar quando não sabe absolutamente nada sobre psicologia complexa. "
-      }
-    ],
-    "raposa_admin_homepage": {
-      "hero": {
-        "eyebrow": "Psicologia analítica · a obra de Jung",
-        "titlePrefix": "A floresta é o",
-        "titleEmphasis": "inconsciente",
-        "tagline": "e a raposa conhece as trilhas.",
-        "lead": "Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.",
-        "quote": "A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério. É uma metáfora apropriada para o inconsciente.",
-        "quoteSource": "OC 13 §241",
-        "primaryLabel": "Ler os ensaios",
-        "primaryHref": "/blog",
-        "secondaryLabel": "Começar uma trilha",
-        "secondaryHref": "/trilhas"
-      },
-      "about": {
-        "title": "Quem escreve",
-        "paragraph1": "Toda vez que alguém me compara com um bicho, escolhe a raposa. Então a raposa ficou. Sou estudante de psicologia e leio a obra de Jung de ponta a ponta, com um acervo de notas que cruza os volumes, as datas e os parágrafos.",
-        "paragraph2": "Aqui eu conto o que vou achando: o que Jung disse mesmo, onde ele mudou de ideia, o que está escondido nas notas de rodapé e nas cartas. Tudo com a fonte, para você conferir.",
-        "paragraph3": "No Livro Vermelho, Jung diz ao seu mestre interior, Filêmon, que no mínimo ele é uma raposa esperta, de quem dá para aprender alguma coisa. Por aqui, a raposa ainda é aluna.",
-        "quoteText": "O animal prestativo indica o caminho que leva ao templo.",
-        "quoteAuthor": "Jung, OC 13 §241, nota 5 (paráfrase)",
-        "credentials": [
-          {
-            "mark": "◆",
-            "label": "Leitura",
-            "detail": "Leitura sistemática da Obra Completa, em curso"
-          },
-          {
-            "mark": "◇",
-            "label": "Escrita",
-            "detail": "Ensaios, verbetes e trilhas públicos"
-          },
-          {
-            "mark": "◆",
-            "label": "Estudo",
-            "detail": "Condução de grupo de estudos"
-          },
-          {
-            "mark": "◇",
-            "label": "Liga",
-            "detail": "Presidência · Psicologia Analítica · UNICAP"
-          }
-        ],
-        "gostos": [
-          {
-            "titulo": "Mitologia",
-            "detalhe": "e conto de fada, que o Jung levava a sério"
-          },
-          {
-            "titulo": "Xadrez",
-            "detalhe": "a coruja sempre ganha"
-          },
-          {
-            "titulo": "Anime",
-            "detalhe": "um episódio vira três"
-          },
-          {
-            "titulo": "Escrever",
-            "detalhe": "caderninho sempre por perto"
-          },
-          {
-            "titulo": "Doce",
-            "detalhe": "a kitsune da lenda gosta de tofu frito; eu prefiro doce"
-          }
-        ],
-        "milestones": [],
-        "images": []
-      },
-      "contact": {
-        "sectionLabel": "Converse comigo",
-        "title": "Bata no shoji",
-        "lead": "Dúvida sobre um ensaio, pedido de pesquisa, ideia de parceria ou só vontade de conversar sobre Jung. A raposa responde.",
-        "primaryLabel": "Canal principal",
-        "primaryHeadingPrefix": "Pelo",
-        "primaryHeadingEmphasis": "WhatsApp",
-        "primaryText": "Me conta em poucas linhas o que você quer. Costumo responder no mesmo dia.",
-        "primaryButton": "Abrir conversa",
-        "whatsappNumber": "5581987349114",
-        "instagramLabel": "Instagram",
-        "instagramValue": "@raposaanalitica",
-        "instagramUrl": "https://www.instagram.com/raposaanalitica/",
-        "emailLabel": "E-mail",
-        "emailValue": ""
-      },
-      "newsletter": {
-        "eyebrow": "Cartas da Raposa",
-        "title": "Uma carta quando a raposa",
-        "emphasis": "acha alguma coisa.",
-        "lead": "Ensaio novo, verbete novo, trilha nova, e de vez em quando um achado das notas de rodapé de Jung. Sem frequência fixa e sem enrolação.",
-        "buttonLabel": "Quero receber",
-        "buttonLoadingLabel": "Enviando…",
-        "successMessage": "Pronto. A próxima carta chega no seu e-mail.",
-        "alreadySubscribedMessage": "Você já está na lista. Obrigado.",
-        "errorMessage": "Não deu para confirmar agora. Tenta de novo em instantes."
-      }
-    },
-    "raposa_admin_settings": {
-      "siteTitle": "Raposa Analítica",
-      "siteDescription": "Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa. Uma raposa guiando pela floresta da psicologia analítica.",
-      "whatsappNumber": "5581987349114",
-      "whatsappMessage": "Oi! Vim pelo site da Raposa Analítica.",
-      "instagramLink": "https://www.instagram.com/raposaanalitica/",
-      "youtubeLink": "",
-      "emailAddress": "",
-      "accentColor": "#2E5240"
-    },
-    "raposa_admin_glossario": [
-      {
-        "full": "O Self é, para Jung, o arquétipo da totalidade: centro e circunferência da psique ao mesmo tempo. Diferente do Ego — que é apenas o centro da consciência — o Self compreende tudo: pensamentos reconhecidos, afetos recalcados, tendências coletivas.\n\nFenomenologicamente, o Self aparece em sonhos e experiências numinosas como mandalas, figuras divinas ou símbolos de união de opostos. Não é algo a ser \"conquistado\", mas reconhecido — o processo de individuação é exatamente o diálogo progressivo entre Ego e Self.\n\nPara a clínica: o sintoma muitas vezes é o Self \"puxando\" a consciência em direção a uma completude que o Ego resiste em aceitar.",
-        "slug": "self",
-        "term": "Self",
-        "links": [],
-        "ordem": 0,
-        "short": "Centro regulador da psique — totalidade que engloba consciente e inconsciente.",
-        "hidden": false,
-        "aliases": [
-          "si-mesmo",
-          "si mesmo"
-        ],
-        "related": {
-          "terms": [
-            "ego",
-            "individuacao",
-            "mandala"
-          ],
-          "materials": []
-        },
-        "category": "estrutura",
-        "mascara": "kin"
-      },
-      {
-        "full": "O Ego, para Jung, é o complexo central da consciência: o \"eu\" que vivencia, escolhe, lembra. Mas não é toda a psique — é apenas o campo iluminado por ela.\n\nUm dos erros mais comuns (inclusive em clínica) é confundir Ego com Self. O Ego é serviçal, relativo; o Self é totalidade. Quando o Ego se infla e se toma pelo Self, temos o que Jung chamou de \"inflação psíquica\" — e tipicamente, um colapso subsequente.",
-        "slug": "ego",
-        "term": "Ego",
-        "links": [],
-        "ordem": 1,
-        "short": "Sujeito da consciência — centro do campo consciente, não da psique toda.",
-        "hidden": false,
-        "aliases": [
-          "eu"
-        ],
-        "related": {
-          "terms": [
-            "self",
-            "persona",
-            "complexo"
-          ],
-          "materials": [
-            "consciencia-complexo-ego"
-          ]
-        },
-        "category": "estrutura"
-      },
-      {
-        "full": "Persona é a interface entre o Ego e o coletivo. Todo mundo tem uma — e precisa ter: é o que nos permite atuar como \"profissional\", \"filho\", \"terapeuta\", sem despejar toda a nossa intimidade a cada contato.\n\nO problema surge quando o Ego se identifica com a Persona — quando não há mais distinção entre \"quem eu sou\" e \"o papel que desempenho\". O terapeuta que só se experimenta como terapeuta, o pai que só se experimenta como pai: ali a Persona devorou o Ego.",
-        "slug": "persona",
-        "term": "Persona",
-        "links": [],
-        "ordem": 2,
-        "short": "Máscara social — o rosto que o Ego apresenta ao mundo.",
-        "hidden": false,
-        "aliases": [
-          "máscara"
-        ],
-        "related": {
-          "terms": [
-            "ego",
-            "sombra"
-          ],
-          "materials": []
-        },
-        "category": "estrutura",
-        "mascara": "shiro"
-      },
-      {
-        "full": "A Sombra é tudo o que o Ego considera incompatível consigo: impulsos, traços, desejos que foram recalcados no processo de formação da Persona. Não é necessariamente \"mal\" — é rejeitado.\n\nUm analista agressivo, que se vê como gentil, projeta agressividade nos pacientes \"difíceis\". Um religioso devoto, que se vê como puro, enxerga tentação em toda mulher. A Sombra volta como projeção — e é clinicamente reconhecida quando o paciente (ou o próprio terapeuta) reage desproporcionalmente a um traço em alguém.\n\nIntegrar a Sombra não é \"agir a partir dela\", mas reconhecer que ela é sua, relativizando o que antes era visto como puramente externo.",
-        "slug": "sombra",
-        "term": "Sombra",
-        "links": [],
-        "ordem": 3,
-        "short": "Aquilo que o Ego rejeita em si — o \"lado escuro\" da personalidade.",
-        "hidden": false,
-        "aliases": [
-          "shadow"
-        ],
-        "related": {
-          "terms": [
-            "persona",
-            "projecao",
-            "individuacao"
-          ],
-          "materials": [
-            "projecao"
-          ]
-        },
-        "category": "arquetipos",
-        "mascara": "kuro"
-      },
-      {
-        "full": "Anima é, para Jung, a figuração arquetípica do feminino na psique masculina — aparece em sonhos, fantasias e projeções amorosas. Não é \"a mulher real\", mas uma imagem moldada por séculos de experiência coletiva e pela história pessoal com figuras femininas (primeiramente a mãe).\n\nNa clínica, o terapeuta junguiano atento à Anima pergunta: quem é a mulher dos sonhos desse paciente? Como ele se relaciona com o feminino nele? Qual é o tom emocional que vem junto?\n\nO desenvolvimento da Anima — de Eva (instinto) a Helena (romance), Maria (devoção) e Sofia (sabedoria) — é um mapa clássico do processo de diferenciação.",
-        "slug": "anima",
-        "term": "Anima",
-        "links": [],
-        "ordem": 4,
-        "short": "Imagem do feminino no inconsciente do homem — função de ligação com o inconsciente.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "animus",
-            "projecao",
-            "sizigia"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "fuji"
-      },
-      {
-        "full": "Assim como Anima é a figura feminina no homem, Animus é a figuração do masculino na mulher. Jung descreveu-o frequentemente como \"a voz\" — a voz interna que julga, categoriza, opina.\n\nQuando não integrado, aparece como convicção rígida (\"todo mundo sabe que...\"), discurso apropriado de figuras de autoridade, ou relações amorosas onde a mulher busca um \"salvador-pensador\". Integrado, é discernimento, palavra precisa, corte criativo.",
-        "slug": "animus",
-        "term": "Animus",
-        "links": [],
-        "ordem": 5,
-        "short": "Imagem do masculino no inconsciente da mulher — frequentemente figurada como \"a voz\".",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "anima",
-            "sizigia"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "fuji"
-      },
-      {
-        "full": "A grande descoberta de Jung, e o que o separou radicalmente de Freud. Enquanto o inconsciente pessoal contém material recalcado da biografia individual, o inconsciente coletivo contém padrões estruturantes compartilhados — os arquétipos.\n\nA evidência empírica que Jung apresentou: motivos idênticos aparecendo em sonhos de pessoas sem contato com as mitologias que os contêm; paralelos entre delírios psicóticos e mitos antigos; imagens recorrentes na arte, na religião, nos contos de fada.\n\nNão é um \"banco de memórias herdadas\" — é uma estrutura psíquica compartilhada, como o fato de todos nascermos com a mesma anatomia cerebral.",
-        "slug": "inconsciente-coletivo",
-        "term": "Inconsciente coletivo",
-        "links": [],
-        "ordem": 6,
-        "short": "Substrato psíquico comum à humanidade — onde os arquétipos residem.",
-        "hidden": false,
-        "aliases": [
-          "psique objetiva"
-        ],
-        "related": {
-          "terms": [
-            "arquetipo",
-            "self",
-            "mito-pessoal"
-          ],
-          "materials": [
-            "hermeneutica-psicologia"
-          ]
-        },
-        "category": "estrutura",
-        "mascara": "ai"
-      },
-      {
-        "full": "Arquétipos são *formas* — não conteúdos. Como o leito de um rio: o rio (o conteúdo) pode variar, mas há uma direção, um padrão escavado pela repetição.\n\nA Mãe, o Herói, a Sombra, o Velho Sábio, o Trapaceiro — esses não são \"personagens\" fixos, mas potenciais psíquicos que se manifestam em imagens culturalmente específicas. Cada cultura preenche o arquétipo da Mãe à sua maneira (Maria, Démeter, Iemanjá), mas o padrão está ali.\n\nA confusão comum é tratar arquétipos como receitas ou etiquetas. Eles são, acima de tudo, *energia* — carga afetiva que pode capturar a consciência.",
-        "slug": "arquetipo",
-        "term": "Arquétipo",
-        "links": [],
-        "ordem": 7,
-        "short": "Forma a priori — padrão estruturante no inconsciente coletivo.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "inconsciente-coletivo",
-            "mito-pessoal"
-          ],
-          "materials": [
-            "hermeneutica-psicologia"
-          ]
-        },
-        "category": "arquetipos"
-      },
-      {
-        "full": "Um complexo é uma constelação de imagens, memórias, afetos em torno de um núcleo arquetípico. É autônomo: pode ser ativado sem convite, tomar a consciência, falar pela boca do Ego.\n\n\"Todo mundo tem complexos\" — e deve ter. O complexo materno, o complexo de inferioridade, o complexo paterno. Não são patologia em si: são estrutura. Patológica é a *identificação* com o complexo, a incapacidade de se distinguir dele.\n\nJung descobriu os complexos via experimento de associação de palavras: perturbações na resposta (pausa, tropeço, esquecimento) indicavam a constelação de um complexo.",
-        "slug": "complexo",
-        "term": "Complexo",
-        "links": [],
-        "ordem": 8,
-        "short": "Núcleo afetivo autônomo — um \"pedaço\" da psique com vida própria.",
-        "hidden": false,
-        "aliases": [
-          "complexo afetivo"
-        ],
-        "related": {
-          "terms": [
-            "ego",
-            "sombra"
-          ],
-          "materials": [
-            "consciencia-complexo-ego"
-          ]
-        },
-        "category": "dinamica",
-        "mascara": "aka"
-      },
-      {
-        "full": "Individuação não é \"individualismo\". É o processo pelo qual uma pessoa se torna um indivíduo psicológico: ou seja, um ser indivisível, uma unidade irrevogável, um \"todo\" — Jung.\n\nÉ um processo de diferenciação do coletivo inconsciente: do que se herdou da família, da cultura, dos papéis sociais — sem abandonar tudo isso, mas reconhecendo-o *como outro*. Ter relação consigo em vez de *ser* o que foi recebido.\n\nNão termina. Há marcos, passagens — a saída da infância psicológica, a integração da Sombra, o encontro com Anima/Animus, o reconhecimento do Self. Mas o processo é a vida inteira.",
-        "slug": "individuacao",
-        "term": "Individuação",
-        "links": [],
-        "ordem": 9,
-        "short": "Tornar-se quem se é — processo de diferenciação do indivíduo face ao coletivo.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "self",
-            "sombra",
-            "funcao-transcendente"
-          ],
-          "materials": []
-        },
-        "category": "processo",
-        "mascara": "kin"
-      },
-      {
-        "full": "Sincronicidade é o conceito que Jung propôs para eventos que se correspondem *por significado*, não por causa. Um paciente fala de um escaravelho; bate um besouro na janela. Duas pessoas sonham o mesmo símbolo na mesma noite, de cidades diferentes.\n\nNão é mágica, nem causalidade oculta. É uma categoria de ordenamento diferente — complementar à causalidade, não concorrente. Jung só publicou o conceito tardiamente (em colaboração com Wolfgang Pauli, físico quântico) porque reconhecia quão facilmente vira pseudociência.\n\nClinicamente, o que importa é: quando o paciente traz uma sincronicidade, algo está sendo constelado. Vale perguntar: o que está querendo dizer isso?",
-        "slug": "sincronicidade",
-        "term": "Sincronicidade",
-        "links": [],
-        "ordem": 10,
-        "short": "Coincidência significativa — sentido sem causa.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "inconsciente-coletivo",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Projeção é o mecanismo pelo qual algo que está *em mim* — uma característica, um afeto, um conteúdo arquetípico — é vivenciado como estando *no outro*.\n\nProjeta-se a Sombra nos inimigos, a Anima na amada, o Self no mestre espiritual. Em todos os casos, o conteúdo tem *base real* no outro (por isso projeção não é alucinação), mas a intensidade do afeto vem de dentro.\n\nO trabalho analítico é, em grande parte, o trabalho de *retirar as projeções*: reconhecer que o ódio exagerado tem minha Sombra, que o amor absoluto carrega minha Anima. Não é minimizar o outro — é dar pra cada um o que é seu.",
-        "slug": "projecao",
-        "term": "Projeção",
-        "links": [],
-        "ordem": 11,
-        "short": "Conteúdo psíquico interno vivido como se fosse externo.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "sombra",
-            "anima",
-            "animus"
-          ],
-          "materials": [
-            "projecao"
-          ]
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Sizígia é, na linguagem junguiana, o par arquetípico de opostos que tendem a aparecer juntos: Anima-Animus, sol-lua, rei-rainha, Yang-Yin.\n\nClinicamente, a sizígia aparece em sonhos como casais míticos, ou em relações amorosas onde o par se encaixa \"cabeça-ombro\" psicologicamente — cada um carregando a contraparte que o outro rejeita em si.",
-        "slug": "sizigia",
-        "term": "Sizígia",
-        "links": [],
-        "ordem": 12,
-        "short": "Par Anima-Animus ou qualquer emparelhamento arquetípico de opostos.",
-        "hidden": false,
-        "aliases": [
-          "par divino",
-          "par conjunto"
-        ],
-        "related": {
-          "terms": [
-            "anima",
-            "animus"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos"
-      },
-      {
-        "full": "A função transcendente é uma das grandes invenções conceituais de Jung. Quando há um conflito real — não decidível pela vontade do Ego — algo na psique, se sustentado o tempo suficiente, produz uma terceira coisa: um símbolo, uma imagem, uma síntese imprevisível.\n\nEsse \"terceiro\" não é compromisso nem meio-termo: é uma configuração nova, frequentemente surpreendente, que torna obsoleta a polarização anterior.\n\nA prática da imaginação ativa é um dos modos de convocar essa função.",
-        "slug": "funcao-transcendente",
-        "term": "Função transcendente",
-        "links": [],
-        "ordem": 13,
-        "short": "Capacidade psíquica de gerar um terceiro a partir de dois opostos em tensão.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "individuacao",
-            "imaginacao-ativa"
-          ],
-          "materials": []
-        },
-        "category": "processo"
-      },
-      {
-        "full": "Imaginação ativa é uma técnica desenvolvida por Jung: entrar deliberadamente em diálogo com uma imagem do inconsciente (um personagem de um sonho, uma fantasia recorrente, uma voz interna) e *deixá-la responder*.\n\nNão é fantasia passiva (\"deixar a mente vagar\") nem sugestão guiada (\"imagine uma praia\"): é uma prática séria, que requer Ego firme e capacidade de discernir imaginação de projeção.\n\nÉ um dos modos privilegiados de ativar a função transcendente. Mal conduzida, pode desestabilizar pacientes com Ego frágil — daí o cuidado clínico.",
-        "slug": "imaginacao-ativa",
-        "term": "Imaginação ativa",
-        "links": [],
-        "ordem": 14,
-        "short": "Método de diálogo consciente com conteúdos do inconsciente.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "funcao-transcendente",
-            "self"
-          ],
-          "materials": []
-        },
-        "category": "clinica"
-      },
-      {
-        "full": "Para Jung, cada vida individual é, no fundo, a concretização de um mito. Não \"inventado\" — *encarnado*. A tarefa de individuação inclui reconhecer qual mito se está vivendo, sem confusão nem idealização.\n\nJung descreveu o seu próprio em *Memórias, Sonhos, Reflexões*: a pergunta \"qual é o meu mito?\" o acompanhou a vida toda.",
-        "slug": "mito-pessoal",
-        "term": "Mito pessoal",
-        "links": [],
-        "ordem": 15,
-        "short": "Narrativa arquetípica que organiza a biografia de uma pessoa.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "individuacao",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "processo"
-      },
-      {
-        "full": "A tipologia junguiana descreve como a consciência se orienta no mundo. São duas atitudes — Introversão (energia para dentro) e Extroversão (para fora) — e quatro funções — Pensamento, Sentimento, Sensação, Intuição.\n\nCada pessoa tem uma função dominante (mais desenvolvida), auxiliares, e uma inferior (o \"tendão de Aquiles\" psíquico, habitat da Sombra). Não é \"personalidade estática\": é um mapa de onde a consciência brilha e onde tropeça.\n\nA tipologia popular (MBTI etc.) é simplificação grosseira do que Jung propôs.",
-        "slug": "tipologia",
-        "term": "Tipologia",
-        "links": [],
-        "ordem": 16,
-        "short": "Teoria das funções da consciência (pensamento, sentimento, sensação, intuição) e das atitudes (introversão/extroversão).",
-        "hidden": false,
-        "aliases": [
-          "tipos psicológicos",
-          "funções da consciência"
-        ],
-        "related": {
-          "terms": [
-            "ego"
-          ],
-          "materials": [
-            "atitude-tipologia-diagnostico",
-            "extroversao-introversao"
-          ]
-        },
-        "category": "estrutura"
-      },
-      {
-        "full": "A ruptura com Freud passou, entre outras coisas, pelo conceito de libido. Para Jung, libido é *energia psíquica*: neutra, móvel, que pode se investir em qualquer conteúdo — sexual, espiritual, criativo, destrutivo.\n\nO que importa clinicamente é *onde* a libido está investida num dado momento, e para *onde* ela pode se deslocar. Um sintoma é libido represada num lugar inadequado; a cura passa pela liberação do fluxo.",
-        "slug": "libido",
-        "term": "Libido",
-        "links": [],
-        "ordem": 17,
-        "short": "Energia psíquica em sentido amplo — não apenas sexual.",
-        "hidden": false,
-        "aliases": [
-          "energia psíquica"
-        ],
-        "related": {
-          "terms": [
-            "complexo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica"
-      },
-      {
-        "full": "Termo herdado de Rudolf Otto (*O Sagrado*, 1917). Experiências numinosas são marcadas por dois polos: *mysterium tremendum* (tremor, pavor) e *fascinans* (atração irresistível).\n\nJung considerava que toda verdadeira cura psicoterapêutica envolve, em algum momento, uma experiência numinosa — um encontro com algo que transcende o Ego e o força a se reorganizar.",
-        "slug": "numinoso",
-        "term": "Numinoso",
-        "links": [],
-        "ordem": 18,
-        "short": "Qualidade de experiências que arrebatam a consciência — sagrado, terrível, fascinante.",
-        "hidden": false,
-        "aliases": [
-          "numinosidade",
-          "numinosum"
-        ],
-        "related": {
-          "terms": [
-            "self",
-            "arquetipo"
-          ],
-          "materials": []
-        },
-        "category": "dinamica",
-        "mascara": "kin"
-      },
-      {
-        "full": "Mandala (do sânscrito \"círculo\") é o símbolo arquetípico da totalidade. Aparece em culturas de todos os continentes, em épocas totalmente desconectadas.\n\nClinicamente, mandalas espontâneas em sonhos ou desenhos de pacientes frequentemente indicam um momento de reorganização psíquica — o Self se apresentando.",
-        "slug": "mandala",
-        "term": "Mandala",
-        "links": [],
-        "ordem": 19,
-        "short": "Símbolo circular de totalidade — manifestação visual do Self.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "self",
-            "quaternidade"
-          ],
-          "materials": []
-        },
-        "category": "arquetipos",
-        "mascara": "kin"
-      },
-      {
-        "full": "Enquanto o três é dinâmico (tese-antítese-síntese), o quatro é estático — completo. Jung via na quaternidade um símbolo recorrente de totalidade psíquica: quatro funções da consciência, quatro cantos da cruz, quatro estágios alquímicos.\n\nA Santíssima Trindade, dizia ele, é incompleta justamente porque exclui um quarto termo (a matéria, o feminino, o mal) — e a neurose coletiva ocidental tem relação com essa exclusão.",
-        "slug": "quaternidade",
-        "term": "Quaternidade",
-        "links": [],
-        "ordem": 20,
-        "short": "Estrutura arquetípica de quatro — símbolo de completude psíquica.",
-        "hidden": false,
-        "aliases": [
-          "quaternio"
-        ],
-        "related": {
-          "terms": [
-            "mandala",
-            "tipologia"
-          ],
-          "materials": []
-        },
-        "category": "alquimia"
-      },
-      {
-        "full": "Nos últimos 30 anos de vida, Jung se dedicou intensamente ao estudo da alquimia. Não como proto-química, mas como psicologia projetada: os alquimistas, ao \"trabalhar a matéria\", projetavam nela conteúdos psíquicos de transformação.\n\nO *opus alquimicum* — com suas etapas de nigredo (enegrecimento), albedo (branqueamento), citrinitas (amarelecimento) e rubedo (avermelhamento) — oferece a Jung um vocabulário simbólico para descrever o processo de individuação.",
-        "slug": "alquimia-psicologica",
-        "term": "Alquimia psicológica",
-        "links": [],
-        "ordem": 21,
-        "short": "Uso das imagens alquímicas como mapa simbólico do processo de individuação.",
-        "hidden": false,
-        "aliases": [],
-        "related": {
-          "terms": [
-            "nigredo",
-            "albedo",
-            "rubedo",
-            "individuacao"
-          ],
-          "materials": []
-        },
-        "category": "alquimia"
-      },
-      {
-        "full": "Nigredo é o \"enegrecimento\": a dissolução da matéria-prima, a morte do velho estado. Psicologicamente, corresponde ao confronto com a Sombra, à depressão criativa, ao momento em que as velhas identificações ruem e ainda não há forma nova.\n\nÉ doloroso, necessário, e frequentemente o paciente quer \"passar logo disso\". A tentativa prematura de sair produz inflação ou recaída.",
-        "slug": "nigredo",
-        "term": "Nigredo",
-        "links": [],
-        "ordem": 22,
-        "short": "Primeira etapa alquímica — dissolução, confronto com a Sombra.",
-        "hidden": false,
-        "aliases": [
-          "obra em negro"
-        ],
-        "related": {
-          "terms": [
-            "alquimia-psicologica",
-            "sombra"
-          ],
-          "materials": []
-        },
-        "category": "alquimia",
-        "mascara": "kuro"
-      },
-      {
-        "full": "Depois do nigredo, vem o albedo: o branqueamento. É a etapa da reflexão clara, da distinção, do surgimento de uma nova atitude. Psicologicamente corresponde ao aparecimento de Anima/Animus purificados — o encontro com a contraparte.",
-        "slug": "albedo",
-        "term": "Albedo",
-        "links": [],
-        "ordem": 23,
-        "short": "Etapa alquímica do branqueamento — purificação, aparição da Anima.",
-        "hidden": false,
-        "aliases": [
-          "obra em branco"
-        ],
-        "related": {
-          "terms": [
-            "alquimia-psicologica",
-            "anima"
-          ],
-          "materials": []
-        },
-        "category": "alquimia",
-        "mascara": "shiro"
-      },
-      {
-        "full": "Rubedo é o avermelhamento — a etapa final do opus. Sangue, vida, encarnação. Psicologicamente, corresponde à conjunção dos opostos no Self, à totalidade realizada — não como estado permanente, mas como momento paradigmático.",
-        "slug": "rubedo",
-        "term": "Rubedo",
-        "links": [],
-        "ordem": 24,
-        "short": "Etapa alquímica final — união dos opostos, aparecimento do Self.",
-        "hidden": false,
-        "aliases": [
-          "obra em vermelho"
-        ],
-        "related": {
-          "terms": [
-            "alquimia-psicologica",
-            "self"
-          ],
-          "materials": []
-        },
-        "category": "alquimia",
-        "mascara": "aka"
-      }
-    ],
-    "raposa_admin_visibility": {
-      "home": true,
-      "blog": true,
-      "bio": true,
-      "estudos": true,
-      "glossario": true,
-      "servicos": true,
-      "loja": true,
-      "newsletter": true,
-      "ensaioDestaque": true,
-      "autor": true,
-      "about": true,
-      "contato": true,
-      "verbetesHome": true,
-      "servicosHome": true,
-      "lojaHome": true,
-      "blogAuthorBox": true,
-      "autorInstagram": true,
-      "whatsappFlutuante": true,
-      "cartografia": false,
-      "materiais": false
-    },
     "raposa_admin_blog_series": [],
-    "raposa_admin_estudos_page": {
-      "hero": {
-        "eyebrow": "Trilhas de leitura",
-        "title": "O caminho dos",
-        "emphasis": "mil torii",
-        "kicker": "Por onde começar, o que ler, em que ordem",
-        "lead": "Cada trilha é um caminho com etapas: o que ler, o que observar e o que vem depois. Você marca o que já fez e a raposa guarda onde você parou.",
-        "primaryCtaLabel": "Começar uma trilha",
-        "primaryCtaHref": "#trilhas",
-        "secondaryCtaLabel": "Ver os verbetes",
-        "secondaryCtaHref": "/verbetes"
-      },
-      "blocks": [
-        {
-          "id": "hero",
-          "config": {},
-          "visible": true
-        },
-        {
-          "id": "manifesto",
-          "config": {
-            "body": "",
-            "title": "Como estudar Jung"
-          },
-          "visible": false
-        },
-        {
-          "id": "trilhas",
-          "config": {
-            "title": "Trilhas",
-            "selected": [],
-            "subtitle": "Sequências curadas — por onde começar."
-          },
-          "visible": true
-        },
-        {
-          "id": "glossario",
-          "config": {
-            "limit": 8,
-            "title": "Glossário em foco",
-            "selected": [],
-            "subtitle": "Verbetes-chave para começar."
-          },
-          "visible": true
-        },
-        {
-          "id": "materiais",
-          "config": {
-            "limit": 6,
-            "title": "Materiais",
-            "selected": [],
-            "subtitle": "Resumos, mapas e ensaios."
-          },
-          "visible": false
-        },
-        {
-          "id": "cursos",
-          "config": {
-            "title": "Cursos",
-            "selected": [],
-            "subtitle": "Formação aprofundada."
-          },
-          "visible": false
-        },
-        {
-          "id": "blog",
-          "config": {
-            "limit": 4,
-            "title": "Ensaios",
-            "selected": [],
-            "subtitle": "Textos sobre clínica e símbolos."
-          },
-          "visible": false
-        }
-      ]
-    },
-    "raposa_admin_cartographies": [
-      {
-        "id": "home",
-        "name": "Cartografia (home)",
-        "slug": "home",
-        "edges": [
-          [
-            "self",
-            "ego"
-          ],
-          [
-            "self",
-            "individ"
-          ],
-          [
-            "self",
-            "incol"
-          ],
-          [
-            "ego",
-            "persona"
-          ],
-          [
-            "ego",
-            "sombra"
-          ],
-          [
-            "ego",
-            "complexo"
-          ],
-          [
-            "sombra",
-            "individ"
-          ],
-          [
-            "anima",
-            "self"
-          ],
-          [
-            "animus",
-            "self"
-          ],
-          [
-            "anima",
-            "arc"
-          ],
-          [
-            "animus",
-            "arc"
-          ],
-          [
-            "arc",
-            "incol"
-          ],
-          [
-            "complexo",
-            "sombra"
-          ],
-          [
-            "complexo",
-            "sincron"
-          ],
-          [
-            "individ",
-            "mito"
-          ],
-          [
-            "mito",
-            "incol"
-          ],
-          [
-            "sincron",
-            "incol"
-          ]
-        ],
-        "nodes": [
-          {
-            "x": 420.7958679199219,
-            "y": 289.5520782470703,
-            "id": "self",
-            "href": "/trilhas",
-            "size": 28,
-            "tone": "accent",
-            "axiom": "centro arquetípico",
-            "label": "Self"
-          },
-          {
-            "x": 290,
-            "y": 200,
-            "id": "ego",
-            "href": "",
-            "size": 18,
-            "tone": "bright",
-            "axiom": "sujeito da consciência",
-            "label": "Ego"
-          },
-          {
-            "x": 200,
-            "y": 130,
-            "id": "persona",
-            "href": "",
-            "size": 16,
-            "tone": "bright",
-            "axiom": "máscara social",
-            "label": "Persona"
-          },
-          {
-            "x": 250,
-            "y": 360,
-            "id": "sombra",
-            "href": "/materiais#projecao",
-            "size": 22,
-            "tone": "rubedo",
-            "axiom": "o que não se quis ser",
-            "label": "Sombra"
-          },
-          {
-            "x": 540,
-            "y": 170,
-            "id": "anima",
-            "href": "",
-            "size": 20,
-            "tone": "citrinit",
-            "axiom": "feminino interior",
-            "label": "Anima"
-          },
-          {
-            "x": 600,
-            "y": 330,
-            "id": "animus",
-            "href": "",
-            "size": 20,
-            "tone": "citrinit",
-            "axiom": "masculino interior",
-            "label": "Animus"
-          },
-          {
-            "x": 700,
-            "y": 200,
-            "id": "incol",
-            "href": "",
-            "size": 18,
-            "tone": "accent",
-            "axiom": "substrato comum",
-            "label": "Inconsciente Coletivo"
-          },
-          {
-            "x": 660,
-            "y": 100,
-            "id": "arc",
-            "href": "/materiais#hermeneutica-psicologia",
-            "size": 16,
-            "tone": "bright",
-            "axiom": "forma a priori",
-            "label": "Arquétipo"
-          },
-          {
-            "x": 130,
-            "y": 280,
-            "id": "complexo",
-            "href": "/materiais#consciencia-complexo-ego",
-            "size": 18,
-            "tone": "bright",
-            "axiom": "núcleo afetivo autônomo",
-            "label": "Complexo"
-          },
-          {
-            "x": 130,
-            "y": 440,
-            "id": "sincron",
-            "href": "",
-            "size": 16,
-            "tone": "rubedo",
-            "axiom": "sentido sem causa",
-            "label": "Sincronicidade"
-          },
-          {
-            "x": 460,
-            "y": 460,
-            "id": "individ",
-            "href": "/trilhas/aprofundando-na-clinica",
-            "size": 24,
-            "tone": "accent",
-            "axiom": "tornar-se quem se é",
-            "label": "Individuação"
-          },
-          {
-            "x": 690,
-            "y": 450,
-            "id": "mito",
-            "href": "/blog",
-            "size": 16,
-            "tone": "citrinit",
-            "axiom": "narrativa da alma",
-            "label": "Mito Pessoal"
-          }
-        ],
-        "title": "Conceitos",
-        "layout": "manual",
-        "source": "manual",
-        "viewBox": {
-          "h": 520,
-          "w": 800
-        },
-        "description": "Um mapa vivo dos conceitos junguianos. Passe o mouse sobre cada nó para ler o axioma, e veja como as ideias se conectam.",
-        "titleEmphasis": "junguianos"
-      }
-    ],
-    "raposa_admin_home_sections": [
-      "hero",
-      "featuredEssay",
-      "blog",
-      "verbetes",
-      "estudos",
-      "servicos",
-      "newsletter",
-      "loja",
-      "about",
-      "contato"
-    ],
-    "raposa_admin_glossario_categories": [
-      {
-        "slug": "estrutura",
-        "label": "Estrutura da psique",
-        "tone": "accent",
-        "mascara": "ai",
-        "ordem": 0
-      },
-      {
-        "slug": "arquetipos",
-        "label": "Arquétipos",
-        "tone": "citrinit",
-        "mascara": "fuji",
-        "ordem": 1
-      },
-      {
-        "slug": "dinamica",
-        "label": "Dinâmica psíquica",
-        "tone": "bright",
-        "mascara": "aka",
-        "ordem": 2
-      },
-      {
-        "slug": "processo",
-        "label": "Processo de individuação",
-        "tone": "accent",
-        "mascara": "kin",
-        "ordem": 3
-      },
-      {
-        "slug": "alquimia",
-        "label": "Alquimia psicológica",
-        "tone": "citrinit",
-        "mascara": "kuro",
-        "ordem": 4
-      },
-      {
-        "slug": "clinica",
-        "label": "Clínica",
-        "tone": "rubedo",
-        "mascara": "shiro",
-        "ordem": 5
-      }
-    ],
-    "raposa_admin_home_sections_layout": 1,
-    "raposa_admin_labels": {
-      "nav": {
-        "home": "Início",
-        "blog": "Ensaios",
-        "glossario": "Verbetes",
-        "estudos": "Trilhas",
-        "servicos": "Pesquisa",
-        "loja": "Loja",
-        "about": "Sobre",
-        "newsletter": "Cartas"
-      },
-      "sections": {}
-    },
-    "raposa_admin_glossario_page": {
-      "hero": {
-        "eyebrow": "Verbetes · psicologia analítica",
-        "title": "As máscaras",
-        "emphasis": "da floresta",
-        "kicker": "Os conceitos de Jung, curtos e ligados entre si",
-        "lead": "Cada verbete diz o essencial de um conceito e aponta para onde ele se liga. Dentro dos ensaios, o termo com um ? abre o verbete sem você sair da leitura."
-      },
-      "empty": {
-        "sectionLabel": "Categorias",
-        "emptyMessage": "Nenhum verbete ainda."
-      }
-    },
     "raposa_admin_servicos": {
       "hero": {
         "eyebrow": "Pesquisa sob encomenda",
@@ -5003,6 +5003,5 @@
         ]
       }
     }
-  },
-  "published_at": "2026-10-01T22:06:09.810Z"
+  }
 }
