@@ -44,6 +44,8 @@ FIGURAS = [
     ("fig", "raposa-so-a-cauda", rf"{B}\raposa_borda_so_a_cauda.png", 480),
     ("fig", "raposa-noren", rf"{B}\raposa_casa_atras_da_noren.png", 720),
     ("fig", "raposa-pescando", rf"{B}\raposa_agua_pescando_com_a_cauda.png", 900),
+    # a mesma cena emoldurada, com a raposa inteira (scripts/quadro_pescando.mjs)
+    ("fig", "raposa-pescando-quadro", rf"{B}\raposa_agua_pescando_quadro.png", 900),
     ("fig", "raposa-daruma", rf"{B}\raposa_casa_com_o_daruma.png", 720),
     ("fig", "raposa-tigela", rf"{B}\raposa_casa_dentro_da_tigela.png", 640),
     ("fig", "raposa-aburaage", rf"{B}\raposa_santuario_ganhou_aburaage.png", 560),

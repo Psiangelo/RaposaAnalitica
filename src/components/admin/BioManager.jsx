@@ -306,6 +306,14 @@ export default function BioManager({ addToast, addLogEntry }) {
             placeholder="Uma raposa estudante de psicologia lendo a obra de Jung..."
           />
         </div>
+        <div className="mt-4">
+          <AuthorToggle
+            label="Último ensaio em destaque"
+            hint="No alto dos links, com a capa: o ensaio fixado ou, sem fixado, o mais novo."
+            checked={data.destaqueEnsaio !== false}
+            onChange={(v) => update('destaqueEnsaio', v)}
+          />
+        </div>
       </div>
 
       {/* Identidade de autor — assinatura dos ensaios/estudos, não a marca do /bio */}

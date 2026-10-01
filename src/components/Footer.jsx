@@ -115,7 +115,7 @@ export default function Footer() {
       <Figura
         nome="fig/raposa-olhando-lua"
         alt="Uma raposa de costas, sentada na relva, olhando a lua"
-        className="pointer-events-none absolute bottom-0 right-2 sm:right-8 w-[150px] sm:w-[210px]"
+        className="pointer-events-none absolute bottom-0 right-2 sm:right-8 w-[150px] sm:w-[210px] [mask-image:linear-gradient(90deg,transparent,#000_13%,#000_86%,transparent)]"
       />
     </footer>
   );

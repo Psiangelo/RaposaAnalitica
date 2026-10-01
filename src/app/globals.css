@@ -1398,3 +1398,13 @@ main:focus {
 .listen-seek:focus-visible::-moz-range-thumb {
   box-shadow: 0 0 0 3px rgb(var(--acento-rgb)/0.45);
 }
+
+/* lanterna balançando no alto da /bio */
+@keyframes balanca {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+.balanca { animation: balanca 5.5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .balanca { animation: none; }
+}

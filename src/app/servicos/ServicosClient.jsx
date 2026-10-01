@@ -40,11 +40,15 @@ export default function ServicosClient() {
           title={s.hero.title}
           emphasis={s.hero.emphasis}
           lead={s.hero.lead}
-          figura="fig/raposa-pescando"
-          figuraAlt="A raposa pescando com a cauda num lago"
-          disco="var(--noite)"
           fundo="noite"
-          recorte
+          sideCard={
+            <Figura
+              nome="fig/raposa-pescando-quadro"
+              alt="A raposa pescando com a cauda num lago, sob a lua"
+              prioridade
+              className="w-full max-w-[380px] mx-auto -rotate-[1.5deg] [filter:drop-shadow(0_26px_34px_rgb(0_0_0/0.45))]"
+            />
+          }
           actions={
             whatsGeral && (
               <a href={whatsGeral} target="_blank" rel="noopener noreferrer" className="btn btn--ouro btn--lg">

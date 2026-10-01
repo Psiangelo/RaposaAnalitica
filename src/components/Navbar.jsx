@@ -194,7 +194,7 @@ export default function Navbar() {
             <Figura
               nome="fig/raposa-olhando-lua"
               alt=""
-              className="pointer-events-none absolute -bottom-2 right-2 w-[46vw] max-w-[260px] opacity-95"
+              className="pointer-events-none absolute -bottom-2 right-2 w-[46vw] max-w-[260px] opacity-95 [mask-image:linear-gradient(90deg,transparent,#000_13%,#000_86%,transparent)]"
             />
           </motion.div>
         )}

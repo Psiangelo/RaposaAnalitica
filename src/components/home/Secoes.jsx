@@ -202,8 +202,11 @@ export function PesquisaHome() {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute inset-[8%] rounded-full bg-[var(--noite)]" />
-          <Figura nome="fig/raposa-pescando" alt="A raposa pescando com a cauda num lago" className="relative w-full max-w-[540px] mx-auto" />
+          <Figura
+            nome="fig/raposa-pescando-quadro"
+            alt="A raposa pescando com a cauda num lago, sob a lua"
+            className="relative w-full max-w-[460px] mx-auto -rotate-[1.5deg] [filter:drop-shadow(0_26px_34px_rgb(0_0_0/0.45))]"
+          />
         </div>
       </div>
     </section>
