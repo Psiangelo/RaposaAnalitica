@@ -4820,78 +4820,116 @@
         "eyebrow": "Pesquisa sob encomenda",
         "title": "Vou pescar",
         "emphasis": "na obra por você",
-        "lead": "Para quem escreve TCC, dissertação, tese ou artigo com Jung. Você traz a pergunta; eu volto com o que a Obra Completa tem sobre ela, localizado obra por obra e parágrafo por parágrafo.",
+        "lead": "Para quem escreve TCC, dissertação, tese ou artigo com Jung. Você me diz o tema; eu procuro em todos os volumes da Obra Completa e te devolvo o que ele escreveu sobre isso, com a obra e o parágrafo de cada coisa.",
         "primaryLabel": "Pedir um orçamento"
+      },
+      "servico": {
+        "rotulo": "Um serviço só",
+        "titulo": "Uma pesquisa na obra inteira,",
+        "pivo": "sobre o tema que você precisar",
+        "texto": "Você me diz o tema e para que é. Eu procuro em todos os volumes da Obra Completa de Jung, inclusive nos lugares em que ele trata do assunto sem dizer o nome, e te devolvo tudo organizado: onde está, o que diz, como uma passagem conversa com a outra e por onde começar a ler.",
+        "temas": [
+          {
+            "titulo": "Um conceito",
+            "exemplo": "sombra, anima, sincronicidade, individuação"
+          },
+          {
+            "titulo": "Uma relação",
+            "exemplo": "persona e sombra, o símbolo e a religião"
+          },
+          {
+            "titulo": "Jung e outro campo",
+            "exemplo": "a educação, a arte, o corpo, a política"
+          },
+          {
+            "titulo": "Uma pergunta",
+            "exemplo": "o que Jung pensa do casamento? e do mal?"
+          }
+        ],
+        "textoProprioTitulo": "Já tem um texto?",
+        "textoProprio": "Mande junto. Eu leio o que você escreveu para saber o que procurar, e a pesquisa volta apontada para ele: o que de Jung sustenta cada parte, o que complica, o que você ainda não usou e onde dá para ir mais fundo."
       },
       "pecas": [
         {
-          "id": "localizacao",
-          "nome": "Localização",
-          "pergunta": "Onde Jung fala disso?",
-          "descricao": "Tudo o que o acervo tem sobre o tema: obra, parágrafo, contexto de uma linha e ordem cronológica, para você ir direto à fonte.",
-          "entrega": "Lista comentada em PDF",
+          "id": "essencial",
+          "nome": "Essencial",
+          "pergunta": "Para TCC, monografia e artigo",
+          "descricao": "O mapa do tema na obra inteira: cada lugar em que Jung trata do assunto, com a obra e o parágrafo, em ordem de data, uma linha de contexto em cada um e os trechos decisivos citados. Fecha com um roteiro do que ler primeiro.",
+          "entrega": "PDF com o mapa e o roteiro",
           "prazo": "a combinar",
           "preco": "sob orçamento",
           "icone": "lupa",
-          "destaque": false
+          "destaque": false,
+          "oculto": false
         },
         {
-          "id": "dossie",
-          "nome": "Dossiê temático",
-          "pergunta": "Como esse conceito anda pela obra?",
-          "descricao": "A localização e mais a articulação: como o conceito se forma, onde se desloca, onde Jung se contradiz e onde os comentadores divergem.",
-          "entrega": "Dossiê em PDF",
+          "id": "aprofundado",
+          "nome": "Aprofundado",
+          "pergunta": "Para mestrado e artigo de revista",
+          "descricao": "Tudo do Essencial, mais a articulação: como a ideia nasce, como muda de um livro para outro, onde Jung se contradiz, com que conceitos ela conversa e o que isso abre para o seu argumento.",
+          "entrega": "PDF com o mapa, a articulação e o roteiro",
           "prazo": "a combinar",
           "preco": "sob orçamento",
           "icone": "pergaminho",
-          "destaque": false
+          "destaque": true,
+          "oculto": false
         },
         {
-          "id": "rastreio",
-          "nome": "Jung disse mesmo?",
-          "pergunta": "Essa frase é dele?",
-          "descricao": "Rastreio de atribuição: os lugares a favor, os lugares contra e o veredito, com a referência de cada um. Serve para a frase famosa que ninguém sabe de onde veio.",
-          "entrega": "Parecer curto em PDF",
+          "id": "completo",
+          "nome": "Completo",
+          "pergunta": "Para doutorado e pesquisa de fôlego",
+          "descricao": "Tudo do Aprofundado, mais as camadas: o que Jung escreveu sobre o tema em cada época, as passagens que tratam dele sem nomeá-lo, os conceitos vizinhos e os caminhos que cada um abre para a sua pesquisa. Depois da entrega, uma rodada de perguntas por escrito.",
+          "entrega": "PDF completo e uma rodada de perguntas",
           "prazo": "a combinar",
           "preco": "sob orçamento",
-          "icone": "olho",
-          "destaque": false
-        },
-        {
-          "id": "conferencia",
-          "nome": "Conferência de fundamentação",
-          "pergunta": "Minhas citações de Jung estão certas?",
-          "descricao": "Você manda o capítulo; ele volta com cada atribuição a Jung conferida contra a fonte, com o parágrafo certo ou a correção. Erro de atribuição derruba na banca.",
-          "entrega": "Seu texto anotado + relatório",
-          "prazo": "a combinar",
-          "preco": "sob orçamento",
-          "icone": "selo",
-          "destaque": true
+          "icone": "lanterna",
+          "destaque": false,
+          "oculto": false
         }
       ],
+      "roteiros": {
+        "ativo": true,
+        "rotulo": "Para quem faz conteúdo",
+        "titulo": "Também escrevo",
+        "pivo": "roteiros sobre Jung",
+        "texto": "Para quem faz vídeo, podcast, aula ou post e quer falar de Jung sem errar: eu escrevo o roteiro sobre o tema que você escolher, com o que ele disse de verdade e a referência de cada coisa, no formato e no tempo que você precisa.",
+        "formatos": [
+          "Vídeo e reels",
+          "Podcast",
+          "Carrossel e post",
+          "Aula e apresentação"
+        ],
+        "preco": "sob orçamento",
+        "botao": "Pedir um roteiro",
+        "whatsappMensagem": "Oi! Vim pela página de pesquisa e queria um roteiro sobre Jung. Tema e formato: "
+      },
       "passos": [
         {
-          "titulo": "Você manda a pergunta",
-          "texto": "Pelo WhatsApp ou por e-mail: o tema, para que é (TCC, tese, artigo) e o prazo que você tem."
+          "titulo": "Você me conta o tema",
+          "texto": "Pelo WhatsApp ou por e-mail: o tema, para que é (TCC, mestrado, doutorado, artigo), o prazo e, se tiver, o texto que já escreveu."
         },
         {
           "titulo": "Eu devolvo escopo e preço",
-          "texto": "Digo o que dá para cobrir, em que obras, quanto custa e quando entrego. Sem surpresa no meio."
+          "texto": "Digo qual nível faz sentido, o que vou cobrir, quanto custa e quando entrego. Sem surpresa no meio."
         },
         {
-          "titulo": "A entrega vem com o método",
-          "texto": "Todo PDF abre com um cabeçalho de método: o que foi varrido, em que edição, o que ficou de fora e por quê. Você pode mostrar ao seu orientador."
+          "titulo": "Eu pesco na obra inteira",
+          "texto": "Procuro em todos os volumes da Obra Completa e confiro cada achado na fonte antes de pôr na entrega."
+        },
+        {
+          "titulo": "Você recebe o PDF",
+          "texto": "Com o método logo no começo: o que foi procurado, em que edição e o que ficou de fora. Dá para mostrar ao seu orientador."
         }
       ],
       "limites": [
-        "O que eu entrego é localização e articulação, com a citação curta do trecho decisivo. Nunca uma compilação de todas as citações: o localizador vale mais que o texto colado, porque você vai precisar conferir na edição da sua bibliografia.",
-        "É material de fundamentação, não texto para a sua tese. Não escrevo trabalho acadêmico por ninguém.",
+        "Não escrevo o seu trabalho. O que eu entrego é material de pesquisa; quem escreve é você.",
+        "Não colo a obra inteira sobre o tema. Os trechos decisivos vêm citados, o resto vem localizado e explicado. É melhor assim: quem cita numa tese precisa conferir na edição da própria bibliografia, e o parágrafo numerado é o mesmo em qualquer edição.",
         "Não interpreto caso clínico nem sonho de ninguém.",
-        "Uso inteligência artificial na produção, e digo isso de saída: o que você compra é a conferência e o julgamento, não a geração."
+        "Uso inteligência artificial para procurar, e digo isso de saída: o que você recebe é a minha leitura e o meu julgamento, conferidos na fonte."
       ],
       "cta": {
         "titulo": "Tem uma pergunta? Me conta.",
-        "texto": "Conte o tema, o tipo de trabalho e o prazo. A resposta vem com escopo e preço.",
+        "texto": "Conte o tema, o nível do trabalho e o prazo. A resposta vem com escopo e preço.",
         "whatsappMensagem": "Oi! Vim pela página de pesquisa da Raposa Analítica e queria um orçamento. Tema: ",
         "email": ""
       }
@@ -4901,76 +4939,275 @@
         "eyebrow": "Loja",
         "title": "Materiais para",
         "emphasis": "estudar Jung",
-        "lead": "Guias que atravessam a obra por um conceito, leituras comentadas para ler junto com o livro, e o que mais eu for fazendo. Compra única, para estudar no seu tempo."
+        "lead": "Tudo o que eu vendo sai da mesma mesa: a leitura da Obra Completa inteira, livro por livro, com a referência de cada coisa. Aqui ela vira material para você estudar no seu tempo, com o livro aberto do lado. Compra única, sem assinatura."
       },
-      "avisoSemProdutos": "Os primeiros materiais estão sendo escritos. Entre nas Cartas da Raposa para saber quando abrirem.",
+      "avisoSemProdutos": "Os primeiros materiais estão sendo escritos. Entre nas Cartas da Raposa e eu aviso quando abrirem.",
+      "prova": {
+        "rotulo": "Da minha mesa",
+        "titulo": "Antes de vender,",
+        "pivo": "eu li",
+        "itens": [
+          {
+            "numero": "17",
+            "texto": "conceitos de Jung já estudados através da obra inteira, do primeiro livro ao último"
+          },
+          {
+            "numero": "21",
+            "texto": "livros da Obra Completa estudados um a um: o que cada um faz e com quem Jung discute ali"
+          },
+          {
+            "numero": "§",
+            "texto": "cada afirmação com a obra e o parágrafo, para você conferir na sua edição"
+          }
+        ]
+      },
+      "avisoLegal": "Material de estudo independente, sem vínculo com os herdeiros de Jung nem com as editoras. Não substitui o livro: foi feito para ser lido com ele.",
       "linhas": [
         {
           "id": "guia",
-          "nome": "Guias",
-          "descricao": "Um conceito, ou uma família de conceitos, atravessando a obra inteira: onde nasce, como se desloca, onde Jung se contradiz.",
+          "nome": "Guias de conceito",
+          "descricao": "Um conceito, ou uma família deles, atravessando a obra inteira: onde nasce, como muda, onde Jung se contradiz. Com o mapa, o roteiro de leitura e as fichas.",
           "icone": "mascara"
         },
         {
           "id": "leitura",
           "nome": "Leituras comentadas",
-          "descricao": "Uma obra, capítulo a capítulo, para ler junto com o livro.",
+          "descricao": "Um livro de Jung acompanhado do começo ao fim: o que está acontecendo ali, com quem ele está discutindo e como aquilo se liga ao resto da obra.",
           "icone": "livro"
         },
         {
-          "id": "cotejo",
-          "nome": "Cotejos",
-          "descricao": "Um pós-junguiano medido contra Jung: onde continua, onde rompe e se o rompimento se sustenta.",
-          "icone": "balanca"
+          "id": "colecao",
+          "nome": "Coleção completa",
+          "descricao": "Todos os guias numa compra só. O preço sobe a cada guia novo que entra: quem chega cedo paga menos.",
+          "icone": "pergaminho"
         },
         {
           "id": "objeto",
-          "nome": "Objetos",
-          "descricao": "Coisas com a minha cara: estampas, cadernos, o que vier.",
+          "nome": "Para levar",
+          "descricao": "Coisas com a minha cara: camiseta, marcadores de página, o que vier.",
           "icone": "sacola"
         }
       ],
       "produtos": [
         {
-          "id": "guia-o-feminino",
+          "id": "guia-feminino-masculino",
           "linha": "guia",
-          "titulo": "O feminino em Jung",
-          "subtitulo": "anima, animus, Eros e sizígia",
-          "descricao": "Um guia pela família de conceitos do feminino: o mapa, o roteiro de leitura e as fichas, com o parágrafo de cada coisa.",
-          "preco": "",
+          "titulo": "O feminino e o masculino em Jung",
+          "subtitulo": "anima, animus, Eros, Logos e a sizígia",
+          "descricao": "A família inteira num guia só: o que Jung chama de anima e de animus, como os dois se juntam na sizígia e onde entram Eros e Logos. Onde cada ideia nasce, como muda de livro para livro e onde Jung se contradiz.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
           "link": "",
           "status": "em-breve",
           "capa": "",
           "figura": "mascara/fuji",
           "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
           "destaque": true
         },
         {
-          "id": "guia-a-sombra",
+          "id": "guia-sombra-persona",
           "linha": "guia",
-          "titulo": "A sombra",
-          "subtitulo": "da obra inteira, com as datas",
-          "descricao": "O conceito de sombra atravessando os volumes: onde nasce, como muda e onde os comentadores divergem.",
-          "preco": "",
+          "titulo": "A sombra e a persona",
+          "subtitulo": "a máscara e o que ela esconde",
+          "descricao": "Os dois conceitos que todo mundo cita e quase ninguém lê inteiros: o que Jung entende por persona, o que entende por sombra e por que um não se explica sem o outro.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
           "link": "",
           "status": "em-breve",
           "capa": "",
           "figura": "mascara/kuro",
           "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "guia-inconsciente",
+          "linha": "guia",
+          "titulo": "O inconsciente",
+          "subtitulo": "pessoal e coletivo",
+          "descricao": "O conceito que organiza todos os outros: a diferença entre o inconsciente pessoal e o coletivo, como Jung chegou a ela e o que muda de uma fase da obra para a outra.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "mascara/ai",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "guia-arquetipo-instinto",
+          "linha": "guia",
+          "titulo": "Arquétipo e instinto",
+          "subtitulo": "as imagens e os impulsos",
+          "descricao": "O que Jung quis dizer com arquétipo, o que ele não quis dizer (e muita gente repete) e por que ele amarra a ideia ao instinto.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "mascara/koke",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "guia-ego-si-mesmo",
+          "linha": "guia",
+          "titulo": "Ego, consciência e si-mesmo",
+          "subtitulo": "o centro que você conhece e o que você não conhece",
+          "descricao": "O ego como centro da consciência, o si-mesmo como centro da psique inteira e a relação entre os dois, que é onde Jung põe o sentido da vida psíquica.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "mascara/kin",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "guia-complexos",
+          "linha": "guia",
+          "titulo": "Os complexos",
+          "subtitulo": "a teoria que veio antes de todas",
+          "descricao": "Do experimento de associação de palavras ao complexo autônomo: a ideia com que Jung começou e que continua sustentando o resto da obra.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "mascara/aka",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "guia-individuacao",
+          "linha": "guia",
+          "titulo": "Individuação",
+          "subtitulo": "o caminho, sem autoajuda",
+          "descricao": "O que Jung chamou de individuação, em que livros ele desenvolve a ideia e o que ela não é: nem autoaperfeiçoamento, nem promessa de felicidade.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "obj/torii",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
           "destaque": false
         },
         {
           "id": "leitura-tipos",
           "linha": "leitura",
-          "titulo": "Leitura comentada de Tipos Psicológicos",
-          "subtitulo": "para ler junto com o livro",
-          "descricao": "Capítulo a capítulo: o que está acontecendo ali, a quem Jung responde e onde o texto se liga às outras obras.",
-          "preco": "",
+          "titulo": "Para ler junto com Tipos Psicológicos",
+          "subtitulo": "OC 6, do começo ao fim",
+          "descricao": "O livro mais citado e menos lido de Jung, acompanhado de perto: o problema que cada parte enfrenta, com quem Jung está discutindo e como os tipos se ligam ao resto da obra.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
           "link": "",
           "status": "em-breve",
           "capa": "",
           "figura": "obj/livro",
           "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "leitura-simbolos",
+          "linha": "leitura",
+          "titulo": "Para ler junto com Símbolos da Transformação",
+          "subtitulo": "OC 5, o livro da ruptura com Freud",
+          "descricao": "O livro que custou a amizade com Freud, lido com calma: o fio do argumento no meio dos mitos, o que mudou da primeira versão para a revisão de 1952 e onde já está o Jung que viria depois.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "obj/makimono",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "leitura-sincronicidade",
+          "linha": "leitura",
+          "titulo": "Para ler junto com Sincronicidade",
+          "subtitulo": "OC 8/3, o ensaio mais difícil",
+          "descricao": "O ensaio em que Jung conversa com a física do seu tempo: o que ele está propondo, o que ele não está e como ler o experimento astrológico que fica no meio do texto.",
+          "preco": "R$ 67",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "mata/lua-nuvem",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "colecao-guias",
+          "linha": "colecao",
+          "titulo": "Todos os guias de conceito",
+          "subtitulo": "numa compra só, com o preço de quem chega cedo",
+          "descricao": "Os guias da loja numa compra só. O preço sobe a cada guia novo que entra na coleção: quem entra cedo paga menos.",
+          "preco": "R$ 197",
+          "precoAntigo": "",
+          "link": "",
+          "status": "em-breve",
+          "capa": "",
+          "figura": "kamon/raposa-claro",
+          "formato": "PDF",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "camiseta-raposa",
+          "linha": "objeto",
+          "titulo": "Camiseta da raposa de óculos",
+          "subtitulo": "a mesma do perfil, como gravura",
+          "descricao": "A raposa de óculos e cachimbo estampada no estilo das gravuras da floresta.",
+          "preco": "",
+          "precoAntigo": "",
+          "link": "",
+          "status": "rascunho",
+          "capa": "",
+          "figura": "fig/perfil-raposa-oculos",
+          "formato": "Camiseta",
+          "paginas": "",
+          "amostra": "",
+          "destaque": false
+        },
+        {
+          "id": "marcadores-kamon",
+          "linha": "objeto",
+          "titulo": "Marcadores de página",
+          "subtitulo": "os brasões da floresta",
+          "descricao": "Os kamon da Raposa Analítica em marcadores de papel grosso, para saber onde você parou na Obra Completa.",
+          "preco": "",
+          "precoAntigo": "",
+          "link": "",
+          "status": "rascunho",
+          "capa": "",
+          "figura": "kamon/ginkgo-claro",
+          "formato": "Kit de marcadores",
+          "paginas": "",
+          "amostra": "",
           "destaque": false
         }
       ]

@@ -13,6 +13,7 @@ import { useSitedata } from '@/lib/useSitedata';
 import { getServicos, DEFAULT_SERVICOS, getSettings, DEFAULT_SETTINGS, SITEDATA_KEYS } from '@/lib/sitedata';
 
 const W = 'max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8';
+const QUANTOS = ['Nenhum nível', 'Um nível', 'Dois níveis', 'Três níveis', 'Quatro níveis', 'Cinco níveis'];
 
 function linkWhats(numero, mensagem) {
   const n = String(numero || '').replace(/\D/g, '');
@@ -21,15 +22,22 @@ function linkWhats(numero, mensagem) {
 
 /**
  * /servicos — pesquisa sob encomenda para quem escreve com Jung.
- * As peças (escopo fechado), como funciona, o que vem no PDF, o que não
- * se faz, e a chamada final para o WhatsApp ou e-mail.
+ *
+ * Um serviço só: a pesquisa na obra inteira sobre o tema que a pessoa
+ * trouxer, em níveis de entrega que se somam (do TCC ao doutorado), com a
+ * opção de mandar o texto que já tem. Depois: como funciona, o que vem no
+ * PDF, os roteiros sobre Jung para quem faz conteúdo, o que eu não faço e
+ * a chamada final.
  */
 export default function ServicosClient() {
   const s = useSitedata(getServicos, DEFAULT_SERVICOS, SITEDATA_KEYS.servicos);
   const settings = useSitedata(getSettings, DEFAULT_SETTINGS, SITEDATA_KEYS.settings);
-  const pecas = (s.pecas || []).filter((p) => !p.oculto);
+  const niveis = (s.pecas || []).filter((p) => !p.oculto);
+  const sv = s.servico || {};
+  const rt = s.roteiros || {};
   const email = s.cta?.email || settings.emailAddress;
   const whatsGeral = linkWhats(settings.whatsappNumber, s.cta?.whatsappMensagem || 'Oi! Queria um orçamento de pesquisa. Tema: ');
+  const whatsRoteiro = linkWhats(settings.whatsappNumber, rt.whatsappMensagem || 'Oi! Queria um roteiro sobre Jung. Tema e formato: ');
 
   return (
     <VisibilityGate visibilityKey="servicos" title="Pesquisa indisponível">
@@ -58,53 +66,109 @@ export default function ServicosClient() {
           }
         />
 
-        {/* as peças */}
-        <section className="py-16 sm:py-20">
-          <div className={W}>
-            <Rotulo className="mb-4">O que eu entrego</Rotulo>
-            <TituloSecao antes="Quatro peças," pivo="escopo fechado" />
-            <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[60ch]">
-              Não vendo hora: cada peça tem escopo, formato e prazo combinados antes de começar. Você sabe o que vai receber.
-            </p>
-            <div className="mt-10 grid gap-5 md:grid-cols-2">
-              {pecas.map((p) => {
-                const w = linkWhats(settings.whatsappNumber, `Oi! Vim pela página de pesquisa da Raposa Analítica e queria um orçamento de «${p.nome}». Tema: `);
-                return (
-                  <article
-                    id={p.id}
-                    key={p.id}
-                    className={`relative overflow-hidden flex flex-col rounded-[26px] p-6 sm:p-8 border-[1.5px] scroll-mt-28 ${p.destaque ? 'bg-[var(--papel-velho)] border-[var(--torii)]' : 'bg-bg-card border-linha'}`}
-                  >
-                    {p.destaque && <Padronagem nome="kikko" cor="#6B4A35" opacidade={0.08} tam={40} />}
-                    <div className="relative flex items-start gap-4">
-                      <span className="flex items-center justify-center w-14 h-14 rounded-full bg-mata text-[var(--ginkgo)] shrink-0">
-                        <Icone nome={p.icone} size={26} />
-                      </span>
-                      <div>
-                        <h3 className="font-serif text-[1.7rem] font-bold leading-tight text-text-bright" style={FRAUNCES}>{p.nome}</h3>
-                        {p.pergunta && <p className="font-serif italic text-[1.12rem] text-accent-bright">“{p.pergunta}”</p>}
-                      </div>
-                    </div>
-                    <p className="relative mt-5 font-body text-[1.02rem] leading-relaxed text-text">{p.descricao}</p>
-                    <dl className="relative mt-5 grid grid-cols-3 gap-3 font-sans text-[13.5px]">
-                      {[['Entrega', p.entrega], ['Prazo', p.prazo], ['Preço', p.preco]].map(([k, v]) => (
-                        <div key={k} className="rounded-xl bg-[var(--fundo)] px-3 py-2.5">
-                          <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-text-dim">{k}</dt>
-                          <dd className="mt-0.5 font-semibold text-text-bright">{v || '—'}</dd>
-                        </div>
+        {/* o serviço */}
+        {(sv.titulo || sv.texto) && (
+          <section className="py-16 sm:py-20">
+            <div className={`${W} grid lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-14 items-start`}>
+              <div>
+                {sv.rotulo && <Rotulo className="mb-4">{sv.rotulo}</Rotulo>}
+                <TituloSecao antes={sv.titulo} pivo={sv.pivo} />
+                {sv.texto && <p className="mt-5 font-body text-[1.1rem] leading-relaxed text-text max-w-[58ch]">{sv.texto}</p>}
+                {sv.temas?.length > 0 && (
+                  <>
+                    <p className="mt-9 font-sans text-[12px] font-semibold uppercase tracking-[0.16em] text-text-dim">O tema pode ser</p>
+                    <ul className="mt-3 grid sm:grid-cols-2 gap-3">
+                      {sv.temas.map((t, i) => (
+                        <li key={i} className="flex gap-3 items-start rounded-[18px] bg-bg-card border border-linha px-4 py-3.5">
+                          <span aria-hidden className="mt-[0.55rem] w-2 h-2 rounded-full bg-[var(--torii)] shrink-0" />
+                          <span>
+                            <span className="block font-serif text-[1.15rem] font-bold leading-tight text-text-bright" style={FRAUNCES}>{t.titulo}</span>
+                            {t.exemplo && <span className="mt-0.5 block font-body italic text-[0.97rem] leading-snug text-text-dim">{t.exemplo}</span>}
+                          </span>
+                        </li>
                       ))}
-                    </dl>
-                    {w && (
-                      <a href={w} target="_blank" rel="noopener noreferrer" className={`relative mt-6 self-start btn btn--sm ${p.destaque ? 'btn--wine' : 'btn--solid'}`}>
-                        Pedir esta <Icone nome="seta" size={16} />
-                      </a>
-                    )}
-                  </article>
-                );
-              })}
+                    </ul>
+                  </>
+                )}
+              </div>
+              {sv.textoProprio && (
+                <aside className="relative overflow-hidden rounded-[26px] border-[1.5px] border-[var(--tronco)] p-6 sm:p-8 lg:mt-16 shadow-[5px_5px_0_var(--tronco)]" style={{ background: 'var(--papel-velho)' }}>
+                  <Padronagem nome="asanoha" cor="#6B4A35" opacidade={0.08} tam={40} />
+                  <div className="relative">
+                    <span className="flex items-center justify-center w-12 h-12 rounded-[14px] -rotate-[5deg] text-[var(--washi)]" style={{ background: 'var(--tronco)' }}>
+                      <Icone nome="pergaminho" size={24} />
+                    </span>
+                    <p className="mt-4 font-serif text-[1.7rem] font-bold leading-tight text-[var(--tinta)]" style={FRAUNCES}>{sv.textoProprioTitulo}</p>
+                    <p className="mt-3 font-body text-[1.04rem] leading-relaxed text-[var(--tinta)]">{sv.textoProprio}</p>
+                  </div>
+                </aside>
+              )}
             </div>
-          </div>
-        </section>
+          </section>
+        )}
+
+        {/* os níveis */}
+        {niveis.length > 0 && (
+          <section className="relative overflow-hidden py-16 sm:py-20 bg-[var(--fundo-2)]">
+            <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.05} tam={48} />
+            <div className={`relative ${W}`}>
+              <Rotulo className="mb-4">Níveis de entrega</Rotulo>
+              <TituloSecao antes={`${QUANTOS[niveis.length] || `${niveis.length} níveis`},`} pivo="do TCC ao doutorado" />
+              <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[62ch]">
+                Não vendo hora: cada nível tem escopo, formato e prazo combinados antes de começar. E eles se somam: cada um traz tudo o que o anterior traz.
+              </p>
+              <div className="mt-12 grid gap-6 lg:grid-cols-3 items-stretch">
+                {niveis.map((p, i) => {
+                  const w = linkWhats(settings.whatsappNumber, `Oi! Vim pela página de pesquisa da Raposa Analítica e queria um orçamento do nível ${p.nome}. Tema: `);
+                  const escuro = p.destaque;
+                  return (
+                    <article
+                      id={p.id}
+                      key={p.id}
+                      className={`relative overflow-hidden flex flex-col rounded-[26px] border-2 p-6 sm:p-7 scroll-mt-28 ${escuro ? 'noite lg:-translate-y-3' : 'bg-bg-card'}`}
+                      style={{
+                        borderColor: escuro ? 'var(--mata)' : 'var(--tinta)',
+                        boxShadow: `5px 5px 0 ${escuro ? 'var(--ginkgo)' : 'var(--tinta)'}`,
+                        ...(escuro ? { background: 'var(--mata)' } : {}),
+                      }}
+                    >
+                      {escuro && <Padronagem nome="asanoha" cor="#E9C85E" opacidade={0.07} tam={40} />}
+                      <div className="relative flex items-center justify-between gap-3">
+                        <span
+                          className="flex items-center justify-center w-12 h-12 rounded-[14px] -rotate-[5deg]"
+                          style={escuro ? { background: 'var(--ginkgo)', color: 'var(--tinta)' } : { background: 'var(--mata)', color: 'var(--ginkgo)' }}
+                        >
+                          <Icone nome={p.icone} size={24} />
+                        </span>
+                        <span className={`font-sans text-[12px] font-semibold uppercase tracking-[0.16em] ${escuro ? 'text-[var(--ginkgo)]' : 'text-text-dim'}`}>
+                          Nível {i + 1} de {niveis.length}
+                        </span>
+                      </div>
+                      <h3 className="relative mt-5 font-serif text-[2rem] font-bold leading-none text-text-bright" style={FRAUNCES}>{p.nome}</h3>
+                      {p.pergunta && <p className={`relative mt-2 font-serif italic text-[1.12rem] ${escuro ? 'text-[var(--ginkgo)]' : 'text-accent-bright'}`}>{p.pergunta}</p>}
+                      <p className="relative mt-4 font-body text-[1.01rem] leading-relaxed text-text">{p.descricao}</p>
+                      <dl className="relative mt-6 pt-4 border-t border-linha space-y-2 font-sans text-[14px]">
+                        {[['Entrega', p.entrega], ['Prazo', p.prazo], ['Preço', p.preco]].map(([k, v]) => (
+                          <div key={k} className="grid grid-cols-[76px_1fr] gap-3">
+                            <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-text-dim pt-[3px]">{k}</dt>
+                            <dd className="font-semibold text-text-bright">{v || 'a combinar'}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                      {w && (
+                        <div className="relative mt-auto pt-6">
+                          <a href={w} target="_blank" rel="noopener noreferrer" className={`btn btn--sm ${escuro ? 'btn--ouro' : 'btn--solid'}`}>
+                            Pedir este nível <Icone nome="seta" size={16} />
+                          </a>
+                        </div>
+                      )}
+                    </article>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* como funciona */}
         {s.passos?.length > 0 && (
@@ -112,12 +176,12 @@ export default function ServicosClient() {
             <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.07} tam={48} />
             <div className={`relative ${W}`}>
               <Rotulo className="mb-4">Como funciona</Rotulo>
-              <TituloSecao antes="Da pergunta" pivo="ao PDF" />
-              <ol className="mt-10 grid gap-5 md:grid-cols-3">
+              <TituloSecao antes="Do tema" pivo="ao PDF" />
+              <ol className={`mt-10 grid gap-5 md:grid-cols-2 ${s.passos.length >= 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'}`}>
                 {s.passos.map((p, i) => (
                   <li key={i} className="relative rounded-[24px] bg-bg-card border border-linha p-6">
                     <span className="font-serif text-[3rem] font-extrabold leading-none text-[var(--torii)]" style={FRAUNCES}>{i + 1}</span>
-                    <h3 className="mt-2 font-serif text-[1.35rem] font-bold text-text-bright" style={FRAUNCES}>{p.titulo}</h3>
+                    <h3 className="mt-2 font-serif text-[1.35rem] font-bold leading-tight text-text-bright" style={FRAUNCES}>{p.titulo}</h3>
                     <p className="mt-2 font-body text-[1rem] leading-relaxed text-text">{p.texto}</p>
                   </li>
                 ))}
@@ -133,17 +197,18 @@ export default function ServicosClient() {
               <Rotulo className="mb-4">O que vem na entrega</Rotulo>
               <TituloSecao antes="Um PDF que você pode" pivo="mostrar ao orientador" />
               <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[52ch]">
-                Toda entrega abre com o cabeçalho de método: o que foi varrido, em que edição, o que ficou de fora e por quê. Cada achado vem com a obra e o parágrafo, porque o parágrafo numerado da Obra Completa é o mesmo em qualquer edição: você confere na sua.
+                Toda entrega abre com o método: o que eu procurei, em que edição, o que ficou de fora e por quê. Cada achado vem com a obra e o parágrafo, porque o parágrafo numerado da Obra Completa é o mesmo em qualquer edição: você confere na sua.
               </p>
             </div>
             <div className="relative">
               <div className="absolute -inset-3 rounded-[28px] bg-[var(--mata)] rotate-[-2deg]" aria-hidden />
               <div className="relative rounded-[22px] bg-[#FBF8F1] p-6 sm:p-8 shadow-[0_30px_60px_-30px_rgb(19_33_31/0.7)] font-body text-[0.95rem] text-[var(--tinta)]">
-                <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--urushi)]">Exemplo de cabeçalho</p>
-                <p className="mt-2 font-serif text-[1.4rem] font-bold leading-tight" style={FRAUNCES}>Localização: «floresta» como imagem do inconsciente</p>
+                <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--urushi)]">Exemplo de abertura</p>
+                <p className="mt-2 font-serif text-[1.4rem] font-bold leading-tight" style={FRAUNCES}>A floresta como imagem do inconsciente</p>
                 <dl className="mt-4 space-y-2 text-[0.92rem]">
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Corpus</dt><dd>Obra Completa (edição brasileira, Vozes), volumes cobertos listados um a um</dd></div>
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Critério</dt><dd>ocorrências do termo e passagens que tratam do tema sem nomeá-lo</dd></div>
+                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Nível</dt><dd>Aprofundado (mestrado)</dd></div>
+                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Onde procurei</dt><dd>Obra Completa (edição brasileira, Vozes), todos os volumes</dd></div>
+                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Critério</dt><dd>as vezes em que a palavra aparece e as passagens que tratam do tema sem nomeá-lo</dd></div>
                   <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Fora</dt><dd>cartas e seminários não publicados em português</dd></div>
                 </dl>
                 <div className="mt-5 pt-4 border-t border-[#D9CEB6]">
@@ -154,6 +219,39 @@ export default function ServicosClient() {
             </div>
           </div>
         </section>
+
+        {/* roteiros sobre Jung */}
+        {rt.ativo && (rt.titulo || rt.texto) && (
+          <section className="noite relative overflow-hidden py-16 sm:py-20">
+            <Padronagem nome="sazanami" cor="#F2EBDC" opacidade={0.05} tam={44} />
+            <div className={`relative ${W} grid lg:grid-cols-[0.75fr_1.25fr] gap-10 items-center`}>
+              <div className="relative mx-auto w-full max-w-[300px] aspect-square">
+                <div aria-hidden className="absolute inset-[6%] rounded-full bg-[var(--noite)]" />
+                <Figura nome="fig/raposa-pergaminho" alt="A raposa com um pergaminho na boca" className="absolute left-1/2 -translate-x-1/2 bottom-[6%] w-[58%]" />
+              </div>
+              <div>
+                {rt.rotulo && <Rotulo cor="text-[var(--kitsunebi)]" className="mb-4">{rt.rotulo}</Rotulo>}
+                <TituloSecao antes={rt.titulo} pivo={rt.pivo} />
+                {rt.texto && <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[56ch]">{rt.texto}</p>}
+                {rt.formatos?.some(Boolean) && (
+                  <ul className="mt-6 flex flex-wrap gap-2">
+                    {rt.formatos.filter(Boolean).map((f) => (
+                      <li key={f} className="rounded-full border-[1.5px] border-[rgb(242_235_220/0.3)] px-4 py-1.5 font-sans text-[14px] font-semibold text-text-bright">{f}</li>
+                    ))}
+                  </ul>
+                )}
+                <div className="mt-7 flex flex-wrap items-center gap-4">
+                  {whatsRoteiro && (
+                    <a href={whatsRoteiro} target="_blank" rel="noopener noreferrer" className="btn btn--ouro">
+                      <Icone nome="whatsapp" size={18} /> {rt.botao || 'Pedir um roteiro'}
+                    </a>
+                  )}
+                  {rt.preco && <span className="font-sans text-[14px] text-text-dim">Preço: {rt.preco}</span>}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* limites */}
         {s.limites?.length > 0 && (

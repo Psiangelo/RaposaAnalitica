@@ -185,16 +185,30 @@ export function PesquisaHome() {
           <Rotulo cor="text-[var(--kitsunebi)]" className="mb-4">{s.hero.eyebrow}</Rotulo>
           <TituloSecao antes={s.hero.title} pivo={s.hero.emphasis} />
           <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[54ch]">{s.hero.lead}</p>
-          <ul className="mt-8 grid sm:grid-cols-2 gap-3">
-            {pecas.map((p) => (
-              <li key={p.id} className="rounded-2xl bg-bg-card border border-linha p-4">
-                <p className="flex items-center gap-2.5 font-serif text-[1.15rem] font-semibold text-text-bright" style={FRAUNCES}>
-                  <Icone nome={p.icone} size={19} className="text-[var(--ginkgo)]" /> {p.nome}
-                </p>
-                <p className="mt-1 font-body italic text-[0.95rem] text-text-dim">“{p.pergunta}”</p>
-              </li>
-            ))}
-          </ul>
+          {pecas.length > 0 && (
+            <ol className="mt-8 space-y-2.5">
+              {pecas.map((p, i) => (
+                <li key={p.id} className="flex items-center gap-4 rounded-2xl bg-bg-card border border-linha px-4 py-3">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-[12px] -rotate-[5deg] bg-[var(--ginkgo)] text-[var(--tinta)] shrink-0">
+                    <Icone nome={p.icone} size={19} />
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block font-serif text-[1.15rem] font-semibold leading-tight text-text-bright" style={FRAUNCES}>
+                      {p.nome}
+                    </span>
+                    {p.pergunta && <span className="block font-body italic text-[0.95rem] text-text-dim">{p.pergunta}</span>}
+                  </span>
+                  <span className="ml-auto font-sans text-[12px] font-semibold uppercase tracking-[0.14em] text-[var(--kitsunebi)] shrink-0">Nível {i + 1}</span>
+                </li>
+              ))}
+            </ol>
+          )}
+          {s.roteiros?.ativo && s.roteiros?.pivo && (
+            <p className="mt-5 flex items-center gap-2 font-sans text-[15px] text-text">
+              <Icone nome="pergaminho" size={17} className="text-[var(--ginkgo)]" />
+              {s.roteiros.titulo} {s.roteiros.pivo}, para vídeo, podcast e post.
+            </p>
+          )}
           <div className="btn-row mt-8">
             <Link href="/servicos" className="btn btn--ouro btn--lg">
               Ver como funciona <Icone nome="seta" size={18} />

@@ -1,3 +1,4 @@
+// Já rodou (01/10/2026). O conteúdo vivo está no site-content.json e no painel: não rodar de novo.
 // Monta o primeiro conteúdo publicado da Raposa a partir do snapshot do
 // Psiangelo (já com o prefixo raposa_admin_). Roda uma vez.
 import fs from 'node:fs';

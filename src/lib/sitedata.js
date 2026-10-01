@@ -989,11 +989,17 @@ export const getLabels = (seedOnly) => {
 export const setLabels = (v) => writeJson(SITEDATA_KEYS.labels, v);
 
 /* ===================================================================
-   SERVIÇOS — pesquisa sob encomenda (plano de negócio, §4.5)
+   SERVIÇOS — pesquisa sob encomenda
+   Um serviço só (01/10/2026, decisão do Gabriel): a pesquisa na obra
+   inteira sobre o tema que o cliente trouxer, em níveis de entrega
+   (`pecas`, por compatibilidade com o nome antigo), e ao lado os
+   roteiros sobre Jung para quem faz conteúdo.
 =================================================================== */
 
 export const DEFAULT_SERVICOS = {
   hero: { eyebrow: 'Pesquisa sob encomenda', title: 'Vou pescar', emphasis: 'na obra por você', lead: '', primaryLabel: 'Pedir um orçamento' },
+  servico: { rotulo: 'Um serviço só', titulo: '', pivo: '', texto: '', temas: [], textoProprioTitulo: 'Já tem um texto?', textoProprio: '' },
+  roteiros: { ativo: false, rotulo: 'Para quem faz conteúdo', titulo: 'Também escrevo', pivo: 'roteiros sobre Jung', texto: '', formatos: [], preco: '', botao: 'Pedir um roteiro', whatsappMensagem: 'Oi! Queria um roteiro sobre Jung. Tema e formato: ' },
   pecas: [],
   passos: [],
   limites: [],
@@ -1008,6 +1014,8 @@ export const getServicos = (seedOnly) => {
     ...DEFAULT_SERVICOS,
     ...s,
     hero: { ...DEFAULT_SERVICOS.hero, ...(s.hero || {}) },
+    servico: { ...DEFAULT_SERVICOS.servico, ...(s.servico || {}), temas: Array.isArray(s.servico?.temas) ? s.servico.temas : DEFAULT_SERVICOS.servico.temas },
+    roteiros: { ...DEFAULT_SERVICOS.roteiros, ...(s.roteiros || {}), formatos: Array.isArray(s.roteiros?.formatos) ? s.roteiros.formatos : DEFAULT_SERVICOS.roteiros.formatos },
     cta: { ...DEFAULT_SERVICOS.cta, ...(s.cta || {}) },
     pecas: Array.isArray(s.pecas) ? s.pecas.map((p, i) => ({
       id: p.id || `peca-${i}`, nome: p.nome ?? '', pergunta: p.pergunta ?? '', descricao: p.descricao ?? '',
@@ -1021,7 +1029,8 @@ export const getServicos = (seedOnly) => {
 export const setServicos = (v) => writeJson(SITEDATA_KEYS.servicos, v);
 
 /* ===================================================================
-   LOJA — produtos (guias, leituras comentadas, cotejos, objetos)
+   LOJA — produtos (guias de conceito, leituras comentadas, a coleção
+   completa, objetos). Só entra o que o Vault Teoria já sustenta.
    A venda acontece fora (Hotmart, Kiwify, Mercado Pago, Gumroad...):
    cada produto guarda o link do checkout. Status: rascunho (não aparece),
    em-breve (aparece com «avise-me»), a-venda (botão de compra).
@@ -1036,6 +1045,8 @@ export const LOJA_STATUS = [
 export const DEFAULT_LOJA = {
   hero: { eyebrow: 'Loja', title: 'Materiais para', emphasis: 'estudar Jung', lead: '' },
   avisoSemProdutos: '',
+  prova: { rotulo: 'Da minha mesa', titulo: '', pivo: '', itens: [] },
+  avisoLegal: '',
   linhas: [],
   produtos: [],
   ...(SEED.raposa_admin_loja || {}),
@@ -1048,6 +1059,7 @@ export const getLoja = (seedOnly) => {
     ...DEFAULT_LOJA,
     ...s,
     hero: { ...DEFAULT_LOJA.hero, ...(s.hero || {}) },
+    prova: { ...DEFAULT_LOJA.prova, ...(s.prova || {}), itens: Array.isArray(s.prova?.itens) ? s.prova.itens : DEFAULT_LOJA.prova.itens },
     linhas: Array.isArray(s.linhas) ? s.linhas : DEFAULT_LOJA.linhas,
     produtos: Array.isArray(s.produtos) ? s.produtos.map((p, i) => ({
       id: p.id || `produto-${i}`, linha: p.linha ?? '', titulo: p.titulo ?? '', subtitulo: p.subtitulo ?? '',

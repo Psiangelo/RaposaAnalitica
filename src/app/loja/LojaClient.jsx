@@ -7,6 +7,7 @@ import PageHero from '@/components/ui/PageHero';
 import VisibilityGate from '@/components/VisibilityGate';
 import Newsletter from '@/components/ui/Newsletter';
 import ProdutoCard from '@/components/loja/ProdutoCard';
+import Figura from '@/components/raposa/Figura';
 import Icone from '@/components/raposa/Icone';
 import Rotulo from '@/components/raposa/Rotulo';
 import { TituloSecao, FRAUNCES } from '@/components/raposa/Cabecalho';
@@ -16,9 +17,10 @@ import { getLoja, DEFAULT_LOJA, SITEDATA_KEYS } from '@/lib/sitedata';
 const W = 'max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8';
 
 /**
- * /loja — os materiais. Filtro por linha (guias, leituras comentadas,
- * cotejos, objetos), o destaque grande e a grade. A compra acontece na
- * plataforma de pagamento de cada produto.
+ * /loja — os materiais. Filtro por linha (guias de conceito, leituras
+ * comentadas, a coleção completa, objetos), o destaque grande e a grade,
+ * depois «Da minha mesa» (o que já está estudado no acervo) e as
+ * prateleiras. A compra acontece na plataforma de pagamento de cada produto.
  */
 export default function LojaClient() {
   const loja = useSitedata(getLoja, DEFAULT_LOJA, SITEDATA_KEYS.loja);
@@ -94,13 +96,34 @@ export default function LojaClient() {
           </div>
         </section>
 
-        {loja.linhas?.length > 0 && (
+        {loja.prova?.itens?.length > 0 && (
+          <section className="noite relative overflow-hidden py-16 sm:py-20">
+            <div aria-hidden className="ceu-estrelado absolute inset-0" />
+            <div className={`relative ${W} grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-14 items-center`}>
+              <div>
+                {loja.prova.rotulo && <Rotulo cor="text-[var(--kitsunebi)]" className="mb-4">{loja.prova.rotulo}</Rotulo>}
+                <TituloSecao antes={loja.prova.titulo} pivo={loja.prova.pivo} />
+                <Figura nome="fig/raposa-anotando" alt="A raposa de óculos anotando no caderninho" className="mt-8 w-[200px] hidden lg:block" />
+              </div>
+              <ul className="grid gap-4">
+                {loja.prova.itens.map((it, i) => (
+                  <li key={i} className="flex items-center gap-5 rounded-[22px] border-[1.5px] border-[rgb(242_235_220/0.16)] bg-[rgb(242_235_220/0.04)] px-5 py-4">
+                    <span className="w-[86px] shrink-0 text-center font-serif text-[3.2rem] font-extrabold leading-none text-[var(--ginkgo)]" style={FRAUNCES}>{it.numero}</span>
+                    <span className="font-body text-[1.05rem] leading-relaxed text-text">{it.texto}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
+        {linhasComProduto.length > 0 && (
           <section className="py-16 sm:py-20 bg-[var(--fundo-2)]">
             <div className={W}>
               <Rotulo className="mb-4">As prateleiras</Rotulo>
-              <TituloSecao antes="Cada material responde a" pivo="uma pergunta" />
-              <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {loja.linhas.map((l) => (
+              <TituloSecao antes="O que tem em" pivo="cada prateleira" />
+              <div className={`mt-10 grid gap-4 sm:grid-cols-2 ${linhasComProduto.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
+                {linhasComProduto.map((l) => (
                   <div key={l.id} className="rounded-[24px] bg-bg-card border border-linha p-6">
                     <span className="flex items-center justify-center w-12 h-12 rounded-full bg-mata text-[var(--ginkgo)]">
                       <Icone nome={l.icone} size={22} />
@@ -110,6 +133,11 @@ export default function LojaClient() {
                   </div>
                 ))}
               </div>
+              {loja.avisoLegal && (
+                <p className="mt-10 flex items-start gap-2.5 max-w-[70ch] font-sans text-[14px] leading-relaxed text-text-dim">
+                  <Icone nome="selo" size={17} className="mt-0.5 shrink-0 text-[var(--urushi)]" /> {loja.avisoLegal}
+                </p>
+              )}
             </div>
           </section>
         )}

@@ -120,7 +120,7 @@ export default function LojaManager({ addToast, addLogEntry }) {
 
       <Secao
         titulo="Linhas de produto"
-        descricao="Guias, leituras comentadas, cotejos, objetos… Servem de filtro na loja."
+        descricao="Guias de conceito, leituras comentadas, coleção completa, objetos… Servem de filtro na loja. Use nome de vitrine, que o cliente entende de primeira."
         acoes={<button className={BTN2} onClick={() => muda((x) => (x.linhas.push({ id: novoId('linha'), nome: 'Nova linha', descricao: '', icone: 'sacola' }), x))}>+ linha</button>}
       >
         <div className="space-y-3">
@@ -145,6 +145,28 @@ export default function LojaManager({ addToast, addLogEntry }) {
           <Campo label="Título (palavra em vermelho)"><Texto value={l.hero.emphasis} onChange={(v) => muda((x) => ((x.hero.emphasis = v), x))} /></Campo>
           <Campo label="Aviso quando não há nada à venda"><Texto value={l.avisoSemProdutos} onChange={(v) => muda((x) => ((x.avisoSemProdutos = v), x))} /></Campo>
           <Campo label="Texto de abertura" className="sm:col-span-2"><Area value={l.hero.lead} onChange={(v) => muda((x) => ((x.hero.lead = v), x))} rows={3} /></Campo>
+          <Campo label="Aviso de material independente (rodapé das prateleiras)" className="sm:col-span-2"><Area value={l.avisoLegal} onChange={(v) => muda((x) => ((x.avisoLegal = v), x))} rows={2} /></Campo>
+        </div>
+      </Secao>
+
+      <Secao
+        titulo="Da minha mesa"
+        descricao="A faixa escura com os números do que já está estudado. Só ponha número que dá para provar."
+        acoes={<button className={BTN2} onClick={() => muda((x) => (x.prova.itens.push({ numero: '', texto: '' }), x))}>+ número</button>}
+      >
+        <div className={`${CARD} grid sm:grid-cols-3 gap-4`}>
+          <Campo label="Rótulo"><Texto value={l.prova.rotulo} onChange={(v) => muda((x) => ((x.prova.rotulo = v), x))} /></Campo>
+          <Campo label="Título (começo)"><Texto value={l.prova.titulo} onChange={(v) => muda((x) => ((x.prova.titulo = v), x))} /></Campo>
+          <Campo label="Título (parte em itálico)"><Texto value={l.prova.pivo} onChange={(v) => muda((x) => ((x.prova.pivo = v), x))} /></Campo>
+          <div className="sm:col-span-3 space-y-2">
+            {l.prova.itens.map((it, i) => (
+              <div key={i} className="grid grid-cols-[90px_1fr_auto] gap-2 items-center">
+                <Texto value={it.numero} onChange={(v) => muda((x) => ((x.prova.itens[i].numero = v), x))} placeholder="17" />
+                <Texto value={it.texto} onChange={(v) => muda((x) => ((x.prova.itens[i].texto = v), x))} placeholder="conceitos estudados através da obra inteira" />
+                <button className={BTN_PERIGO} onClick={() => muda((x) => (x.prova.itens.splice(i, 1), x))}>×</button>
+              </div>
+            ))}
+          </div>
         </div>
       </Secao>
     </div>

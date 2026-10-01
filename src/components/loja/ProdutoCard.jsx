@@ -10,6 +10,7 @@ import { FRAUNCES } from '@/components/raposa/Cabecalho';
 const COR_LINHA = {
   guia: { fundo: '#2E4C7A', padrao: 'asanoha' },
   leitura: { fundo: '#6B4A35', padrao: 'tatewaku' },
+  colecao: { fundo: '#1E3A2F', padrao: 'seigaiha' },
   cotejo: { fundo: '#962B24', padrao: 'ichimatsu' },
   objeto: { fundo: '#2E5240', padrao: 'kanoko' },
 };
