@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.DS_Store
+.env.local
+.env
+
+# OG images geradas por post no prebuild (fallback global em public/og.png)
+public/og/posts/
+public/og/posts-v/
+test-results/
+
+# cache do Python dos scripts locais
+scripts/__pycache__/
+
+# capturas locais
+capturas/

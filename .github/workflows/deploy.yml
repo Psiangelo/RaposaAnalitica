@@ -1,0 +1,39 @@
+name: Publicar no GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Um deploy de cada vez: se o painel publicar duas vezes seguidas, o segundo
+# espera o primeiro em vez de cancelar no meio.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_PLAUSIBLE_DOMAIN: ${{ vars.PLAUSIBLE_DOMAIN }}
+          NEXT_PUBLIC_PLAUSIBLE_HOST: ${{ vars.PLAUSIBLE_HOST }}
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+      - id: deployment
+        uses: actions/deploy-pages@v4

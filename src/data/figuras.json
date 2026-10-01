@@ -1,0 +1,630 @@
+{
+"arvore/bambuzal": [
+1000,
+1312
+],
+"arvore/galhos-neve": [
+800,
+1000
+],
+"arvore/ginkgo": [
+900,
+1078
+],
+"arvore/glicinia-pergolado": [
+1080,
+656
+],
+"arvore/momiji-esq": [
+895,
+1106
+],
+"arvore/momiji": [
+894,
+1026
+],
+"arvore/pinheiro-neve": [
+800,
+981
+],
+"arvore/ramagem-momiji": [
+900,
+655
+],
+"arvore/ramagem-sakura-dir": [
+900,
+815
+],
+"arvore/ramagem-sakura": [
+900,
+770
+],
+"arvore/ramagem-ume": [
+900,
+806
+],
+"arvore/sakura-dir": [
+900,
+1050
+],
+"arvore/sakura": [
+900,
+1026
+],
+"arvore/ume": [
+900,
+1104
+],
+"arvore/verde": [
+900,
+1041
+],
+"cenario/inverno": [
+900,
+1125
+],
+"cenario/outono": [
+900,
+1125
+],
+"cenario/primavera": [
+900,
+1125
+],
+"cenario/verao": [
+900,
+1125
+],
+"fig/casamento-das-raposas": [
+900,
+408
+],
+"fig/coruja": [
+480,
+586
+],
+"fig/kitsune-dormindo": [
+720,
+548
+],
+"fig/kitsune-e-gato": [
+720,
+485
+],
+"fig/kitsune-espiando": [
+720,
+661
+],
+"fig/kitsune-fogo": [
+720,
+570
+],
+"fig/kitsune-pergaminho": [
+720,
+539
+],
+"fig/kitsune-sentada": [
+720,
+541
+],
+"fig/kitsune-tronco": [
+560,
+768
+],
+"fig/perfil-kitsune-oculos": [
+560,
+1035
+],
+"fig/perfil-raposa-oculos": [
+560,
+813
+],
+"fig/raposa-aburaage": [
+560,
+772
+],
+"fig/raposa-anotando": [
+720,
+1013
+],
+"fig/raposa-capim": [
+720,
+812
+],
+"fig/raposa-daruma": [
+720,
+512
+],
+"fig/raposa-dormindo-lua": [
+640,
+657
+],
+"fig/raposa-dormindo": [
+560,
+515
+],
+"fig/raposa-folha": [
+560,
+624
+],
+"fig/raposa-inari": [
+560,
+1039
+],
+"fig/raposa-lanterna": [
+720,
+1057
+],
+"fig/raposa-lotus": [
+640,
+451
+],
+"fig/raposa-noren": [
+720,
+661
+],
+"fig/raposa-oculos": [
+720,
+1045
+],
+"fig/raposa-olhando-lua": [
+720,
+687
+],
+"fig/raposa-pergaminho": [
+560,
+937
+],
+"fig/raposa-pescando": [
+900,
+697
+],
+"fig/raposa-por-cima": [
+720,
+1098
+],
+"fig/raposa-reflexo": [
+640,
+937
+],
+"fig/raposa-retrato": [
+560,
+853
+],
+"fig/raposa-sapo": [
+560,
+895
+],
+"fig/raposa-sentada": [
+560,
+937
+],
+"fig/raposa-shoji": [
+640,
+440
+],
+"fig/raposa-so-a-cauda": [
+480,
+647
+],
+"fig/raposa-tigela": [
+640,
+630
+],
+"fig/raposa-trotando": [
+720,
+424
+],
+"fig/raposa-wagasa": [
+640,
+741
+],
+"folhas/bambu-clara": [
+900,
+1125
+],
+"folhas/bambu-escura": [
+900,
+1125
+],
+"folhas/ginkgo-clara": [
+900,
+1125
+],
+"folhas/ginkgo-escura": [
+900,
+1125
+],
+"folhas/kiku-clara": [
+900,
+1125
+],
+"folhas/kiku-escura": [
+900,
+1125
+],
+"folhas/matsuba-clara": [
+900,
+1125
+],
+"folhas/matsuba-escura": [
+900,
+1125
+],
+"folhas/momiji-clara": [
+900,
+1125
+],
+"folhas/momiji-escura": [
+900,
+1125
+],
+"folhas/petalas-clara": [
+900,
+1125
+],
+"folhas/petalas-escura": [
+900,
+1125
+],
+"folhas/sakura-clara": [
+900,
+1125
+],
+"folhas/sakura-escura": [
+900,
+1125
+],
+"folhas/susuki-clara": [
+900,
+1125
+],
+"folhas/susuki-escura": [
+900,
+1125
+],
+"folhas/ume-clara": [
+900,
+1125
+],
+"folhas/ume-escura": [
+900,
+1125
+],
+"kamon/bambu-claro": [
+240,
+240
+],
+"kamon/bambu": [
+240,
+240
+],
+"kamon/bordo-claro": [
+240,
+240
+],
+"kamon/bordo": [
+240,
+240
+],
+"kamon/ginkgo-claro": [
+240,
+240
+],
+"kamon/ginkgo": [
+240,
+240
+],
+"kamon/glicinia-claro": [
+240,
+240
+],
+"kamon/glicinia": [
+240,
+240
+],
+"kamon/lua-nuvem-claro": [
+240,
+240
+],
+"kamon/lua-nuvem": [
+240,
+240
+],
+"kamon/ondas-claro": [
+240,
+240
+],
+"kamon/ondas": [
+240,
+240
+],
+"kamon/raposa-claro": [
+240,
+240
+],
+"kamon/raposa": [
+240,
+240
+],
+"kamon/sakura-claro": [
+240,
+240
+],
+"kamon/sakura": [
+240,
+240
+],
+"kamon/suzu-claro": [
+240,
+240
+],
+"kamon/suzu": [
+240,
+240
+],
+"kamon/tomoe-claro": [
+240,
+240
+],
+"kamon/tomoe": [
+240,
+240
+],
+"mascara/ai": [
+420,
+573
+],
+"mascara/aka": [
+420,
+573
+],
+"mascara/fuji": [
+420,
+573
+],
+"mascara/kin": [
+420,
+573
+],
+"mascara/koke": [
+420,
+573
+],
+"mascara/kuro": [
+420,
+573
+],
+"mascara/sakura": [
+420,
+573
+],
+"mascara/shiro": [
+420,
+573
+],
+"mata/bambu": [
+480,
+804
+],
+"mata/bolotas": [
+300,
+236
+],
+"mata/bordo": [
+240,
+255
+],
+"mata/broto-de-bambu": [
+360,
+564
+],
+"mata/cogumelo": [
+240,
+234
+],
+"mata/estrelas": [
+900,
+648
+],
+"mata/fogo-azul": [
+240,
+398
+],
+"mata/fogo-ouro": [
+240,
+398
+],
+"mata/folhas-caindo": [
+640,
+801
+],
+"mata/galho-sakura": [
+720,
+406
+],
+"mata/ginkgo": [
+240,
+300
+],
+"mata/glicinia": [
+640,
+681
+],
+"mata/iris": [
+360,
+759
+],
+"mata/koi": [
+300,
+712
+],
+"mata/kumo": [
+560,
+243
+],
+"mata/lotus": [
+360,
+240
+],
+"mata/lua-nuvem": [
+640,
+509
+],
+"mata/lua": [
+480,
+544
+],
+"mata/onda": [
+720,
+479
+],
+"mata/ondinhas": [
+640,
+148
+],
+"mata/pinheiro": [
+640,
+612
+],
+"mata/sakura": [
+200,
+194
+],
+"mata/samambaia": [
+360,
+441
+],
+"mata/sapo": [
+300,
+218
+],
+"mata/susuki": [
+560,
+679
+],
+"mata/tronco": [
+360,
+830
+],
+"mata/ume": [
+640,
+429
+],
+"mata/vaga-lumes": [
+900,
+696
+],
+"obj/aburaage": [
+360,
+159
+],
+"obj/chawan": [
+360,
+187
+],
+"obj/chochin": [
+360,
+750
+],
+"obj/dango": [
+300,
+354
+],
+"obj/daruma": [
+360,
+422
+],
+"obj/ema": [
+640,
+554
+],
+"obj/furin": [
+240,
+651
+],
+"obj/lanterna": [
+360,
+360
+],
+"obj/livro": [
+360,
+473
+],
+"obj/makimono": [
+900,
+386
+],
+"obj/montanha": [
+720,
+334
+],
+"obj/noren": [
+560,
+382
+],
+"obj/omamori": [
+300,
+551
+],
+"obj/omikuji": [
+480,
+377
+],
+"obj/pincel": [
+240,
+1980
+],
+"obj/ponte": [
+720,
+283
+],
+"obj/sensu": [
+560,
+325
+],
+"obj/shimenawa": [
+900,
+238
+],
+"obj/shoji": [
+640,
+436
+],
+"obj/suzu": [
+300,
+999
+],
+"obj/tanzaku": [
+300,
+1300
+],
+"obj/teru-teru": [
+240,
+473
+],
+"obj/tetsubin": [
+360,
+351
+],
+"obj/torii": [
+560,
+530
+],
+"obj/toro": [
+360,
+667
+],
+"obj/tsuru": [
+360,
+230
+],
+"obj/tunel-de-torii": [
+900,
+832
+],
+"obj/wagasa": [
+480,
+405
+]
+}

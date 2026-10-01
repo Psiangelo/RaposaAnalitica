@@ -1,0 +1,30 @@
+{
+  "name": "Raposa Analítica",
+  "short_name": "Raposa",
+  "description": "Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung.",
+  "start_url": "/RaposaAnalitica/",
+  "scope": "/RaposaAnalitica/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F2EBDC",
+  "theme_color": "#1E3A2F",
+  "lang": "pt-BR",
+  "categories": [
+    "education",
+    "books"
+  ],
+  "icons": [
+    {
+      "src": "/RaposaAnalitica/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RaposaAnalitica/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
