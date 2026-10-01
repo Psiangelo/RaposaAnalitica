@@ -24,7 +24,7 @@ function linkWhats(numero, mensagem) {
  * /servicos — pesquisa sob encomenda para quem escreve com Jung.
  *
  * Um serviço só: a pesquisa na obra inteira sobre o tema que a pessoa
- * trouxer, em níveis de entrega que se somam (do TCC ao doutorado), com a
+ * trouxer, em três níveis de entrega bem separados (do TCC ao doutorado), com a
  * opção de mandar o texto que já tem. Depois: como funciona, o que vem no
  * PDF, os roteiros sobre Jung para quem faz conteúdo, o que eu não faço e
  * a chamada final.
@@ -115,7 +115,7 @@ export default function ServicosClient() {
               <Rotulo className="mb-4">Níveis de entrega</Rotulo>
               <TituloSecao antes={`${QUANTOS[niveis.length] || `${niveis.length} níveis`},`} pivo="do TCC ao doutorado" />
               <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[62ch]">
-                Não vendo hora: cada nível tem escopo, formato e prazo combinados antes de começar. E eles se somam: cada um traz tudo o que o anterior traz.
+                Não vendo hora: cada nível tem escopo, formato e prazo combinados antes de começar.
               </p>
               <div className="mt-12 grid gap-6 lg:grid-cols-3 items-stretch">
                 {niveis.map((p, i) => {

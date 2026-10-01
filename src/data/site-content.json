@@ -1,6 +1,6 @@
 {
-  "version": 1790896629260,
-  "published_at": "2026-10-01T23:17:09.260Z",
+  "version": 1790896828135,
+  "published_at": "2026-10-01T23:20:28.135Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -4853,9 +4853,9 @@
         {
           "id": "essencial",
           "nome": "Essencial",
-          "pergunta": "Para TCC, monografia e artigo",
-          "descricao": "O mapa do tema na obra inteira: cada lugar em que Jung trata do assunto, com a obra e o parágrafo, em ordem de data, uma linha de contexto em cada um e os trechos decisivos citados. Fecha com um roteiro do que ler primeiro.",
-          "entrega": "PDF com o mapa e o roteiro",
+          "pergunta": "Para TCC e artigo",
+          "descricao": "Onde Jung fala do seu tema, livro por livro, com a obra e o parágrafo de cada passagem.",
+          "entrega": "Lista em PDF",
           "prazo": "a combinar",
           "preco": "sob orçamento",
           "icone": "lupa",
@@ -4865,25 +4865,25 @@
         {
           "id": "aprofundado",
           "nome": "Aprofundado",
-          "pergunta": "Para mestrado e artigo de revista",
-          "descricao": "Tudo do Essencial, mais a articulação: como a ideia nasce, como muda de um livro para outro, onde Jung se contradiz, com que conceitos ela conversa e o que isso abre para o seu argumento.",
-          "entrega": "PDF com o mapa, a articulação e o roteiro",
+          "pergunta": "Para mestrado",
+          "descricao": "As passagens que importam, explicadas e ligadas entre si: como a ideia aparece e muda ao longo da obra.",
+          "entrega": "Pesquisa comentada em PDF",
           "prazo": "a combinar",
           "preco": "sob orçamento",
           "icone": "pergaminho",
-          "destaque": true,
+          "destaque": false,
           "oculto": false
         },
         {
           "id": "completo",
           "nome": "Completo",
-          "pergunta": "Para doutorado e pesquisa de fôlego",
-          "descricao": "Tudo do Aprofundado, mais as camadas: o que Jung escreveu sobre o tema em cada época, as passagens que tratam dele sem nomeá-lo, os conceitos vizinhos e os caminhos que cada um abre para a sua pesquisa. Depois da entrega, uma rodada de perguntas por escrito.",
-          "entrega": "PDF completo e uma rodada de perguntas",
+          "pergunta": "Para doutorado",
+          "descricao": "Uma pesquisa de fôlego, feita em cima do seu projeto, e uma conversa comigo depois da entrega.",
+          "entrega": "Pesquisa completa em PDF e conversa",
           "prazo": "a combinar",
           "preco": "sob orçamento",
           "icone": "lanterna",
-          "destaque": false,
+          "destaque": true,
           "oculto": false
         }
       ],
@@ -4924,8 +4924,7 @@
       "limites": [
         "Não escrevo o seu trabalho. O que eu entrego é material de pesquisa; quem escreve é você.",
         "Não colo a obra inteira sobre o tema. Os trechos decisivos vêm citados, o resto vem localizado e explicado. É melhor assim: quem cita numa tese precisa conferir na edição da própria bibliografia, e o parágrafo numerado é o mesmo em qualquer edição.",
-        "Não interpreto caso clínico nem sonho de ninguém.",
-        "Uso inteligência artificial para procurar, e digo isso de saída: o que você recebe é a minha leitura e o meu julgamento, conferidos na fonte."
+        "Não interpreto caso clínico nem sonho de ninguém."
       ],
       "cta": {
         "titulo": "Tem uma pergunta? Me conta.",
@@ -5241,5 +5240,5 @@
       }
     }
   },
-  "data_hash": "592ab82a822ef91feaef6903b512a8adaa2e7840"
+  "data_hash": "cd2ba8fe87bb729571e23b744b09e2eef45c6540"
 }

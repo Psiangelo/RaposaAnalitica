@@ -81,7 +81,7 @@ export default function ServicosManager({ addToast, addLogEntry }) {
 
       <Secao
         titulo="Níveis de entrega"
-        descricao="Do mais simples ao mais completo; cada um soma ao anterior. «Destaque» pinta o nível de verde-escuro; «oculto» tira do site sem apagar."
+        descricao="Do mais simples ao mais completo, cada um com uma promessa só e curta. «Destaque» pinta o nível de verde-escuro (use no de cima); «oculto» tira do site sem apagar."
         acoes={
           <button
             className={BTN2}

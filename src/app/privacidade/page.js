@@ -59,9 +59,9 @@ export default function PrivacidadePage() {
         publicado nem repassado a ninguém.
       </p>
       <p>
-        Como dito na página de pesquisa, uso ferramentas de inteligência artificial na produção. Trechos
-        do material que você enviar podem passar por elas durante o trabalho. Se o seu texto não pode
-        sair do seu computador em hipótese nenhuma, avise antes, e combinamos outro jeito.
+        Trechos do material que você enviar podem passar por ferramentas de terceiros que uso no trabalho,
+        de busca e de tratamento de texto. Se o seu texto não pode sair do seu computador em hipótese
+        nenhuma, avise antes, e combinamos outro jeito.
       </p>
 
       <h2>Se você compra na loja</h2>
