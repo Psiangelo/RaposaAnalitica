@@ -129,6 +129,8 @@ FIGURAS = [
     ("arvore", "ume", rf"{A}\arvore_ume.png", 900),
     ("arvore", "ramagem-sakura", rf"{A}\ramagem_sakura.png", 900),
     ("arvore", "ramagem-sakura-dir", rf"{A}\ramagem_sakura_dir.png", 900),
+    # a mesma ramagem com as flores rosadas, para o papel washi (as creme somem nele)
+    ("arvore", "ramagem-sakura-dir-rosa", rf"{A}\ramagem_sakura_dir_rosa.png", 900),
     ("arvore", "ramagem-momiji", rf"{A}\ramagem_momiji.png", 900),
     ("arvore", "ramagem-ume", rf"{A}\ramagem_ume.png", 900),
     ("arvore", "pinheiro-neve", rf"{A}\pinheiro_neve.png", 800),

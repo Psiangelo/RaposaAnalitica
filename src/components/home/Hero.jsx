@@ -47,11 +47,14 @@ export default function Hero() {
           WebkitMaskImage: 'linear-gradient(180deg, transparent 0%, black 30%, black 75%, transparent 100%)',
         }}
       />
+      {/* a cerejeira entra pelo canto: flores rosadas (as creme somem no
+          papel), pendurada do alto da página (o corte do desenho fica fora da tela) e só no computador, onde não
+          passa por cima do título */}
       <Figura
-        nome="arvore/ramagem-sakura-dir"
+        nome="arvore/ramagem-sakura-dir-rosa"
         alt=""
         prioridade
-        className="pointer-events-none absolute -right-6 top-[calc(var(--nav-h)-6px)] hidden sm:block sm:w-[340px] lg:w-[420px] opacity-95"
+        className="pointer-events-none absolute -right-6 top-0 hidden lg:block lg:w-[400px] xl:w-[440px]"
       />
 
       <div className="relative max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 lg:pt-14 pb-20 lg:pb-24 grid lg:grid-cols-[1.08fr_1fr] gap-10 lg:gap-6 items-center">
