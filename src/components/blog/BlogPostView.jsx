@@ -292,7 +292,7 @@ function SeriesNav({ currentPost, allPosts, seriesList }) {
   if (seriesPosts.length === 4) {
     const stages = seriesPosts.map((p, i) => ({
       phase: ALCHEMICAL_PHASES[i],
-      post: { title: p.title, slug: p.slug || p.id },
+      post: { title: stripHighlights(p.title), slug: p.slug || p.id },
       _ref: p,
     }));
 
@@ -328,7 +328,7 @@ function SeriesNav({ currentPost, allPosts, seriesList }) {
             {p.id === currentPost.id ? (
               <span className="text-sm font-sans text-left w-full px-2 py-1 block text-accent font-medium bg-accent/10">
                 <span className="text-text-dim mr-2">{i + 1}.</span>
-                {p.title || 'Sem título'}
+                {renderHighlightedTitle(p.title) || 'Sem título'}
               </span>
             ) : (
               <Link
@@ -336,7 +336,7 @@ function SeriesNav({ currentPost, allPosts, seriesList }) {
                 className="text-sm font-sans text-left w-full px-2 py-1 block text-text-dim hover:text-text-bright hover:bg-bg-warm transition-colors"
               >
                 <span className="text-text-dim mr-2">{i + 1}.</span>
-                {p.title || 'Sem título'}
+                {renderHighlightedTitle(p.title) || 'Sem título'}
               </Link>
             )}
           </li>
@@ -346,12 +346,12 @@ function SeriesNav({ currentPost, allPosts, seriesList }) {
       <div className="flex justify-between gap-3">
         {prev ? (
           <Link href={`/blog/${prev.slug || prev.id}/`} className="text-xs font-sans text-text-dim hover:text-accent transition-colors">
-            ← {prev.title}
+            ← {renderHighlightedTitle(prev.title)}
           </Link>
         ) : <span />}
         {next ? (
           <Link href={`/blog/${next.slug || next.id}/`} className="text-xs font-sans text-text-dim hover:text-accent transition-colors text-right">
-            {next.title} →
+            {renderHighlightedTitle(next.title)} →
           </Link>
         ) : <span />}
       </div>
@@ -425,7 +425,7 @@ export default function BlogPostView({ post, allPosts, seriesList, visibility })
         const url = `${window.location.origin}${window.location.pathname}#${q.id}`;
         try {
           if (navigator.share) {
-            await navigator.share({ title: post.title, text: `"${text}"`, url });
+            await navigator.share({ title: stripHighlights(post.title), text: `"${text}"`, url });
           } else {
             await navigator.clipboard.writeText(`"${text}"\n${url}`);
             btn.textContent = 'Copiado';
@@ -529,7 +529,7 @@ export default function BlogPostView({ post, allPosts, seriesList, visibility })
             <TermPreview articleRef={articleRef} contentKey={post.id} />
 
             <div className="mt-12 pt-6 border-t border-linha" data-reading-hide="true">
-              <ShareButtons title={post.title} />
+              <ShareButtons title={stripHighlights(post.title)} />
             </div>
 
             {visibility?.newsletter !== false && <Newsletter source="ensaio" variante="post" />}

@@ -39,7 +39,7 @@ export function cartographyFromBlog(posts = []) {
     const toneIdx = slugifyTag(firstTag).split('').reduce((a, c) => a + c.charCodeAt(0), 0) % TONE_BY_BUCKET.length;
     return {
       id: `post-${p.slug || p.id}`,
-      label: p.title || 'Sem título',
+      label: String(p.title || 'Sem título').replace(/\*([^*]+)\*/g, '$1'),
       axiom: (p.excerpt || '').slice(0, 120),
       tone: TONE_BY_BUCKET[toneIdx],
       href: `/blog/${p.slug || p.id}`,

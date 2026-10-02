@@ -12,6 +12,7 @@ import HiddenPlaceholder from '@/components/HiddenPlaceholder';
 import { inferBioIcon } from '@/components/bio/BioCardIcons';
 import { bioAccent } from '@/components/bio/BioAccents';
 import Icone from '@/components/raposa/Icone';
+import { renderHighlightedTitle, stripHighlights } from '@/lib/highlightTitle';
 import Figura, { figuraSrc } from '@/components/raposa/Figura';
 import { Mascarinha } from '@/components/raposa/Marca';
 import Padronagem from '@/components/raposa/Padronagem';
@@ -104,7 +105,7 @@ function Destaque({ post }) {
         <div className="relative aspect-[16/9] overflow-hidden border-b-2 border-[var(--tinta)] bg-[var(--nevoa)]">
           {capa && (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={capa} alt={post.featured_image_alt || ''} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]" />
+            <img src={capa} alt={post.featured_image_alt || stripHighlights(post.title)} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]" />
           )}
           <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full bg-[var(--torii)] px-3 py-1 font-sans text-[11px] font-bold uppercase tracking-[0.14em] text-[var(--washi)] shadow-[2px_2px_0_var(--tinta)]">
             <Icone nome="pincel" size={13} /> {post.pinned ? 'Em destaque' : 'Último ensaio'}
@@ -112,7 +113,7 @@ function Destaque({ post }) {
         </div>
         <div className="flex items-end gap-3 px-4 py-3.5">
           <div className="min-w-0 flex-1">
-            <p className="font-serif text-[1.3rem] font-bold leading-[1.15] text-text-bright" style={FRAUNCES}>{post.title}</p>
+            <p className="font-serif text-[1.3rem] font-bold leading-[1.15] text-text-bright" style={FRAUNCES}>{renderHighlightedTitle(post.title)}</p>
             <p className="mt-1 font-sans text-[13px] text-text-dim">{min} min de leitura</p>
           </div>
           <span className="shrink-0 inline-flex items-center gap-1 font-sans text-[14px] font-semibold text-accent">

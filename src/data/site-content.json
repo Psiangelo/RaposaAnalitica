@@ -1,6 +1,6 @@
 {
-  "version": 1790972389334,
-  "published_at": "2026-10-02T20:19:49.334Z",
+  "version": 1790975996955,
+  "published_at": "2026-10-02T21:19:56.955Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -21,13 +21,13 @@
             "slug": "etapa",
             "extra": false,
             "intro": "",
-            "title": "História",
+            "title": "Premissas",
             "blocks": [
               {
                 "link": {
                   "kind": "blog",
                   "label": "",
-                  "value": "como-jung-se-relaciona-com-a-sua-psicologia"
+                  "value": "psicologia-nao-e-ciencia"
                 },
                 "type": "link"
               }
@@ -3477,9 +3477,9 @@
       "formularioCampoEmail": "email"
     }
   },
-  "data_hash": "65fd1eb6d46e9a72155ef6302121cfd6a5960ece",
+  "data_hash": "0b2c3874e285bb04b30cf7f7515c4e5807f7b573",
   "versoes": {
-    "raposa_admin_trilhas": "2026-10-02T00:59:00.826752+00:00",
+    "raposa_admin_trilhas": "2026-10-02T21:19:57.960326+00:00",
     "raposa_admin_bio": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_visibility": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_home_sections": "2026-10-02T00:59:00.826752+00:00",

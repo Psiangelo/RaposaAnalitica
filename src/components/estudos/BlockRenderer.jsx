@@ -83,6 +83,8 @@ function LinkBlock({ block, lists, accent }) {
   const kind = block.link?.kind;
   const fallbackIcon = KIND_FALLBACK_ICON[kind] || 'essay';
 
+  if (resolved.missing) return null;
+
   if (!resolved.href) {
     return (
       <div

@@ -35,7 +35,7 @@ export default function TermoClient({ initialTermo, initialList, initialCategori
   const daFamilia = list.filter((g) => g.category === term.category && g.slug !== term.slug && !g.hidden).slice(0, 6);
   const vizinhos = relacionados.length ? relacionados : daFamilia;
   const fullHtml = marked.parse(String(term.full || ''));
-  const links = (term.links || []).map((l) => resolveLink(l, { materials, posts: initialPosts, courses: initialCourses, glossario: list }));
+  const links = (term.links || []).map((l) => resolveLink(l, { materials, posts: initialPosts, courses: initialCourses, glossario: list })).filter((l) => !l.missing);
   const catDe = (slug) => categories.find((c) => c.slug === slug) || { mascara: 'shiro' };
 
   return (

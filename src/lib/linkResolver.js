@@ -89,9 +89,13 @@ export function resolveLink(link, { materials = [], posts = [], courses = [], gl
 
   if (kind === 'blog') {
     const p = posts.find((x) => (x.slug || x.id) === value);
+    // ensaio apagado ou despublicado: sem link morto (quem chama esconde o bloco)
+    if (posts.length && !p) {
+      return { href: null, label: label || '', kindLabel: KIND_LABEL.blog, isExternal: false, missing: true };
+    }
     return {
       href: `/blog/${value}`,
-      label: label || p?.title || value,
+      label: label || String(p?.title || value).replace(/\*([^*]+)\*/g, '$1'),
       kindLabel: KIND_LABEL.blog,
       isExternal: false,
     };
