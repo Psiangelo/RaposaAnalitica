@@ -120,7 +120,7 @@ export default function ContentManager({ addToast, addLogEntry }) {
           <Campo label="Texto do canal" className="sm:col-span-2"><Area value={c.primaryText} onChange={(v) => muda('contact', 'primaryText', v)} rows={2} /></Campo>
           <Campo label="WhatsApp (só números)"><Texto value={c.whatsappNumber} onChange={(v) => muda('contact', 'whatsappNumber', v)} /></Campo>
           <Campo label="E-mail (opcional)"><Texto value={c.emailValue} onChange={(v) => muda('contact', 'emailValue', v)} /></Campo>
-          <Campo label="Instagram (como aparece)"><Texto value={c.instagramValue} onChange={(v) => muda('contact', 'instagramValue', v)} placeholder="@raposaanalitica" /></Campo>
+          <Campo label="Instagram (como aparece)"><Texto value={c.instagramValue} onChange={(v) => muda('contact', 'instagramValue', v)} placeholder="@raposanalitica" /></Campo>
           <Campo label="Instagram (link)"><Texto value={c.instagramUrl} onChange={(v) => muda('contact', 'instagramUrl', v)} /></Campo>
         </div>
       </Secao>

@@ -38,7 +38,7 @@ d.raposa_admin_glossario_categories = [
 ];
 
 const WA = '5581987349114';
-const IG = 'https://www.instagram.com/raposaanalitica/';
+const IG = 'https://www.instagram.com/raposanalitica/';
 
 // 5. bio (linktree) e autor
 d.raposa_admin_bio = {
@@ -125,7 +125,7 @@ d.raposa_admin_homepage = {
     primaryButton: 'Abrir conversa',
     whatsappNumber: WA,
     instagramLabel: 'Instagram',
-    instagramValue: '@raposaanalitica',
+    instagramValue: '@raposanalitica',
     instagramUrl: IG,
     emailLabel: 'E-mail',
     emailValue: '',

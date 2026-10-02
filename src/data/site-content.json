@@ -1,6 +1,6 @@
 {
-  "version": 1790925991670,
-  "published_at": "2026-10-02T07:26:31.670Z",
+  "version": 1790971182055,
+  "published_at": "2026-10-02T19:59:42.055Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -80,12 +80,12 @@
         "emailLabel": "E-mail",
         "emailValue": "",
         "primaryText": "Me conta em poucas linhas o que você quer. Costumo responder no mesmo dia.",
-        "instagramUrl": "https://www.instagram.com/raposaanalitica/",
+        "instagramUrl": "https://www.instagram.com/raposanalitica/",
         "primaryLabel": "Canal principal",
         "sectionLabel": "Converse comigo",
         "primaryButton": "Abrir conversa",
         "instagramLabel": "Instagram",
-        "instagramValue": "@raposaanalitica",
+        "instagramValue": "@raposanalitica",
         "whatsappNumber": "5581987349114",
         "primaryHeadingPrefix": "Pelo",
         "primaryHeadingEmphasis": "WhatsApp"
@@ -184,7 +184,7 @@
       "accentColor": "#2E5240",
       "youtubeLink": "",
       "emailAddress": "",
-      "instagramLink": "https://www.instagram.com/raposaanalitica/",
+      "instagramLink": "https://www.instagram.com/raposanalitica/",
       "whatsappNumber": "5581987349114",
       "siteDescription": "Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa.",
       "whatsappMessage": "Oi! Vim pelo site da Raposa Analítica."
@@ -3452,10 +3452,9 @@
       "formularioCampoEmail": "email"
     }
   },
-  "data_hash": "f206594d8c7d1443d14a7eeb721665f008846c83",
+  "data_hash": "aeb8b1451c18fc2d36b35d1d6d3d5279d1bf177a",
   "versoes": {
     "raposa_admin_trilhas": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_homepage": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_bio": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_visibility": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_home_sections": "2026-10-02T00:59:00.826752+00:00",
@@ -3463,7 +3462,7 @@
     "raposa_admin_glossario": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_glossario_categories": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_glossario_page": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_settings": "2026-10-02T01:17:45.379436+00:00",
+    "raposa_admin_settings": "2026-10-02T19:59:27.967333+00:00",
     "raposa_admin_estudos_page": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_cartographies": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_labels": "2026-10-02T00:59:00.826752+00:00",
@@ -3472,6 +3471,7 @@
     "raposa_admin_loja": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_newsletter": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_areas": "2026-10-02T01:06:22.530784+00:00",
-    "raposa_admin_blog": "2026-10-02T01:24:17.050586+00:00"
+    "raposa_admin_blog": "2026-10-02T01:24:17.050586+00:00",
+    "raposa_admin_homepage": "2026-10-02T19:59:27.967333+00:00"
   }
 }

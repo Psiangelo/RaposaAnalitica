@@ -438,7 +438,7 @@ export default function BioManager({ addToast, addLogEntry }) {
             value={settingsData.instagramLink || ''}
             onChange={(e) => updateSettingField('instagramLink', e.target.value)}
             className={INPUT}
-            placeholder="https://www.instagram.com/raposaanalitica/"
+            placeholder="https://www.instagram.com/raposanalitica/"
           />
           <p className="text-[10px] text-[rgb(var(--texto-dim-rgb))] mt-1">
             Mesmo campo de Admin → Configurações → Contato e Redes Sociais — muda nos dois lugares.
