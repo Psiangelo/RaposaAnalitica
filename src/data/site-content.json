@@ -1,6 +1,6 @@
 {
-  "version": 1790901268337,
-  "published_at": "2026-10-02T00:34:28.337Z",
+  "version": 1790901601531,
+  "published_at": "2026-10-02T00:40:01.531Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -105,13 +105,13 @@
     "raposa_admin_bio": {
       "name": "Raposa Analítica",
       "tagline": "Psicologia analítica · Jung",
-      "bio": "Estudo psicologia e escrevo sobre Jung. Aqui eu conto o que vou achando pelo caminho.",
+      "bio": "Sigo os rastros de Jung pela obra e conto aqui o que vou achando pelo caminho.",
       "avatar": "/raposa/fig/perfil-raposa-oculos.webp",
       "images": [],
       "author": {
-        "name": "Ângelo",
-        "credential": "Estudante de psicologia · leitor de Jung",
-        "bio": "Leio Jung faz um tempo, e aqui eu conto o que vou achando. Os ensaios, os verbetes e as trilhas saem de um estudo contínuo da Obra Completa, com a referência de cada coisa para você ir à fonte.",
+        "name": "Raposa Analítica",
+        "credential": "",
+        "bio": "Sigo os rastros de Jung pela obra e conto aqui o que vou achando, sempre com a referência, para você ir à fonte.",
         "photo": {
           "src": "/raposa/fig/perfil-raposa-oculos.webp",
           "alt": "A Raposa Analítica: uma raposa de óculos redondos e cachimbo"
@@ -7092,5 +7092,5 @@
       }
     }
   },
-  "data_hash": "e2f0539b52a7717f631ad6b4abac38a4d07e8b07"
+  "data_hash": "b44a86ddd2b8953b7c0f150e83bad8ecc140998b"
 }

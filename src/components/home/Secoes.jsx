@@ -260,7 +260,7 @@ export function QuemEscreve({ compacto = false }) {
   const bio = useSitedata(getBio, DEFAULT_BIO, SITEDATA_KEYS.bio);
   const a = { ...DEFAULT_HOMEPAGE.about, ...(home?.about || {}) };
   const autor = bio?.author || DEFAULT_BIO.author;
-  const titulo = useSectionLabel('about', 'Sou estudante *de psicologia*');
+  const titulo = useSectionLabel('about', 'Sigo os rastros *de Jung*');
   return (
     <section id="quem-escreve" className="relative overflow-hidden py-16 sm:py-24 bg-[var(--fundo-2)]">
       <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.06} tam={52} />

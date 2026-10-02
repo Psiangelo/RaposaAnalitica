@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="relative mt-16 pt-6 pb-36 sm:pb-0 border-t border-linha flex flex-col sm:flex-row sm:items-end justify-between gap-4 pr-0 sm:pr-[220px]">
           <div className="font-sans text-[13px] text-text-dim leading-relaxed">
-            <p>© {ano} Raposa Analítica · escrito por {author.name || 'Ângelo'}</p>
+            <p>© {ano} Raposa Analítica</p>
             {author.disclaimer && <p className="text-text-faint">{author.disclaimer}</p>}
           </div>
           <div className="flex gap-4 font-sans text-[13px] text-text-dim">

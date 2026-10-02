@@ -41,18 +41,14 @@ export default function SobreClient() {
       <main id="conteudo">
         <PageHero
           eyebrow={a.title || 'Quem sou eu'}
-          title="Sou estudante"
-          emphasis="de psicologia"
+          title="Sigo os rastros"
+          emphasis="de Jung"
           lead={a.paragraph1}
           figura="fig/raposa-anotando"
           figuraAlt={autor.photo?.alt || 'A raposa de óculos anotando no caderninho'}
           disco="var(--kaki)"
           fundo="velho"
-        >
-          <p className="mt-6 font-sans text-[15px] text-text-dim">
-            <b className="text-text-bright">{autor.name}</b> · {autor.credential}
-          </p>
-        </PageHero>
+        />
 
         <section className="py-16 sm:py-20">
           <div className={`${W} grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-start`}>

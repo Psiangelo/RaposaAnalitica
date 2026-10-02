@@ -303,7 +303,7 @@ export default function BioManager({ addToast, addLogEntry }) {
             onChange={(e) => update('bio', e.target.value)}
             className={TEXTAREA}
             rows={3}
-            placeholder="Estudo psicologia e leio a obra de Jung..."
+            placeholder="Sigo os rastros de Jung pela obra..."
           />
         </div>
         <div className="mt-4">
@@ -394,7 +394,7 @@ export default function BioManager({ addToast, addLogEntry }) {
               value={data.author?.name || ''}
               onChange={(e) => updateAuthor('name', e.target.value)}
               className={INPUT}
-              placeholder="Ângelo"
+              placeholder="Raposa Analítica"
             />
           </div>
           <div>

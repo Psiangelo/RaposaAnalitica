@@ -172,9 +172,9 @@ export const DEFAULT_HOMEPAGE = {
 };
 
 const DEFAULT_AUTHOR = {
-  name: 'Ângelo',
-  credential: 'Estudante de psicologia · leitor de Jung',
-  bio: 'Leio Jung faz um tempo, e aqui eu conto o que vou achando.',
+  name: 'Raposa Analítica',
+  credential: '',
+  bio: 'Sigo os rastros de Jung pela obra e conto aqui o que vou achando, sempre com a referência, para você ir à fonte.',
   photo: { src: '/raposa/fig/perfil-raposa-oculos.webp', alt: 'A Raposa Analítica: uma raposa de óculos redondos e cachimbo' },
   disclaimer: '',
 };
@@ -182,7 +182,7 @@ const DEFAULT_AUTHOR = {
 export const DEFAULT_BIO = {
   name: 'Raposa Analítica',
   tagline: 'Psicologia analítica · Jung',
-  bio: 'Estudo psicologia e escrevo sobre Jung. Aqui eu conto o que vou achando pelo caminho.',
+  bio: 'Sigo os rastros de Jung pela obra e conto aqui o que vou achando pelo caminho.',
   avatar: '/raposa/fig/perfil-raposa-oculos.webp',
   author: DEFAULT_AUTHOR,
   images: [],

@@ -4,9 +4,9 @@ import siteContentSnapshot from '@/data/site-content.json';
 // Lê o snapshot publicado direto (sitedata.js é 'use client' e não pode ser
 // chamado num Server Component; ver o histórico no Psiangelo).
 const DEFAULT_AUTHOR = {
-  name: 'Ângelo',
-  credential: 'Estudante de psicologia · leitor de Jung',
-  bio: 'Leio Jung faz um tempo, e aqui eu conto o que vou achando.',
+  name: 'Raposa Analítica',
+  credential: '',
+  bio: 'Sigo os rastros de Jung pela obra e conto aqui o que vou achando, sempre com a referência, para você ir à fonte.',
   photo: { src: '/raposa/fig/perfil-raposa-oculos.webp', alt: 'A Raposa Analítica' },
 };
 
@@ -33,7 +33,7 @@ export default function StructuredData() {
         '@type': 'Person',
         '@id': `${SITE_URL}#person`,
         name: author.name,
-        jobTitle: author.credential,
+        jobTitle: author.credential || undefined,
         description: author.bio,
         url: `${SITE_URL}/sobre`,
         knowsAbout: ['Psicologia Analítica', 'Carl Gustav Jung', 'Obra Completa de Jung', 'Arquétipos', 'Individuação', 'Sombra', 'Anima e animus'],
