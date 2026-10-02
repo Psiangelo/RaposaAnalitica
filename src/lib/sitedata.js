@@ -118,7 +118,7 @@ export const DEFAULT_HOMEPAGE = {
     titlePrefix: 'A floresta é o',
     titleEmphasis: 'inconsciente',
     tagline: 'e eu conheço as trilhas.',
-    lead: 'Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.',
+    lead: 'Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung. Escritos com cuidado e com todas as referências, pra você ir direto estudar na fonte.',
     quote: 'A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério. É uma metáfora apropriada para o inconsciente.',
     quoteSource: 'OC 13 §241',
     primaryLabel: 'Ler os ensaios',
@@ -176,13 +176,13 @@ const DEFAULT_AUTHOR = {
   credential: 'Estudante de psicologia · leitor de Jung',
   bio: 'Leio Jung faz um tempo, e aqui eu conto o que vou achando.',
   photo: { src: '/raposa/fig/perfil-raposa-oculos.webp', alt: 'A Raposa Analítica: uma raposa de óculos redondos e cachimbo' },
-  disclaimer: 'Não atendo nem dou diagnóstico por aqui.',
+  disclaimer: '',
 };
 
 export const DEFAULT_BIO = {
   name: 'Raposa Analítica',
   tagline: 'Psicologia analítica · Jung',
-  bio: 'Estudo psicologia e leio a obra de Jung de ponta a ponta. Aqui eu conto o que vou achando pelo caminho.',
+  bio: 'Estudo psicologia e escrevo sobre Jung. Aqui eu conto o que vou achando pelo caminho.',
   avatar: '/raposa/fig/perfil-raposa-oculos.webp',
   author: DEFAULT_AUTHOR,
   images: [],

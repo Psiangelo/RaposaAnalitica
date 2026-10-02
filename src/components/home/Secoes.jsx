@@ -51,7 +51,6 @@ export function UltimosEnsaios({ pular = 1, limite = 6 }) {
         <Cabecalho
           rotulo="Ensaios"
           texto={titulo}
-          lead="Uma pergunta de cada vez, com a referência de cada coisa."
           link="/blog"
           linkLabel="Todos os ensaios"
           className="mb-10"
@@ -91,7 +90,7 @@ export function VerbetesHome() {
         <Cabecalho
           rotulo="Verbetes"
           texto={titulo}
-          lead="Cada conceito de Jung com o essencial dito curto, e a cor da máscara dizendo de que família ele é. Dentro dos ensaios, o termo com um ? abre o verbete."
+          lead="Essencial dos conceitos de Jung para ajudar na leitura."
           link="/verbetes"
           linkLabel="Todos os verbetes"
           className="mb-10"
@@ -131,7 +130,7 @@ export function TrilhasHome() {
           <Rotulo className="mb-4">Trilhas</Rotulo>
           <TituloSecao texto={titulo} />
           <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[52ch]">
-            No santuário de Inari, cujas mensageiras são as raposas, o caminho é um túnel de portões vermelhos. Aqui cada etapa da trilha é um torii: você passa por ele e ele fica vermelho.
+            No santuário de Inari, cujas mensageiras são as raposas, o caminho é um túnel de portões vermelhos. Aqui cada etapa da trilha é um torii.
           </p>
           <ul className="mt-8 space-y-4">
             {lista.map((t) => {
@@ -198,7 +197,6 @@ export function PesquisaHome() {
                     </span>
                     {p.pergunta && <span className="block font-body italic text-[0.95rem] text-text-dim">{p.pergunta}</span>}
                   </span>
-                  <span className="ml-auto font-sans text-[12px] font-semibold uppercase tracking-[0.14em] text-[var(--kitsunebi)] shrink-0">Nível {i + 1}</span>
                 </li>
               ))}
             </ol>
@@ -262,7 +260,7 @@ export function QuemEscreve({ compacto = false }) {
   const bio = useSitedata(getBio, DEFAULT_BIO, SITEDATA_KEYS.bio);
   const a = { ...DEFAULT_HOMEPAGE.about, ...(home?.about || {}) };
   const autor = bio?.author || DEFAULT_BIO.author;
-  const titulo = useSectionLabel('about', 'Leio Jung *com a fonte do lado*');
+  const titulo = useSectionLabel('about', 'Sou estudante *de psicologia*');
   return (
     <section id="quem-escreve" className="relative overflow-hidden py-16 sm:py-24 bg-[var(--fundo-2)]">
       <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.06} tam={52} />

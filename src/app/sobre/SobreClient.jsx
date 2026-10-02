@@ -41,8 +41,8 @@ export default function SobreClient() {
       <main id="conteudo">
         <PageHero
           eyebrow={a.title || 'Quem sou eu'}
-          title="Leio Jung"
-          emphasis="com a fonte do lado"
+          title="Sou estudante"
+          emphasis="de psicologia"
           lead={a.paragraph1}
           figura="fig/raposa-anotando"
           figuraAlt={autor.photo?.alt || 'A raposa de óculos anotando no caderninho'}

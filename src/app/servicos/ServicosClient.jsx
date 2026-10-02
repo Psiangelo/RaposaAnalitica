@@ -24,7 +24,7 @@ function linkWhats(numero, mensagem) {
  * /servicos — pesquisa sob encomenda para quem escreve com Jung.
  *
  * Um serviço só: a pesquisa na obra inteira sobre o tema que a pessoa
- * trouxer, em três níveis de entrega bem separados (do TCC ao doutorado), com a
+ * trouxer, em três níveis de entrega bem separados, com a
  * opção de mandar o texto que já tem. Depois: como funciona, o que vem no
  * PDF, os roteiros sobre Jung para quem faz conteúdo, o que eu não faço e
  * a chamada final.
@@ -113,7 +113,7 @@ export default function ServicosClient() {
             <Padronagem nome="seigaiha" cor="#2E5240" opacidade={0.05} tam={48} />
             <div className={`relative ${W}`}>
               <Rotulo className="mb-4">Níveis de entrega</Rotulo>
-              <TituloSecao antes={`${QUANTOS[niveis.length] || `${niveis.length} níveis`},`} pivo="do TCC ao doutorado" />
+              <TituloSecao antes={QUANTOS[niveis.length] || `${niveis.length} níveis`} pivo="de entrega" />
               <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[62ch]">
                 Não vendo hora: cada nível tem escopo, formato e prazo combinados antes de começar.
               </p>
@@ -139,9 +139,6 @@ export default function ServicosClient() {
                           style={escuro ? { background: 'var(--ginkgo)', color: 'var(--tinta)' } : { background: 'var(--mata)', color: 'var(--ginkgo)' }}
                         >
                           <Icone nome={p.icone} size={24} />
-                        </span>
-                        <span className={`font-sans text-[12px] font-semibold uppercase tracking-[0.16em] ${escuro ? 'text-[var(--ginkgo)]' : 'text-text-dim'}`}>
-                          Nível {i + 1} de {niveis.length}
                         </span>
                       </div>
                       <h3 className="relative mt-5 font-serif text-[2rem] font-bold leading-none text-text-bright" style={FRAUNCES}>{p.nome}</h3>
@@ -206,7 +203,7 @@ export default function ServicosClient() {
                 <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--urushi)]">Exemplo de abertura</p>
                 <p className="mt-2 font-serif text-[1.4rem] font-bold leading-tight" style={FRAUNCES}>A floresta como imagem do inconsciente</p>
                 <dl className="mt-4 space-y-2 text-[0.92rem]">
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Nível</dt><dd>Aprofundado (mestrado)</dd></div>
+                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Nível</dt><dd>Aprofundado</dd></div>
                   <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Onde procurei</dt><dd>Obra Completa (edição brasileira, Vozes), todos os volumes</dd></div>
                   <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Critério</dt><dd>as vezes em que a palavra aparece e as passagens que tratam do tema sem nomeá-lo</dd></div>
                   <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Fora</dt><dd>cartas e seminários não publicados em português</dd></div>

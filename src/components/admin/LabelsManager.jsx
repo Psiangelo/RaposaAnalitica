@@ -34,7 +34,7 @@ const SECTION_FIELDS = [
   { key: 'blog',     label: 'Últimos ensaios', hint: 'Padrão: Da *clareira*' },
   { key: 'verbetes', label: 'Verbetes',        hint: 'Padrão: As máscaras *da floresta*' },
   { key: 'estudos',  label: 'Trilhas',         hint: 'Padrão: O caminho dos *mil torii*' },
-  { key: 'about',    label: 'Quem sou eu',    hint: 'Padrão: Leio Jung *com a fonte do lado*' },
+  { key: 'about',    label: 'Quem sou eu',    hint: 'Padrão: Sou estudante *de psicologia*' },
 ];
 
 function Field({ value, onChange, fallback, label, hint }) {

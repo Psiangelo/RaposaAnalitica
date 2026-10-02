@@ -1,6 +1,6 @@
 {
-  "version": 1790900718667,
-  "published_at": "2026-10-02T00:25:18.667Z",
+  "version": 1790901268337,
+  "published_at": "2026-10-02T00:34:28.337Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -54,7 +54,7 @@
         "titlePrefix": "A floresta é o",
         "titleEmphasis": "inconsciente",
         "tagline": "e eu conheço as trilhas.",
-        "lead": "Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.",
+        "lead": "Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung. Escritos com cuidado e com todas as referências, pra você ir direto estudar na fonte.",
         "quote": "",
         "quoteSource": "",
         "primaryLabel": "Ler os ensaios",
@@ -64,55 +64,13 @@
       },
       "about": {
         "title": "Quem sou eu",
-        "paragraph1": "Toda vez que alguém me compara com um bicho, escolhe a raposa. Então a raposa ficou. Sou estudante de psicologia e leio a obra de Jung de ponta a ponta, com um acervo de notas que cruza os volumes, as datas e os parágrafos.",
+        "paragraph1": "Toda vez que alguém me compara com um bicho, escolhe a raposa. Então a raposa ficou.",
         "paragraph2": "Aqui eu conto o que vou achando: o que Jung disse mesmo, onde ele mudou de ideia, o que está escondido nas notas de rodapé e nas cartas. Tudo com a fonte, para você conferir.",
         "paragraph3": "No Livro Vermelho, Jung diz ao seu mestre interior, Filêmon, que no mínimo ele é uma raposa esperta, de quem dá para aprender alguma coisa. Por aqui, eu ainda estou aprendendo.",
         "quoteText": "O animal prestativo indica o caminho que leva ao templo.",
         "quoteAuthor": "Jung, OC 13 §241, nota 5 (paráfrase)",
-        "credentials": [
-          {
-            "mark": "◆",
-            "label": "Leitura",
-            "detail": "Leitura sistemática da Obra Completa, em curso"
-          },
-          {
-            "mark": "◇",
-            "label": "Escrita",
-            "detail": "Ensaios, verbetes e trilhas públicos"
-          },
-          {
-            "mark": "◆",
-            "label": "Estudo",
-            "detail": "Condução de grupo de estudos"
-          },
-          {
-            "mark": "◇",
-            "label": "Liga",
-            "detail": "Presidência · Psicologia Analítica · UNICAP"
-          }
-        ],
-        "gostos": [
-          {
-            "titulo": "Mitologia",
-            "detalhe": "e conto de fada, que o Jung levava a sério"
-          },
-          {
-            "titulo": "Xadrez",
-            "detalhe": "a coruja sempre ganha"
-          },
-          {
-            "titulo": "Anime",
-            "detalhe": "um episódio vira três"
-          },
-          {
-            "titulo": "Escrever",
-            "detalhe": "caderninho sempre por perto"
-          },
-          {
-            "titulo": "Doce",
-            "detalhe": "a kitsune da lenda gosta de tofu frito; eu prefiro doce"
-          }
-        ],
+        "credentials": [],
+        "gostos": [],
         "milestones": [],
         "images": []
       },
@@ -147,7 +105,7 @@
     "raposa_admin_bio": {
       "name": "Raposa Analítica",
       "tagline": "Psicologia analítica · Jung",
-      "bio": "Estudo psicologia e leio a obra de Jung de ponta a ponta. Aqui eu conto o que vou achando pelo caminho.",
+      "bio": "Estudo psicologia e escrevo sobre Jung. Aqui eu conto o que vou achando pelo caminho.",
       "avatar": "/raposa/fig/perfil-raposa-oculos.webp",
       "images": [],
       "author": {
@@ -158,7 +116,7 @@
           "src": "/raposa/fig/perfil-raposa-oculos.webp",
           "alt": "A Raposa Analítica: uma raposa de óculos redondos e cachimbo"
         },
-        "disclaimer": "Não atendo nem dou diagnóstico por aqui."
+        "disclaimer": ""
       },
       "links": [
         {
@@ -167,24 +125,6 @@
           "icon": "pincel",
           "accent": "mata",
           "description": "Textos longos, uma pergunta de cada vez.",
-          "image": "",
-          "hidden": false
-        },
-        {
-          "label": "Trilha para começar",
-          "href": "/trilhas",
-          "icon": "torii",
-          "accent": "torii",
-          "description": "Por onde começar em Jung, e o que vem depois.",
-          "image": "",
-          "hidden": false
-        },
-        {
-          "label": "Verbetes",
-          "href": "/verbetes",
-          "icon": "mascara",
-          "accent": "ai",
-          "description": "Os conceitos de Jung, curtos e ligados entre si.",
           "image": "",
           "hidden": false
         },
@@ -198,11 +138,11 @@
           "hidden": false
         },
         {
-          "label": "Cartas da Raposa",
-          "href": "/blog/#cartas",
-          "icon": "carta",
-          "accent": "ouro",
-          "description": "Um e-mail quando sai coisa nova.",
+          "label": "Trilha para começar",
+          "href": "/trilhas",
+          "icon": "torii",
+          "accent": "torii",
+          "description": "Por onde começar em Jung, e o que vem depois.",
           "image": "",
           "hidden": false
         },
@@ -230,7 +170,7 @@
       "autor": true,
       "about": true,
       "contato": true,
-      "verbetesHome": true,
+      "verbetesHome": false,
       "servicosHome": true,
       "lojaHome": true,
       "blogAuthorBox": true,
@@ -6765,7 +6705,7 @@
         {
           "id": "essencial",
           "nome": "Essencial",
-          "pergunta": "Para TCC e artigo",
+          "pergunta": "",
           "descricao": "Onde Jung fala do seu tema, livro por livro, com a obra e o parágrafo de cada passagem.",
           "entrega": "Lista em PDF",
           "prazo": "a combinar",
@@ -6777,7 +6717,7 @@
         {
           "id": "aprofundado",
           "nome": "Aprofundado",
-          "pergunta": "Para mestrado",
+          "pergunta": "",
           "descricao": "As passagens que importam, explicadas e ligadas entre si: como a ideia aparece e muda ao longo da obra.",
           "entrega": "Pesquisa comentada em PDF",
           "prazo": "a combinar",
@@ -6789,7 +6729,7 @@
         {
           "id": "completo",
           "nome": "Completo",
-          "pergunta": "Para doutorado",
+          "pergunta": "",
           "descricao": "Uma pesquisa de fôlego, feita em cima do seu projeto, e uma conversa comigo depois da entrega.",
           "entrega": "Pesquisa completa em PDF e conversa",
           "prazo": "a combinar",
@@ -7152,5 +7092,5 @@
       }
     }
   },
-  "data_hash": "638eaa27c5aee6352be57e4f0b4ff14c1b893010"
+  "data_hash": "e2f0539b52a7717f631ad6b4abac38a4d07e8b07"
 }

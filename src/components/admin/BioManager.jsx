@@ -425,7 +425,7 @@ export default function BioManager({ addToast, addLogEntry }) {
             onChange={(e) => updateAuthor('disclaimer', e.target.value)}
             className={TEXTAREA}
             rows={2}
-            placeholder="Não atendo nem dou diagnóstico por aqui."
+            placeholder="Uma frase curta que aparece junto do autor (opcional)."
           />
         </div>
 
