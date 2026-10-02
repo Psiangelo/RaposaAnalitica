@@ -26,7 +26,7 @@ const PAGINAS = [
   { title: 'Trilhas', href: '/trilhas', hint: 'Por onde começar', vis: 'estudos' },
   { title: 'Pesquisa sob encomenda', href: '/servicos', hint: 'Para TCC, dissertação e tese', vis: 'servicos' },
   { title: 'Loja', href: '/loja', hint: 'Guias e materiais', vis: 'loja' },
-  { title: 'Cartas da Raposa', href: '/newsletter', hint: 'Newsletter', vis: 'newsletter' },
+  { title: 'Cartas da Raposa', href: '/blog/#cartas', hint: 'Assinar a newsletter', vis: 'newsletter' },
   { title: 'Sobre', href: '/sobre', hint: 'Quem sou eu', vis: null },
   { title: 'Converse comigo', href: '/sobre#converse', hint: 'WhatsApp, Instagram, e-mail', vis: null },
   { title: 'Bio', href: '/bio', hint: 'Meus links', vis: 'bio' },

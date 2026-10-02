@@ -15,9 +15,10 @@ import Rotulo from '@/components/raposa/Rotulo';
 /**
  * Cartas da Raposa: a inscrição na newsletter.
  *
- * O site é estático, então o e-mail vai direto para o serviço escolhido no
- * painel (Admin → Cartas): Buttondown, um formulário qualquer (MailerLite,
- * Kit, Brevo, Google Forms) ou o Substack. Enquanto nenhum foi escolhido, o
+ * Não há página própria: a caixa fica no pé do blog, no fim de cada ensaio
+ * e na home (âncora #cartas). O site é estático, então o e-mail vai direto
+ * para o destino escolhido no painel (Admin → Cartas): o Formulário do Google
+ * (cai numa planilha), o Buttondown, um formulário qualquer ou o Substack. Enquanto nenhum foi escolhido, o
  * formulário diz a verdade: as cartas começam em breve, e quem quiser pode
  * pedir o aviso pelo WhatsApp.
  *
@@ -62,6 +63,13 @@ export function FormularioCartas({ source = 'site', tom = 'claro', compacto = fa
         const base = cfg.substackEndereco.replace(/\/$/, '');
         const url = `${base.startsWith('http') ? base : `https://${base}`}/subscribe?email=${encodeURIComponent(email.trim())}`;
         window.open(url, '_blank', 'noopener,noreferrer');
+      } else if (provedor === 'google' && cfg.googleAcao && cfg.googleCampoEmail) {
+        // Formulário do Google: as respostas caem na planilha ligada a ele
+        const corpo = new URLSearchParams();
+        corpo.append(cfg.googleCampoEmail, email.trim());
+        if (cfg.googleCampoAceite) corpo.append(cfg.googleCampoAceite, cfg.googleValorAceite || 'Sim');
+        if (cfg.googleCampoOrigem) corpo.append(cfg.googleCampoOrigem, source);
+        await fetch(cfg.googleAcao, { method: 'POST', body: corpo, mode: 'no-cors' });
       } else {
         let acao = '';
         let campo = 'email';
@@ -88,7 +96,7 @@ export function FormularioCartas({ source = 'site', tom = 'claro', compacto = fa
     }
   }
 
-  if (provedor === 'nenhum') {
+  if (provedor === 'nenhum' || (provedor === 'google' && !(cfg.googleAcao && cfg.googleCampoEmail))) {
     const msg = encodeURIComponent(`Oi! Quero receber as ${cfg.nome || 'Cartas da Raposa'} quando começarem.`);
     return (
       <div className={`rounded-2xl p-5 sm:p-6 ${escuro ? 'bg-bg-card' : 'bg-bg-card border border-linha'}`}>
@@ -162,7 +170,7 @@ export default function Newsletter({ source = 'home', variante = 'secao' }) {
 
   if (variante === 'post') {
     return (
-      <aside className="relative overflow-hidden rounded-[26px] bg-[var(--papel-velho)] px-6 py-8 sm:px-10 sm:py-10 my-14" data-reading-hide="true">
+      <aside id="cartas" className="relative overflow-hidden rounded-[26px] bg-[var(--papel-velho)] px-6 py-8 sm:px-10 sm:py-10 my-14 scroll-mt-28" data-reading-hide="true">
         <Figura nome="fig/raposa-wagasa" alt="" className="pointer-events-none absolute -right-4 -bottom-3 w-[140px] sm:w-[190px] opacity-95" />
         <div className="relative max-w-[520px]">
           <Rotulo className="mb-3">{t.eyebrow}</Rotulo>
@@ -177,7 +185,7 @@ export default function Newsletter({ source = 'home', variante = 'secao' }) {
   }
 
   return (
-    <section id="cartas" className="relative overflow-hidden py-20 sm:py-24">
+    <section id="cartas" className="relative overflow-hidden py-20 sm:py-24 scroll-mt-16">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-[32px] bg-[var(--papel-velho)] grid lg:grid-cols-[1fr_0.8fr] items-center">
           <div

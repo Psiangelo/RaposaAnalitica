@@ -21,7 +21,7 @@ const GROUPS = [
       { key: 'estudos',    label: 'Trilhas',                         url: '/trilhas/' },
       { key: 'servicos',   label: 'Pesquisa sob encomenda',          url: '/servicos/' },
       { key: 'loja',       label: 'Loja',                            url: '/loja/' },
-      { key: 'newsletter', label: 'Cartas da Raposa (página e formulários)', url: '/newsletter/' },
+      { key: 'newsletter', label: 'Cartas da Raposa (a caixa de inscrição)', url: '/blog/#cartas' },
       { key: 'bio',        label: 'Bio (link do Instagram)',         url: '/bio/' },
     ],
   },

@@ -37,7 +37,7 @@ export default function Footer() {
       itens: [
         v.servicos !== false && { href: '/servicos', label: 'Pesquisa sob encomenda' },
         v.loja !== false && { href: '/loja', label: 'Loja' },
-        v.newsletter !== false && { href: '/newsletter', label: 'Cartas da Raposa' },
+        v.newsletter !== false && { href: '/blog/#cartas', label: 'Cartas da Raposa' },
       ],
     },
     {

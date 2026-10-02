@@ -61,7 +61,7 @@ export default function ProdutoCard({ produto: p, linhas = [], grande = false })
               </a>
             </>
           ) : (
-            <Link href="/newsletter" className="btn btn--ghost btn--sm">
+            <Link href="/blog/#cartas" className="btn btn--ghost btn--sm">
               <Icone nome="carta" size={16} /> Me avise quando sair
             </Link>
           )}

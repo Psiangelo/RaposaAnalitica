@@ -54,7 +54,6 @@ export default function Navbar() {
 
   const links = [
     { href: '/blog', label: nl.blog || 'Ensaios', key: 'blog', icone: 'pincel' },
-    { href: '/verbetes', label: nl.glossario || 'Verbetes', key: 'glossario', icone: 'mascara' },
     { href: '/trilhas', label: nl.estudos || 'Trilhas', key: 'estudos', icone: 'torii' },
     { href: '/servicos', label: nl.servicos || 'Pesquisa', key: 'servicos', icone: 'lupa' },
     { href: '/loja', label: nl.loja || 'Loja', key: 'loja', icone: 'sacola' },
@@ -118,7 +117,7 @@ export default function Navbar() {
             </button>
             {v.newsletter !== false && (
               <Link
-                href="/newsletter"
+                href="/blog/#cartas"
                 className="hidden sm:inline-flex items-center gap-2 h-10 pl-3.5 pr-4 rounded-full bg-mata text-[var(--washi)] font-sans text-[14px] font-semibold hover:bg-[var(--cedro)] transition-colors"
               >
                 <Icone nome="carta" size={17} />
@@ -185,7 +184,7 @@ export default function Navbar() {
               ))}
               {v.newsletter !== false && (
                 <li className="pt-4">
-                  <Link href="/newsletter" className="inline-flex items-center gap-2 h-12 px-5 rounded-full bg-[var(--ginkgo)] text-[var(--tinta)] font-sans font-semibold">
+                  <Link href="/blog/#cartas" className="inline-flex items-center gap-2 h-12 px-5 rounded-full bg-[var(--ginkgo)] text-[var(--tinta)] font-sans font-semibold">
                     <Icone nome="carta" size={18} /> Receber as {nl.newsletter || 'Cartas'}
                   </Link>
                 </li>

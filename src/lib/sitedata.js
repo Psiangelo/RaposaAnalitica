@@ -422,7 +422,7 @@ export const setBio = (v) => writeJson(SITEDATA_KEYS.bio, v);
 
 export const DEFAULT_BLOG_AUTHOR_CTA = {
   label: 'Receber as Cartas da Raposa',
-  href: '/newsletter',
+  href: '/blog/#cartas',
 };
 
 export const getBlogAuthorCta = (seedOnly) => {
@@ -1083,7 +1083,8 @@ export const NEWSLETTER_PROVEDORES = [
   { id: 'nenhum', label: 'Ainda não escolhido (o formulário avisa que as cartas começam em breve)' },
   { id: 'buttondown', label: 'Buttondown' },
   { id: 'substack', label: 'Substack' },
-  { id: 'formulario', label: 'Outro (MailerLite, Kit, Brevo, Google Forms…): endereço do formulário' },
+  { id: 'google', label: 'Formulário do Google (os e-mails caem numa planilha)' },
+  { id: 'formulario', label: 'Outro (MailerLite, Kit, Brevo…): endereço do formulário' },
 ];
 
 export const DEFAULT_NEWSLETTER = {
@@ -1093,6 +1094,11 @@ export const DEFAULT_NEWSLETTER = {
   substackEndereco: '',
   formularioAcao: '',
   formularioCampoEmail: 'email',
+  googleAcao: '',
+  googleCampoEmail: '',
+  googleCampoAceite: '',
+  googleValorAceite: '',
+  googleCampoOrigem: '',
   pagina: { eyebrow: 'Newsletter', title: 'Cartas da', emphasis: 'Raposa', lead: '', itens: [] },
   ...(SEED.raposa_admin_newsletter || {}),
 };

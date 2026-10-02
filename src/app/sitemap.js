@@ -58,7 +58,6 @@ export default function sitemap() {
     toAbsolute('/trilhas',    0.75, 'weekly'),
     toAbsolute('/servicos',   0.8, 'monthly'),
     toAbsolute('/loja',       0.7, 'weekly'),
-    toAbsolute('/newsletter', 0.6, 'monthly'),
     toAbsolute('/sobre',      0.6, 'monthly'),
     toAbsolute('/bio',        0.4, 'monthly'),
     toAbsolute('/privacidade', 0.3, 'yearly'),

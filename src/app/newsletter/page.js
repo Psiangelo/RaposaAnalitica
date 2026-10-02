@@ -1,12 +1,9 @@
-import CartasClient from './CartasClient';
-import { SITE_URL } from '@/lib/site';
+import Redireciona from './Redireciona';
 
-export const metadata = {
-  title: 'Cartas da Raposa · newsletter',
-  description: 'Uma carta quando eu acho alguma coisa na obra de Jung: ensaio novo, verbete novo, trilha nova e um achado das notas de rodapé.',
-  alternates: { canonical: `${SITE_URL}/newsletter/` },
-};
+// As Cartas não têm mais página própria (pedido do Gabriel, 01/10/2026): a
+// inscrição fica no pé do blog. Quem chegar por um link antigo vai para lá.
+export const metadata = { title: 'Cartas da Raposa', robots: { index: false } };
 
 export default function Page() {
-  return <CartasClient />;
+  return <Redireciona />;
 }

@@ -1,6 +1,6 @@
 {
-  "version": 1790898337917,
-  "published_at": "2026-10-01T23:45:37.917Z",
+  "version": 1790900718667,
+  "published_at": "2026-10-02T00:25:18.667Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -55,8 +55,8 @@
         "titleEmphasis": "inconsciente",
         "tagline": "e eu conheço as trilhas.",
         "lead": "Ensaios, verbetes e trilhas de leitura sobre Carl Gustav Jung, escritos devagar e com a referência de cada coisa, para você ir à fonte.",
-        "quote": "A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério. É uma metáfora apropriada para o inconsciente.",
-        "quoteSource": "OC 13 §241",
+        "quote": "",
+        "quoteSource": "",
         "primaryLabel": "Ler os ensaios",
         "primaryHref": "/blog",
         "secondaryLabel": "Começar uma trilha",
@@ -199,7 +199,7 @@
         },
         {
           "label": "Cartas da Raposa",
-          "href": "/newsletter",
+          "href": "/blog/#cartas",
           "icon": "carta",
           "accent": "ouro",
           "description": "Um e-mail quando sai coisa nova.",
@@ -224,7 +224,7 @@
       "estudos": true,
       "glossario": true,
       "servicos": true,
-      "loja": true,
+      "loja": false,
       "newsletter": true,
       "ensaioDestaque": true,
       "autor": true,
@@ -253,13 +253,13 @@
       "hero",
       "featuredEssay",
       "blog",
-      "verbetes",
+      "newsletter",
       "estudos",
       "servicos",
-      "newsletter",
-      "loja",
+      "verbetes",
       "about",
-      "contato"
+      "contato",
+      "loja"
     ],
     "raposa_admin_home_sections_layout": 1,
     "raposa_admin_glossario": [
@@ -7152,5 +7152,5 @@
       }
     }
   },
-  "data_hash": "01149e09df68a23ecc653fd31386b2f01f8d7d0e"
+  "data_hash": "638eaa27c5aee6352be57e4f0b4ff14c1b893010"
 }

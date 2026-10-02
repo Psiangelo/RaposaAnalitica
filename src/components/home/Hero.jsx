@@ -110,7 +110,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="relative mx-auto w-full max-w-[560px] aspect-square"
+          className="relative mx-auto w-full max-w-[460px] xl:max-w-[500px] aspect-square"
         >
           <div className="absolute inset-[4%] rounded-full bg-mata" />
           <div className="absolute inset-[14%] rounded-full bg-[var(--cedro)]" />
