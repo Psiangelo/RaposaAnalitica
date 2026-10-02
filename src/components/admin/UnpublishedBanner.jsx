@@ -3,8 +3,7 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useUnpublishedChanges } from '@/lib/useUnpublishedChanges';
-import { markPublished } from '@/lib/unpublishedChanges';
-import { publicar, lerToken } from '@/lib/githubPublish';
+import { publicarNaNuvem } from '@/lib/publicarNuvem';
 
 function formatAgo(iso) {
   if (!iso) return null;
@@ -28,17 +27,10 @@ export default function UnpublishedBanner({ addToast, addLogEntry, onGoToPublish
   if (!ready || !hasChanges) return null;
 
   const handlePublish = async () => {
-    const token = lerToken();
-    if (!token) {
-      addToast?.('Falta o token do GitHub: abra a aba Publicar.', 'error');
-      onGoToPublish?.();
-      return;
-    }
     setPublishing(true);
     try {
-      await publicar({ token, nota: 'pela faixa de aviso', progresso: setEtapa });
-      markPublished();
-      addToast?.('Publicado. O site se atualiza em uns 2 minutos.', 'success');
+      await publicarNaNuvem({ progresso: setEtapa });
+      addToast?.('Publicado. Quem abrir o site já vê.', 'success');
       addLogEntry?.('Publicado (faixa)', '');
     } catch (e) {
       addToast?.(`Não deu para publicar: ${e.message}`, 'error');

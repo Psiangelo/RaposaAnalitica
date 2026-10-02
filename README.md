@@ -6,11 +6,12 @@ No ar em: https://psiangelo.github.io/RaposaAnalitica/ · painel em `/admin/`.
 
 ## Como funciona
 
-- **Next.js 14 em exportação estática**, hospedado no GitHub Pages. Não há servidor nem banco.
-- **O conteúdo mora em `src/data/site-content.json`.** O build lê esse arquivo e gera uma página por ensaio, verbete e trilha.
-- **O painel (`/admin/`) edita no navegador e publica no GitHub:** o botão Publicar grava o `site-content.json` (e as imagens novas em `public/uploads/`) num commit, pela API do GitHub, com um token pessoal guardado só no navegador de quem publica. O push dispara o workflow `deploy.yml`, que reconstrói o site em uns 2 minutos.
-- Só as chaves de conteúdo (`SITEDATA_KEYS` em `src/lib/sitedata.js`) são publicadas. Senha, token e registro de atividade nunca saem do navegador.
-- A newsletter não guarda e-mail aqui: o formulário manda para o serviço escolhido no painel (Buttondown, Substack ou qualquer formulário: MailerLite, Kit, Brevo, Google Forms).
+- **Next.js 14 em exportação estática**, hospedado no GitHub Pages, com um banco na Supabase (projeto «Kitsune projeto»; tabelas e regras em `supabase/*.sql`).
+- **O conteúdo mora no banco**, na tabela `conteudo` (uma linha por chave `raposa_admin_*`, com a data da última mudança e o histórico das versões anteriores em `conteudo_historico`). O build puxa o banco para `src/data/site-content.json` (`scripts/puxar-conteudo.mjs`, no `prebuild`) e gera uma página por ensaio, verbete e trilha.
+- **O painel (`/admin/`) tem login de verdade** (e-mail e senha da Supabase; só quem está em `administradores` entra; cadastro fechado). O botão Publicar grava no banco só as partes editadas naquele navegador; imagens coladas sobem para o balde `imagens`. O visitante já vê a mudança na hora (o site baixa do banco o que for mais novo), e o workflow `deploy.yml`, que confere o banco de 15 em 15 minutos, reconstrói as páginas e guarda uma cópia do conteúdo no repositório.
+- Mexeu no `site-content.json` à mão? Mande para o banco com `node scripts/empurrar-conteudo.mjs raposa_admin_blog` (ou `--todas`); precisa do token da Supabase em `~/.supabase/raposa_token.txt`. Sem isso, o próximo build desfaz a edição.
+- No código só vai a chave pública da Supabase (`src/lib/supabaseConfig.js`); quem protege os dados são as regras do banco (RLS).
+- **As Cartas (newsletter)** guardam o e-mail na tabela `cartas_inscritos`: qualquer um pode se inscrever, só o administrador lê (aba «Inscritos nas Cartas» do painel, com download da lista).
 - A loja não processa pagamento: cada produto tem o link do checkout (Hotmart, Kiwify, Mercado Pago, Gumroad…).
 
 ## Identidade

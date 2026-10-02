@@ -17,13 +17,16 @@ import ServicosManager from '@/components/admin/ServicosManager';
 import LojaManager from '@/components/admin/LojaManager';
 import CartasManager from '@/components/admin/CartasManager';
 import TagEstilosManager from '@/components/admin/TagEstilosManager';
+import InscritosManager from '@/components/admin/InscritosManager';
 import { Mascarinha } from '@/components/raposa/Marca';
 import Icone from '@/components/raposa/Icone';
 import {
   getSettings, setSettings, DEFAULT_SETTINGS, getBlogPosts, getGlossario, getTrilhas, getLoja, getServicos,
   SITEDATA_KEYS,
 } from '@/lib/sitedata';
-import { CHAVES_PUBLICAVEIS, lerToken } from '@/lib/githubPublish';
+import { CHAVES_PUBLICAVEIS, baixarNovidades, nomeDa } from '@/lib/conteudoNuvem';
+import { supabase } from '@/lib/supabase';
+import { BASE_PATH } from '@/lib/site';
 import { CARD, INPUT, LABEL, BTN, BTN2, BTN_PERIGO, Campo, Texto, Area } from '@/components/admin/ui';
 
 const Carregando = () => (
@@ -34,14 +37,18 @@ const TrilhasManager = dynamic(() => import('@/components/admin/TrilhasManager')
 const CartographyManager = dynamic(() => import('@/components/admin/CartographyManager'), { ssr: false, loading: Carregando });
 
 /* ------------------------------------------------------------------ chaves locais
-   Nada aqui começa com raposa_admin_: nada disso é publicado. */
-const AUTH_SESSION = 'raposa_painel_aberto';
-const SENHA_HASH = 'raposa_painel_senha';
+   Nada aqui começa com raposa_admin_: nada disso é publicado. O login é o
+   da Supabase (sessão em raposa_sessao, ver src/lib/supabase.js). */
 const LOG_KEY = 'raposa_painel_atividade';
 
-async function hashSenha(senha) {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`raposa:${senha}`));
-  return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, '0')).join('');
+/** A conta logada é de administrador? (lê a própria linha em administradores) */
+async function ehAdmin() {
+  const sb = supabase();
+  const { data } = await sb.auth.getUser();
+  const user = data?.user;
+  if (!user) return false;
+  const { data: linha } = await sb.from('administradores').select('user_id').eq('user_id', user.id).maybeSingle();
+  return !!linha;
 }
 
 function ler(k, padrao) {
@@ -110,70 +117,111 @@ function useRegistro() {
 }
 
 /* ------------------------------------------------------------------ entrada */
-function Entrada({ onEntrar }) {
-  const [temSenha, setTemSenha] = useState(null);
-  const [senha, setSenha] = useState('');
-  const [senha2, setSenha2] = useState('');
-  const [erro, setErro] = useState('');
-
-  useEffect(() => {
-    setTemSenha(!!localStorage.getItem(SENHA_HASH));
-  }, []);
-
-  const enviar = async (e) => {
-    e.preventDefault();
-    setErro('');
-    if (!temSenha) {
-      if (senha.length < 6) return setErro('Use pelo menos 6 caracteres.');
-      if (senha !== senha2) return setErro('As duas senhas não batem.');
-      localStorage.setItem(SENHA_HASH, await hashSenha(senha));
-      sessionStorage.setItem(AUTH_SESSION, '1');
-      onEntrar();
-      return;
-    }
-    if ((await hashSenha(senha)) === localStorage.getItem(SENHA_HASH)) {
-      sessionStorage.setItem(AUTH_SESSION, '1');
-      onEntrar();
-    } else {
-      setErro('Senha errada.');
-    }
-  };
-
-  if (temSenha === null) return null;
-
+function Moldura({ subtitulo, children, rodape }) {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 py-10 bg-[rgb(var(--fundo-rgb))]">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md">
         <div className="text-center mb-7">
           <Mascarinha tamanho={84} className="mx-auto" />
           <h1 className="mt-4 font-serif text-[2rem] font-bold text-[rgb(var(--texto-forte-rgb))]">Painel da Raposa</h1>
-          <p className="mt-1 font-sans text-[14px] text-[rgb(var(--texto-dim-rgb))]">
-            {temSenha ? 'Entre com a senha deste navegador.' : 'Primeira vez neste navegador: crie uma senha.'}
-          </p>
+          <p className="mt-1 font-sans text-[14px] text-[rgb(var(--texto-dim-rgb))]">{subtitulo}</p>
         </div>
-        <form onSubmit={enviar} className={`${CARD} p-6 sm:p-7`}>
-          <label className={LABEL}>{temSenha ? 'Senha' : 'Nova senha'}</label>
-          <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} autoFocus className={INPUT} autoComplete={temSenha ? 'current-password' : 'new-password'} />
-          {!temSenha && (
-            <>
-              <label className={`${LABEL} mt-4`}>Repita a senha</label>
-              <input type="password" value={senha2} onChange={(e) => setSenha2(e.target.value)} className={INPUT} autoComplete="new-password" />
-            </>
-          )}
-          {erro && <p className="mt-3 font-sans text-[14px] text-[rgb(var(--rubedo-rgb))]">{erro}</p>}
-          <button type="submit" className={`${BTN} w-full justify-center mt-5 py-3 text-[15px]`}>{temSenha ? 'Entrar' : 'Criar e entrar'}</button>
-        </form>
-        <p className="mt-5 text-center font-sans text-[13px] leading-relaxed text-[rgb(var(--texto-dim-rgb))]">
-          A senha guarda este navegador. Quem publica no site de verdade é o token do GitHub, pedido na aba Publicar.
-        </p>
+        {children}
+        {rodape && <p className="mt-5 text-center font-sans text-[13px] leading-relaxed text-[rgb(var(--texto-dim-rgb))]">{rodape}</p>}
       </motion.div>
     </div>
   );
 }
 
+function Entrada({ onEntrar }) {
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
+  const [erro, setErro] = useState('');
+  const [aviso, setAviso] = useState('');
+  const [indo, setIndo] = useState(false);
+
+  const enviar = async (e) => {
+    e.preventDefault();
+    setErro('');
+    setAviso('');
+    setIndo(true);
+    try {
+      const { error } = await supabase().auth.signInWithPassword({ email: email.trim(), password: senha });
+      if (error) {
+        setErro(/invalid login/i.test(error.message) ? 'E-mail ou senha errados.' : `Não deu para entrar: ${error.message}`);
+        return;
+      }
+      if (!(await ehAdmin())) {
+        await supabase().auth.signOut();
+        setErro('Esta conta não tem acesso ao painel.');
+        return;
+      }
+      onEntrar();
+    } finally {
+      setIndo(false);
+    }
+  };
+
+  const esqueci = async () => {
+    setErro('');
+    setAviso('');
+    if (!email.trim()) return setErro('Escreva o seu e-mail primeiro.');
+    const { error } = await supabase().auth.resetPasswordForEmail(email.trim(), {
+      redirectTo: `${window.location.origin}${BASE_PATH}/admin/`,
+    });
+    if (error) setErro(`Não deu para mandar o e-mail: ${error.message}`);
+    else setAviso('Se o e-mail for o do painel, chega uma mensagem com um link para criar uma senha nova.');
+  };
+
+  return (
+    <Moldura subtitulo="Entre com o seu e-mail e a sua senha." rodape="Só a conta de administrador entra. O que você edita aqui vai para o banco do site quando aperta Publicar.">
+      <form onSubmit={enviar} className={`${CARD} p-6 sm:p-7`}>
+        <label className={LABEL}>E-mail</label>
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoFocus autoComplete="username" className={INPUT} />
+        <label className={`${LABEL} mt-4`}>Senha</label>
+        <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} autoComplete="current-password" className={INPUT} />
+        {erro && <p className="mt-3 font-sans text-[14px] text-[rgb(var(--rubedo-rgb))]">{erro}</p>}
+        {aviso && <p className="mt-3 font-sans text-[14px] text-[rgb(var(--texto-rgb))]">{aviso}</p>}
+        <button type="submit" disabled={indo} className={`${BTN} w-full justify-center mt-5 py-3 text-[15px]`}>{indo ? 'Entrando…' : 'Entrar'}</button>
+        <button type="button" onClick={esqueci} className="mt-3 w-full font-sans text-[13px] text-[rgb(var(--texto-dim-rgb))] underline underline-offset-2">
+          Esqueci a senha
+        </button>
+      </form>
+    </Moldura>
+  );
+}
+
+/** Depois do link de «esqueci a senha»: criar a senha nova. */
+function NovaSenha({ onPronto }) {
+  const [senha, setSenha] = useState('');
+  const [senha2, setSenha2] = useState('');
+  const [erro, setErro] = useState('');
+  const enviar = async (e) => {
+    e.preventDefault();
+    setErro('');
+    if (senha.length < 8) return setErro('Use pelo menos 8 caracteres.');
+    if (senha !== senha2) return setErro('As duas senhas não batem.');
+    const { error } = await supabase().auth.updateUser({ password: senha });
+    if (error) return setErro(`Não deu para trocar: ${error.message}`);
+    onPronto();
+  };
+  return (
+    <Moldura subtitulo="Crie a sua senha nova.">
+      <form onSubmit={enviar} className={`${CARD} p-6 sm:p-7`}>
+        <label className={LABEL}>Senha nova</label>
+        <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} autoFocus autoComplete="new-password" className={INPUT} />
+        <label className={`${LABEL} mt-4`}>Repita a senha</label>
+        <input type="password" value={senha2} onChange={(e) => setSenha2(e.target.value)} autoComplete="new-password" className={INPUT} />
+        {erro && <p className="mt-3 font-sans text-[14px] text-[rgb(var(--rubedo-rgb))]">{erro}</p>}
+        <button type="submit" className={`${BTN} w-full justify-center mt-5 py-3 text-[15px]`}>Salvar e entrar</button>
+      </form>
+    </Moldura>
+  );
+}
+
 /* ------------------------------------------------------------------ painel inicial */
 function PainelInicial({ irPara, log }) {
-  const [n, setN] = useState({ ensaios: 0, rascunhos: 0, verbetes: 0, trilhas: 0, produtos: 0, pecas: 0, token: false });
+  const [n, setN] = useState({ ensaios: 0, rascunhos: 0, verbetes: 0, trilhas: 0, produtos: 0, pecas: 0 });
   useEffect(() => {
     const posts = getBlogPosts();
     setN({
@@ -183,7 +231,6 @@ function PainelInicial({ irPara, log }) {
       trilhas: getTrilhas().length,
       produtos: getLoja().produtos.length,
       pecas: getServicos().pecas.length,
-      token: !!lerToken(),
     });
   }, []);
   const cartoes = [
@@ -191,15 +238,10 @@ function PainelInicial({ irPara, log }) {
     { rotulo: 'Verbetes', valor: n.verbetes, aba: 'glossario', icone: 'mascara' },
     { rotulo: 'Trilhas', valor: n.trilhas, aba: 'trilhas', icone: 'torii' },
     { rotulo: 'Produtos na loja', valor: n.produtos, aba: 'loja', icone: 'sacola' },
-    { rotulo: 'Peças de pesquisa', valor: n.pecas, aba: 'servicos', icone: 'lupa' },
+    { rotulo: 'Níveis de pesquisa', valor: n.pecas, aba: 'servicos', icone: 'lupa' },
   ];
   return (
     <div className="max-w-5xl">
-      {!n.token && (
-        <button onClick={() => irPara('publish')} className="w-full text-left mb-6 rounded-2xl bg-[var(--ginkgo)] p-5 font-sans text-[var(--tinta)]">
-          <b>Falta um passo para publicar:</b> colar o token do GitHub na aba Publicar (uma vez só, neste navegador). →
-        </button>
-      )}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
         {cartoes.map((c) => (
           <button key={c.rotulo} onClick={() => irPara(c.aba)} className={`${CARD} text-left hover:border-[rgb(var(--acento-rgb))] transition-colors`}>
@@ -258,10 +300,12 @@ function Configuracoes({ addToast, addLog }) {
     addLog('Configurações', 'contatos e textos');
   };
   const trocarSenha = async () => {
-    if (nova.length < 6) return addToast('A senha nova precisa de 6 caracteres ou mais.', 'error');
-    localStorage.setItem(SENHA_HASH, await hashSenha(nova));
+    if (nova.length < 8) return addToast('A senha nova precisa de 8 caracteres ou mais.', 'error');
+    const { error } = await supabase().auth.updateUser({ password: nova });
+    if (error) return addToast(`Não deu para trocar: ${error.message}`, 'error');
     setNova('');
-    addToast('Senha deste navegador trocada.', 'success');
+    addToast('Senha trocada. Use a nova da próxima vez que entrar.', 'success');
+    addLog('Senha', 'trocada');
   };
   return (
     <div className="max-w-3xl space-y-6">
@@ -276,7 +320,7 @@ function Configuracoes({ addToast, addLog }) {
         </div>
       </div>
       <div className={CARD}>
-        <p className={LABEL}>Senha deste navegador</p>
+        <p className={LABEL}>Sua senha do painel</p>
         <div className="flex gap-2">
           <input type="password" value={nova} onChange={(e) => setNova(e.target.value)} placeholder="nova senha" className={INPUT} />
           <button onClick={trocarSenha} className={BTN2}>Trocar</button>
@@ -373,6 +417,7 @@ const GRUPOS = [
       { id: 'servicos', label: 'Pesquisa', icon: ic('lupa') },
       { id: 'loja', label: 'Loja', icon: ic('sacola') },
       { id: 'cartas', label: 'Cartas (newsletter)', icon: ic('carta') },
+      { id: 'inscritos', label: 'Inscritos nas Cartas', icon: ic('email') },
     ],
   },
   {
@@ -460,9 +505,17 @@ function Painel() {
     history.replaceState(null, '', `#${ativa}`);
     window.scrollTo({ top: 0 });
   }, [ativa]);
+  useEffect(() => {
+    baixarNovidades({
+      aoPreservar: (ch) =>
+        addToast(`Há uma versão mais nova no banco de: ${ch.map(nomeDa).join(', ')}. Mantive a sua edição deste aparelho; se publicar, ela vale.`, 'info'),
+    })
+      .then((ch) => ch.length && addToast(`Peguei do banco o que foi publicado de outro aparelho (${ch.length} parte(s)).`, 'info'))
+      .catch(() => {});
+  }, [addToast]);
 
-  const sair = () => {
-    sessionStorage.removeItem(AUTH_SESSION);
+  const sair = async () => {
+    await supabase().auth.signOut();
     window.location.reload();
   };
 
@@ -505,6 +558,7 @@ function Painel() {
           {ativa === 'servicos' && <ServicosManager {...props} />}
           {ativa === 'loja' && <LojaManager {...props} />}
           {ativa === 'cartas' && <CartasManager {...props} />}
+          {ativa === 'inscritos' && <InscritosManager {...props} />}
           {ativa === 'content' && <ContentManager {...props} />}
           {ativa === 'sectionOrder' && <SectionOrderManager {...props} />}
           {ativa === 'bio' && <BioManager {...props} />}
@@ -520,12 +574,22 @@ function Painel() {
 }
 
 export default function AdminPage() {
-  const [aberto, setAberto] = useState(null);
+  const [estado, setEstado] = useState('carregando'); // carregando | fora | dentro | nova-senha
   useEffect(() => {
-    setAberto(sessionStorage.getItem(AUTH_SESSION) === '1');
     document.title = 'Painel · Raposa Analítica';
+    const sb = supabase();
+    const { data: escuta } = sb.auth.onAuthStateChange((evento) => {
+      if (evento === 'PASSWORD_RECOVERY') setEstado('nova-senha');
+    });
+    (async () => {
+      const { data } = await sb.auth.getSession();
+      const dentro = data?.session ? await ehAdmin() : false;
+      setEstado((e) => (e === 'nova-senha' ? e : dentro ? 'dentro' : 'fora'));
+    })();
+    return () => escuta?.subscription?.unsubscribe();
   }, []);
-  if (aberto === null) return <div className="min-h-screen bg-[rgb(var(--fundo-rgb))]" />;
-  if (!aberto) return <Entrada onEntrar={() => setAberto(true)} />;
+  if (estado === 'carregando') return <div className="min-h-screen bg-[rgb(var(--fundo-rgb))]" />;
+  if (estado === 'nova-senha') return <NovaSenha onPronto={() => setEstado('dentro')} />;
+  if (estado === 'fora') return <Entrada onEntrar={() => setEstado('dentro')} />;
   return <Painel />;
 }

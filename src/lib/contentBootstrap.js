@@ -4,15 +4,17 @@
  * contentBootstrap — popula o localStorage do navegador com o conteúdo
  * publicado que veio no build (src/data/site-content.json).
  *
- * Na Raposa não há banco: publicar no painel grava o snapshot no repositório
- * do GitHub, e o GitHub Actions reconstrói o site. Então a única fonte é o
- * snapshot do bundle. Ele só é aplicado quando é mais novo do que o último
- * aplicado neste navegador, para não apagar o rascunho do admin a cada F5;
- * e quando é mais novo, ganha (outra máquina publicou depois).
+ * Duas camadas. Primeiro o snapshot do build (a cópia que o GitHub montou do
+ * banco), aplicado só quando é mais novo que o último aplicado neste
+ * navegador, e sem tocar nas chaves que o painel editou aqui e ainda não
+ * publicou (o rascunho do admin não se perde). Depois o próprio
+ * banco da Raposa: baixa só as chaves publicadas depois do build, e assim o
+ * visitante vê a mudança na hora, antes de as páginas fixas se reconstruírem.
  */
 
 import snapshotLocal from '@/data/site-content.json';
 import { markSynced } from '@/lib/unpublishedChanges';
+import { registrarRecebidas, baixarNovidades, editadaAqui, lerEnviados } from '@/lib/conteudoNuvem';
 
 const VERSION_KEY = 'raposa_admin_content_version';
 
@@ -31,14 +33,21 @@ export function applySnapshot(snapshot, { force = false } = {}) {
   if (!force && version <= readLastApplied()) return false;
 
   const data = snapshot.data || {};
+  const enviados = lerEnviados();
+  const rascunhos = new Set(Object.keys(data).filter((k) => editadaAqui(k, enviados)));
   for (const key of Object.keys(data)) {
+    if (rascunhos.has(key)) continue;
     try {
       localStorage.setItem(key, JSON.stringify(data[key]));
     } catch {
       /* quota cheia: pula essa chave */
     }
   }
-  try { markSynced(snapshot.published_at || version); } catch { /* noop */ }
+  const versoes = Object.fromEntries(Object.entries(snapshot.versoes || {}).filter(([k]) => !rascunhos.has(k)));
+  try { registrarRecebidas(versoes); } catch { /* noop */ }
+  if (!rascunhos.size) {
+    try { markSynced(snapshot.published_at || version); } catch { /* noop */ }
+  }
   try { localStorage.setItem(VERSION_KEY, String(version)); } catch { /* noop */ }
   try { window.dispatchEvent(new CustomEvent('sitedata:bootstrap', { detail: { version } })); } catch { /* noop */ }
   return true;
@@ -47,4 +56,9 @@ export function applySnapshot(snapshot, { force = false } = {}) {
 export async function applyPublishedSnapshot() {
   if (typeof window === 'undefined') return;
   applySnapshot(snapshotLocal);
+  try {
+    await baixarNovidades();
+  } catch {
+    /* sem rede ou banco fora: fica o do build */
+  }
 }

@@ -11,7 +11,7 @@
     "test:glossary-linker": "node scripts/test-glossary-linker.mjs",
     "gen:og": "node scripts/gen-og-png.mjs",
     "gen:og:posts": "node scripts/gen-og-posts.mjs",
-    "prebuild": "node scripts/carimbar-versao.mjs && node scripts/gen-og-posts.mjs"
+    "prebuild": "node scripts/puxar-conteudo.mjs && node scripts/carimbar-versao.mjs && node scripts/gen-og-posts.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.102.1",
