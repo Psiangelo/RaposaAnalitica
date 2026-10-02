@@ -17,8 +17,9 @@ import Rotulo from '@/components/raposa/Rotulo';
  *
  * Não há página própria: a caixa fica no pé do blog, no fim de cada ensaio
  * e na home (âncora #cartas). O site é estático, então o e-mail vai direto
- * para o destino escolhido no painel (Admin → Cartas): o Formulário do Google
- * (cai numa planilha), o Buttondown, um formulário qualquer ou o Substack. Enquanto nenhum foi escolhido, o
+ * para o destino escolhido no painel (Admin → Cartas): o banco da Raposa na
+ * Supabase (tabela cartas_inscritos, que só aceita inserção de visitante), o
+ * Formulário do Google, o Buttondown, um formulário qualquer ou o Substack. Enquanto nenhum foi escolhido, o
  * formulário diz a verdade: as cartas começam em breve, e quem quiser pode
  * pedir o aviso pelo WhatsApp.
  *
@@ -63,6 +64,28 @@ export function FormularioCartas({ source = 'site', tom = 'claro', compacto = fa
         const base = cfg.substackEndereco.replace(/\/$/, '');
         const url = `${base.startsWith('http') ? base : `https://${base}`}/subscribe?email=${encodeURIComponent(email.trim())}`;
         window.open(url, '_blank', 'noopener,noreferrer');
+      } else if (provedor === 'supabase' && cfg.supabaseUrl && cfg.supabaseChave) {
+        // só a chave publicável vai no site; a tabela deixa o visitante
+        // inserir e mais nada (RLS). return=minimal: sem permissão de leitura,
+        // pedir a linha de volta faria a inserção falhar.
+        const base = cfg.supabaseUrl.replace(/\/$/, '');
+        const r = await fetch(`${base}/rest/v1/${cfg.supabaseTabela || 'cartas_inscritos'}`, {
+          method: 'POST',
+          headers: { apikey: cfg.supabaseChave, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+          body: JSON.stringify({
+            email: email.trim().toLowerCase(),
+            consentimento: CONSENT_TEXT,
+            origem: source,
+            pagina: window.location.pathname.slice(0, 300),
+          }),
+        });
+        if (r.status === 409) {
+          setStatus('success');
+          setMessage(txt.alreadySubscribedMessage);
+          setEmail('');
+          return;
+        }
+        if (!r.ok) throw new Error(`supabase ${r.status}`);
       } else if (provedor === 'google' && cfg.googleAcao && cfg.googleCampoEmail) {
         // Formulário do Google: as respostas caem na planilha ligada a ele
         const corpo = new URLSearchParams();
@@ -96,7 +119,11 @@ export function FormularioCartas({ source = 'site', tom = 'claro', compacto = fa
     }
   }
 
-  if (provedor === 'nenhum' || (provedor === 'google' && !(cfg.googleAcao && cfg.googleCampoEmail))) {
+  const semDestino =
+    provedor === 'nenhum' ||
+    (provedor === 'supabase' && !(cfg.supabaseUrl && cfg.supabaseChave)) ||
+    (provedor === 'google' && !(cfg.googleAcao && cfg.googleCampoEmail));
+  if (semDestino) {
     const msg = encodeURIComponent(`Oi! Quero receber as ${cfg.nome || 'Cartas da Raposa'} quando começarem.`);
     return (
       <div className={`rounded-2xl p-5 sm:p-6 ${escuro ? 'bg-bg-card' : 'bg-bg-card border border-linha'}`}>

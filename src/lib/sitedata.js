@@ -1081,6 +1081,7 @@ export const setLoja = (v) => writeJson(SITEDATA_KEYS.loja, v);
 
 export const NEWSLETTER_PROVEDORES = [
   { id: 'nenhum', label: 'Ainda não escolhido (o formulário avisa que as cartas começam em breve)' },
+  { id: 'supabase', label: 'Banco da Raposa (Supabase): os e-mails ficam numa tabela sua' },
   { id: 'buttondown', label: 'Buttondown' },
   { id: 'substack', label: 'Substack' },
   { id: 'google', label: 'Formulário do Google (os e-mails caem numa planilha)' },
@@ -1094,6 +1095,9 @@ export const DEFAULT_NEWSLETTER = {
   substackEndereco: '',
   formularioAcao: '',
   formularioCampoEmail: 'email',
+  supabaseUrl: '',
+  supabaseChave: '',
+  supabaseTabela: 'cartas_inscritos',
   googleAcao: '',
   googleCampoEmail: '',
   googleCampoAceite: '',

@@ -78,6 +78,23 @@ export default function CartasManager({ addToast, addLogEntry }) {
         <div className={`${CARD} grid gap-4`}>
           <Campo label="Nome da newsletter"><Texto value={c.nome} onChange={(v) => muda((x) => ((x.nome = v), x))} /></Campo>
           <Campo label="Serviço"><Escolha value={c.provedor} onChange={(v) => muda((x) => ((x.provedor = v), x))} opcoes={NEWSLETTER_PROVEDORES} /></Campo>
+          {c.provedor === 'supabase' && (
+            <>
+              <div className="grid sm:grid-cols-2 gap-3">
+                <Campo label="Endereço do projeto"><Texto value={c.supabaseUrl} onChange={(v) => muda((x) => ((x.supabaseUrl = v.trim()), x))} placeholder="https://….supabase.co" /></Campo>
+                <Campo label="Tabela"><Texto value={c.supabaseTabela} onChange={(v) => muda((x) => ((x.supabaseTabela = v.trim()), x))} /></Campo>
+                <Campo label="Chave publicável" className="sm:col-span-2" dica="A que começa com sb_publishable_ (ou a anon). Nunca a secreta: a secreta abre o banco inteiro.">
+                  <Texto value={c.supabaseChave} onChange={(v) => muda((x) => ((x.supabaseChave = v.trim()), x))} placeholder="sb_publishable_…" />
+                </Campo>
+              </div>
+              {/^sb_secret_/.test(c.supabaseChave || '') && (
+                <p className="font-sans text-[13px] text-[rgb(var(--rubedo-rgb))]">Essa é a chave secreta. Troque pela publicável: a secreta não pode ir para o site.</p>
+              )}
+              <p className="font-sans text-[13px] text-[rgb(var(--texto-dim-rgb))]">
+                Os inscritos ficam no painel da Supabase: Table Editor → {c.supabaseTabela || 'cartas_inscritos'} (dá para exportar em CSV e apagar quem pedir para sair).
+              </p>
+            </>
+          )}
           {c.provedor === 'google' && (
             <>
               <Campo

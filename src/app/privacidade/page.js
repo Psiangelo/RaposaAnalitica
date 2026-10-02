@@ -35,16 +35,16 @@ export default function PrivacidadePage() {
 
       <h2>Se você assina as Cartas da Raposa</h2>
       <p>
-        O site não guarda e-mail nenhum. Ao se inscrever, o seu endereço vai direto para um
-        Formulário do Google, que o guarda numa planilha que só eu acesso, segundo a política de
-        privacidade do Google. Também vai junto a página onde você se inscreveu, para eu saber o que
-        leva as pessoas a assinar.
+        Ao se inscrever, o seu endereço vai para o banco de dados das cartas, hospedado na Supabase
+        (um serviço de banco de dados na nuvem), numa tabela que só eu acesso; o site em si não lê nem
+        mostra essa lista. Também vão juntos o texto do consentimento que você marcou, a data e a
+        página onde você se inscreveu, para eu saber o que leva as pessoas a assinar.
       </p>
       <p>
         <strong>Finalidade:</strong> mandar as cartas: avisos do que sai no site e achados da obra
         de Jung. <strong>Base legal:</strong> o seu consentimento (art. 7º, I), dado ao marcar a
         caixa, que nunca vem marcada. <strong>Por quanto tempo:</strong> enquanto você quiser; toda
-        carta diz como sair, e quando você pede eu apago o seu endereço da planilha.
+        carta diz como sair, e quando você pede eu apago o seu endereço da lista.
       </p>
       <p>
         <strong>O que eu não faço:</strong> não vendo, alugo, troco nem repasso o seu e-mail para
