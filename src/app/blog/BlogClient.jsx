@@ -7,6 +7,7 @@ import PageHero from '@/components/ui/PageHero';
 import HiddenPlaceholder from '@/components/HiddenPlaceholder';
 import AuthorBand from '@/components/AuthorBand';
 import Newsletter from '@/components/ui/Newsletter';
+import Toca from '@/components/raposa/Toca';
 import EnsaioCard from '@/components/blog/EnsaioCard';
 import TagSelo from '@/components/blog/TagSelo';
 import Figura from '@/components/raposa/Figura';
@@ -177,6 +178,7 @@ export default function BlogPage({ initialPosts = [], initialSeriesList = [] }) 
         </section>
 
         {visibility.autor !== false && <AuthorBand />}
+        <Toca />
         {visibility.newsletter !== false && <Newsletter source="blog" />}
       </main>
       <Footer />

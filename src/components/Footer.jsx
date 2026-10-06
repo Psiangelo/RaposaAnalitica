@@ -8,6 +8,7 @@ import Selo from '@/components/raposa/Selo';
 import Figura from '@/components/raposa/Figura';
 import Icone from '@/components/raposa/Icone';
 import { BASE_PATH } from '@/lib/site';
+import { TocaRodape, useToca } from '@/components/raposa/Toca';
 
 /**
  * Rodapé: a noite da mata. Lua, vaga-lumes, a raposa olhando a lua, o selo
@@ -18,6 +19,7 @@ export default function Footer() {
   const bio = useSitedata(getBio, DEFAULT_BIO, SITEDATA_KEYS.bio);
   const author = bio?.author || DEFAULT_BIO.author;
   const { visibility: v } = useVisibility();
+  const toca = useToca();
   const ano = new Date().getFullYear();
 
   const whats = settings.whatsappNumber ? `https://wa.me/${String(settings.whatsappNumber).replace(/\D/g, '')}` : null;
@@ -43,6 +45,7 @@ export default function Footer() {
     {
       titulo: 'Conversar',
       itens: [
+        toca.ativo && { href: toca.link, label: 'Toca da Raposa (grupo)', externo: true },
         whats && { href: whats, label: 'WhatsApp', externo: true },
         settings.instagramLink && { href: settings.instagramLink, label: 'Instagram', externo: true },
         settings.youtubeLink && { href: settings.youtubeLink, label: 'YouTube', externo: true },
@@ -73,6 +76,7 @@ export default function Footer() {
               “A floresta escura e impenetrável como a profundeza da água e do mar é o continente do desconhecido e do mistério.”
               <span className="not-italic font-sans text-[12px] font-semibold tracking-[0.14em] uppercase ml-2 text-[var(--kitsunebi)]">OC 13 §241</span>
             </p>
+            <TocaRodape />
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">

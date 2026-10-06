@@ -312,6 +312,7 @@ function Configuracoes({ addToast, addLog }) {
       <div className={`${CARD} grid sm:grid-cols-2 gap-4`}>
         <Campo label="WhatsApp (só números, com DDI e DDD)"><Texto value={s.whatsappNumber} onChange={(v) => muda('whatsappNumber', v)} /></Campo>
         <Campo label="Instagram (link)"><Texto value={s.instagramLink} onChange={(v) => muda('instagramLink', v)} /></Campo>
+        <Campo label="Link do grupo «Toca da Raposa» (convite do WhatsApp)" className="sm:col-span-2"><Texto value={s.tocaLink} onChange={(v) => muda('tocaLink', v)} /></Campo>
         <Campo label="Mensagem padrão do WhatsApp" className="sm:col-span-2"><Area value={s.whatsappMessage} onChange={(v) => muda('whatsappMessage', v)} rows={2} /></Campo>
         <Campo label="E-mail (opcional)"><Texto value={s.emailAddress} onChange={(v) => muda('emailAddress', v)} /></Campo>
         <Campo label="YouTube (opcional)"><Texto value={s.youtubeLink} onChange={(v) => muda('youtubeLink', v)} /></Campo>

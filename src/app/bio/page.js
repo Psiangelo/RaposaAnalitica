@@ -16,13 +16,14 @@ import { renderHighlightedTitle, stripHighlights } from '@/lib/highlightTitle';
 import Figura, { figuraSrc } from '@/components/raposa/Figura';
 import { Mascarinha } from '@/components/raposa/Marca';
 import Padronagem from '@/components/raposa/Padronagem';
+import { TocaPlaca, useToca } from '@/components/raposa/Toca';
 
 /**
  * /bio — o link do Instagram.
  *
  * No alto, uma noite de verão: cortina de glicínias, vaga-lumes e a raposa de
  * óculos fazendo de lua, com uma nuvem passando. Embaixo, no papel, o último
- * ensaio em destaque e os links como gravuras: carimbo com o ícone, a cor
+ * ensaio em destaque, a placa da Toca da Raposa (o grupo no WhatsApp) e os links como gravuras: carimbo com o ícone, a cor
  * escolhida no painel, sombra chapada de impressão e uma padronagem tom sobre
  * tom que nasce na ponta direita de cada placa. Fecha com a raposa dormindo
  * na lua.
@@ -147,6 +148,7 @@ export default function BioPage() {
   const posts = useSitedata(getBlogPosts, [], SITEDATA_KEYS.blog);
   const { visibility, ready } = useVisibility();
   const ultimo = useMemo(() => ordenarPublicados(posts)[0], [posts]);
+  const toca = useToca();
   if (ready && visibility.bio === false) return <HiddenPlaceholder title="Bio indisponível" />;
 
   const links = (bio.links || []).filter((l) => !l.hidden && l.label);
@@ -231,6 +233,11 @@ export default function BioPage() {
         {mostrarDestaque && <Destaque post={ultimo} />}
 
         <ul className={`${mostrarDestaque ? 'mt-7' : 'mt-1'} space-y-4`}>
+          {toca.ativo && (
+            <motion.li initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.4 }}>
+              <TocaPlaca />
+            </motion.li>
+          )}
           {links.map((l, i) => (
             <Placa key={`${l.href}-${i}`} link={l} i={i} />
           ))}

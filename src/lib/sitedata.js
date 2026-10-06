@@ -462,6 +462,7 @@ export const DEFAULT_VISIBILITY = {
   autorInstagram: true,
   // Extras
   whatsappFlutuante: true,
+  toca:              true,  // Toca da Raposa: o convite para o grupo no WhatsApp (home, blog, ensaios, bio, rodapé)
   bichoNaBorda:      true,  // a raposa espiando pela borda das páginas
 };
 
@@ -490,6 +491,7 @@ export const HOME_SECTION_META = [
   { id: 'verbetes',      label: 'Verbetes (as máscaras)',            visKey: 'verbetesHome' },
   { id: 'estudos',       label: 'Trilhas (o caminho de torii)',      visKey: 'estudos' },
   { id: 'servicos',      label: 'Pesquisa sob encomenda',            visKey: 'servicosHome' },
+  { id: 'toca',          label: 'Toca da Raposa (o grupo no WhatsApp)', visKey: 'toca' },
   { id: 'newsletter',    label: 'Cartas da Raposa (inscrição)',      visKey: 'newsletter' },
   { id: 'loja',          label: 'Loja (vitrine)',                    visKey: 'lojaHome' },
   { id: 'about',         label: 'Quem sou eu',                      visKey: 'about' },
@@ -754,6 +756,8 @@ export const setFaqs = (v) => writeJson(SITEDATA_KEYS.faqs, v);
 export const DEFAULT_SETTINGS = {
   whatsappNumber: '5581987349114',
   whatsappMessage: 'Oi! Vim pelo site da Raposa Analítica.',
+  // o convite do grupo de WhatsApp «Toca da Raposa» (a comunidade)
+  tocaLink: 'https://chat.whatsapp.com/JNnRwyfaTp03r1Y08SvlwM',
   instagramLink: 'https://www.instagram.com/raposanalitica/',
   youtubeLink: '',
   emailAddress: '',

@@ -21,6 +21,7 @@ import { useSitedata } from '@/lib/useSitedata';
 import { BASE_PATH, resolveImageSrc } from '@/lib/basepath';
 import { formatPostDate } from '@/lib/formatDate';
 import Newsletter from '@/components/ui/Newsletter';
+import { TocaCartao } from '@/components/raposa/Toca';
 import TagSelo from '@/components/blog/TagSelo';
 import CapaReserva from '@/components/blog/CapaReserva';
 import Icone from '@/components/raposa/Icone';
@@ -531,6 +532,8 @@ export default function BlogPostView({ post, allPosts, seriesList, visibility })
             <div className="mt-12 pt-6 border-t border-linha" data-reading-hide="true">
               <ShareButtons title={stripHighlights(post.title)} />
             </div>
+
+            <TocaCartao />
 
             {visibility?.newsletter !== false && <Newsletter source="ensaio" variante="post" />}
 
