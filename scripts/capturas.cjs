@@ -5,7 +5,7 @@ const { chromium } = require('@playwright/test');
 const path = require('path');
 const fs = require('fs');
 
-const BASE = process.env.URL_BASE || 'http://localhost:4321/RaposaAnalitica';
+const BASE = process.env.URL_BASE || 'http://localhost:4321';
 const saida = process.argv[2] || 'capturas';
 const rotas = process.argv.slice(3).length ? process.argv.slice(3) : ['/'];
 

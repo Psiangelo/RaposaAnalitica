@@ -4,7 +4,7 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '/RaposaAnalitica';
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 const PORTA = Number(process.argv[2] || 4321);
 const OUT = path.resolve('out');
 const TIPOS = {
