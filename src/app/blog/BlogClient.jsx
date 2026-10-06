@@ -89,7 +89,7 @@ export default function BlogPage({ initialPosts = [], initialSeriesList = [] }) 
           eyebrow="Ensaios"
           title="Da"
           emphasis="clareira"
-          lead="Textos longos para ler com calma: uma pergunta de cada vez, com a referência de cada coisa para você ir à fonte. Os termos com um ? abrem o verbete sem sair da leitura."
+          lead="Textos longos para ler com calma: uma pergunta de cada vez, com a referência de cada coisa para você ir à fonte. Os termos em azul, marcados com um “?”, abrem o verbete sem sair da leitura."
           figura="fig/raposa-capim"
           figuraAlt="A raposa espiando no capim alto"
           disco="var(--nevoa)"

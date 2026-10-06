@@ -24,7 +24,7 @@ export default function TagClient({ tag, posts }) {
             breadcrumbs={[{ name: 'Ensaios', href: '/blog/' }, { name: tag }]}
             eyebrow={`${posts.length} ${posts.length === 1 ? 'ensaio' : 'ensaios'}`}
             title={tag}
-            lead={`Os ensaios marcados com «${tag}».`}
+            lead={`Os ensaios marcados com “${tag}”.`}
           />
           <div aria-hidden className="absolute inset-0 -z-0 pointer-events-none">
             <Padronagem nome={e.padrao} cor={e.cor} opacidade={0.06} tam={52} />

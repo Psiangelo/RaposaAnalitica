@@ -22,7 +22,7 @@ export default function PrivacidadePage() {
 
       <h2>Quem é o responsável</h2>
       <p>
-        O responsável pelo tratamento (o «controlador», na linguagem da LGPD) é Ângelo, pessoa física,
+        O responsável pelo tratamento (o “controlador”, na linguagem da LGPD) é Ângelo, pessoa física,
         autor e mantenedor deste site. Para qualquer assunto sobre dados pessoais, inclusive os pedidos
         descritos ao final, o canal é o WhatsApp indicado no rodapé.
       </p>
@@ -66,7 +66,7 @@ export default function PrivacidadePage() {
 
       <h2>Se você compra na loja</h2>
       <p>
-        O pagamento acontece na plataforma de cada produto (o botão «Comprar» leva até ela). Os dados
+        O pagamento acontece na plataforma de cada produto (o botão “Comprar” leva até ela). Os dados
         da compra (nome, e-mail, pagamento) são tratados por essa plataforma, segundo a política dela.
         Eu recebo dela o necessário para entregar o material e atender você.
       </p>

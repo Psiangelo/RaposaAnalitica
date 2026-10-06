@@ -64,7 +64,7 @@ export default function TermoClient({ initialTermo, initialList, initialCategori
               <div className="w-[200px] h-[200px] sm:w-[240px] sm:h-[240px] rounded-full flex items-center justify-center bg-[rgb(242_235_220/0.55)] shadow-[inset_0_0_0_6px_rgb(242_235_220/0.6)]">
                 <Figura nome={`mascara/${m.id}`} alt={`Máscara ${m.nome.toLowerCase()}: ${m.sentido}`} prioridade className="w-[56%] rotate-[-6deg]" />
               </div>
-              <p className="mt-3 text-center font-sans text-[12.5px] font-semibold uppercase tracking-[0.14em] text-[rgb(19_33_31/0.7)]">máscara de {m.sentido}</p>
+              <p className="mt-3 text-center font-sans text-[12.5px] font-semibold uppercase tracking-[0.14em] text-[rgb(19_33_31/0.7)]">máscara {m.da || `de ${m.sentido}`}</p>
             </div>
           </div>
         </header>

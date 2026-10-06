@@ -785,14 +785,14 @@ import { glossario as GLOSSARIO_DEFAULT, CATEGORIES as GLOSSARIO_CATEGORIES_DEFA
    shiro persona · kuro sombra · aka afeto · ai inconsciente · kin si-mesmo ·
    koke instinto · fuji sonho e anima · sakura efêmero. */
 export const MASCARAS = [
-  { id: 'shiro', nome: 'Shiro (branca)', sentido: 'persona', cor: '#F3E9D7', fundo: '#B9C9B4' },
-  { id: 'kuro', nome: 'Kuro (negra)', sentido: 'sombra', cor: '#13211F', fundo: '#DCE4DA' },
-  { id: 'aka', nome: 'Aka (vermelha)', sentido: 'afeto', cor: '#CF432F', fundo: '#F2D9CF' },
-  { id: 'ai', nome: 'Ai (anil)', sentido: 'inconsciente', cor: '#2E4C7A', fundo: '#D7DFEC' },
-  { id: 'kin', nome: 'Kin (dourada)', sentido: 'si-mesmo', cor: '#D7A441', fundo: '#DCE4DA' },
-  { id: 'koke', nome: 'Koke (musgo)', sentido: 'instinto', cor: '#5C7D4E', fundo: '#E6EBD6' },
-  { id: 'fuji', nome: 'Fuji (glicínia)', sentido: 'sonho e anima', cor: '#9B89C2', fundo: '#E7E1F1' },
-  { id: 'sakura', nome: 'Sakura', sentido: 'o efêmero', cor: '#EDB7AC', fundo: '#F6E6E1' },
+  { id: 'shiro', nome: 'Shiro (branca)', sentido: 'persona', da: 'da persona', cor: '#F3E9D7', fundo: '#B9C9B4' },
+  { id: 'kuro', nome: 'Kuro (negra)', sentido: 'sombra', da: 'da sombra', cor: '#13211F', fundo: '#DCE4DA' },
+  { id: 'aka', nome: 'Aka (vermelha)', sentido: 'afeto', da: 'do afeto', cor: '#CF432F', fundo: '#F2D9CF' },
+  { id: 'ai', nome: 'Ai (anil)', sentido: 'inconsciente', da: 'do inconsciente', cor: '#2E4C7A', fundo: '#D7DFEC' },
+  { id: 'kin', nome: 'Kin (dourada)', sentido: 'si-mesmo', da: 'do si-mesmo', cor: '#D7A441', fundo: '#DCE4DA' },
+  { id: 'koke', nome: 'Koke (musgo)', sentido: 'instinto', da: 'do instinto', cor: '#5C7D4E', fundo: '#E6EBD6' },
+  { id: 'fuji', nome: 'Fuji (glicínia)', sentido: 'sonho e anima', da: 'do sonho e da anima', cor: '#9B89C2', fundo: '#E7E1F1' },
+  { id: 'sakura', nome: 'Sakura', sentido: 'o efêmero', da: 'do efêmero', cor: '#EDB7AC', fundo: '#F6E6E1' },
 ];
 const MASCARA_POR_CATEGORIA = { estrutura: 'ai', arquetipos: 'fuji', dinamica: 'aka', processo: 'kin', alquimia: 'kuro', clinica: 'shiro' };
 export const mascaraInfo = (id) => MASCARAS.find((m) => m.id === id) || MASCARAS[0];

@@ -78,7 +78,7 @@ export default function CookiesPage() {
 
       <h2>Como apagar tudo</h2>
       <p>
-        Nas configurações do seu navegador, procure por «dados de sites» ou «dados de navegação»
+        Nas configurações do seu navegador, procure por “dados de sites” ou “dados de navegação”
         e limpe os deste endereço. Também funciona navegar em janela privada, que descarta tudo
         ao fechar. A única consequência é perder as preferências locais, como o progresso de uma
         trilha. Nenhum conteúdo fica inacessível.
