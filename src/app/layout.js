@@ -71,10 +71,9 @@ export const metadata = {
     description: DESCRICAO,
     images: [`${SITE_URL}/og.png`],
   },
-  // Em construção: o Google só entra quando o Gabriel decidir onde mora o
-  // blog de Jung (conteúdo duplicado com o Psiangelo). Trocar para
-  // { index: true, follow: true } na abertura.
-  robots: { index: false, follow: false },
+  // Aberto ao Google desde 06/10/2026 (domínio próprio). O painel, as tags,
+  // a página de redirecionamento das Cartas e o 404 continuam fora.
+  robots: { index: true, follow: true },
   manifest: `${SITE_URL}/manifest.json`,
   appleWebApp: { capable: true, statusBarStyle: 'default', title: SITE_NAME },
 };
