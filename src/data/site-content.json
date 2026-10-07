@@ -1,6 +1,6 @@
 {
-  "version": 1791312133772,
-  "published_at": "2026-10-06T18:42:13.772Z",
+  "version": 1791381585247,
+  "published_at": "2026-10-07T13:59:45.247Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -162,22 +162,24 @@
       "blog": true,
       "home": true,
       "loja": false,
-      "about": true,
+      "toca": true,
+      "about": false,
       "autor": true,
-      "contato": true,
+      "contato": false,
       "estudos": true,
-      "lojaHome": true,
+      "lojaHome": false,
       "servicos": true,
       "glossario": true,
       "materiais": false,
       "newsletter": true,
       "cartografia": false,
+      "bichoNaBorda": true,
       "servicosHome": true,
       "verbetesHome": false,
       "blogAuthorBox": true,
-      "autorInstagram": true,
+      "autorInstagram": false,
       "ensaioDestaque": true,
-      "whatsappFlutuante": true
+      "whatsappFlutuante": false
     },
     "raposa_admin_settings": {
       "siteTitle": "Raposa Analítica",
@@ -3477,10 +3479,9 @@
       "formularioCampoEmail": "email"
     }
   },
-  "data_hash": "e9f8ea5cd05b50a35063db5da398ee24299607ca",
+  "data_hash": "a7588c66c87b2cc84d8076235e22c5c3d9635633",
   "versoes": {
     "raposa_admin_bio": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_visibility": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_home_sections": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_home_sections_layout": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_glossario": "2026-10-02T00:59:00.826752+00:00",
@@ -3488,15 +3489,16 @@
     "raposa_admin_glossario_page": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_settings": "2026-10-02T19:59:27.967333+00:00",
     "raposa_admin_trilhas": "2026-10-02T21:19:57.960326+00:00",
+    "raposa_admin_visibility": "2026-10-07T09:43:55.489931+00:00",
     "raposa_admin_estudos_page": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_cartographies": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_labels": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_blog_series": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_servicos": "2026-10-06T18:44:06.203357+00:00",
     "raposa_admin_loja": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_newsletter": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_blog": "2026-10-06T18:44:06.203357+00:00",
     "raposa_admin_areas": "2026-10-02T01:06:22.530784+00:00",
-    "raposa_admin_homepage": "2026-10-02T19:59:27.967333+00:00"
+    "raposa_admin_homepage": "2026-10-02T19:59:27.967333+00:00",
+    "raposa_admin_blog": "2026-10-06T18:44:06.203357+00:00",
+    "raposa_admin_servicos": "2026-10-06T18:44:06.203357+00:00"
   }
 }
