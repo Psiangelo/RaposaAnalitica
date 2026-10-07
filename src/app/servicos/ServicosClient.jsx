@@ -187,36 +187,6 @@ export default function ServicosClient() {
           </section>
         )}
 
-        {/* o que vem no PDF */}
-        <section className="py-16 sm:py-20 overflow-hidden">
-          <div className={`${W} grid lg:grid-cols-2 gap-12 items-center`}>
-            <div>
-              <Rotulo className="mb-4">O que vem na entrega</Rotulo>
-              <TituloSecao antes="Um PDF que você pode" pivo="mostrar ao orientador" />
-              <p className="mt-4 font-body text-[1.08rem] leading-relaxed text-text max-w-[52ch]">
-                Toda entrega abre com o método: o que eu procurei, em que edição, o que ficou de fora e por quê. Cada achado vem com a obra e o parágrafo, porque o parágrafo numerado da Obra Completa é o mesmo em qualquer edição: você confere na sua.
-              </p>
-            </div>
-            <div className="relative">
-              <div className="absolute -inset-3 rounded-[28px] bg-[var(--mata)] rotate-[-2deg]" aria-hidden />
-              <div className="relative rounded-[22px] bg-[#FBF8F1] p-6 sm:p-8 shadow-[0_30px_60px_-30px_rgb(19_33_31/0.7)] font-body text-[0.95rem] text-[var(--tinta)]">
-                <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--urushi)]">Exemplo de abertura</p>
-                <p className="mt-2 font-serif text-[1.4rem] font-bold leading-tight" style={FRAUNCES}>A floresta como imagem do inconsciente</p>
-                <dl className="mt-4 space-y-2 text-[0.92rem]">
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Nível</dt><dd>Aprofundado</dd></div>
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Onde procurei</dt><dd>Obra Completa (edição brasileira, Vozes), todos os volumes</dd></div>
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Critério</dt><dd>as vezes em que a palavra aparece e as passagens que tratam do tema sem nomeá-lo</dd></div>
-                  <div className="grid grid-cols-[110px_1fr] gap-2"><dt className="font-sans font-semibold text-[#56655D]">Fora</dt><dd>cartas e seminários não publicados em português</dd></div>
-                </dl>
-                <div className="mt-5 pt-4 border-t border-[#D9CEB6]">
-                  <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.14em] text-[#56655D]">Primeiro achado</p>
-                  <p className="mt-1.5"><span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-[0.1em] text-[#F2EBDC] bg-[var(--torii)] px-2 py-0.5 rounded-[3px] -rotate-2 mr-2">OC 13 §241</span>a floresta como “metáfora apropriada para o inconsciente”, no comentário ao conto dos Grimm <i>O espírito na garrafa</i>.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* roteiros sobre Jung */}
         {rt.ativo && (rt.titulo || rt.texto) && (
           <section className="noite relative overflow-hidden py-16 sm:py-20">
@@ -250,25 +220,6 @@ export default function ServicosClient() {
           </section>
         )}
 
-        {/* limites */}
-        {s.limites?.length > 0 && (
-          <section className="py-16 sm:py-20 bg-[var(--fundo-2)]">
-            <div className={W}>
-              <Rotulo className="mb-4">Combinado é combinado</Rotulo>
-              <TituloSecao antes="O que eu" pivo="não faço" />
-              <ul className="mt-8 grid gap-4 md:grid-cols-2">
-                {s.limites.map((l, i) => (
-                  <li key={i} className="flex gap-4 items-start rounded-[22px] bg-bg-card border border-linha p-5">
-                    <span className="mt-0.5 flex items-center justify-center w-9 h-9 rounded-full bg-[var(--fundo-2)] text-[var(--urushi)] shrink-0">
-                      <Icone nome="selo" size={18} />
-                    </span>
-                    <p className="font-body text-[1rem] leading-relaxed text-text">{l}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </section>
-        )}
 
         {/* chamada final */}
         <section className="noite relative overflow-hidden py-16 sm:py-20">
