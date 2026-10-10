@@ -1,6 +1,6 @@
 {
-  "version": 1791621519591,
-  "published_at": "2026-10-10T08:38:39.591Z",
+  "version": 1791643651987,
+  "published_at": "2026-10-10T14:47:31.987Z",
   "note": "teste do botão Publicar",
   "data": {
     "raposa_admin_trilhas": [
@@ -3005,7 +3005,7 @@
         "tags": [
           "Clínica"
         ],
-        "title": "É possível fazer terapia de *casal* na psicologia analítica?",
+        "title": "É possível fazer terapia de *casal* na psicologia Junguiana?",
         "author": "Raposa Analítica",
         "pinned": false,
         "status": "published",
@@ -3110,20 +3110,17 @@
               },
               "content": [
                 {
-                  "text": "Jung tratou do limite da sessão a dois no prólogo que escreveu em 1959 para os estudos de Toni Wolff, que presidiu durante muitos anos o Clube de Psicologia de Zurique, fundado em 1916 e com trinta a setenta membros. Ali ele conta que o grupo nasceu da “inevitável constatação de que a terapia analítica individual (incluindo o método ‘psicanalítico’) representa um processo dialético entre dois indivíduos e, portanto, necessariamente garante ",
+                  "text": "No prólogo aos estudos de Toni Wolff, Jung retoma a definição dos “Princípios básicos” quase com as mesmas palavras. Toni Wolff presidiu durante muitos anos o Clube de Psicologia de Zurique, que Jung chama de “este pequeno grupo”, e ele conta que o grupo “deveu sua origem à inevitável constatação de que a terapia analítica individual (incluindo o método ‘psicanalítico’) representa um processo dialético entre dois indivíduos e, portanto, necessariamente garante resultados unilaterais sob o ponto de vista coletivo-social” (OC 10/3, §888). O processo é dialético e é entre dois, como nos “Princípios básicos”, e a novidade deste trecho está no “portanto”. Nos “Princípios básicos”, o dois eram o médico e o paciente diante dele. No prólogo, o dois passa a ser a causa de um limite estrutural de método.",
                   "type": "text"
                 },
                 {
-                  "text": "resultados unilaterais",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
+                  "type": "hardBreak"
                 },
                 {
-                  "text": " sob o ponto de vista coletivo-social” (OC 10/3, §888). O número dois, que nos “Princípios básicos” definia o procedimento, aparece no prólogo como causa de um limite, e Jung o descreve logo depois, no mesmo texto, a propósito do trabalho de Toni Wolff com o grupo:",
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "No parágrafo seguinte, a propósito do trabalho de Toni Wolff com o grupo, Jung descreve esse limite por dentro:",
                   "type": "text"
                 }
               ]
@@ -3141,7 +3138,16 @@
                   },
                   "content": [
                     {
-                      "text": "É no grupo que acontecem os fatos que nunca são constelados a um indivíduo e que podem até ser suprimidos sem querer. Um analista homem, por exemplo, jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele. Estas modalidades de comportamento ficam latentes, isto é, só aparecem quando não há um olho crítico separando o joio do trigo. Na melhor das hipóteses, ficam no ar como especulações teóricas; não são experimentadas como realidades e, por isso, não podem ser reconhecidas em si. Só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica. Assuntos de outra ordem que poderiam ser apresentados pelo paciente, suposto que tenham chegado à sua consciência, esbarram na inconsciência do analista neste ponto especial. Se conseguir renunciar à sua autoridade neste caso, pode acontecer que compense sua falta de experiência pela experiência do outro. (OC 10/3, §889)",
+                      "text": "É no grupo que acontecem os fatos que nunca são constelados a um indivíduo",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " e que podem até ser suprimidos sem querer. Um analista homem, por exemplo, jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele. Estas modalidades de comportamento ficam latentes, isto é, só aparecem quando não há um olho crítico separando o joio do trigo. Na melhor das hipóteses, ficam no ar como especulações teóricas; não são experimentadas como realidades e, por isso, não podem ser reconhecidas em si. Só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica. Assuntos de outra ordem que poderiam ser apresentados pelo paciente, suposto que tenham chegado à sua consciência, esbarram na inconsciência do analista neste ponto especial. Se conseguir renunciar à sua autoridade neste caso, pode acontecer que compense sua falta de experiência pela experiência do outro. (OC 10/3, §889)",
                       "type": "text"
                     }
                   ]
@@ -3155,33 +3161,7 @@
               },
               "content": [
                 {
-                  "text": "Os fatos de que Jung fala acontecem “no grupo”, e a presença de outras pessoas é condição para que certas reações existam. O exemplo do analista homem localiza o limite na pessoa de quem atende. Ele não provoca as reações que uma mulher provocaria, e essas reações ficam, na melhor das hipóteses, como “especulações teóricas”, pois “não são experimentadas como realidades”. Só depois vem o princípio, que é o mesmo dos “Princípios básicos”, agora formulado do lado do analista, porque se discute apenas o que “por experiência própria se tornou consciente” a ele, e os assuntos de outra ordem “esbarram na inconsciência do analista”. A saída também é a mesma, a ",
-                  "type": "text"
-                },
-                {
-                  "text": "renúncia à autoridade",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": ", e Jung a formula com reserva, pois escreve apenas que “pode acontecer” de o analista compensar a própria falta “pela experiência do outro”.",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "attrs": {
-                "level": 2,
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "O envolvente e o envolvido",
+                  "text": "No meio do trecho está a segunda premissa dos “Princípios básicos”. A frase “só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica” (OC 10/3, §889) diz o mesmo que “só posso afirmar sobre a individualidade de outrem, o que encontro em minha própria individualidade” (OC 16/1, §2). O prólogo, porém, dá um passo que os “Princípios básicos” não davam, porque o limite do analista, além de estar no que ele compreende, está no que ele provoca. O analista homem “jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele” (OC 10/3, §889). Numa sessão a dois, o único outro diante de quem o paciente reage é o analista, e as reações que a pessoa do analista não constela não chegam a acontecer na sessão. Essas reações ficam latentes, aparecem no máximo como “especulações teóricas” e, como “não são experimentadas como realidades”, não podem ser reconhecidas (OC 10/3, §889). Mesmo o que o paciente traz por conta própria passa por duas condições, pois os assuntos de outra ordem só chegam à sessão “suposto que tenham chegado à sua consciência” e, ainda assim, “esbarram na inconsciência do analista neste ponto especial” (OC 10/3, §889). A sessão a dois limita, portanto, duas vezes, porque o analista só compreende o que viveu e a sessão só mostra o que a pessoa dele constela.",
                   "type": "text"
                 }
               ]
@@ -3193,46 +3173,7 @@
               },
               "content": [
                 {
-                  "text": "Na sessão de casal, a experiência do outro chega pelo cônjuge, e o ensaio sobre o casamento já usa o verbo ",
-                  "type": "text"
-                },
-                {
-                  "text": "constelar",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " para o que um cônjuge faz com o outro. Jung descreve casais em que uma das pessoas é mais complicada e a outra mais simples, e chama isso de “o problema do envolvente e do envolvido” (OC 17, §331). O ",
-                  "type": "text"
-                },
-                {
-                  "text": "envolvido",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " vive dentro do casamento, mas o ",
-                  "type": "text"
-                },
-                {
-                  "text": "envolvente",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " contém o parceiro sem se sentir contido e, por isso, se sente do lado de fora. O parceiro simples, “justamente por esperar dele respostas simples, acaba ‘constelando’ (conforme o termo técnico) suas complicações” (OC 17, §333), de modo que o cônjuge constela no outro aquilo que o analista, pela própria pessoa, pode nunca constelar. A dinâmica se reforça sozinha, já que “quanto mais firmemente se apegar o envolvido, tanto mais se sentirá o envolvente impelido para fora” (OC 17, §333).",
+                  "text": "A saída também é a dos “Princípios básicos”, a renúncia à autoridade, e Jung a formula com certa reserva, pois escreve apenas que “pode acontecer” de o analista compensar a própria falta “pela experiência do outro” (OC 10/3, §889). As frases que vêm logo depois do trecho citado dizem por que a renúncia é de uma natureza complicada: “O perigo está em que oponha à realidade psicológica algum teorema esquemático porque seu medo do sentimento de inferioridade não lhe permite reconhecer seu defeito. Este perigo é muito grande para o médico, pois dele sempre se espera autoridade” (OC 10/3, §889). O teorema esquemático corresponde ao que Jung, no parágrafo anterior, chamava de discussão “limitada ao comum, ao coletivo e ao médio, ou seja, a pressupostos teóricos”, e ele avisa que, quanto mais tempo a discussão fica assim, “tanto mais próximo se está do perigo da opressão individual” (OC 10/3, §888). Esse perigo é o avesso da condição que os “Princípios básicos” punham ao método dialético, a de deixar o outro apresentar seu material “sem limitá-lo pelos meus pressupostos” (OC 16/1, §2). Os pressupostos teóricos descrevem o que é comum às pessoas, e por isso Jung os põe junto do coletivo e do médio. O risco de tratar a alma “como se ela fosse um fenômeno coletivo”, que a nota do Mysterium via na análise em grupos, existe também na sessão a dois pela via da teoria do analista.",
                   "type": "text"
                 }
               ]
@@ -3244,23 +3185,31 @@
               },
               "content": [
                 {
-                  "text": "Em sessões separadas, cada um traz a sua metade dessa dinâmica. Quem se apega conta que o outro se afasta, enquanto quem se afasta conta que não tem espaço. As duas versões são sinceras, e cada uma explica o próprio movimento pelo movimento do outro. Com os dois na sessão, as reações deixam de chegar como relato e acontecem diante do terapeuta, no tom de voz, na interrupção e no silêncio de um enquanto o outro fala. A briga que na sessão individual chega como versão contada ganha ali a condição que, segundo o prólogo a Toni Wolff, falta às reações não consteladas, a de ser ",
+                  "text": "Foi esse perigo que levou Toni Wolff a estudar os modos típicos de comportamento, sobretudo os das mulheres. No mesmo prólogo aos estudos dela, Jung avisa que esse estudo não se destina a uma classificação estatística e que serve para compreender os diversos modos de comportamento normal. Um analista conhece por dentro as reações do próprio tipo, e por isso as reações de outro tipo tendem a parecer estranhas para ele. Se ele toma o próprio tipo como medida, o estranho vira doença. Os tipos estudados por Toni Wolff servem para impedir esse passo, porque mostram ao analista que certas formas de reação “não devem ser consideradas patológicas só porque o analista pertence a outro tipo” (OC 10/3, §890). Diante de uma reação que o incomoda, o analista que conhece os tipos pode se perguntar se o incômodo diz algo do paciente ou só do tipo dele mesmo.",
                   "type": "text"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
                 {
-                  "text": "experimentada como realidade",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "highlight",
-                      "attrs": {
-                        "color": ""
-                      }
-                    }
-                  ]
-                },
+                  "text": "É daí que vem a definição da tipificação como “em primeiro lugar uma ajuda à crítica psicológica do conhecimento” (OC 10/3, §890). Crítica do conhecimento é o exame de onde vem aquilo que alguém afirma saber, e essa é a pergunta da epistemologia. As duas objeções do começo, porém, não fazem essa pergunta, já que a do novo casamento pergunta onde o conflito se resolve e a do Mysterium pergunta qual é o objeto do tratamento. Ao defender o grupo, Jung pergunta de onde o analista sabe o que sabe sobre o paciente, e responde que ele sabe a partir do próprio tipo e da própria experiência, que são só uma possibilidade entre infinitas.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
                 {
-                  "text": ". O trabalho pode então deixar a disputa sobre quem começou e mostrar aos dois como o apego de um e o afastamento do outro se produzem mutuamente.",
+                  "text": "O argumento foi escrito sobre o Clube, e levá-lo até o casal é um passo meu, mas é um passo que o próprio argumento sustenta. Nos “Princípios básicos”, Jung usou duas premissas para justificar a sessão a dois, e no prólogo usa as mesmas premissas para mostrar o que a sessão a dois não alcança. O número de pessoas, que nos “Princípios básicos” só descrevia o consultório, vira no prólogo uma questão de conhecimento, porque com só dois na sessão alguma coisa fica de fora. A sessão de casal é a forma mínima de pôr mais alguém diante de quem cada um reage, e continua dentro do método dialético, que já era confrontar as averiguações mútuas. Dos três pares que essa sessão forma, um não passa pelo analista, o dos cônjuges entre si, e é nesse par que um cônjuge pode constelar no outro, diante do analista, o que a pessoa do analista não constela. Ser um pequeno grupo passa a contar a favor do casal, porque é no grupo que acontecem “os fatos que nunca são constelados a um indivíduo” (OC 10/3, §889).",
                   "type": "text"
                 }
               ]
@@ -3285,33 +3234,7 @@
               },
               "content": [
                 {
-                  "text": "Quem mostra isso aos dois é um terceiro, e Jung admite, num seminário sobre o ",
-                  "type": "text"
-                },
-                {
-                  "text": "Zaratustra",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "italic"
-                    }
-                  ]
-                },
-                {
-                  "text": ", em 1937, que o analista já estava nos casamentos antes de qualquer terapia de casal. Comentando um vaso antigo em que um casal se dá as mãos através de um peixe, ele sustenta que “a união imediata de homem e mulher é perigosa demais; deve haver uma ",
-                  "type": "text"
-                },
-                {
-                  "text": "mediação",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": ", qualquer que seja” (Seminário Zaratustra II, p. 413), e lembra que a Igreja mantinha o padre entre os cônjuges. Sem esse mediador, conclui com ironia contra a própria profissão, “inventamos, como um remédio, esses malditos analistas, que se misturam com não sei quantos casamentos” (Seminário Zaratustra II, p. 413). Na análise individual o analista entra no casamento pelo relato de um dos cônjuges, e o parceiro aparece na sessão contado, lembrado e sonhado. Na sessão de casal ele ocupa abertamente o lugar de mediação que Jung descreve e olha a relação de um ponto que nenhum dos dois ocupa.",
+                  "text": "Num seminário sobre o Zaratustra, em 1937, Jung admite que o analista já estava nos casamentos antes de qualquer terapia de casal. Comentando um vaso antigo em que um casal se dá as mãos através de um peixe, ele sustenta que “a união imediata de homem e mulher é perigosa demais; deve haver uma mediação, qualquer que seja” (Seminário Zaratustra II, p. 413), e lembra que a Igreja mantinha o padre entre os cônjuges. Sem esse mediador, conclui com ironia contra a própria profissão, “inventamos, como um remédio, esses malditos analistas, que se misturam com não sei quantos casamentos” (Seminário Zaratustra II, p. 413). Na análise individual, o analista entra no casamento pelo relato de um dos cônjuges, e o parceiro aparece na sessão contado, lembrado e sonhado. Na sessão de casal, o analista ocupa abertamente o lugar de mediação do seminário e olha a relação de um ponto que nenhum dos dois ocupa.",
                   "type": "text"
                 }
               ]
@@ -3323,20 +3246,7 @@
               },
               "content": [
                 {
-                  "text": "Esse lugar expõe o terapeuta, e Jung descreve a exposição em outro texto sobre a prática, “Os problemas da psicoterapia moderna”, de 1929, quando compara o encontro de duas personalidades à “mistura de duas substâncias químicas diferentes: no caso de se dar uma reação, ambas se transformam”, e acrescenta que “influir é sinônimo de ser afetado” (OC 16/1, §163). Na sessão de casal a mistura é de três. O terapeuta que simpatiza mais com um dos cônjuges ou se irrita com o outro recebe uma informação sobre o casal, que só serve ao trabalho enquanto ele não a converte em partido. A compreensão também envolve três pessoas, porque Jung chama de “uma não compreensão” a interpretação que só o médico entende e sustenta que “a compreensão deveria ser estabelecida por consenso, por um consenso que seja fruto da reflexão conjunta” (OC 16/2, §314). Com três na sessão, esse ",
-                  "type": "text"
-                },
-                {
-                  "text": "consenso",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " pode recair sobre a diferença, isto é, sobre de onde cada cônjuge vê o casamento e o que vê dali, mesmo quando os dois continuam discordando sobre quem tem razão.",
+                  "text": "Ocupar esse lugar muda também o que conta como compreender. Em “A aplicação prática da análise dos sonhos”, Jung escreve que compreender “pode ser unilateral, no sentido de o médico compreender e o paciente não”, chama esse caso de “uma não compreensão” e sustenta que “a compreensão deveria ser estabelecida por consenso, por um consenso que seja fruto da reflexão conjunta” (OC 16/2, §314). A palavra unilateral é a mesma do prólogo a Toni Wolff, e o consenso é a forma que toma, na interpretação, o que os “Princípios básicos” chamavam de “método para produzir novas sínteses” (OC 16/1, §1). Com três na sessão, o consenso não precisa ser sobre quem tem razão. Ele pode recair sobre a diferença, isto é, sobre de onde cada cônjuge vê o casamento e o que vê dali, e essa é uma compreensão que nenhuma das três pessoas teria sozinha.",
                   "type": "text"
                 }
               ]
@@ -3361,20 +3271,7 @@
               },
               "content": [
                 {
-                  "text": "A primeira objeção, a do novo casamento, continua valendo, pois trocar de parceiro não resolve um conflito que está dentro de alguém. Ela situa o conflito dentro de cada cônjuge, e daí não se segue que ele só possa ser trabalhado numa sessão individual. Na ",
-                  "type": "text"
-                },
-                {
-                  "text": "Psicologia da transferência",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "italic"
-                    }
-                  ]
-                },
-                {
-                  "text": ", de 1946, Jung escreve que “a relação com o Si-Mesmo é ao mesmo tempo a relação com o próximo. E ninguém se vincula com o outro, se antes não se vincular consigo mesmo” (OC 16/2, §445). A primeira frase impede de ler o “antes” da segunda como uma ordem de etapas. Pouco adiante, ele divide a individuação em “um processo interior e subjetivo de integração” e “um processo objetivo de relação com o outro, tão indispensável quanto o primeiro”, e acrescenta que “um não pode existir sem o outro” (OC 16/2, §448). No mesmo parágrafo, Jung aponta o perigo do lado interior sozinho, que é o sujeito usar as possibilidades de desenvolvimento espiritual “oferecidas pelo confronto com o inconsciente, para esquivar-se de certos compromissos humanos mais profundos” (OC 16/2, §448). A relação com o outro faz parte, portanto, do trabalho individual, e a sessão de casal pode ser o lugar dele, já que o conflito de cada um se mostra no modo como trata o parceiro.",
+                  "text": "A primeira objeção, a do novo casamento, continua valendo, pois trocar de parceiro não resolve um conflito que está dentro de alguém. Ela situa o conflito dentro de cada cônjuge, e daí não se segue que ele só possa ser trabalhado numa sessão individual. Na “Psicologia da transferência”, de 1946, Jung escreve que “a relação com o Si-Mesmo é ao mesmo tempo a relação com o próximo. E ninguém se vincula com o outro, se antes não se vincular consigo mesmo” (OC 16/2, §445). A primeira frase impede de ler o “antes” da segunda como uma ordem de etapas. Pouco adiante, ele divide a individuação em “um processo interior e subjetivo de integração” e “um processo objetivo de relação com o outro, tão indispensável quanto o primeiro”, e acrescenta que “um não pode existir sem o outro” (OC 16/2, §448). No mesmo parágrafo, Jung aponta o perigo do lado interior sozinho, que é o sujeito usar as possibilidades de desenvolvimento espiritual “oferecidas pelo confronto com o inconsciente, para esquivar-se de certos compromissos humanos mais profundos” (OC 16/2, §448). A relação com o outro faz parte, portanto, do trabalho individual. A objeção do novo casamento tem razão quando diz que o conflito se resolve dentro de cada um. Mas é na relação que esse conflito aparece, no jeito como cada cônjuge trata o outro, e na sessão de casal esse jeito de tratar acontece diante do terapeuta. Com os dois na sessão, portanto, o trabalho individual continua, e é feito justamente onde o conflito de cada um se mostra.",
                   "type": "text"
                 }
               ]
@@ -3386,229 +3283,7 @@
               },
               "content": [
                 {
-                  "text": "A segunda objeção, a da nota do ",
-                  "type": "text"
-                },
-                {
-                  "text": "Mysterium",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "italic"
-                    }
-                  ]
-                },
-                {
-                  "text": ", trata do ",
-                  "type": "text"
-                },
-                {
-                  "text": "objeto da intervenção",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "highlight",
-                      "attrs": {
-                        "color": ""
-                      }
-                    }
-                  ]
-                },
-                {
-                  "text": ". Jung compara a psicoterapia à terapia do corpo, lembra que “a intervenção cirúrgica, por exemplo, é feita também no indivíduo”, e só então critica quem trata a alma “como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). A objeção atinge, portanto, uma terapia que tomasse o casal por uma alma só, acima das duas pessoas. O prólogo a Toni Wolff, no entanto, valoriza o grupo pelo que se constela nele, e o Clube nasceu para responder aos resultados unilaterais da análise individual. A terapia de casal apoiada em Jung corresponde a esse uso do grupo, em que os dois indivíduos continuam sendo o objeto, a sessão conjunta é o lugar onde as reações acontecem e a relação entre eles é o que se observa.",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "attrs": {
-                "level": 2,
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "Identidade e crise",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "O que se observa nessa relação varia de casal para casal, e é óbvio que não existe roteiro. Em “Os objetivos da psicoterapia”, de 1929, Jung confessa ter se enganado tantas vezes ao decidir se um traço era verdadeiro ou compensação do contrário que, no caso concreto, prefere deixar “a pura experiência decidir quanto aos objetivos terapêuticos” (OC 16/1, §81). O ensaio sobre o casamento dá, mesmo assim, uma direção, porque descreve o casamento como um caminho que começa na ",
-                  "type": "text"
-                },
-                {
-                  "text": "identidade",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": ", em que “cada um pressupõe no outro estrutura psíquica semelhante” (OC 17, §330), e só chega ao relacionamento pessoal “quando se tornar conhecida a natureza da motivação inconsciente e quando estiver suprimida em larga escala a identidade inicial” (OC 17, §331). Para o casal ainda em identidade vale que “apenas onde existe essa distinção, pode aparecer um relacionamento” (OC 17, §326). Nesse casal, o trabalho começa por ajudar cada um a descobrir o que pensa e sente por conta própria. O casal distante, em que cada um vive para o seu lado, pede o movimento contrário, de aproximação, pois, como Jung escreve na mesma ",
-                  "type": "text"
-                },
-                {
-                  "text": "Psicologia da transferência",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "italic"
-                    }
-                  ]
-                },
-                {
-                  "text": ", “o ser humano que não se liga a outro não tem totalidade” (OC 16/2, §454). Vistas de fora, a diferença de quem já se conhece e a distância de quem nunca se encontrou se parecem, mas pedem movimentos opostos. Por isso o terapeuta só sabe qual deles vem primeiro depois de ver o casal.",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "A passagem da identidade à distinção raramente é tranquila, pois “não é possível tornar-se consciente sem passar por sofrimentos” (OC 17, §331). Quem está em desacordo consigo mesmo sem saber, escreve Jung, “procura geralmente projetar no outro cônjuge os motivos de tudo isso”, e “origina-se então uma atmosfera crítica, que é a condição indispensável para a tomada de consciência” (OC 17, §331). A ",
-                  "type": "text"
-                },
-                {
-                  "text": "crise",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " que leva um casal ao consultório pertence, assim, ao caminho que o ensaio descreve. Jung acrescenta que ela não chega aos dois ao mesmo tempo, porque “normalmente um deles resolve seu caso no matrimônio mais depressa do que o outro” (OC 17, §331). O descompasso explica por que, na sessão, um cônjuge chega pronto para mudar enquanto o outro ainda defende o arranjo antigo.",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "attrs": {
-                "level": 2,
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "A crise devolve cada um a si mesmo",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "O ensaio sobre o casamento descreve o que a crise faz com cada cônjuge, e o movimento que ele descreve é de volta a si mesmo. Quando o envolvente começa a procurar fora o que sempre lhe faltou, o envolvido perde a segurança que achava ter. Daí em diante, “essa decepção o força a retrair-se para dentro de si mesmo”, a menos que consiga, “por meio de esforços desesperados e violentos”, pôr o outro de joelhos. Se a tentativa falha, “a desistência devidamente aceita lhe fará um grande bem; compreenderá então que aquela segurança que sempre procurava no outro terá que ser achada em si mesmo. Assim se encontra a si mesmo” (OC 17, §333). O envolvente, se não entrar em colapso, descobre que “não se cura a dissociação dividindo-a, mas dilacerando-a”, e acaba achando “que é um bem para ele o fato de estar indiviso em si mesmo” (OC 17, §334).",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "Jung descreve aqui um casamento sem terapeuta, e mesmo assim cada cônjuge termina mais perto de si do que começou, porque a relação o confrontou com uma realidade que ele não escolheu. Numa terapia de casal bem feita, esse ",
-                  "type": "text"
-                },
-                {
-                  "text": "confronto com a realidade",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "highlight",
-                      "attrs": {
-                        "color": ""
-                      }
-                    }
-                  ]
-                },
-                {
-                  "text": " acontece o tempo todo. O parceiro presente desmente na hora o retrato que o outro faz dele, as reações acontecem diante de uma testemunha e passam a ser, nos termos do prólogo a Toni Wolff, experimentadas como realidade, e o terapeuta que não toma partido devolve a cada um o que é dele. A crise, que o ensaio sobre o casamento chama de condição da tomada de consciência, deixa então de ser só o motivo da consulta e passa a ser o material do trabalho. Por isso a terapia de casal pode ser, ela mesma, um ",
-                  "type": "text"
-                },
-                {
-                  "text": "catalisador",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " do desenvolvimento de cada um, pois a decepção que no casamento sem testemunha leva aos “esforços desesperados e violentos” pode chegar, na sessão, à “desistência devidamente aceita” que devolve o cônjuge a si mesmo. Na ",
-                  "type": "text"
-                },
-                {
-                  "text": "Psicologia da transferência",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "italic"
-                    }
-                  ]
-                },
-                {
-                  "text": ", Jung dá a razão de fundo, pois a totalidade de cada um “só é alcançada pela alma, e esta, por sua vez, não pode existir sem o seu outro lado que sempre se encontra no ‘tu’” (OC 16/2, §454).",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "attrs": {
-                "level": 2,
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "Ficar ou se separar",
-                  "type": "text"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": null
-              },
-              "content": [
-                {
-                  "text": "O limite do terapeuta diante disso está no mesmo parágrafo de “Os objetivos da psicoterapia” em que Jung confessa os próprios enganos, e ali ele escreve que “cada qual tem sua ",
-                  "type": "text"
-                },
-                {
-                  "text": "forma de vida",
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ]
-                },
-                {
-                  "text": " dentro de si, sua forma irracional, que não pode ser suplantada por outra qualquer” (OC 16/1, §81). Num casal há duas formas de vida, que podem não querer a mesma coisa. Por isso a decisão de ficar juntos ou se separar pertence aos dois, e o tratamento serve para que eles a tomem conhecendo melhor um ao outro. Uma separação feita com clareza, em que cada um sabe o que deixa e por quê, conta como resultado do tratamento, e o fracasso, pelo critério desse parágrafo, seria o terapeuta decidir pelos dois.",
+                  "text": "A segunda objeção, a da nota do Mysterium, trata do objeto da intervenção. Jung compara a psicoterapia à terapia do corpo, lembra que “a intervenção cirúrgica, por exemplo, é feita também no indivíduo”, e só então critica quem trata a alma “como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). O problema que ele aponta é a alma deixar de ser considerada algo individual. A objeção atinge, portanto, uma terapia que tomasse o casal por uma alma só, acima das duas pessoas. Na terapia de casal que se apoia em Jung, os dois indivíduos continuam sendo o objeto, a sessão conjunta é o lugar onde as reações acontecem e a relação entre eles é o que se observa.",
                   "type": "text"
                 }
               ]
@@ -3633,7 +3308,19 @@
               },
               "content": [
                 {
-                  "text": "Nenhuma dessas passagens foi escrita para a terapia de casal, porque Jung não escreveu um método de terapia de casal. Nos textos dele estão o ensaio sobre o casamento e a crise que devolve cada cônjuge a si mesmo, as duas objeções, a ironia sobre os analistas que se misturam aos casamentos, a justificativa do método dialético, os dois aspectos da individuação e o prólogo a Toni Wolff sobre o que a análise a dois não constela. Levar para a sessão de casal o que ele diz do Clube de Psicologia, do envolvente e do envolvido, da crise e do consenso na interpretação é um passo meu, apoiado nessas passagens. Pelo que ele deixou, a resposta é sim, como uma variação do método que mostra o que a sessão a dois não mostra e que pode acelerar o desenvolvimento de cada cônjuge. A condição de que tudo depende é que o objeto continue sendo cada um dos dois e que o trabalho individual continue sendo feito, e a terapia de casal bem feita o faz dentro da própria sessão, com ou sem sessões individuais ao lado.",
+                  "text": "Nenhuma das passagens citadas aqui foi escrita para a terapia de casal, porque Jung não escreveu um método de terapia de casal. O que está nos textos dele é a justificativa do método dialético nos “Princípios básicos” e o limite da sessão a dois descrito no prólogo a Toni Wolff. Levar esse limite até o casal é um passo meu, e o passo se apoia nas mesmas premissas que justificavam atender a dois.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "Pelo que Jung deixou, a resposta é sim. A sessão de casal é uma variação do método dialético que mostra o que a sessão a dois não mostra, e pode fazer mais do que mostrar. O parceiro presente desmente na hora o retrato que o outro faz dele, e o terapeuta que não toma partido devolve a cada um o que é dele. Por isso a terapia de casal pode ser um catalisador do desenvolvimento de cada um, e a razão de fundo está na “Psicologia da transferência”: “O ser humano que não se liga a outro não tem totalidade, pois esta só é alcançada pela alma, e esta, por sua vez, não pode existir sem o seu outro lado que sempre se encontra no ‘tu’” (OC 16/2, §454). A condição de que tudo depende é que o objeto continue sendo cada um dos dois e que o trabalho individual continue sendo feito, e uma terapia de casal bem feita faz esse trabalho dentro da própria sessão, com ou sem sessões individuais ao lado.",
                   "type": "text"
                 }
               ]
@@ -3864,9 +3551,9 @@
         "seriesId": "",
         "seo_title": "É possível fazer terapia de casal na psicologia analítica?",
         "created_at": "2026-10-02T20:19:49.234Z",
-        "updated_at": "2026-10-10T07:30:19.721Z",
+        "updated_at": "2026-10-10T14:40:47.470Z",
         "seriesOrder": 0,
-        "content_html": "<p>Jung atendia uma pessoa por vez, mas se você procurar bem na obra dele motivos para não atender casais, você encontra duas. Em “Questões atuais da psicoterapia”, de 1914, ele discute o marido que espera resolver o conflito casando com outra. A resposta é que “o velho Adão entra num novo casamento para estragá-lo, como fez com o primeiro”, pois “uma verdadeira solução de conflitos é exclusivamente a interior” (OC 4, §606). Numa nota do <em>Mysterium Coniunctionis</em>, publicado em 1955, ele critica “certas tendências modernas” que “pretendem tratar da alma por meio da ‘análise em grupos’, como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). Somadas, as duas passagens parecem bater o martelo  sobre a questão, porque um casal na sessão já é um pequeno grupo e porque, pela primeira, o conflito de cada cônjuge se resolve interiormente.</p><p>As duas objeções, porém, olham apenas para o lugar onde o conflito se resolve, e para o objeto do tratamento, e nenhuma toca, precisamente, na epistemologia que fundamenta Jung tratar do jeito que tratava, a dois. e há uma passagem importante a se considerar: no prólogo aos estudos de Toni Wolff, Jung defende a experiência de grupo do Clube de Psicologia de Zurique com um argumento sobre o que a <mark>análise a dois não alcança</mark>. Esse argumento retoma a justificativa que ele tinha dado ao método num texto de 1935, os “Princípios básicos da prática da psicoterapia”.</p><h2>O método e o número dois</h2><p>Nesses “Princípios básicos”, Jung define a psicoterapia como um procedimento dialético, “isto é, de um diálogo ou discussão entre duas pessoas” (OC 16/1, §1). O número dois está na definição, e a objeção ao casal pode se apoiar nela. Na frase seguinte, porém, Jung explica a palavra: “originalmente a dialética era a arte da conversação entre os antigos filósofos, mas logo adquiriu o significado de método para produzir novas sínteses” (OC 16/1, §1). O que importa aqui é que a dialética em Jung tem uma importância de método. Ainda no mesmo parágrafo, ele mostra por que chegou a essa formulação: como a psique pede um grande número de antinomias para ser descrita, as afirmações sobre ela valem apenas relativamente, e “a afirmação só é válida na medida em que for indicado a que sistema psíquico o objeto da indagação se refere” (OC 16/1, §1). Toda afirmação da psique vale para um sistema psíquico determinado. O terapeuta que se põe como autoridade sobre a individualidade do paciente estaria “demonstrando falta de espírito crítico”, pois “só posso afirmar sobre a individualidade de outrem, o que encontro em minha própria individualidade” (OC 16/1, §2). Resta-lhe renunciar “a toda e qualquer autoridade” e optar “necessariamente por um método dialético, que consiste em confrontar as averiguações mútuas” (OC 16/1, §2). Essa é a definição que sustenta o resto. A dialética é a operação de confrontar o que cada um averiguou, sem limite para um número de pessoas, e Jung condiciona a dialética a uma atitude, pois ela só se torna possível se o terapeuta deixar ao outro “a oportunidade de apresentar seu material o mais completamente possível, sem limitá-lo pelos meus pressupostos” (OC 16/1, §2). É verdade que Jung volta ao número no fim do §1, quando escreve que a formulação dialética “no fundo significa que a interação psíquica nada mais é do que a relação de troca entre dois sistemas psíquicos” (OC 16/1, §1). O dois, ali, são o médico e o paciente diante dele. As premissas que levam Jung à fórmula, porém, não falam de número. A primeira diz que cada afirmação vale para um sistema psíquico determinado, e a segunda, que o terapeuta só pode afirmar sobre a individualidade “de outrem” o que encontra na própria. Diante de dois cônjuges, as duas valem para cada um deles, e a troca entre dois sistemas que Jung descreve continua acontecendo, só que em três pares: o terapeuta com cada cônjuge e os cônjuges entre si.</p><h2>O que a sessão a dois não alcança</h2><p>Jung tratou do limite da sessão a dois no prólogo que escreveu em 1959 para os estudos de Toni Wolff, que presidiu durante muitos anos o Clube de Psicologia de Zurique, fundado em 1916 e com trinta a setenta membros. Ali ele conta que o grupo nasceu da “inevitável constatação de que a terapia analítica individual (incluindo o método ‘psicanalítico’) representa um processo dialético entre dois indivíduos e, portanto, necessariamente garante <strong>resultados unilaterais</strong> sob o ponto de vista coletivo-social” (OC 10/3, §888). O número dois, que nos “Princípios básicos” definia o procedimento, aparece no prólogo como causa de um limite, e Jung o descreve logo depois, no mesmo texto, a propósito do trabalho de Toni Wolff com o grupo:</p><blockquote><p>É no grupo que acontecem os fatos que nunca são constelados a um indivíduo e que podem até ser suprimidos sem querer. Um analista homem, por exemplo, jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele. Estas modalidades de comportamento ficam latentes, isto é, só aparecem quando não há um olho crítico separando o joio do trigo. Na melhor das hipóteses, ficam no ar como especulações teóricas; não são experimentadas como realidades e, por isso, não podem ser reconhecidas em si. Só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica. Assuntos de outra ordem que poderiam ser apresentados pelo paciente, suposto que tenham chegado à sua consciência, esbarram na inconsciência do analista neste ponto especial. Se conseguir renunciar à sua autoridade neste caso, pode acontecer que compense sua falta de experiência pela experiência do outro. (OC 10/3, §889)</p></blockquote><p>Os fatos de que Jung fala acontecem “no grupo”, e a presença de outras pessoas é condição para que certas reações existam. O exemplo do analista homem localiza o limite na pessoa de quem atende. Ele não provoca as reações que uma mulher provocaria, e essas reações ficam, na melhor das hipóteses, como “especulações teóricas”, pois “não são experimentadas como realidades”. Só depois vem o princípio, que é o mesmo dos “Princípios básicos”, agora formulado do lado do analista, porque se discute apenas o que “por experiência própria se tornou consciente” a ele, e os assuntos de outra ordem “esbarram na inconsciência do analista”. A saída também é a mesma, a <strong>renúncia à autoridade</strong>, e Jung a formula com reserva, pois escreve apenas que “pode acontecer” de o analista compensar a própria falta “pela experiência do outro”.</p><h2>O envolvente e o envolvido</h2><p>Na sessão de casal, a experiência do outro chega pelo cônjuge, e o ensaio sobre o casamento já usa o verbo <strong>constelar</strong> para o que um cônjuge faz com o outro. Jung descreve casais em que uma das pessoas é mais complicada e a outra mais simples, e chama isso de “o problema do envolvente e do envolvido” (OC 17, §331). O <strong>envolvido</strong> vive dentro do casamento, mas o <strong>envolvente</strong> contém o parceiro sem se sentir contido e, por isso, se sente do lado de fora. O parceiro simples, “justamente por esperar dele respostas simples, acaba ‘constelando’ (conforme o termo técnico) suas complicações” (OC 17, §333), de modo que o cônjuge constela no outro aquilo que o analista, pela própria pessoa, pode nunca constelar. A dinâmica se reforça sozinha, já que “quanto mais firmemente se apegar o envolvido, tanto mais se sentirá o envolvente impelido para fora” (OC 17, §333).</p><p>Em sessões separadas, cada um traz a sua metade dessa dinâmica. Quem se apega conta que o outro se afasta, enquanto quem se afasta conta que não tem espaço. As duas versões são sinceras, e cada uma explica o próprio movimento pelo movimento do outro. Com os dois na sessão, as reações deixam de chegar como relato e acontecem diante do terapeuta, no tom de voz, na interrupção e no silêncio de um enquanto o outro fala. A briga que na sessão individual chega como versão contada ganha ali a condição que, segundo o prólogo a Toni Wolff, falta às reações não consteladas, a de ser <mark>experimentada como realidade</mark>. O trabalho pode então deixar a disputa sobre quem começou e mostrar aos dois como o apego de um e o afastamento do outro se produzem mutuamente.</p><h2>O terceiro na sessão</h2><p>Quem mostra isso aos dois é um terceiro, e Jung admite, num seminário sobre o <em>Zaratustra</em>, em 1937, que o analista já estava nos casamentos antes de qualquer terapia de casal. Comentando um vaso antigo em que um casal se dá as mãos através de um peixe, ele sustenta que “a união imediata de homem e mulher é perigosa demais; deve haver uma <strong>mediação</strong>, qualquer que seja” (Seminário Zaratustra II, p. 413), e lembra que a Igreja mantinha o padre entre os cônjuges. Sem esse mediador, conclui com ironia contra a própria profissão, “inventamos, como um remédio, esses malditos analistas, que se misturam com não sei quantos casamentos” (Seminário Zaratustra II, p. 413). Na análise individual o analista entra no casamento pelo relato de um dos cônjuges, e o parceiro aparece na sessão contado, lembrado e sonhado. Na sessão de casal ele ocupa abertamente o lugar de mediação que Jung descreve e olha a relação de um ponto que nenhum dos dois ocupa.</p><p>Esse lugar expõe o terapeuta, e Jung descreve a exposição em outro texto sobre a prática, “Os problemas da psicoterapia moderna”, de 1929, quando compara o encontro de duas personalidades à “mistura de duas substâncias químicas diferentes: no caso de se dar uma reação, ambas se transformam”, e acrescenta que “influir é sinônimo de ser afetado” (OC 16/1, §163). Na sessão de casal a mistura é de três. O terapeuta que simpatiza mais com um dos cônjuges ou se irrita com o outro recebe uma informação sobre o casal, que só serve ao trabalho enquanto ele não a converte em partido. A compreensão também envolve três pessoas, porque Jung chama de “uma não compreensão” a interpretação que só o médico entende e sustenta que “a compreensão deveria ser estabelecida por consenso, por um consenso que seja fruto da reflexão conjunta” (OC 16/2, §314). Com três na sessão, esse <strong>consenso</strong> pode recair sobre a diferença, isto é, sobre de onde cada cônjuge vê o casamento e o que vê dali, mesmo quando os dois continuam discordando sobre quem tem razão.</p><h2>As objeções, de novo</h2><p>A primeira objeção, a do novo casamento, continua valendo, pois trocar de parceiro não resolve um conflito que está dentro de alguém. Ela situa o conflito dentro de cada cônjuge, e daí não se segue que ele só possa ser trabalhado numa sessão individual. Na <em>Psicologia da transferência</em>, de 1946, Jung escreve que “a relação com o Si-Mesmo é ao mesmo tempo a relação com o próximo. E ninguém se vincula com o outro, se antes não se vincular consigo mesmo” (OC 16/2, §445). A primeira frase impede de ler o “antes” da segunda como uma ordem de etapas. Pouco adiante, ele divide a individuação em “um processo interior e subjetivo de integração” e “um processo objetivo de relação com o outro, tão indispensável quanto o primeiro”, e acrescenta que “um não pode existir sem o outro” (OC 16/2, §448). No mesmo parágrafo, Jung aponta o perigo do lado interior sozinho, que é o sujeito usar as possibilidades de desenvolvimento espiritual “oferecidas pelo confronto com o inconsciente, para esquivar-se de certos compromissos humanos mais profundos” (OC 16/2, §448). A relação com o outro faz parte, portanto, do trabalho individual, e a sessão de casal pode ser o lugar dele, já que o conflito de cada um se mostra no modo como trata o parceiro.</p><p>A segunda objeção, a da nota do <em>Mysterium</em>, trata do <mark>objeto da intervenção</mark>. Jung compara a psicoterapia à terapia do corpo, lembra que “a intervenção cirúrgica, por exemplo, é feita também no indivíduo”, e só então critica quem trata a alma “como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). A objeção atinge, portanto, uma terapia que tomasse o casal por uma alma só, acima das duas pessoas. O prólogo a Toni Wolff, no entanto, valoriza o grupo pelo que se constela nele, e o Clube nasceu para responder aos resultados unilaterais da análise individual. A terapia de casal apoiada em Jung corresponde a esse uso do grupo, em que os dois indivíduos continuam sendo o objeto, a sessão conjunta é o lugar onde as reações acontecem e a relação entre eles é o que se observa.</p><h2>Identidade e crise</h2><p>O que se observa nessa relação varia de casal para casal, e é óbvio que não existe roteiro. Em “Os objetivos da psicoterapia”, de 1929, Jung confessa ter se enganado tantas vezes ao decidir se um traço era verdadeiro ou compensação do contrário que, no caso concreto, prefere deixar “a pura experiência decidir quanto aos objetivos terapêuticos” (OC 16/1, §81). O ensaio sobre o casamento dá, mesmo assim, uma direção, porque descreve o casamento como um caminho que começa na <strong>identidade</strong>, em que “cada um pressupõe no outro estrutura psíquica semelhante” (OC 17, §330), e só chega ao relacionamento pessoal “quando se tornar conhecida a natureza da motivação inconsciente e quando estiver suprimida em larga escala a identidade inicial” (OC 17, §331). Para o casal ainda em identidade vale que “apenas onde existe essa distinção, pode aparecer um relacionamento” (OC 17, §326). Nesse casal, o trabalho começa por ajudar cada um a descobrir o que pensa e sente por conta própria. O casal distante, em que cada um vive para o seu lado, pede o movimento contrário, de aproximação, pois, como Jung escreve na mesma <em>Psicologia da transferência</em>, “o ser humano que não se liga a outro não tem totalidade” (OC 16/2, §454). Vistas de fora, a diferença de quem já se conhece e a distância de quem nunca se encontrou se parecem, mas pedem movimentos opostos. Por isso o terapeuta só sabe qual deles vem primeiro depois de ver o casal.</p><p>A passagem da identidade à distinção raramente é tranquila, pois “não é possível tornar-se consciente sem passar por sofrimentos” (OC 17, §331). Quem está em desacordo consigo mesmo sem saber, escreve Jung, “procura geralmente projetar no outro cônjuge os motivos de tudo isso”, e “origina-se então uma atmosfera crítica, que é a condição indispensável para a tomada de consciência” (OC 17, §331). A <strong>crise</strong> que leva um casal ao consultório pertence, assim, ao caminho que o ensaio descreve. Jung acrescenta que ela não chega aos dois ao mesmo tempo, porque “normalmente um deles resolve seu caso no matrimônio mais depressa do que o outro” (OC 17, §331). O descompasso explica por que, na sessão, um cônjuge chega pronto para mudar enquanto o outro ainda defende o arranjo antigo.</p><h2>A crise devolve cada um a si mesmo</h2><p>O ensaio sobre o casamento descreve o que a crise faz com cada cônjuge, e o movimento que ele descreve é de volta a si mesmo. Quando o envolvente começa a procurar fora o que sempre lhe faltou, o envolvido perde a segurança que achava ter. Daí em diante, “essa decepção o força a retrair-se para dentro de si mesmo”, a menos que consiga, “por meio de esforços desesperados e violentos”, pôr o outro de joelhos. Se a tentativa falha, “a desistência devidamente aceita lhe fará um grande bem; compreenderá então que aquela segurança que sempre procurava no outro terá que ser achada em si mesmo. Assim se encontra a si mesmo” (OC 17, §333). O envolvente, se não entrar em colapso, descobre que “não se cura a dissociação dividindo-a, mas dilacerando-a”, e acaba achando “que é um bem para ele o fato de estar indiviso em si mesmo” (OC 17, §334).</p><p>Jung descreve aqui um casamento sem terapeuta, e mesmo assim cada cônjuge termina mais perto de si do que começou, porque a relação o confrontou com uma realidade que ele não escolheu. Numa terapia de casal bem feita, esse <mark>confronto com a realidade</mark> acontece o tempo todo. O parceiro presente desmente na hora o retrato que o outro faz dele, as reações acontecem diante de uma testemunha e passam a ser, nos termos do prólogo a Toni Wolff, experimentadas como realidade, e o terapeuta que não toma partido devolve a cada um o que é dele. A crise, que o ensaio sobre o casamento chama de condição da tomada de consciência, deixa então de ser só o motivo da consulta e passa a ser o material do trabalho. Por isso a terapia de casal pode ser, ela mesma, um <strong>catalisador</strong> do desenvolvimento de cada um, pois a decepção que no casamento sem testemunha leva aos “esforços desesperados e violentos” pode chegar, na sessão, à “desistência devidamente aceita” que devolve o cônjuge a si mesmo. Na <em>Psicologia da transferência</em>, Jung dá a razão de fundo, pois a totalidade de cada um “só é alcançada pela alma, e esta, por sua vez, não pode existir sem o seu outro lado que sempre se encontra no ‘tu’” (OC 16/2, §454).</p><h2>Ficar ou se separar</h2><p>O limite do terapeuta diante disso está no mesmo parágrafo de “Os objetivos da psicoterapia” em que Jung confessa os próprios enganos, e ali ele escreve que “cada qual tem sua <strong>forma de vida</strong> dentro de si, sua forma irracional, que não pode ser suplantada por outra qualquer” (OC 16/1, §81). Num casal há duas formas de vida, que podem não querer a mesma coisa. Por isso a decisão de ficar juntos ou se separar pertence aos dois, e o tratamento serve para que eles a tomem conhecendo melhor um ao outro. Uma separação feita com clareza, em que cada um sabe o que deixa e por quê, conta como resultado do tratamento, e o fracasso, pelo critério desse parágrafo, seria o terapeuta decidir pelos dois.</p><h2>O que é de Jung e o que é inferência</h2><p>Nenhuma dessas passagens foi escrita para a terapia de casal, porque Jung não escreveu um método de terapia de casal. Nos textos dele estão o ensaio sobre o casamento e a crise que devolve cada cônjuge a si mesmo, as duas objeções, a ironia sobre os analistas que se misturam aos casamentos, a justificativa do método dialético, os dois aspectos da individuação e o prólogo a Toni Wolff sobre o que a análise a dois não constela. Levar para a sessão de casal o que ele diz do Clube de Psicologia, do envolvente e do envolvido, da crise e do consenso na interpretação é um passo meu, apoiado nessas passagens. Pelo que ele deixou, a resposta é sim, como uma variação do método que mostra o que a sessão a dois não mostra e que pode acelerar o desenvolvimento de cada cônjuge. A condição de que tudo depende é que o objeto continue sendo cada um dos dois e que o trabalho individual continue sendo feito, e a terapia de casal bem feita o faz dentro da própria sessão, com ou sem sessões individuais ao lado.</p><details class=\"blog-details\"><summary class=\"blog-details-summary\">Referências</summary><p>JUNG, C. G. Questões atuais da psicoterapia (1914). In: <em>Freud e a psicanálise</em>. OC, vol. 4. Petrópolis: Vozes. §606.</p><p>JUNG, C. G. Princípios básicos da prática da psicoterapia (1935); Os objetivos da psicoterapia (1929); Os problemas da psicoterapia moderna (1929). In: <em>A prática da psicoterapia</em>. OC, vol. 16/1. Petrópolis: Vozes. §1-2, §81, §163.</p><p>JUNG, C. G. Prólogo ao livro de Toni Wolff (1959). In: <em>Civilização em transição</em>. OC, vol. 10/3. Petrópolis: Vozes. §888-889. O prólogo saiu em WOLFF, T. <em>Studien zu C. G. Jungs Psychologie</em>. Zurique: Rhein-Verlag, 1959, depois da morte da autora, em 1953.</p><p>JUNG, C. G. <em>Mysterium Coniunctionis</em>, vol. 1 (1955). OC, vol. 14/1. Petrópolis: Vozes. p. 369, nota 58.</p><p>JUNG, C. G. A aplicação prática da análise dos sonhos; A psicologia da transferência (1946). In: <em>Ab-reação, análise dos sonhos, transferência</em>. OC, vol. 16/2. Petrópolis: Vozes. §314, §445, §448, §454.</p><p>JUNG, C. G. O casamento como relacionamento psíquico (1925). In: <em>O desenvolvimento da personalidade</em>. OC, vol. 17. Petrópolis: Vozes. §326, §330-331, §333-334, §343.</p><p>JUNG, C. G. <em>Seminário sobre o Zaratustra de Nietzsche</em>, vol. II (1934-1939). Palestra III, 19 de maio de 1937, p. 413.</p><p>A ortografia das citações foi atualizada para o acordo ortográfico em vigor, e a citação que continua uma frase começa com letra minúscula.</p></details><p></p>",
+        "content_html": "<p>Jung atendia uma pessoa por vez, mas se você procurar bem na obra dele motivos para não atender casais, você encontra duas. Em “Questões atuais da psicoterapia”, de 1914, ele discute o marido que espera resolver o conflito casando com outra. A resposta é que “o velho Adão entra num novo casamento para estragá-lo, como fez com o primeiro”, pois “uma verdadeira solução de conflitos é exclusivamente a interior” (OC 4, §606). Numa nota do <em>Mysterium Coniunctionis</em>, publicado em 1955, ele critica “certas tendências modernas” que “pretendem tratar da alma por meio da ‘análise em grupos’, como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). Somadas, as duas passagens parecem bater o martelo  sobre a questão, porque um casal na sessão já é um pequeno grupo e porque, pela primeira, o conflito de cada cônjuge se resolve interiormente.</p><p>As duas objeções, porém, olham apenas para o lugar onde o conflito se resolve, e para o objeto do tratamento, e nenhuma toca, precisamente, na epistemologia que fundamenta Jung tratar do jeito que tratava, a dois. e há uma passagem importante a se considerar: no prólogo aos estudos de Toni Wolff, Jung defende a experiência de grupo do Clube de Psicologia de Zurique com um argumento sobre o que a <mark>análise a dois não alcança</mark>. Esse argumento retoma a justificativa que ele tinha dado ao método num texto de 1935, os “Princípios básicos da prática da psicoterapia”.</p><h2>O método e o número dois</h2><p>Nesses “Princípios básicos”, Jung define a psicoterapia como um procedimento dialético, “isto é, de um diálogo ou discussão entre duas pessoas” (OC 16/1, §1). O número dois está na definição, e a objeção ao casal pode se apoiar nela. Na frase seguinte, porém, Jung explica a palavra: “originalmente a dialética era a arte da conversação entre os antigos filósofos, mas logo adquiriu o significado de método para produzir novas sínteses” (OC 16/1, §1). O que importa aqui é que a dialética em Jung tem uma importância de método. Ainda no mesmo parágrafo, ele mostra por que chegou a essa formulação: como a psique pede um grande número de antinomias para ser descrita, as afirmações sobre ela valem apenas relativamente, e “a afirmação só é válida na medida em que for indicado a que sistema psíquico o objeto da indagação se refere” (OC 16/1, §1). Toda afirmação da psique vale para um sistema psíquico determinado. O terapeuta que se põe como autoridade sobre a individualidade do paciente estaria “demonstrando falta de espírito crítico”, pois “só posso afirmar sobre a individualidade de outrem, o que encontro em minha própria individualidade” (OC 16/1, §2). Resta-lhe renunciar “a toda e qualquer autoridade” e optar “necessariamente por um método dialético, que consiste em confrontar as averiguações mútuas” (OC 16/1, §2). Essa é a definição que sustenta o resto. A dialética é a operação de confrontar o que cada um averiguou, sem limite para um número de pessoas, e Jung condiciona a dialética a uma atitude, pois ela só se torna possível se o terapeuta deixar ao outro “a oportunidade de apresentar seu material o mais completamente possível, sem limitá-lo pelos meus pressupostos” (OC 16/1, §2). É verdade que Jung volta ao número no fim do §1, quando escreve que a formulação dialética “no fundo significa que a interação psíquica nada mais é do que a relação de troca entre dois sistemas psíquicos” (OC 16/1, §1). O dois, ali, são o médico e o paciente diante dele. As premissas que levam Jung à fórmula, porém, não falam de número. A primeira diz que cada afirmação vale para um sistema psíquico determinado, e a segunda, que o terapeuta só pode afirmar sobre a individualidade “de outrem” o que encontra na própria. Diante de dois cônjuges, as duas valem para cada um deles, e a troca entre dois sistemas que Jung descreve continua acontecendo, só que em três pares: o terapeuta com cada cônjuge e os cônjuges entre si.</p><h2>O que a sessão a dois não alcança</h2><p>No prólogo aos estudos de Toni Wolff, Jung retoma a definição dos “Princípios básicos” quase com as mesmas palavras. Toni Wolff presidiu durante muitos anos o Clube de Psicologia de Zurique, que Jung chama de “este pequeno grupo”, e ele conta que o grupo “deveu sua origem à inevitável constatação de que a terapia analítica individual (incluindo o método ‘psicanalítico’) representa um processo dialético entre dois indivíduos e, portanto, necessariamente garante resultados unilaterais sob o ponto de vista coletivo-social” (OC 10/3, §888). O processo é dialético e é entre dois, como nos “Princípios básicos”, e a novidade deste trecho está no “portanto”. Nos “Princípios básicos”, o dois eram o médico e o paciente diante dele. No prólogo, o dois passa a ser a causa de um limite estrutural de método.<br><br>No parágrafo seguinte, a propósito do trabalho de Toni Wolff com o grupo, Jung descreve esse limite por dentro:</p><blockquote><p><strong>É no grupo que acontecem os fatos que nunca são constelados a um indivíduo</strong> e que podem até ser suprimidos sem querer. Um analista homem, por exemplo, jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele. Estas modalidades de comportamento ficam latentes, isto é, só aparecem quando não há um olho crítico separando o joio do trigo. Na melhor das hipóteses, ficam no ar como especulações teóricas; não são experimentadas como realidades e, por isso, não podem ser reconhecidas em si. Só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica. Assuntos de outra ordem que poderiam ser apresentados pelo paciente, suposto que tenham chegado à sua consciência, esbarram na inconsciência do analista neste ponto especial. Se conseguir renunciar à sua autoridade neste caso, pode acontecer que compense sua falta de experiência pela experiência do outro. (OC 10/3, §889)</p></blockquote><p>No meio do trecho está a segunda premissa dos “Princípios básicos”. A frase “só o que por experiência própria se tornou consciente ao analista pode ser objeto de discussão psicológica” (OC 10/3, §889) diz o mesmo que “só posso afirmar sobre a individualidade de outrem, o que encontro em minha própria individualidade” (OC 16/1, §2). O prólogo, porém, dá um passo que os “Princípios básicos” não davam, porque o limite do analista, além de estar no que ele compreende, está no que ele provoca. O analista homem “jamais pode constelar aquelas reações que a mulher manifestaria se estivesse no lugar dele” (OC 10/3, §889). Numa sessão a dois, o único outro diante de quem o paciente reage é o analista, e as reações que a pessoa do analista não constela não chegam a acontecer na sessão. Essas reações ficam latentes, aparecem no máximo como “especulações teóricas” e, como “não são experimentadas como realidades”, não podem ser reconhecidas (OC 10/3, §889). Mesmo o que o paciente traz por conta própria passa por duas condições, pois os assuntos de outra ordem só chegam à sessão “suposto que tenham chegado à sua consciência” e, ainda assim, “esbarram na inconsciência do analista neste ponto especial” (OC 10/3, §889). A sessão a dois limita, portanto, duas vezes, porque o analista só compreende o que viveu e a sessão só mostra o que a pessoa dele constela.</p><p>A saída também é a dos “Princípios básicos”, a renúncia à autoridade, e Jung a formula com certa reserva, pois escreve apenas que “pode acontecer” de o analista compensar a própria falta “pela experiência do outro” (OC 10/3, §889). As frases que vêm logo depois do trecho citado dizem por que a renúncia é de uma natureza complicada: “O perigo está em que oponha à realidade psicológica algum teorema esquemático porque seu medo do sentimento de inferioridade não lhe permite reconhecer seu defeito. Este perigo é muito grande para o médico, pois dele sempre se espera autoridade” (OC 10/3, §889). O teorema esquemático corresponde ao que Jung, no parágrafo anterior, chamava de discussão “limitada ao comum, ao coletivo e ao médio, ou seja, a pressupostos teóricos”, e ele avisa que, quanto mais tempo a discussão fica assim, “tanto mais próximo se está do perigo da opressão individual” (OC 10/3, §888). Esse perigo é o avesso da condição que os “Princípios básicos” punham ao método dialético, a de deixar o outro apresentar seu material “sem limitá-lo pelos meus pressupostos” (OC 16/1, §2). Os pressupostos teóricos descrevem o que é comum às pessoas, e por isso Jung os põe junto do coletivo e do médio. O risco de tratar a alma “como se ela fosse um fenômeno coletivo”, que a nota do Mysterium via na análise em grupos, existe também na sessão a dois pela via da teoria do analista.</p><p>Foi esse perigo que levou Toni Wolff a estudar os modos típicos de comportamento, sobretudo os das mulheres. No mesmo prólogo aos estudos dela, Jung avisa que esse estudo não se destina a uma classificação estatística e que serve para compreender os diversos modos de comportamento normal. Um analista conhece por dentro as reações do próprio tipo, e por isso as reações de outro tipo tendem a parecer estranhas para ele. Se ele toma o próprio tipo como medida, o estranho vira doença. Os tipos estudados por Toni Wolff servem para impedir esse passo, porque mostram ao analista que certas formas de reação “não devem ser consideradas patológicas só porque o analista pertence a outro tipo” (OC 10/3, §890). Diante de uma reação que o incomoda, o analista que conhece os tipos pode se perguntar se o incômodo diz algo do paciente ou só do tipo dele mesmo.</p><p>É daí que vem a definição da tipificação como “em primeiro lugar uma ajuda à crítica psicológica do conhecimento” (OC 10/3, §890). Crítica do conhecimento é o exame de onde vem aquilo que alguém afirma saber, e essa é a pergunta da epistemologia. As duas objeções do começo, porém, não fazem essa pergunta, já que a do novo casamento pergunta onde o conflito se resolve e a do Mysterium pergunta qual é o objeto do tratamento. Ao defender o grupo, Jung pergunta de onde o analista sabe o que sabe sobre o paciente, e responde que ele sabe a partir do próprio tipo e da própria experiência, que são só uma possibilidade entre infinitas.</p><p>O argumento foi escrito sobre o Clube, e levá-lo até o casal é um passo meu, mas é um passo que o próprio argumento sustenta. Nos “Princípios básicos”, Jung usou duas premissas para justificar a sessão a dois, e no prólogo usa as mesmas premissas para mostrar o que a sessão a dois não alcança. O número de pessoas, que nos “Princípios básicos” só descrevia o consultório, vira no prólogo uma questão de conhecimento, porque com só dois na sessão alguma coisa fica de fora. A sessão de casal é a forma mínima de pôr mais alguém diante de quem cada um reage, e continua dentro do método dialético, que já era confrontar as averiguações mútuas. Dos três pares que essa sessão forma, um não passa pelo analista, o dos cônjuges entre si, e é nesse par que um cônjuge pode constelar no outro, diante do analista, o que a pessoa do analista não constela. Ser um pequeno grupo passa a contar a favor do casal, porque é no grupo que acontecem “os fatos que nunca são constelados a um indivíduo” (OC 10/3, §889).</p><h2>O terceiro na sessão</h2><p>Num seminário sobre o Zaratustra, em 1937, Jung admite que o analista já estava nos casamentos antes de qualquer terapia de casal. Comentando um vaso antigo em que um casal se dá as mãos através de um peixe, ele sustenta que “a união imediata de homem e mulher é perigosa demais; deve haver uma mediação, qualquer que seja” (Seminário Zaratustra II, p. 413), e lembra que a Igreja mantinha o padre entre os cônjuges. Sem esse mediador, conclui com ironia contra a própria profissão, “inventamos, como um remédio, esses malditos analistas, que se misturam com não sei quantos casamentos” (Seminário Zaratustra II, p. 413). Na análise individual, o analista entra no casamento pelo relato de um dos cônjuges, e o parceiro aparece na sessão contado, lembrado e sonhado. Na sessão de casal, o analista ocupa abertamente o lugar de mediação do seminário e olha a relação de um ponto que nenhum dos dois ocupa.</p><p>Ocupar esse lugar muda também o que conta como compreender. Em “A aplicação prática da análise dos sonhos”, Jung escreve que compreender “pode ser unilateral, no sentido de o médico compreender e o paciente não”, chama esse caso de “uma não compreensão” e sustenta que “a compreensão deveria ser estabelecida por consenso, por um consenso que seja fruto da reflexão conjunta” (OC 16/2, §314). A palavra unilateral é a mesma do prólogo a Toni Wolff, e o consenso é a forma que toma, na interpretação, o que os “Princípios básicos” chamavam de “método para produzir novas sínteses” (OC 16/1, §1). Com três na sessão, o consenso não precisa ser sobre quem tem razão. Ele pode recair sobre a diferença, isto é, sobre de onde cada cônjuge vê o casamento e o que vê dali, e essa é uma compreensão que nenhuma das três pessoas teria sozinha.</p><h2>As objeções, de novo</h2><p>A primeira objeção, a do novo casamento, continua valendo, pois trocar de parceiro não resolve um conflito que está dentro de alguém. Ela situa o conflito dentro de cada cônjuge, e daí não se segue que ele só possa ser trabalhado numa sessão individual. Na “Psicologia da transferência”, de 1946, Jung escreve que “a relação com o Si-Mesmo é ao mesmo tempo a relação com o próximo. E ninguém se vincula com o outro, se antes não se vincular consigo mesmo” (OC 16/2, §445). A primeira frase impede de ler o “antes” da segunda como uma ordem de etapas. Pouco adiante, ele divide a individuação em “um processo interior e subjetivo de integração” e “um processo objetivo de relação com o outro, tão indispensável quanto o primeiro”, e acrescenta que “um não pode existir sem o outro” (OC 16/2, §448). No mesmo parágrafo, Jung aponta o perigo do lado interior sozinho, que é o sujeito usar as possibilidades de desenvolvimento espiritual “oferecidas pelo confronto com o inconsciente, para esquivar-se de certos compromissos humanos mais profundos” (OC 16/2, §448). A relação com o outro faz parte, portanto, do trabalho individual. A objeção do novo casamento tem razão quando diz que o conflito se resolve dentro de cada um. Mas é na relação que esse conflito aparece, no jeito como cada cônjuge trata o outro, e na sessão de casal esse jeito de tratar acontece diante do terapeuta. Com os dois na sessão, portanto, o trabalho individual continua, e é feito justamente onde o conflito de cada um se mostra.</p><p>A segunda objeção, a da nota do Mysterium, trata do objeto da intervenção. Jung compara a psicoterapia à terapia do corpo, lembra que “a intervenção cirúrgica, por exemplo, é feita também no indivíduo”, e só então critica quem trata a alma “como se ela fosse um fenômeno coletivo” (OC 14/1, p. 369, nota 58). O problema que ele aponta é a alma deixar de ser considerada algo individual. A objeção atinge, portanto, uma terapia que tomasse o casal por uma alma só, acima das duas pessoas. Na terapia de casal que se apoia em Jung, os dois indivíduos continuam sendo o objeto, a sessão conjunta é o lugar onde as reações acontecem e a relação entre eles é o que se observa.</p><h2>O que é de Jung e o que é inferência</h2><p>Nenhuma das passagens citadas aqui foi escrita para a terapia de casal, porque Jung não escreveu um método de terapia de casal. O que está nos textos dele é a justificativa do método dialético nos “Princípios básicos” e o limite da sessão a dois descrito no prólogo a Toni Wolff. Levar esse limite até o casal é um passo meu, e o passo se apoia nas mesmas premissas que justificavam atender a dois.</p><p>Pelo que Jung deixou, a resposta é sim. A sessão de casal é uma variação do método dialético que mostra o que a sessão a dois não mostra, e pode fazer mais do que mostrar. O parceiro presente desmente na hora o retrato que o outro faz dele, e o terapeuta que não toma partido devolve a cada um o que é dele. Por isso a terapia de casal pode ser um catalisador do desenvolvimento de cada um, e a razão de fundo está na “Psicologia da transferência”: “O ser humano que não se liga a outro não tem totalidade, pois esta só é alcançada pela alma, e esta, por sua vez, não pode existir sem o seu outro lado que sempre se encontra no ‘tu’” (OC 16/2, §454). A condição de que tudo depende é que o objeto continue sendo cada um dos dois e que o trabalho individual continue sendo feito, e uma terapia de casal bem feita faz esse trabalho dentro da própria sessão, com ou sem sessões individuais ao lado.</p><details class=\"blog-details\"><summary class=\"blog-details-summary\">Referências</summary><p>JUNG, C. G. Questões atuais da psicoterapia (1914). In: <em>Freud e a psicanálise</em>. OC, vol. 4. Petrópolis: Vozes. §606.</p><p>JUNG, C. G. Princípios básicos da prática da psicoterapia (1935); Os objetivos da psicoterapia (1929); Os problemas da psicoterapia moderna (1929). In: <em>A prática da psicoterapia</em>. OC, vol. 16/1. Petrópolis: Vozes. §1-2, §81, §163.</p><p>JUNG, C. G. Prólogo ao livro de Toni Wolff (1959). In: <em>Civilização em transição</em>. OC, vol. 10/3. Petrópolis: Vozes. §888-889. O prólogo saiu em WOLFF, T. <em>Studien zu C. G. Jungs Psychologie</em>. Zurique: Rhein-Verlag, 1959, depois da morte da autora, em 1953.</p><p>JUNG, C. G. <em>Mysterium Coniunctionis</em>, vol. 1 (1955). OC, vol. 14/1. Petrópolis: Vozes. p. 369, nota 58.</p><p>JUNG, C. G. A aplicação prática da análise dos sonhos; A psicologia da transferência (1946). In: <em>Ab-reação, análise dos sonhos, transferência</em>. OC, vol. 16/2. Petrópolis: Vozes. §314, §445, §448, §454.</p><p>JUNG, C. G. O casamento como relacionamento psíquico (1925). In: <em>O desenvolvimento da personalidade</em>. OC, vol. 17. Petrópolis: Vozes. §326, §330-331, §333-334, §343.</p><p>JUNG, C. G. <em>Seminário sobre o Zaratustra de Nietzsche</em>, vol. II (1934-1939). Palestra III, 19 de maio de 1937, p. 413.</p><p>A ortografia das citações foi atualizada para o acordo ortográfico em vigor, e a citação que continua uma frase começa com letra minúscula.</p></details><p></p>",
         "scheduled_at": "",
         "featured_cover": "/images/ensaios/e-possivel-fazer-terapia-de-casal-na-psicologia-analitica-vertical.webp",
         "featured_image": "/images/ensaios/e-possivel-fazer-terapia-de-casal-na-psicologia-analitica-horizontal.webp",
@@ -4329,7 +4016,7 @@
       "formularioCampoEmail": "email"
     }
   },
-  "data_hash": "5b3173e26379d46a5b67105f98013b2df158505b",
+  "data_hash": "77d909e342c06cf5dbe91d6f5e804af310a996f6",
   "versoes": {
     "raposa_admin_bio": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_home_sections": "2026-10-02T00:59:00.826752+00:00",
@@ -4346,7 +4033,7 @@
     "raposa_admin_blog_series": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_loja": "2026-10-02T00:59:00.826752+00:00",
     "raposa_admin_newsletter": "2026-10-02T00:59:00.826752+00:00",
-    "raposa_admin_blog": "2026-10-10T07:30:24.088043+00:00",
+    "raposa_admin_blog": "2026-10-10T14:40:51.432886+00:00",
     "raposa_admin_areas": "2026-10-02T01:06:22.530784+00:00",
     "raposa_admin_homepage": "2026-10-02T19:59:27.967333+00:00",
     "raposa_admin_servicos": "2026-10-06T18:44:06.203357+00:00"
