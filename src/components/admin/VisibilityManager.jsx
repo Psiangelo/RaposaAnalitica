@@ -52,6 +52,7 @@ const GROUPS = [
     items: [
       { key: 'whatsappFlutuante', label: 'Botão flutuante do WhatsApp' },
       { key: 'toca',              label: 'Toca da Raposa (o convite do grupo no WhatsApp: home, blog, ensaios, bio e rodapé)' },
+      { key: 'apoio',             label: 'Apoie a Raposa (a campanha no Apoia-se, a primeira coisa da bio)' },
     ],
   },
 ];

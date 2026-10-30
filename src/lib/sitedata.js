@@ -463,6 +463,7 @@ export const DEFAULT_VISIBILITY = {
   // Extras
   whatsappFlutuante: true,
   toca:              true,  // Toca da Raposa: o convite para o grupo no WhatsApp (home, blog, ensaios, bio, rodapé)
+  apoio:             true,  // Apoie a Raposa: a campanha no Apoia-se (a primeira coisa da bio)
   bichoNaBorda:      true,  // a raposa espiando pela borda das páginas
 };
 
@@ -758,6 +759,8 @@ export const DEFAULT_SETTINGS = {
   whatsappMessage: 'Oi! Vim pelo site da Raposa Analítica.',
   // o convite do grupo de WhatsApp «Toca da Raposa» (a comunidade)
   tocaLink: 'https://chat.whatsapp.com/JNnRwyfaTp03r1Y08SvlwM',
+  // a campanha de apoio mensal no Apoia-se («Apoie a Raposa»)
+  apoioLink: 'https://apoia.se/raposanalitica',
   instagramLink: 'https://www.instagram.com/raposanalitica/',
   youtubeLink: '',
   emailAddress: '',

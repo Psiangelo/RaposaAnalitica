@@ -17,12 +17,15 @@ import Figura, { figuraSrc } from '@/components/raposa/Figura';
 import { Mascarinha } from '@/components/raposa/Marca';
 import Padronagem from '@/components/raposa/Padronagem';
 import { TocaPlaca, useToca } from '@/components/raposa/Toca';
+import { ApoioPlaca, useApoio } from '@/components/raposa/Apoio';
 
 /**
  * /bio — o link do Instagram.
  *
  * No alto, uma noite de verão: cortina de glicínias, vaga-lumes e a raposa de
- * óculos fazendo de lua, com uma nuvem passando. Embaixo, no papel, o último
+ * óculos fazendo de lua, com uma nuvem passando. Embaixo, no papel, primeiro a
+ * ema do «Apoie a Raposa» pendurada na shimenawa (o Apoia-se; a corda fica na
+ * noite e a ema desce sobre o morro), depois o último
  * ensaio em destaque, a placa da Toca da Raposa (o grupo no WhatsApp) e os links como gravuras: carimbo com o ícone, a cor
  * escolhida no painel, sombra chapada de impressão e uma padronagem tom sobre
  * tom que nasce na ponta direita de cada placa. Fecha com a raposa dormindo
@@ -149,6 +152,7 @@ export default function BioPage() {
   const { visibility, ready } = useVisibility();
   const ultimo = useMemo(() => ordenarPublicados(posts)[0], [posts]);
   const toca = useToca();
+  const apoio = useApoio();
   if (ready && visibility.bio === false) return <HiddenPlaceholder title="Bio indisponível" />;
 
   const links = (bio.links || []).filter((l) => !l.hidden && l.label);
@@ -220,7 +224,7 @@ export default function BioPage() {
         </div>
 
         {/* o morro onde a noite encontra o papel */}
-        <svg aria-hidden viewBox="0 0 1440 120" preserveAspectRatio="none" className="relative block w-full h-[64px] sm:h-[92px] mt-8">
+        <svg aria-hidden viewBox="0 0 1440 120" preserveAspectRatio="none" className={`relative block w-full h-[64px] sm:h-[92px] ${apoio.ativo ? 'mt-[76px] sm:mt-[64px]' : 'mt-8'}`}>
           <path d="M0 62 C 170 26 330 24 520 54 C 700 84 860 34 1040 40 C 1220 46 1320 76 1440 58 L1440 120 L0 120 Z" fill="var(--cedro)" opacity="0.7" />
           <path d="M0 94 C 220 60 420 68 640 90 C 860 112 1080 66 1260 74 C 1350 78 1400 88 1440 86 L1440 120 L0 120 Z" fill="var(--fundo)" />
         </svg>
@@ -230,6 +234,11 @@ export default function BioPage() {
       <Figura nome="arvore/bambuzal" alt="" className="pointer-events-none hidden lg:block absolute bottom-0 left-[max(0px,calc(50%-640px))] w-[250px] opacity-90" />
       <Figura nome="arvore/sakura-dir" alt="" className="pointer-events-none hidden lg:block absolute bottom-0 right-[max(-40px,calc(50%-680px))] w-[400px]" />
       <div className="relative max-w-[480px] mx-auto px-4 pb-14">
+        {apoio.ativo && (
+          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1, duration: 0.45 }} className="-mt-[118px] sm:-mt-[140px] mb-8">
+            <ApoioPlaca />
+          </motion.div>
+        )}
         {mostrarDestaque && <Destaque post={ultimo} />}
 
         <ul className={`${mostrarDestaque ? 'mt-7' : 'mt-1'} space-y-4`}>
