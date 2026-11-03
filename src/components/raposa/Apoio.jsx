@@ -84,6 +84,15 @@ export function ApoioPlaca() {
             <p className="mt-2.5 max-w-[30ch] font-body text-[0.98rem] leading-snug text-[rgb(19_33_31/0.86)]">
               Meus vídeos sobre Jung são gratuitos e vão continuar assim. Com o seu apoio, eu mantenho as lanternas acesas.
             </p>
+            {/* a recompensa das apostilas (03/11): o pergaminho amarrado na ema */}
+            <p className="mt-3 flex max-w-[32ch] items-start gap-2 rounded-[12px] border-[1.5px] border-[rgb(107_74_53/0.5)] bg-[rgb(255_250_240/0.5)] px-3 py-2 font-body text-[0.93rem] leading-snug text-[rgb(19_33_31/0.9)]">
+              <span aria-hidden className="mt-[2px] shrink-0 text-[var(--urushi)]">
+                <Icone nome="pergaminho" size={17} />
+              </span>
+              <span>
+                <strong className="font-bold">A partir de R$ 25 por mês</strong>, você recebe a apostila de cada vídeo: um texto que vai mais fundo no tema, com todas as referências.
+              </span>
+            </p>
             <span className="mt-4 inline-flex items-center gap-2 rounded-full border-2 border-[var(--tinta)] bg-[var(--torii)] px-5 py-2.5 font-sans text-[15px] font-bold text-[var(--washi)] shadow-[3px_3px_0_var(--tinta)] transition-colors duration-200 group-hover:bg-[var(--urushi)]">
               Quero apoiar <Icone nome="externo" size={16} />
             </span>
