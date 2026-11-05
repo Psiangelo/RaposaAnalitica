@@ -464,6 +464,7 @@ export const DEFAULT_VISIBILITY = {
   whatsappFlutuante: true,
   toca:              true,  // Toca da Raposa: o convite para o grupo no WhatsApp (home, blog, ensaios, bio, rodapé)
   apoio:             true,  // Apoie a Raposa: a campanha no Apoia-se (a primeira coisa da bio)
+  youtube:           true,  // o canal do YouTube em destaque na bio, logo depois do Apoia-se
   bichoNaBorda:      true,  // a raposa espiando pela borda das páginas
 };
 
@@ -762,7 +763,8 @@ export const DEFAULT_SETTINGS = {
   // a campanha de apoio mensal no Apoia-se («Apoie a Raposa»)
   apoioLink: 'https://apoia.se/raposanalitica',
   instagramLink: 'https://www.instagram.com/raposanalitica/',
-  youtubeLink: '',
+  // o canal do YouTube (o destaque da /bio, logo depois do Apoia-se)
+  youtubeLink: 'https://www.youtube.com/@Raposanalitica',
   emailAddress: '',
   siteTitle: 'Raposa Analítica',
   siteDescription: 'Ensaios, verbetes e trilhas de leitura sobre a obra de Carl Gustav Jung, com a referência de cada coisa.',

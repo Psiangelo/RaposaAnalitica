@@ -18,6 +18,7 @@ import { Mascarinha } from '@/components/raposa/Marca';
 import Padronagem from '@/components/raposa/Padronagem';
 import { TocaPlaca, useToca } from '@/components/raposa/Toca';
 import { ApoioPlaca, useApoio } from '@/components/raposa/Apoio';
+import { YouTubeDestaque, useYouTube } from '@/components/raposa/YouTube';
 
 /**
  * /bio — o link do Instagram.
@@ -25,8 +26,8 @@ import { ApoioPlaca, useApoio } from '@/components/raposa/Apoio';
  * No alto, uma noite de verão: cortina de glicínias, vaga-lumes e a raposa de
  * óculos fazendo de lua, com uma nuvem passando. Embaixo, no papel, primeiro a
  * ema do «Apoie a Raposa» pendurada na shimenawa (o Apoia-se; a corda fica na
- * noite e a ema desce sobre o morro), depois o último
- * ensaio em destaque, a placa da Toca da Raposa (o grupo no WhatsApp) e os links como gravuras: carimbo com o ícone, a cor
+ * noite e a ema desce sobre o morro), depois o canal do YouTube em destaque
+ * (o banner do canal de capa), o último ensaio em destaque, a placa da Toca da Raposa (o grupo no WhatsApp) e os links como gravuras: carimbo com o ícone, a cor
  * escolhida no painel, sombra chapada de impressão e uma padronagem tom sobre
  * tom que nasce na ponta direita de cada placa. Fecha com a raposa dormindo
  * na lua.
@@ -153,6 +154,7 @@ export default function BioPage() {
   const ultimo = useMemo(() => ordenarPublicados(posts)[0], [posts]);
   const toca = useToca();
   const apoio = useApoio();
+  const youtube = useYouTube();
   if (ready && visibility.bio === false) return <HiddenPlaceholder title="Bio indisponível" />;
 
   const links = (bio.links || []).filter((l) => !l.hidden && l.label);
@@ -218,6 +220,7 @@ export default function BioPage() {
           {bio.bio && <p className="mt-4 mx-auto max-w-[36ch] font-body italic text-[1.06rem] leading-relaxed text-[rgb(242_235_220/0.86)]">{bio.bio}</p>}
           <div className="mt-6 flex items-center justify-center gap-3">
             <Rede href={settings.instagramLink} nome="instagram" rotulo="Instagram" />
+            <Rede href={youtube.ativo ? youtube.link : ''} nome="youtube" rotulo="YouTube" />
             <Rede href={whats} nome="whatsapp" rotulo="WhatsApp" />
             <Rede href={email} nome="email" rotulo="E-mail" />
           </div>
@@ -237,6 +240,11 @@ export default function BioPage() {
         {apoio.ativo && (
           <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1, duration: 0.45 }} className="-mt-[118px] sm:-mt-[140px] mb-8">
             <ApoioPlaca />
+          </motion.div>
+        )}
+        {youtube.ativo && (
+          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.13, duration: 0.45 }} className={`${apoio.ativo ? '' : 'mt-1'} mb-7`}>
+            <YouTubeDestaque />
           </motion.div>
         )}
         {mostrarDestaque && <Destaque post={ultimo} />}

@@ -265,6 +265,12 @@ const P = {
       <circle cx="17.4" cy="6.6" r=".7" fill="currentColor" />
     </>
   ),
+  youtube: (
+    <>
+      <rect x="2.6" y="5.2" width="18.8" height="13.6" rx="4.2" />
+      <path d="M10 9.1v5.8l5-2.9z" fill="currentColor" />
+    </>
+  ),
   whatsapp: (
     <>
       <path d="M3.5 20.5 4.8 16A8.6 8.6 0 1 1 8 19.2z" />
@@ -327,7 +333,7 @@ export const ICONE_ROTULO = {
   estrela: 'Estrela', pegada: 'Pegada', cha: 'Chá', montanha: 'Montanha', nuvem: 'Nuvem', sakura: 'Sakura',
   ema: 'Ema', leque: 'Leque', arvore: 'Árvore', caminho: 'Caminho', chave: 'Chave', vagalume: 'Vaga-lume',
   relogio: 'Relógio', coruja: 'Coruja', sol: 'Sol', ponte: 'Ponte', daruma: 'Daruma', ouvir: 'Ouvir',
-  instagram: 'Instagram', whatsapp: 'WhatsApp', email: 'E-mail',
+  instagram: 'Instagram', youtube: 'YouTube', whatsapp: 'WhatsApp', email: 'E-mail',
 };
 
 export function resolveIcone(nome) {
