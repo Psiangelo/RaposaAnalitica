@@ -2,6 +2,7 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import VisibilityGate from '@/components/VisibilityGate';
 import PageHero from '@/components/ui/PageHero';
 import { ConverseComigo } from '@/components/home/Secoes';
 import Figura from '@/components/raposa/Figura';
@@ -36,7 +37,7 @@ export default function SobreClient() {
   const autor = bio?.author || DEFAULT_BIO.author;
 
   return (
-    <>
+    <VisibilityGate visibilityKey="sobre" title="Página indisponível">
       <Navbar />
       <main id="conteudo">
         <PageHero
@@ -129,6 +130,6 @@ export default function SobreClient() {
         )}
       </main>
       <Footer />
-    </>
+    </VisibilityGate>
   );
 }

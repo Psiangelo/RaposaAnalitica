@@ -27,8 +27,8 @@ const PAGINAS = [
   { title: 'Pesquisa sob encomenda', href: '/servicos', hint: 'Pesquisa na obra completa de Jung', vis: 'servicos' },
   { title: 'Loja', href: '/loja', hint: 'Guias e materiais', vis: 'loja' },
   { title: 'Cartas da Raposa', href: '/blog/#cartas', hint: 'Assinar a newsletter', vis: 'newsletter' },
-  { title: 'Sobre', href: '/sobre', hint: 'Quem sou eu', vis: null },
-  { title: 'Converse comigo', href: '/sobre#converse', hint: 'WhatsApp, Instagram, e-mail', vis: null },
+  { title: 'Sobre', href: '/sobre', hint: 'Quem sou eu', vis: 'sobre' },
+  { title: 'Converse comigo', href: '/sobre#converse', hint: 'WhatsApp, Instagram, e-mail', vis: 'sobre' },
   { title: 'Bio', href: '/bio', hint: 'Meus links', vis: 'bio' },
 ];
 

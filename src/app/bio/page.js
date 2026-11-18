@@ -157,13 +157,14 @@ export default function BioPage() {
   const youtube = useYouTube();
   if (ready && visibility.bio === false) return <HiddenPlaceholder title="Bio indisponível" />;
 
-  const links = (bio.links || []).filter((l) => !l.hidden && l.label);
+  const mostra = (chave) => visibility[chave] !== false;
+  const links = mostra('bioPlacas') ? (bio.links || []).filter((l) => !l.hidden && l.label) : [];
   const avatar = resolveImageSrc(bio.avatar);
   const palavras = String(bio.name || '').trim().split(/\s+/);
   const ultimaPalavra = palavras.length > 1 ? palavras.pop() : '';
   const whats = settings.whatsappNumber ? `https://wa.me/${String(settings.whatsappNumber).replace(/\D/g, '')}` : '';
   const email = settings.emailAddress ? `mailto:${settings.emailAddress}` : '';
-  const mostrarDestaque = bio.destaqueEnsaio !== false && ultimo;
+  const mostrarDestaque = bio.destaqueEnsaio !== false && mostra('bioEnsaio') && ultimo;
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-[var(--fundo)]">
@@ -218,12 +219,12 @@ export default function BioPage() {
             </p>
           )}
           {bio.bio && <p className="mt-4 mx-auto max-w-[36ch] font-body italic text-[1.06rem] leading-relaxed text-[rgb(242_235_220/0.86)]">{bio.bio}</p>}
-          <div className="mt-6 flex items-center justify-center gap-3">
+          {mostra('bioRedes') && <div className="mt-6 flex items-center justify-center gap-3">
             <Rede href={settings.instagramLink} nome="instagram" rotulo="Instagram" />
             <Rede href={youtube.ativo ? youtube.link : ''} nome="youtube" rotulo="YouTube" />
             <Rede href={whats} nome="whatsapp" rotulo="WhatsApp" />
             <Rede href={email} nome="email" rotulo="E-mail" />
-          </div>
+          </div>}
         </div>
 
         {/* o morro onde a noite encontra o papel */}
@@ -250,7 +251,7 @@ export default function BioPage() {
         {mostrarDestaque && <Destaque post={ultimo} />}
 
         <ul className={`${mostrarDestaque ? 'mt-7' : 'mt-1'} space-y-4`}>
-          {toca.ativo && (
+          {toca.ativo && mostra('bioToca') && (
             <motion.li initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.4 }}>
               <TocaPlaca />
             </motion.li>
@@ -265,12 +266,14 @@ export default function BioPage() {
             <div aria-hidden className="ceu-estrelado absolute inset-0" />
             <Figura nome="fig/raposa-dormindo-lua" alt="A raposa dormindo enrolada na lua" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[46%] w-[78%]" />
           </div>
-          <Link
-            href="/"
-            className="mt-6 inline-flex items-center gap-2 h-11 px-5 rounded-full border-2 border-[var(--mata)] font-sans text-[14px] font-semibold text-[var(--mata)] transition-colors hover:bg-[var(--mata)] hover:text-[var(--washi)]"
-          >
-            Entrar na floresta inteira <Icone nome="seta" size={16} />
-          </Link>
+          {mostra('bioFloresta') && (
+            <Link
+              href="/"
+              className="mt-6 inline-flex items-center gap-2 h-11 px-5 rounded-full border-2 border-[var(--mata)] font-sans text-[14px] font-semibold text-[var(--mata)] transition-colors hover:bg-[var(--mata)] hover:text-[var(--washi)]"
+            >
+              Entrar na floresta inteira <Icone nome="seta" size={16} />
+            </Link>
+          )}
           <p className="mt-4 font-sans text-[12px] text-text-dim">© {new Date().getFullYear()} {bio.name || 'Raposa Analítica'}</p>
         </footer>
       </div>

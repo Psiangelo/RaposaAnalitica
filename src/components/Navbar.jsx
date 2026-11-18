@@ -57,7 +57,7 @@ export default function Navbar() {
     { href: '/trilhas', label: nl.estudos || 'Trilhas', key: 'estudos', icone: 'torii' },
     { href: '/servicos', label: nl.servicos || 'Pesquisa', key: 'servicos', icone: 'lupa' },
     { href: '/loja', label: nl.loja || 'Loja', key: 'loja', icone: 'sacola' },
-    { href: '/sobre', label: nl.about || 'Sobre', key: null, icone: 'raposa' },
+    { href: '/sobre', label: nl.about || 'Sobre', key: 'sobre', icone: 'raposa' },
   ].filter((l) => !l.key || v[l.key] !== false);
 
   const ativo = (href) => (href === '/' ? pathname === '/' : pathname.startsWith(href));

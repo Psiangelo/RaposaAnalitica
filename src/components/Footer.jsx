@@ -50,7 +50,7 @@ export default function Footer() {
         settings.instagramLink && { href: settings.instagramLink, label: 'Instagram', externo: true },
         settings.youtubeLink && { href: settings.youtubeLink, label: 'YouTube', externo: true },
         settings.emailAddress && { href: `mailto:${settings.emailAddress}`, label: 'E-mail' },
-        { href: '/sobre', label: 'Sobre mim' },
+        v.sobre !== false && { href: '/sobre', label: 'Sobre mim' },
         v.bio !== false && { href: '/bio', label: 'Bio' },
       ],
     },

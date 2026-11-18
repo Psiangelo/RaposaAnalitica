@@ -447,6 +447,7 @@ export const DEFAULT_VISIBILITY = {
   loja:       true,  // /loja
   newsletter: true,  // /newsletter e os formulários de inscrição
   bio:        true,
+  sobre:      false, // /sobre (quem escreve); oculta desde 18/11, a opção fica no painel
   materiais:  false, // módulo antigo do Psiangelo, dormindo
   cartografia: false,
   // Seções da home
@@ -466,6 +467,12 @@ export const DEFAULT_VISIBILITY = {
   apoio:             true,  // Apoie a Raposa: a campanha no Apoia-se (a primeira coisa da bio)
   youtube:           true,  // o canal do YouTube em destaque na bio, logo depois do Apoia-se
   bichoNaBorda:      true,  // a raposa espiando pela borda das páginas
+  // Bio (cada bloco da /bio; o Apoia-se e o YouTube usam as chaves apoio e youtube)
+  bioRedes:          true,  // a fileira de redes (Instagram, YouTube, WhatsApp, e-mail)
+  bioEnsaio:         false, // o cartão «Último ensaio»
+  bioToca:           true,  // a placa da Toca da Raposa (só na bio; a chave toca vale para o site todo)
+  bioPlacas:         true,  // as placas de links (cada uma também se oculta no editor da Bio)
+  bioFloresta:       false, // o botão «Entrar na floresta inteira» (leva à página inicial)
 };
 
 /* ===================================================================

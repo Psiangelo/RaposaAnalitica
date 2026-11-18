@@ -70,10 +70,10 @@ export function YouTubeDestaque() {
       <div className="flex items-end gap-3 px-4 py-3.5">
         <div className="min-w-0 flex-1">
           <p className="font-serif text-[1.3rem] font-bold leading-[1.15]" style={FRAUNCES}>
-            Meus vídeos sobre <em className="italic font-semibold text-[var(--ginkgo)]">Jung</em>
+            Meus vídeos sobre <em className="italic font-semibold text-[var(--ginkgo)]">psicologia</em>
           </p>
           <p className="mt-1 font-body text-[0.95rem] leading-snug text-[rgb(242_235_220/0.82)]">
-            Um tema por vez, com animação e com as palavras do próprio Jung.
+            Um tema por vez, contado com animação.
           </p>
           <p className="mt-1.5 font-sans text-[12.5px] text-[rgb(242_235_220/0.55)]">{semProtocolo(link)}</p>
         </div>

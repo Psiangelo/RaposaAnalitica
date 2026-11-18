@@ -23,6 +23,7 @@ const GROUPS = [
       { key: 'loja',       label: 'Loja',                            url: '/loja/' },
       { key: 'newsletter', label: 'Cartas da Raposa (a caixa de inscrição)', url: '/blog/#cartas' },
       { key: 'bio',        label: 'Bio (link do Instagram)',         url: '/bio/' },
+      { key: 'sobre',      label: 'Sobre mim',                       url: '/sobre/' },
     ],
   },
   {
@@ -48,12 +49,23 @@ const GROUPS = [
     ],
   },
   {
+    label: 'Bio',
+    hint: 'Cada bloco da /bio, de cima para baixo.',
+    items: [
+      { key: 'bioRedes',    label: 'Fileira de redes (Instagram, YouTube, WhatsApp, e-mail)' },
+      { key: 'apoio',       label: 'Apoie a Raposa (a campanha no Apoia-se)' },
+      { key: 'youtube',     label: 'Canal do YouTube em destaque (o link vem de Configurações)' },
+      { key: 'bioEnsaio',   label: 'Último ensaio (o cartão com a capa)' },
+      { key: 'bioToca',     label: 'Toca da Raposa (só na bio)' },
+      { key: 'bioPlacas',   label: 'Placas de links (cada uma também se oculta no editor da Bio)' },
+      { key: 'bioFloresta', label: 'Botão «Entrar na floresta inteira» (leva à página inicial)' },
+    ],
+  },
+  {
     label: 'Extras',
     items: [
       { key: 'whatsappFlutuante', label: 'Botão flutuante do WhatsApp' },
-      { key: 'toca',              label: 'Toca da Raposa (o convite do grupo no WhatsApp: home, blog, ensaios, bio e rodapé)' },
-      { key: 'apoio',             label: 'Apoie a Raposa (a campanha no Apoia-se, a primeira coisa da bio)' },
-      { key: 'youtube',           label: 'Canal do YouTube em destaque na bio (logo depois do Apoia-se; o link vem de Configurações)' },
+      { key: 'toca',              label: 'Toca da Raposa no site todo (home, blog, ensaios, bio e rodapé)' },
     ],
   },
 ];
